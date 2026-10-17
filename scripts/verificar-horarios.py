@@ -1,4 +1,6 @@
-"""Confere se cada item do roteiro começa depois do fim do anterior + deslocamento.
+"""Confere se cada item do roteiro começa depois do fim do anterior + deslocamento,
+e se nenhum lugar perdeu fotos ou dados (compare com --base <json antigo>).
+Alternativas ficam em item.alternatives e não entram na sequência de horários.
 Uso: python3 scripts/verificar-horarios.py [src/data/foz-do-iguacu.json]"""
 import json, sys
 path = sys.argv[1] if len(sys.argv) > 1 else 'src/data/foz-do-iguacu.json'
@@ -6,11 +8,7 @@ def m(t): h, mm = map(int, t.split(':')); return h * 60 + mm
 erros = 0
 for day in json.load(open(path))['days']:
     it = day['items']
-    for k in range(1, len(it)):
-        b = it[k]
-        a = it[k - 1]
-        if b['name'].startswith('Opção B') and a['name'].startswith('Opção A'):
-            a = it[k - 2]  # alternativa: parte do mesmo ponto que a opção A
+    for a, b in zip(it, it[1:]):
         leg = b.get('leg', {}).get('minutes', 0)
         folga = m(b['time']) - m(a.get('end', a['time'])) - leg
         if folga < 0:

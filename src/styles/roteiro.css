@@ -156,8 +156,9 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .days a.is-today .days-d { color: var(--accent); }
 .days a.is-today[aria-current] .days-d { color: inherit; }
 
-/* Day */
-.day { padding-top: 36px; }
+/* Day: one at a time once JS runs; without it every day stays listed. */
+.js .day:not(.is-current) { display: none; }
+.day { padding-top: 28px; }
 .day-head { margin-bottom: 16px; }
 .day h2 { font-size: 1.375rem; line-height: 1.2; letter-spacing: -0.015em; font-weight: 700; }
 .day-date { display: block; font-size: 0.875rem; font-weight: 500; color: var(--accent); letter-spacing: 0; margin-bottom: 4px; }
@@ -179,7 +180,7 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .timeline > :first-child::before { top: 14px; }
 .timeline > :last-child::before { bottom: calc(100% - 14px); }
 
-.stop { align-items: start; align-content: start; min-height: 76px; padding: 10px 8px 10px 0; border-radius: var(--radius); transition: background-color .2s var(--ease); }
+.stop { align-items: start; align-content: start; min-height: 84px; padding: 14px 8px 14px 0; border-radius: var(--radius); transition: background-color .2s var(--ease); }
 /* Neutral fill: on desktop hovering also selects the stop, so both share it. */
 .stop:hover, .stop.is-active { background: var(--hover); }
 .stop:has(.stop-link:focus-visible) { outline: 2px solid var(--accent); outline-offset: 0; }
@@ -194,13 +195,13 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
   background: var(--surface); border: 1.5px solid var(--c); color: var(--c);
   font-size: 0.8125rem; font-weight: 700;
 }
-.stop[data-type="food"] { --c: var(--food); }
-.stop[data-type="place"] { --c: var(--place); }
-.stop[data-type="activity"] { --c: var(--activity); }
-.stop[data-type="lodging"] { --c: var(--lodging); }
-.stop[data-type="transport"] { --c: var(--transport); }
-.stop[data-type="shopping"] { --c: var(--shopping); }
-.stop[data-type="event"] { --c: var(--event); }
+[data-type="food"] { --c: var(--food); }
+[data-type="place"] { --c: var(--place); }
+[data-type="activity"] { --c: var(--activity); }
+[data-type="lodging"] { --c: var(--lodging); }
+[data-type="transport"] { --c: var(--transport); }
+[data-type="shopping"] { --c: var(--shopping); }
+[data-type="event"] { --c: var(--event); }
 .stop.is-active .stop-pin { background: var(--c); color: var(--surface); }
 .stop.is-next .stop-pin, .stop.is-now .stop-pin { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 /* Past stops recede through ink-3, never opacity, so small text keeps its contrast. */
@@ -211,7 +212,35 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .stop-link::after { content: ""; position: absolute; inset: 0; border-radius: var(--radius); }
 .now-tag { display: none; padding: 1px 7px; border-radius: 6px; background: var(--accent); color: var(--on-accent); font-size: 0.6875rem; line-height: 1.4; }
 .stop.is-next .now-tag, .stop.is-now .now-tag { display: inline-block; }
-.stop-cost { grid-column: 3; grid-row: 2; margin-top: 2px; font-size: 0.8125rem; font-weight: 500; color: var(--money); }
+/* Second line: category (tint only), cost, and the alternatives toggle when there are any. */
+.stop-meta { grid-column: 3; grid-row: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin-top: 4px; font-size: 0.8125rem; }
+.stop-cat { display: inline-flex; align-items: center; gap: 4px; font-size: 0.75rem; font-weight: 600; color: var(--c); }
+.stop.is-past .stop-cat { color: var(--ink-3); }
+.stop-cost { font-weight: 500; color: var(--money); }
+.alt-toggle {
+  position: relative; z-index: 2; display: inline-flex; align-items: center; gap: 4px; height: 24px; padding: 0 9px;
+  border: 1px solid var(--rule-strong); border-radius: 999px; background: var(--surface); color: var(--ink-2);
+  font-size: 0.75rem; font-weight: 600;
+  transition: background-color .2s var(--ease), color .2s var(--ease), border-color .2s var(--ease);
+}
+.alt-toggle::after { content: ""; position: absolute; inset: -10px -4px; }
+.alt-toggle:hover { border-color: var(--ink-3); color: var(--ink); }
+.alt-toggle[aria-expanded="true"] { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.alts {
+  grid-column: 3 / -1; grid-row: 3; list-style: none; margin: 12px 0 0; padding: 0;
+  border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); overflow: hidden;
+}
+.alts li + li { border-top: 1px solid var(--rule); }
+.alts a {
+  position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 12px; row-gap: 2px;
+  min-height: 44px; padding: 10px 12px; color: var(--ink); text-decoration: none;
+  transition: background-color .2s var(--ease);
+}
+.alts a:hover { background: var(--hover); }
+.alts a > svg { grid-column: 2; grid-row: 1 / span 3; align-self: center; color: var(--ink-3); }
+.alt-name { font-size: 0.9375rem; font-weight: 600; line-height: 1.3; }
+.alt-meta { display: flex; flex-wrap: wrap; gap: 2px 10px; font-size: 0.8125rem; color: var(--ink-3); }
+.alt-note { font-size: 0.8125rem; color: var(--ink-2); max-width: 52ch; }
 .money, .leg-cost { white-space: nowrap; }
 .leg-cost .conv { margin-left: 4px; }
 .stop-time, .stop-pin { grid-row: 1 / span 2; }
@@ -222,11 +251,57 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .stop-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .stop.is-past .stop-thumb { filter: grayscale(1); }
 
-.leg { align-items: center; padding: 2px 0; color: var(--ink-3); font-size: 0.75rem; }
+.leg { align-items: start; padding: 10px 0; color: var(--ink-3); font-size: 0.8125rem; }
 .leg::before { background: repeating-linear-gradient(var(--ink-3) 0 3px, transparent 3px 7px); opacity: .55; }
-.leg > svg { grid-column: 2; justify-self: center; position: relative; z-index: 1; background: var(--ground); padding: 3px 0; box-sizing: content-box; }
-.leg > span:first-of-type { grid-column: 3 / -1; padding-right: 8px; }
+.leg > svg { grid-column: 2; justify-self: center; margin-top: 10px; position: relative; z-index: 1; background: var(--ground); padding: 3px 0; box-sizing: content-box; }
 .leg strong { color: var(--ink-2); font-weight: 600; }
+/* The leg is a block of its own: closed it reads as one line, open it compares ways to get there. */
+.leg-box {
+  grid-column: 3 / -1; justify-self: start; max-width: 100%; margin-right: 8px;
+  border: 1px solid var(--rule); border-radius: 10px; background: var(--surface);
+  transition: border-color .2s var(--ease);
+}
+.leg-box:hover { border-color: var(--rule-strong); }
+.leg-box[open] { justify-self: stretch; border-color: var(--rule-strong); }
+.leg-box summary {
+  display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 7px 10px 7px 12px;
+  list-style: none; cursor: pointer; border-radius: 10px;
+}
+.leg-box summary::-webkit-details-marker { display: none; }
+.leg-text { flex: 1; min-width: 0; }
+.leg-box summary > svg { flex: none; color: var(--ink-3); transition: transform .2s var(--ease); }
+.leg-box[open] summary > svg { transform: rotate(180deg); }
+.leg-options { list-style: none; margin: 0; padding: 0 12px; border-top: 1px solid var(--rule); }
+.leg-options li { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; column-gap: 12px; padding: 10px 0; color: var(--ink-2); }
+.leg-options li + li { border-top: 1px solid var(--rule); }
+.lo-what, .lo-fig { display: grid; row-gap: 1px; }
+.lo-mode { font-size: 0.875rem; font-weight: 600; color: var(--ink); }
+.lo-tag { margin-left: 6px; padding: 1px 6px; border-radius: 999px; background: var(--hover); color: var(--ink-2); font-size: 0.6875rem; font-weight: 600; vertical-align: 1px; }
+.lo-note { font-size: 0.75rem; color: var(--ink-3); }
+.lo-fig { justify-items: end; text-align: right; }
+.lo-fig strong { font-size: 0.875rem; color: var(--ink); }
+.lo-cost { font-size: 0.75rem; color: var(--money); white-space: nowrap; }
+.leg-maps {
+  display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; border-top: 1px solid var(--rule);
+  font-size: 0.8125rem; font-weight: 600; color: var(--ink); text-decoration: none;
+}
+.leg-maps:hover { text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
+
+/* End of a day: step to the neighbouring days without going back up to the strip. */
+.day-nav { display: flex; gap: 8px; margin-top: 32px; }
+.day-nav button {
+  flex: 0 1 50%; display: flex; align-items: center; gap: 10px; min-height: 56px; padding: 8px 14px; text-align: left;
+  border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface);
+  transition: border-color .2s var(--ease);
+}
+.day-nav button:hover { border-color: var(--rule-strong); }
+.day-nav button > svg { flex: none; color: var(--ink-3); transform: rotate(90deg); }
+.day-nav .day-nav-next { margin-left: auto; justify-content: flex-end; text-align: right; }
+.day-nav .day-nav-next > svg { transform: rotate(-90deg); }
+.day-nav span { display: grid; font-size: 0.875rem; font-weight: 600; }
+.day-nav b { font-weight: inherit; }
+.day-nav b::first-letter { text-transform: uppercase; }
+.day-nav small { font-size: 0.75rem; font-weight: 400; color: var(--ink-3); }
 
 /* Detail panel: sits over the map column, map stays visible beside it on desktop */
 .detail-panel {
@@ -249,13 +324,6 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .gallery figcaption { position: absolute; left: 8px; bottom: 8px; right: 8px; font-size: 0.6875rem; line-height: 1.3; }
 .gallery figcaption a { display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 2px 6px; border-radius: 4px; background: rgb(0 0 0 / .55); color: #fff; text-decoration: none; }
 .detail-body { padding: 18px 20px 24px; }
-.detail[data-type="food"] { --c: var(--food); }
-.detail[data-type="place"] { --c: var(--place); }
-.detail[data-type="activity"] { --c: var(--activity); }
-.detail[data-type="lodging"] { --c: var(--lodging); }
-.detail[data-type="transport"] { --c: var(--transport); }
-.detail[data-type="shopping"] { --c: var(--shopping); }
-.detail[data-type="event"] { --c: var(--event); }
 .detail-type { display: flex; align-items: center; gap: 8px; padding-right: 44px; font-size: 0.8125rem; color: var(--ink-3); }
 .detail .gallery + .detail-body .detail-type { padding-right: 0; }
 .detail-icon { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; border: 1.5px solid var(--c); color: var(--c); }
@@ -274,7 +342,7 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
   border: 1px solid var(--rule-strong); border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.9375rem;
 }
 .detail-maps:hover { border-color: var(--ink); }
-.stop:has([aria-expanded="true"]) { background: var(--hover); }
+.stop:has(.stop-link[aria-expanded="true"]) { background: var(--hover); }
 
 /* Map */
 .mapwrap { display: none; position: relative; }

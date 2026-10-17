@@ -5,7 +5,8 @@
 // instead of borrowing a neighbour's data. If OSM has no Wikidata link, a Wikipedia article near the
 // item with the same name is used instead.
 // Items that already have `place` are skipped (delete it to refetch); items saved while Overpass was
-// down carry `osmPending` and are retried.
+// down, or added without photos yet, carry `osmPending` and are retried. A retry only fills what is
+// missing: existing fields and photos are kept.
 import { Glob } from 'bun';
 
 const MAX_PHOTOS = 6;
@@ -101,7 +102,8 @@ const seen = new Map<string, Place>();
 for await (const path of new Glob('src/data/*.json').scan()) {
   const trip = await Bun.file(path).json();
   let changed = false;
-  for (const day of trip.days) for (const item of day.items) {
+  // Alternatives (item.alternatives) get the same treatment as the planned items.
+  for (const day of trip.days) for (const item of day.items.flatMap((i: any) => [i, ...(i.alternatives ?? [])])) {
     if (item.place && !item.place.osmPending) continue;
     const key = `${item.name}@${item.lat},${item.lng}`;
     try {
@@ -110,7 +112,12 @@ for await (const path of new Glob('src/data/*.json').scan()) {
       console.warn('!', item.name, (err as Error).message);
       continue;
     }
-    item.place = seen.get(key);
+    // Merge instead of replace: fields already filled by hand or from Google (address, hours,
+    // phone, website, instagram, googleMapsUrl…) and photos already saved are never overwritten.
+    const found = seen.get(key)!;
+    const kept = Object.fromEntries(Object.entries(item.place ?? {}).filter(([k, v]) => k !== 'osmPending' && v != null && v !== '' && !(Array.isArray(v) && !v.length)));
+    item.place = { ...found, ...kept, photos: item.place?.photos?.length ? item.place.photos : found.photos };
+    if (!found.osmPending) delete item.place.osmPending;
     changed = true;
     const p = item.place;
     console.log(p.osmPending ? '…' : p.osm ? '✓' : '·', item.name, p.photos.length ? `${p.photos.length} fotos` : '', p.address ?? '');

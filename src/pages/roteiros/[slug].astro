@@ -4,7 +4,10 @@ import '../../styles/roteiro.css';
 
 type Photo = { src: string; page: string; author?: string; license?: string };
 type Leg = { mode: string; minutes: number; cost?: number; label?: string };
-type Item = { time: string; end?: string; type: string; name: string; place?: { address?: string; hours?: string; website?: string; phone?: string; osm?: string; photos: Photo[] }; image?: Photo; note?: string; cost?: number; lat: number; lng: number; leg?: Leg };
+type Place = { address?: string; hours?: string; website?: string; phone?: string; osm?: string; googleMapsUrl?: string; photos: Photo[] };
+// A swap the group can make on the day: same slot, another place.
+type Alt = { name: string; type?: string; time?: string; end?: string; note?: string; cost?: number; place?: Place; lat?: number; lng?: number };
+type Item = { time: string; end?: string; type: string; name: string; place?: Place; image?: Photo; note?: string; cost?: number; lat: number; lng: number; leg?: Leg; alternatives?: Alt[] };
 type Day = { date: string; title: string; items: Item[] };
 type Trip = { placeholder?: boolean; title: string; subtitle?: string; travelers: number; people?: string[]; countries?: string[]; currency: string; rateBRL: number; rateDate: string; days: Day[] };
 
@@ -24,6 +27,7 @@ const date = (d: string, o: Intl.DateTimeFormatOptions) => new Date(d + 'T12:00:
 
 const typeLabel: Record<string, string> = { place: 'Lugar', food: 'Comida', activity: 'Passeio', lodging: 'Hospedagem', transport: 'Transporte', shopping: 'Compras', event: 'Evento' };
 const modeLabel: Record<string, string> = { walk: 'a pé', tram: 'de elétrico', metro: 'de metrô', bus: 'de ônibus', train: 'de trem', car: 'de carro' };
+const modeName: Record<string, string> = { walk: 'A pé', tram: 'Elétrico', metro: 'Metrô', bus: 'Ônibus', train: 'Trem', car: 'Carro' };
 const foreign = trip.currency !== 'BRL';
 const conv = (v: number) => (foreign ? `≈ ${brl.format(v * trip.rateBRL)}` : undefined);
 const countryName = new Intl.DisplayNames(['pt-BR'], { type: 'region' });
@@ -34,6 +38,8 @@ const hoursPt = (h: string) => h.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|off)\b/g, (
 const host = (u: string) => u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
 // The item's chosen image leads; OSM/Commons photos follow without repeating it.
 const photos = (i: Item) => [...(i.image ? [i.image] : []), ...(i.place?.photos ?? []).filter((p) => p.src !== i.image?.src)];
+const km = (k: number) => `${k.toLocaleString('pt-BR', { maximumFractionDigits: k < 10 ? 1 : 0 })} km`;
+const altUrl = (a: Alt) => a.place?.googleMapsUrl ?? `https://www.google.com/maps/search/?api=1&query=${a.lat !== undefined ? `${a.lat},${a.lng}` : encodeURIComponent(`${a.name}, ${trip.title}`)}`;
 const minutes = (m: number) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ` ${m % 60} min` : ''}`);
 
 const dayCost = (d: Day) => d.items.reduce((s, i) => s + (i.cost ?? 0) + (i.leg?.cost ?? 0), 0);
@@ -45,6 +51,7 @@ const last = trip.days[trip.days.length - 1].date;
 // Street routes are fetched once at build time from the keyless FOSSGIS Valhalla server;
 // a failed leg falls back to a straight line on the map.
 // Walk is pedestrian, road modes are auto; rail has no routing there, so it stays a straight dashed line.
+// One call per leg on purpose: the server refuses connections when hit harder.
 function decode(str: string): [number, number][] {
   const out: [number, number][] = [];
   let i = 0, lat = 0, lng = 0;
@@ -53,24 +60,55 @@ function decode(str: string): [number, number][] {
   return out;
 }
 // Once the server is unreachable, skip the remaining legs instead of waiting out each timeout.
+// Successful routes are kept for the life of the process, so the dev server does not re-ask on every reload.
+type Route = { shape: [number, number][]; km: number };
+const routes: Map<string, Route> = ((globalThis as any).__routes ??= new Map());
 let routerDown = false;
-async function route(a: Item, b: Item, mode = 'walk'): Promise<[number, number][] | null> {
-  if (routerDown || mode === 'train' || mode === 'metro') return null;
-  const q = { locations: [{ lat: a.lat, lon: a.lng }, { lat: b.lat, lon: b.lng }], costing: mode === 'walk' ? 'pedestrian' : 'auto' };
+async function route(a: Item, b: Item, costing: string): Promise<Route | null> {
+  const key = `${costing}:${a.lat},${a.lng}:${b.lat},${b.lng}`;
+  if (routes.has(key)) return routes.get(key)!;
+  if (routerDown) return null;
+  const q = { locations: [{ lat: a.lat, lon: a.lng }, { lat: b.lat, lon: b.lng }], costing };
   try {
     const r = await fetch(`https://valhalla1.openstreetmap.de/route?json=${encodeURIComponent(JSON.stringify(q))}`, { signal: AbortSignal.timeout(8000) });
-    const shape = (await r.json()).trip?.legs?.[0]?.shape;
-    return shape ? decode(shape) : null;
+    const t = (await r.json()).trip;
+    if (!t?.legs?.[0]?.shape) return null;
+    const out = { shape: decode(t.legs[0].shape), km: t.summary.length };
+    routes.set(key, out);
+    return out;
   } catch { routerDown = true; return null; }
 }
 
+// How to get to each stop: the planned mode first (from the data, with its cost), then walk/car estimates
+// from the leg's distance (routed, else straight line × 1.3).
+// ponytail: flat 4.8 km/h walking and 25 km/h city driving; route both modes if these prove too rough.
+type Option = { mode: string; minutes: number; km?: number; cost?: number; note: string; planned?: boolean };
+const straightKm = (a: Item, b: Item) => {
+  const r = Math.PI / 180, x = (b.lng - a.lng) * r * Math.cos(((a.lat + b.lat) / 2) * r), y = (b.lat - a.lat) * r;
+  return Math.hypot(x, y) * 6371 * 1.3;
+};
+const legOptions: Option[][][] = [];
 const mapData = [];
 for (const d of trip.days) {
-  const legs = [];
+  const legs = [], opts: Option[][] = [];
   // Sequential on purpose: it is a shared public server.
-  for (let k = 1; k < d.items.length; k++) legs.push(await route(d.items[k - 1], d.items[k], d.items[k].leg?.mode)); // a leg arrives at its stop
+  for (let k = 1; k < d.items.length; k++) {
+    const a = d.items[k - 1], b = d.items[k], leg = b.leg; // a leg arrives at its stop
+    const mode = leg?.mode ?? 'walk';
+    const r = mode === 'train' || mode === 'metro' ? null : await route(a, b, mode === 'walk' ? 'pedestrian' : 'auto');
+    legs.push(r?.shape ?? null);
+    if (!leg) { opts.push([]); continue; }
+    const dist = r?.km ?? straightKm(a, b);
+    const o: Option[] = [{ mode, minutes: leg.minutes, km: dist, cost: leg.cost, note: '', planned: true }];
+    const walkMin = Math.max(1, Math.round((dist / 4.8) * 60));
+    if (mode !== 'walk' && walkMin <= 90) o.push({ mode: 'walk', minutes: walkMin, note: 'Estimativa' });
+    if (mode !== 'car') o.push({ mode: 'car', minutes: Math.round((dist / 25) * 60) + 2, note: 'Carro, app ou táxi · estimativa sem trânsito' });
+    opts.push(o);
+  }
+  legOptions.push([[], ...opts]);
   mapData.push({ date: d.date, stops: d.items.map((i) => ({ type: i.type, name: i.name, time: i.time, lat: i.lat, lng: i.lng })), legs });
 }
+const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/dir/?api=1&origin=${a.lat},${a.lng}&destination=${b.lat},${b.lng}&travelmode=${mode === 'walk' ? 'walking' : mode === 'car' ? 'driving' : 'transit'}`;
 ---
 <!doctype html>
 <html lang="pt-BR">
@@ -80,7 +118,7 @@ for (const d of trip.days) {
     <meta name="robots" content="noindex" />
     <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#121416" media="(prefers-color-scheme: dark)" />
-    <script is:inline>try { localStorage.getItem('map-off') && document.documentElement.classList.add('map-off'); } catch {}</script>
+    <script is:inline>document.documentElement.classList.add('js'); try { localStorage.getItem('map-off') && document.documentElement.classList.add('map-off'); } catch {}</script>
     <title>{trip.title} · Roteiro</title>
   </head>
   <body>
@@ -117,7 +155,7 @@ for (const d of trip.days) {
         </nav>
 
         {trip.days.map((d, n) => (
-          <section class="day" id={`dia-${n + 1}`} data-day={n} aria-labelledby={`dia-${n + 1}-h`}>
+          <section class={n === 0 ? 'day is-current' : 'day'} id={`dia-${n + 1}`} data-day={n} aria-labelledby={`dia-${n + 1}-h`}>
             <header class="day-head">
               <h2 id={`dia-${n + 1}-h`}>
                 <span class="day-date">{date(d.date, { weekday: 'long', day: 'numeric', month: 'long' })}</span>
@@ -130,9 +168,24 @@ for (const d of trip.days) {
               {d.items.map((i, k) => (
                 <>
                   {i.leg && (
-                    <li class="leg" aria-label={`Deslocamento: ${minutes(i.leg.minutes)} ${modeLabel[i.leg.mode] ?? ''}`}>
+                    <li class="leg">
                       <Icon name={i.leg.mode} size={15} />
-                      <span><strong>{minutes(i.leg.minutes)}</strong> {modeLabel[i.leg.mode]}{i.leg.label && ` · ${i.leg.label}`}{i.leg.cost ? <> · <span class="leg-cost">{local.format(i.leg.cost)}{foreign && <span class="conv">{conv(i.leg.cost)}</span>}</span></> : null}</span>
+                      <details class="leg-box">
+                        <summary>
+                          <span class="leg-text"><span class="sr">Deslocamento: </span><strong>{minutes(i.leg.minutes)}</strong> {modeLabel[i.leg.mode]}{i.leg.label && <span class="leg-label"> · {i.leg.label}</span>}{i.leg.cost ? <> · <span class="leg-cost">{local.format(i.leg.cost)}{foreign && <span class="conv">{conv(i.leg.cost)}</span>}</span></> : null}</span>
+                          <Icon name="chevron" size={14} />
+                        </summary>
+                        <ul class="leg-options">
+                          {legOptions[n][k].map((o) => (
+                            <li class={o.planned ? 'is-planned' : undefined}>
+                              <Icon name={o.mode} size={16} />
+                              <span class="lo-what"><span class="lo-mode">{modeName[o.mode] ?? o.mode}{o.planned && <span class="lo-tag">no roteiro</span>}</span><span class="lo-note">{[o.note, o.km && km(o.km)].filter(Boolean).join(' · ')}</span></span>
+                              <span class="lo-fig"><strong>{minutes(o.minutes)}</strong>{o.cost ? <span class="lo-cost">{local.format(o.cost)}{foreign && <span class="conv">{conv(o.cost)}</span>}</span> : null}</span>
+                            </li>
+                          ))}
+                        </ul>
+                        <a class="leg-maps" href={dirUrl(d.items[k - 1], i, i.leg.mode)} target="_blank" rel="noopener"><Icon name="external" size={14} /> Rotas e preço de app no Google Maps</a>
+                      </details>
                     </li>
                   )}
                   <li class="stop" data-type={i.type} data-day={n} data-stop={k} data-date={d.date} data-time={i.time} data-end={i.end}>
@@ -142,12 +195,43 @@ for (const d of trip.days) {
                     </p>
                     <span class="stop-pin" title={typeLabel[i.type]}>{k + 1}<span class="sr"> · {typeLabel[i.type]}</span></span>
                     <h3><button type="button" class="stop-link" data-day={n} data-stop={k} aria-controls="detail" aria-expanded="false">{i.name}</button><span class="now-tag">Próximo</span></h3>
-                    {i.cost !== undefined && <p class="stop-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}</p>}
+                    <p class="stop-meta">
+                      <span class="stop-cat"><Icon name={i.type} size={12} />{typeLabel[i.type]}</span>
+                      {i.cost !== undefined && <span class="stop-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}</span>}
+                      {i.alternatives?.length ? (
+                        <button type="button" class="alt-toggle" aria-expanded="false" aria-controls={`alt-${n}-${k}`}>
+                          <Icon name="swap" size={13} />{i.alternatives.length}<span class="sr"> {i.alternatives.length > 1 ? 'alternativas' : 'alternativa'} para {i.name}</span>
+                        </button>
+                      ) : null}
+                    </p>
+                    {i.alternatives?.length ? (
+                      <ul class="alts" id={`alt-${n}-${k}`} hidden>
+                        {i.alternatives.map((a) => (
+                          <li data-type={a.type ?? i.type}>
+                            <a href={altUrl(a)} target="_blank" rel="noopener">
+                              <span class="alt-name">{a.name}</span>
+                              <span class="alt-meta">
+                                <span class="stop-cat"><Icon name={a.type ?? i.type} size={12} />{typeLabel[a.type ?? i.type]}</span>
+                                {a.time && <span>{a.time}{a.end && `–${a.end}`}</span>}
+                                {a.cost !== undefined && <span class="stop-cost">{a.cost === 0 ? 'Grátis' : <>{local.format(a.cost)}{foreign && <span class="conv">{conv(a.cost)}</span>}</>}</span>}
+                              </span>
+                              {a.note && <span class="alt-note">{a.note}</span>}
+                              <Icon name="external" size={14} />
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                     <span class="stop-thumb" aria-hidden="true">{photos(i)[0] ? <img src={photos(i)[0].src} alt="" loading="lazy" decoding="async" /> : <Icon name={i.type} size={18} />}</span>
                   </li>
                 </>
               ))}
             </ol>
+
+            <nav class="day-nav" aria-label="Outros dias">
+              {n > 0 && <button type="button" data-go={n - 1}><Icon name="chevron" size={16} /><span><small>Dia anterior</small><b>{date(trip.days[n - 1].date, { weekday: 'short', day: 'numeric', month: 'short' })}</b></span></button>}
+              {n < trip.days.length - 1 && <button type="button" data-go={n + 1} class="day-nav-next"><span><small>Próximo dia</small><b>{date(trip.days[n + 1].date, { weekday: 'short', day: 'numeric', month: 'short' })}</b></span><Icon name="chevron" size={16} /></button>}
+            </nav>
           </section>
         ))}
 
@@ -257,7 +341,7 @@ for (const d of trip.days) {
           const label = focus.querySelector('.now-tag')!.textContent!;
           const time = focus.querySelector('time')!.textContent!;
           const name = focus.querySelector('.stop-link')!.textContent!;
-          const leg = focus.previousElementSibling?.classList.contains('leg') ? focus.previousElementSibling.querySelector('span')!.textContent! : '';
+          const leg = focus.previousElementSibling?.classList.contains('leg') ? focus.previousElementSibling.querySelector('.leg-text')!.textContent!.replace('Deslocamento: ', '').replace(/\s+/g, ' ').trim() : '';
           card.querySelector('.now-tag')!.textContent = label;
           card.querySelector('.next-main')!.textContent = `${time} · ${name}`;
           card.querySelector('.next-leg')!.textContent = leg;
@@ -266,7 +350,7 @@ for (const d of trip.days) {
           jump.setAttribute('aria-label', `Ir para ${label.toLowerCase()}: ${time}, ${name}`);
         }
       }
-      const goToFocus = () => { if (!focus) return; focus.scrollIntoView({ behavior: motion(), block: 'center' }); focus.querySelector<HTMLElement>('.stop-link')!.focus({ preventScroll: true }); };
+      const goToFocus = () => { if (!focus) return; showDay(Number(focus.dataset.day)); focus.scrollIntoView({ behavior: motion(), block: 'center' }); focus.querySelector<HTMLElement>('.stop-link')!.focus({ preventScroll: true }); };
       card.addEventListener('click', goToFocus);
       jump.addEventListener('click', goToFocus);
       const stateOf = (n: number, k: number) => state.get(`${n}-${k}`) ?? '';
@@ -291,7 +375,15 @@ for (const d of trip.days) {
             .on('click', () => focusStop(n, k, false))
             .addTo(layer),
         );
-        document.querySelectorAll<HTMLElement>('.days a').forEach((a) => a.toggleAttribute('aria-current', Number(a.dataset.day) === n));
+        // One day at a time: its tab is current and only its section is shown.
+        document.querySelectorAll<HTMLElement>('.days a').forEach((a) => {
+          a.toggleAttribute('aria-current', Number(a.dataset.day) === n);
+          // Keep the current tab visible in the strip without scrolling the page.
+          const strip = a.parentElement!;
+          if (Number(a.dataset.day) === n && (a.offsetLeft < strip.scrollLeft || a.offsetLeft + a.offsetWidth > strip.scrollLeft + strip.clientWidth)) strip.scrollLeft = a.offsetLeft - 16;
+        });
+        document.querySelectorAll<HTMLElement>('.day').forEach((s) => s.classList.toggle('is-current', Number(s.dataset.day) === n));
+        history.replaceState(null, '', `#dia-${n + 1}`);
         if (fit) fitDay();
       }
 
@@ -381,15 +473,31 @@ for (const d of trip.days) {
       mapClose.addEventListener('click', () => { closeDetail(); openMap(false); });
       addEventListener('keydown', (e) => e.key === 'Escape' && !closeDetail() && mobile.matches && openMap(false));
 
-      // The day in view drives the map.
-      const io = new IntersectionObserver(
-        (entries) => entries.forEach((e) => e.isIntersecting && showDay(Number((e.target as HTMLElement).dataset.day))),
-        { rootMargin: '-35% 0px -60% 0px' },
-      );
-      document.querySelectorAll('.day').forEach((s) => io.observe(s));
+      // Tabs and the day-end buttons switch days; once the strip is stuck, the new day starts at its top.
+      const trip = document.querySelector<HTMLElement>('.trip')!;
+      function goToDay(n: number) {
+        showDay(n);
+        const top = trip.offsetTop + trip.offsetHeight;
+        if (scrollY > top) scrollTo({ top, behavior: 'auto' });
+      }
+      document.querySelectorAll<HTMLAnchorElement>('.days a').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); goToDay(Number(a.dataset.day)); }));
+      document.querySelectorAll<HTMLButtonElement>('.day-nav button').forEach((b) => b.addEventListener('click', () => {
+        goToDay(Number(b.dataset.go));
+        document.querySelector<HTMLElement>(`.days a[data-day="${b.dataset.go}"]`)!.focus({ preventScroll: true });
+      }));
+
+      // Alternatives open inline under their stop.
+      document.querySelectorAll<HTMLButtonElement>('.alt-toggle').forEach((b) => b.addEventListener('click', () => {
+        const open = b.getAttribute('aria-expanded') !== 'true';
+        b.setAttribute('aria-expanded', String(open));
+        document.getElementById(b.getAttribute('aria-controls')!)!.hidden = !open;
+      }));
+
       updateTimes();
+      // Opening day: today during the trip, else the linked day (#dia-N), else the first.
       const todayIdx = days.findIndex((d) => d.date === today);
-      showDay(todayIdx >= 0 ? todayIdx : 0);
+      const hashIdx = Number(location.hash.match(/^#dia-(\d+)$/)?.[1]) - 1;
+      showDay(todayIdx >= 0 ? todayIdx : days[hashIdx] ? hashIdx : 0);
       focus?.scrollIntoView({ block: 'center' });
       const refresh = () => { updateTimes(); const n = current; current = -1; showDay(n, false); };
       setInterval(refresh, 60_000);
