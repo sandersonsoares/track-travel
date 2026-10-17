@@ -9,6 +9,7 @@
   "currency": "EUR",
   "rateBRL": 6.1,
   "rateDate": "2026-10-01",
+  "cover": { "src": "/img/lisboa/capa.webp", "page": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2015_9043.jpg", "author": "Jakub Hałun", "license": "CC BY 4.0" },
   "days": [
     {
       "date": "2026-11-12",

@@ -80,6 +80,20 @@ async function photos(qid: string): Promise<Photo[]> {
   });
 }
 
+// Fallback for places without Wikidata (shops, restaurants): Commons photos taken within 150 m whose
+// file name carries the place's name, so a busy street does not lend its photos to every shop on it.
+async function nearbyPhotos(name: string, lat: number, lng: number): Promise<Photo[]> {
+  const j = await wiki('commons.wikimedia.org', { action: 'query', list: 'geosearch', gscoord: `${lat}|${lng}`, gsradius: '150', gsnamespace: '6', gslimit: '50' });
+  const titles = (j.query?.geosearch ?? []).map((g: any) => g.title as string).filter((t: string) => /\.(jpe?g|png|webp)$/i.test(t) && sameName(name, t.replace(/^File:/, '').replace(/[_.-]+/g, ' ')));
+  const pick = titles.slice(0, MAX_PHOTOS);
+  if (!pick.length) return [];
+  const info = await wiki('commons.wikimedia.org', { action: 'query', titles: pick.join('|'), prop: 'imageinfo', iiprop: 'url|extmetadata', iiurlwidth: '640' });
+  return Object.values<any>(info.query.pages).flatMap((pg) => {
+    const i = pg.imageinfo?.[0];
+    return i ? [{ src: i.thumburl, page: i.descriptionurl, author: strip(i.extmetadata?.Artist?.value), license: i.extmetadata?.LicenseShortName?.value }] : [];
+  });
+}
+
 async function lookup(name: string, lat: number, lng: number): Promise<Place> {
   // Overpass down: keep going with Wikipedia photos and flag the item so the next run fills OSM data.
   const el = await osm(name, lat, lng).catch(() => null);
@@ -94,7 +108,7 @@ async function lookup(name: string, lat: number, lng: number): Promise<Place> {
     website: t.website ?? t['contact:website'],
     phone: t.phone ?? t['contact:phone'],
     osm: el && `https://www.openstreetmap.org/${el.type}/${el.id}`,
-    photos: qid ? await photos(qid) : [],
+    photos: await (async () => { const ph = qid ? await photos(qid) : []; return ph.length ? ph : nearbyPhotos(name, lat, lng).catch(() => []); })(),
   };
 }
 

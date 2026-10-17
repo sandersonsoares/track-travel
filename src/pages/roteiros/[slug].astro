@@ -3,13 +3,15 @@ import Icon from '../../components/Icon.astro';
 import '../../styles/roteiro.css';
 
 type Photo = { src: string; page: string; author?: string; license?: string };
-type Leg = { mode: string; minutes: number; cost?: number; label?: string };
+// `cost` is always what one person pays (half price when students get it). The breakdown behind it:
+type CostDetails = { unit?: string; fullPerPerson?: number | null; halfPerPerson?: number | null; halfApplies?: boolean; payPerPerson?: number | null; people?: number; totalGroup?: number | null; groupTotal?: number; rangePerPerson?: [number, number]; status?: string; checkedAt?: string; source?: string; note?: string };
+type Leg = { mode: string; minutes: number; cost?: number; costDetails?: CostDetails; label?: string };
 type Place = { address?: string; hours?: string; website?: string; phone?: string; osm?: string; googleMapsUrl?: string; rating?: number; tripadvisorUrl?: string; instagram?: string; photos: Photo[] };
 // A swap the group can make on the day: same slot, another place.
-type Alt = { name: string; type?: string; time?: string; end?: string; note?: string; cost?: number; place?: Place; lat?: number; lng?: number };
-type Item = { time: string; end?: string; type: string; name: string; place?: Place; image?: Photo; note?: string; cost?: number; lat: number; lng: number; leg?: Leg; alternatives?: Alt[] };
+type Alt = { name: string; type?: string; time?: string; end?: string; note?: string; cost?: number; costDetails?: CostDetails; place?: Place; lat?: number; lng?: number };
+type Item = { time: string; end?: string; type: string; name: string; place?: Place; image?: Photo; note?: string; cost?: number; costDetails?: CostDetails; lat: number; lng: number; leg?: Leg; alternatives?: Alt[] };
 type Day = { date: string; title: string; items: Item[] };
-type Trip = { placeholder?: boolean; title: string; subtitle?: string; travelers: number; people?: string[]; countries?: string[]; currency: string; rateBRL: number; rateDate: string; days: Day[] };
+type Trip = { placeholder?: boolean; title: string; subtitle?: string; travelers: number; people?: string[]; countries?: string[]; cover?: Photo; currency: string; rateBRL: number; rateDate: string; days: Day[] };
 
 export function getStaticPaths() {
   const files = import.meta.glob<{ default: Trip }>('../../data/*.json', { eager: true });
@@ -42,6 +44,8 @@ const km = (k: number) => `${k.toLocaleString('pt-BR', { maximumFractionDigits: 
 const altUrl = (a: Alt) => a.place?.googleMapsUrl ?? `https://www.google.com/maps/search/?api=1&query=${a.lat !== undefined ? `${a.lat},${a.lng}` : encodeURIComponent(`${a.name}, ${trip.title}`)}`;
 const minutes = (m: number) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ` ${m % 60} min` : ''}`);
 
+const money = (v: number) => (v === 0 ? 'Grátis' : local.format(v));
+const isHalf = (c?: CostDetails) => !!c?.halfApplies;
 const dayCost = (d: Day) => d.items.reduce((s, i) => s + (i.cost ?? 0) + (i.leg?.cost ?? 0), 0);
 const dayTravel = (d: Day) => d.items.reduce((s, i) => s + (i.leg?.minutes ?? 0), 0);
 const total = trip.days.reduce((s, d) => s + dayCost(d), 0);
@@ -124,9 +128,14 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
   <body>
     <div class="layout">
       <main class="plan">
-        <header class="trip">
+        <header class={trip.cover ? 'trip has-cover' : 'trip'}>
+          <div class="hero">
+          {trip.cover && <>
+            <img class="hero-img" src={trip.cover.src} alt="" fetchpriority="high" decoding="async" />
+            <a class="hero-credit" href={trip.cover.page} target="_blank" rel="noopener">Foto: {[trip.cover.author, trip.cover.license].filter(Boolean).join(' · ')}</a>
+          </>}
+          <div class="hero-body">
           <h1>{trip.title}</h1>
-          <button type="button" class="next-card" hidden><span class="now-tag"></span><span class="next-main"></span><span class="next-leg"></span></button>
           <ul class="chips">
             <li class="chip">{date(first, { day: 'numeric' })}–{date(last, { day: 'numeric', month: 'short' }).replace('.', '')}</li>
             <li class="chip total">{local.format(total)}<span class="sr">por pessoa</span>{foreign && <span class="conv">{conv(total)}</span>}</li>
@@ -139,6 +148,9 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                 : <><Icon name="users" size={15} /> {trip.travelers}</>}
             </li>
           </ul>
+          </div>
+          </div>
+          <button type="button" class="next-card" hidden><span class="now-tag"></span><span class="next-main"></span><span class="next-leg"></span></button>
           {foreign && <p class="rate">{rate}</p>}
           {trip.placeholder && <p class="notice"><Icon name="info" size={16} /> Exemplo: os lugares existem, mas preços, horários e deslocamentos são fictícios.</p>}
         </header>
@@ -161,7 +173,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                 <span class="day-date">{date(d.date, { weekday: 'long', day: 'numeric', month: 'long' })}</span>
                 {d.title}
               </h2>
-              <p class="day-meta"><span class="money">{local.format(dayCost(d))}{foreign && <span class="conv">{conv(dayCost(d))}</span>}</span> · {minutes(dayTravel(d))} em trânsito</p>
+              <p class="day-meta"><span class="money">{local.format(dayCost(d))}{foreign && <span class="conv">{conv(dayCost(d))}</span>}</span> por pessoa · {minutes(dayTravel(d))} em trânsito</p>
             </header>
 
             <ol class="timeline">
@@ -184,6 +196,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                             </li>
                           ))}
                         </ul>
+                        {i.leg.costDetails?.note && <p class="leg-cost-note">{i.leg.cost ? `${local.format(i.leg.cost)} por pessoa · ` : ''}{i.leg.costDetails.note}</p>}
                         <a class="leg-maps" href={dirUrl(d.items[k - 1], i, i.leg.mode)} target="_blank" rel="noopener"><Icon name="external" size={14} /> Rotas e preço de app no Google Maps</a>
                       </details>
                     </li>
@@ -197,7 +210,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                     <h3><button type="button" class="stop-link" data-day={n} data-stop={k} aria-controls="detail" aria-expanded="false">{i.name}</button><span class="now-tag">Próximo</span></h3>
                     <p class="stop-meta">
                       <span class="stop-cat"><Icon name={i.type} size={12} />{typeLabel[i.type]}</span>
-                      {i.cost !== undefined && <span class="stop-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}</span>}
+                      {i.cost !== undefined && <span class="stop-cost" title="Por pessoa">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{isHalf(i.costDetails) && <span class="half-tag">meia</span>}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}<span class="sr"> por pessoa</span></span>}
                       {i.alternatives?.length ? (
                         <button type="button" class="alt-toggle" aria-expanded="false" aria-controls={`alt-${n}-${k}`}>
                           <Icon name="swap" size={13} />{i.alternatives.length}<span class="sr"> {i.alternatives.length > 1 ? 'alternativas' : 'alternativa'} para {i.name}</span>
@@ -214,7 +227,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                                 <span class="stop-cat"><Icon name={a.type ?? i.type} size={12} />{typeLabel[a.type ?? i.type]}</span>
                                 {a.place?.rating && <span class="rating"><Icon name="star" size={12} />{a.place.rating.toLocaleString('pt-BR', { minimumFractionDigits: 1 })}</span>}
                                 {a.time && <span>{a.time}{a.end && `–${a.end}`}</span>}
-                                {a.cost !== undefined && <span class="stop-cost">{a.cost === 0 ? 'Grátis' : <>{local.format(a.cost)}{foreign && <span class="conv">{conv(a.cost)}</span>}</>}</span>}
+                                {a.cost !== undefined && <span class="stop-cost" title="Por pessoa">{a.cost === 0 ? 'Grátis' : <>{local.format(a.cost)}{isHalf(a.costDetails) && <span class="half-tag">meia</span>}{foreign && <span class="conv">{conv(a.cost)}</span>}</>}</span>}
                               </span>
                               {a.note && <span class="alt-note">{a.note}</span>}
                               <Icon name="external" size={14} />
@@ -261,7 +274,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                 {(i.place?.rating || i.cost !== undefined) && (
                   <p class="detail-sub">
                     {i.place?.rating && <span class="rating"><Icon name="star" size={14} /><strong>{i.place.rating.toLocaleString('pt-BR', { minimumFractionDigits: 1 })}</strong> no Google</span>}
-                    {i.cost !== undefined && <span class="detail-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{conv(i.cost) && <span> {conv(i.cost)}</span>}</>}</span>}
+                    {i.cost !== undefined && <span class="detail-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}<span> por pessoa{isHalf(i.costDetails) && ' (meia)'}</span>{conv(i.cost) && <span> {conv(i.cost)}</span>}</>}</span>}
                   </p>
                 )}
                 {/* Actions first: on the street the next move is usually "take me there" or "check it out". */}
@@ -272,6 +285,28 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                   {i.place?.tripadvisorUrl && <li><a href={i.place.tripadvisorUrl} target="_blank" rel="noopener"><Icon name="reviews" size={16} />Tripadvisor</a></li>}
                 </ul>
                 {i.note && <p class="detail-note">{i.note}</p>}
+                {[{ c: i.costDetails, title: 'Custos' }, { c: i.leg?.costDetails, title: 'Custo do deslocamento até aqui' }].filter((x) => x.c).map(({ c, title }) => (
+                  <section class="detail-costs" aria-label={title}>
+                    <h3>{title}</h3>
+                    <dl>
+                      {c!.groupTotal !== undefined ? (
+                        <>
+                          <div><dt>Valor total</dt><dd>{money(c!.groupTotal)}</dd></div>
+                          <div><dt>Por pessoa</dt><dd>{money(c!.fullPerPerson ?? 0)}<small>dividido por {c!.people ?? trip.travelers}</small></dd></div>
+                        </>
+                      ) : (
+                        <>
+                          {c!.fullPerPerson != null && <div><dt>{c!.halfApplies ? 'Inteira por pessoa' : 'Por pessoa'}</dt><dd>{money(c!.fullPerPerson)}</dd></div>}
+                          <div><dt>Meia por pessoa</dt><dd>{c!.halfApplies && c!.halfPerPerson != null ? money(c!.halfPerPerson) : <span class="muted">Não tem meia</span>}</dd></div>
+                          {c!.rangePerPerson && <div><dt>Faixa por pessoa</dt><dd>{money(c!.rangePerPerson[0])}–{money(c!.rangePerPerson[1])}</dd></div>}
+                        </>
+                      )}
+                      {c!.totalGroup != null && <div class="is-total"><dt>Total para {c!.people ?? trip.travelers} pessoas</dt><dd>{money(c!.totalGroup)}</dd></div>}
+                    </dl>
+                    {(c!.note || c!.status) && <p class="detail-costs-note">{c!.status && <span class={`cost-status${/oficial|informado|cotação/.test(c!.status) ? ' is-ok' : ''}`}>{c!.status}</span>}{c!.note}</p>}
+                    {c!.source && <a class="detail-costs-src" href={c!.source} target="_blank" rel="noopener"><Icon name="external" size={12} />Fonte{c!.checkedAt && ` · consultada em ${date(c!.checkedAt, { day: '2-digit', month: '2-digit' })}`}</a>}
+                  </section>
+                ))}
                 {(i.place?.address || i.place?.hours || i.place?.phone) && (
                   <dl class="detail-facts">
                     {i.place.address && <div><dt>Endereço</dt><dd>{i.place.address}</dd></div>}
