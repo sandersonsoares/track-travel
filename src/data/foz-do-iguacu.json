@@ -802,7 +802,7 @@
         },
         {
           "time": "16:00",
-          "end": "16:50",
+          "end": "16:40",
           "type": "food",
           "name": "Café da tarde · Cé La Vi (combo Dior)",
           "note": "Shopping del Este, ao lado da ponte. Combo ~R$ 136 (150.000 guaranis) dividido por três. Contém lactose: Hortência leva a lactase. Avaliações reclamam da demora: pedir tudo de uma vez.",
@@ -890,29 +890,31 @@
           }
         },
         {
-          "time": "17:30",
-          "end": "17:40",
+          "time": "17:50",
+          "end": "17:55",
           "type": "place",
           "name": "Pegar o carro · Pousada e Estacionamento 277",
-          "note": "Volta pela aduana brasileira: cota de US$ 500 por pessoa (não soma entre os três); o que passar paga 50%. Guardar as notas fiscais.",
+          "note": "Pedir ao táxi para deixar direto na Pousada e Estacionamento 277. Cota de US$ 500 por pessoa (não soma entre os três); o que passar paga 50%.",
           "lat": -25.5076,
           "lng": -54.5932,
           "leg": {
             "mode": "car",
-            "minutes": 40,
-            "label": "Mototáxi na volta + fila da aduana brasileira",
-            "cost": 15,
+            "minutes": 70,
+            "label": "Táxi do Shopping del Este até o estacionamento · fila da ponte e da Receita no pico 16h–19h",
+            "cost": 13.33,
             "costDetails": {
-              "unit": "pessoa",
-              "fullPerPerson": 15,
+              "unit": "grupo (dividido por 3)",
+              "fullPerPerson": 13.33,
               "halfPerPerson": null,
               "halfApplies": false,
-              "payPerPerson": 15,
+              "payPerPerson": 13.33,
               "people": 3,
-              "totalGroup": 45,
+              "totalGroup": 40,
+              "groupTotal": 40,
               "status": "estimativa",
               "checkedAt": "2026-10-17",
-              "note": "Mototáxi de volta, 1 por pessoa."
+              "source": "https://www.comboiguassu.com.br/5-formas-ponte-amizade-compras-no-paraguai/",
+              "note": "Táxi R$ 20–50 por corrida (combinar antes). Das 16h às 19h, a fila pode passar de 1 h. Ter as notas fiscais à mão."
             }
           },
           "place": {
@@ -939,11 +941,11 @@
           }
         },
         {
-          "time": "18:05",
-          "end": "18:50",
+          "time": "18:20",
+          "end": "19:05",
           "type": "activity",
           "name": "Yup Star · roda-gigante no pôr do sol",
-          "note": "Pôr do sol por volta das 19h. Fecha 20h30 (segunda fechado). Compras trancadas no porta-malas.",
+          "note": "Pôr do sol ~18h57. Chegar 18h20 para ver o sol se pôr da cabine. Fecha 20h30. Compras no porta-malas. Folga de ~25 min se a fila da ponte atrasar.",
           "lat": -25.5867,
           "lng": -54.5884,
           "leg": {
@@ -984,11 +986,11 @@
           }
         },
         {
-          "time": "18:55",
-          "end": "20:00",
+          "time": "19:10",
+          "end": "20:15",
           "type": "place",
           "name": "Marco das Três Fronteiras · show da noite",
-          "note": "A 300 m da roda-gigante. Shows culturais dos três países a partir de 18h15–18h30 (confirmar). Fecha 21h. Meia-entrada a confirmar.",
+          "note": "A 300 m da roda-gigante. O primeiro show (~18h15) fica de fora; ver os shows seguintes (confirmar). Fecha 21h. Meia-entrada.",
           "lat": -25.5902,
           "lng": -54.5902,
           "leg": {
@@ -1030,8 +1032,8 @@
           }
         },
         {
-          "time": "20:15",
-          "end": "21:30",
+          "time": "20:30",
+          "end": "21:45",
           "type": "food",
           "name": "Jantar · Bendito",
           "note": "Restaurante a definir; Bendito fica a 13 min.",
@@ -1156,7 +1158,7 @@
           }
         },
         {
-          "time": "21:45",
+          "time": "22:00",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
           "note": "Tirar as compras do carro.",
@@ -2963,7 +2965,7 @@
           "end": "12:00",
           "type": "place",
           "name": "Cataratas do Iguaçu · lado brasileiro",
-          "note": "Chegar na abertura, antes dos ônibus de excursão; comprar ingresso online. Ônibus interno e mirantes, sem Macuco Safari. Há elevador no fim da trilha. Pausas pelos joelhos de Sanderson.",
+          "note": "Chegar na abertura, antes dos ônibus de excursão; comprar ingresso online. Ônibus interno e mirantes, sem Macuco Safari. Há elevador no fim da trilha. Sanderson: cuidado com piso molhado e degraus irregulares nas passarelas.",
           "lat": -25.6138,
           "lng": -54.4791,
           "leg": {
