@@ -1,0 +1,402 @@
+---
+import Icon from '../../components/Icon.astro';
+import '../../styles/roteiro.css';
+
+type Photo = { src: string; page: string; author?: string; license?: string };
+type Leg = { mode: string; minutes: number; cost?: number; label?: string };
+type Item = { time: string; end?: string; type: string; name: string; place?: { address?: string; hours?: string; website?: string; phone?: string; osm?: string; photos: Photo[] }; image?: Photo; note?: string; cost?: number; lat: number; lng: number; leg?: Leg };
+type Day = { date: string; title: string; items: Item[] };
+type Trip = { placeholder?: boolean; title: string; subtitle?: string; travelers: number; people?: string[]; countries?: string[]; currency: string; rateBRL: number; rateDate: string; days: Day[] };
+
+export function getStaticPaths() {
+  const files = import.meta.glob<{ default: Trip }>('../../data/*.json', { eager: true });
+  return Object.entries(files).map(([path, mod]) => ({
+    params: { slug: path.split('/').pop()!.replace('.json', '') },
+    props: { trip: mod.default },
+  }));
+}
+
+const { trip } = Astro.props as { trip: Trip };
+
+const local = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: trip.currency });
+const brl = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 });
+const date = (d: string, o: Intl.DateTimeFormatOptions) => new Date(d + 'T12:00:00').toLocaleDateString('pt-BR', o);
+
+const typeLabel: Record<string, string> = { place: 'Lugar', food: 'Comida', activity: 'Passeio', lodging: 'Hospedagem', transport: 'Transporte', shopping: 'Compras', event: 'Evento' };
+const modeLabel: Record<string, string> = { walk: 'a pé', tram: 'de elétrico', metro: 'de metrô', bus: 'de ônibus', train: 'de trem', car: 'de carro' };
+const foreign = trip.currency !== 'BRL';
+const conv = (v: number) => (foreign ? `≈ ${brl.format(v * trip.rateBRL)}` : undefined);
+const countryName = new Intl.DisplayNames(['pt-BR'], { type: 'region' });
+const flag = (cc: string) => String.fromCodePoint(...[...cc.toUpperCase()].map((c) => 0x1f1a5 + c.charCodeAt(0)));
+const rate = `Valores por pessoa. Câmbio de ${date(trip.rateDate, { day: '2-digit', month: '2-digit', year: 'numeric' })}: ${local.format(1)} = ${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(trip.rateBRL)}`;
+// OSM opening_hours read in Portuguese ("Mo-Fr 09:00-18:00" → "seg–sex 09:00–18:00").
+const hoursPt = (h: string) => h.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH|off)\b/g, (d) => ({ Mo: 'seg', Tu: 'ter', We: 'qua', Th: 'qui', Fr: 'sex', Sa: 'sáb', Su: 'dom', PH: 'feriados', off: 'fechado' })[d]!).replace(/(\d)-(\d)/g, '$1–$2').replace(/([a-zá])-([a-z])/g, '$1–$2').split(/;\s*/);
+const host = (u: string) => u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+// The item's chosen image leads; OSM/Commons photos follow without repeating it.
+const photos = (i: Item) => [...(i.image ? [i.image] : []), ...(i.place?.photos ?? []).filter((p) => p.src !== i.image?.src)];
+const minutes = (m: number) => (m < 60 ? `${m} min` : `${Math.floor(m / 60)} h${m % 60 ? ` ${m % 60} min` : ''}`);
+
+const dayCost = (d: Day) => d.items.reduce((s, i) => s + (i.cost ?? 0) + (i.leg?.cost ?? 0), 0);
+const dayTravel = (d: Day) => d.items.reduce((s, i) => s + (i.leg?.minutes ?? 0), 0);
+const total = trip.days.reduce((s, d) => s + dayCost(d), 0);
+const first = trip.days[0].date;
+const last = trip.days[trip.days.length - 1].date;
+
+// Street routes are fetched once at build time from the keyless FOSSGIS Valhalla server;
+// a failed leg falls back to a straight line on the map.
+// Walk is pedestrian, road modes are auto; rail has no routing there, so it stays a straight dashed line.
+function decode(str: string): [number, number][] {
+  const out: [number, number][] = [];
+  let i = 0, lat = 0, lng = 0;
+  const next = () => { let r = 0, sh = 0, c; do { c = str.charCodeAt(i++) - 63; r |= (c & 31) << sh; sh += 5; } while (c >= 32); return r & 1 ? ~(r >> 1) : r >> 1; };
+  while (i < str.length) { lat += next(); lng += next(); out.push([lat / 1e6, lng / 1e6]); }
+  return out;
+}
+// Once the server is unreachable, skip the remaining legs instead of waiting out each timeout.
+let routerDown = false;
+async function route(a: Item, b: Item, mode = 'walk'): Promise<[number, number][] | null> {
+  if (routerDown || mode === 'train' || mode === 'metro') return null;
+  const q = { locations: [{ lat: a.lat, lon: a.lng }, { lat: b.lat, lon: b.lng }], costing: mode === 'walk' ? 'pedestrian' : 'auto' };
+  try {
+    const r = await fetch(`https://valhalla1.openstreetmap.de/route?json=${encodeURIComponent(JSON.stringify(q))}`, { signal: AbortSignal.timeout(8000) });
+    const shape = (await r.json()).trip?.legs?.[0]?.shape;
+    return shape ? decode(shape) : null;
+  } catch { routerDown = true; return null; }
+}
+
+const mapData = [];
+for (const d of trip.days) {
+  const legs = [];
+  // Sequential on purpose: it is a shared public server.
+  for (let k = 1; k < d.items.length; k++) legs.push(await route(d.items[k - 1], d.items[k], d.items[k].leg?.mode)); // a leg arrives at its stop
+  mapData.push({ date: d.date, stops: d.items.map((i) => ({ type: i.type, name: i.name, time: i.time, lat: i.lat, lng: i.lng })), legs });
+}
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121416" media="(prefers-color-scheme: dark)" />
+    <script is:inline>try { localStorage.getItem('map-off') && document.documentElement.classList.add('map-off'); } catch {}</script>
+    <title>{trip.title} · Roteiro</title>
+  </head>
+  <body>
+    <div class="layout">
+      <main class="plan">
+        <header class="trip">
+          <h1>{trip.title}</h1>
+          <button type="button" class="next-card" hidden><span class="now-tag"></span><span class="next-main"></span><span class="next-leg"></span></button>
+          <ul class="chips">
+            <li class="chip">{date(first, { day: 'numeric' })}–{date(last, { day: 'numeric', month: 'short' }).replace('.', '')}</li>
+            <li class="chip total">{local.format(total)}<span class="sr">por pessoa</span>{foreign && <span class="conv">{conv(total)}</span>}</li>
+            {trip.countries?.length ? (
+              <li class="chip flags">{trip.countries.map((c) => <span role="img" aria-label={countryName.of(c)} title={countryName.of(c)}>{flag(c)}</span>)}</li>
+            ) : null}
+            <li class="chip people" aria-label={trip.people?.join(', ') ?? `${trip.travelers} pessoas`}>
+              {trip.people
+                ? trip.people.map((n) => <span class="avatar" title={n} aria-hidden="true">{n[0]}</span>)
+                : <><Icon name="users" size={15} /> {trip.travelers}</>}
+            </li>
+          </ul>
+          {foreign && <p class="rate">{rate}</p>}
+          {trip.placeholder && <p class="notice"><Icon name="info" size={16} /> Exemplo: os lugares existem, mas preços, horários e deslocamentos são fictícios.</p>}
+        </header>
+
+        <nav class="days" aria-label="Dias do roteiro">
+          {trip.days.map((d, n) => (
+            <a href={`#dia-${n + 1}`} aria-label={`Dia ${n + 1}, ${date(d.date, { weekday: 'long', day: 'numeric', month: 'long' })}`} data-day={n} data-date={d.date} aria-current={n === 0 ? 'true' : undefined}>
+              <span class="days-w">{date(d.date, { weekday: 'short' }).replace('.', '')}</span>
+              <span class="days-d">{date(d.date, { day: 'numeric' })}</span>
+              <span class="days-m">{date(d.date, { month: 'short' }).replace('.', '')}</span>
+            </a>
+          ))}
+          <button type="button" class="days-next" hidden></button>
+        </nav>
+
+        {trip.days.map((d, n) => (
+          <section class="day" id={`dia-${n + 1}`} data-day={n} aria-labelledby={`dia-${n + 1}-h`}>
+            <header class="day-head">
+              <h2 id={`dia-${n + 1}-h`}>
+                <span class="day-date">{date(d.date, { weekday: 'long', day: 'numeric', month: 'long' })}</span>
+                {d.title}
+              </h2>
+              <p class="day-meta"><span class="money">{local.format(dayCost(d))}{foreign && <span class="conv">{conv(dayCost(d))}</span>}</span> · {minutes(dayTravel(d))} em trânsito</p>
+            </header>
+
+            <ol class="timeline">
+              {d.items.map((i, k) => (
+                <>
+                  {i.leg && (
+                    <li class="leg" aria-label={`Deslocamento: ${minutes(i.leg.minutes)} ${modeLabel[i.leg.mode] ?? ''}`}>
+                      <Icon name={i.leg.mode} size={15} />
+                      <span><strong>{minutes(i.leg.minutes)}</strong> {modeLabel[i.leg.mode]}{i.leg.label && ` · ${i.leg.label}`}{i.leg.cost ? <> · <span class="leg-cost">{local.format(i.leg.cost)}{foreign && <span class="conv">{conv(i.leg.cost)}</span>}</span></> : null}</span>
+                    </li>
+                  )}
+                  <li class="stop" data-type={i.type} data-day={n} data-stop={k} data-date={d.date} data-time={i.time} data-end={i.end}>
+                    <p class="stop-time">
+                      <time datetime={`${d.date}T${i.time}`}>{i.time}</time>
+                      {i.end && <time class="stop-end" datetime={`${d.date}T${i.end}`}><span class="sr">até </span>{i.end}</time>}
+                    </p>
+                    <span class="stop-pin" title={typeLabel[i.type]}>{k + 1}<span class="sr"> · {typeLabel[i.type]}</span></span>
+                    <h3><button type="button" class="stop-link" data-day={n} data-stop={k} aria-controls="detail" aria-expanded="false">{i.name}</button><span class="now-tag">Próximo</span></h3>
+                    {i.cost !== undefined && <p class="stop-cost">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}</p>}
+                    <span class="stop-thumb" aria-hidden="true">{photos(i)[0] ? <img src={photos(i)[0].src} alt="" loading="lazy" decoding="async" /> : <Icon name={i.type} size={18} />}</span>
+                  </li>
+                </>
+              ))}
+            </ol>
+          </section>
+        ))}
+
+      </main>
+
+      <aside class="mapwrap" aria-label="Mapa do roteiro">
+        <div id="map"></div>
+        <p class="map-status" role="status">Carregando mapa…</p>
+        <section id="detail" class="detail-panel" aria-label="Detalhes do lugar" hidden>
+          <button type="button" class="detail-close" aria-label="Fechar detalhes"><Icon name="close" size={18} /></button>
+          {trip.days.map((d, n) => d.items.map((i, k) => (
+            <article class="detail" data-day={n} data-stop={k} data-type={i.type} hidden>
+              {photos(i).length ? (
+                <div class="gallery" tabindex="0" aria-label={`Fotos de ${i.name}`}>
+                  {photos(i).map((ph) => (
+                    <figure>
+                      <img data-src={ph.src} alt="" decoding="async" />
+                      <figcaption><a href={ph.page} target="_blank" rel="noopener">{[ph.author, ph.license].filter(Boolean).join(' · ') || 'Wikimedia Commons'}</a></figcaption>
+                    </figure>
+                  ))}
+                </div>
+              ) : null}
+              <div class="detail-body">
+                <p class="detail-type"><span class="detail-icon"><Icon name={i.type} size={14} /></span>{typeLabel[i.type]} · {date(d.date, { weekday: 'short', day: 'numeric', month: 'short' })} · {i.time}{i.end && `–${i.end}`}</p>
+                <h2 tabindex="-1">{i.name}</h2>
+                {i.cost !== undefined && <p class="detail-cost">{local.format(i.cost)}{conv(i.cost) && <span> {conv(i.cost)}</span>}</p>}
+                {i.note && <p class="detail-note">{i.note}</p>}
+                {(i.place?.address || i.place?.hours || i.place?.website || i.place?.phone) && (
+                  <dl class="detail-facts">
+                    {i.place.address && <div><dt>Endereço</dt><dd>{i.place.address}</dd></div>}
+                    {i.place.hours && <div><dt>Horário <small>segundo o OpenStreetMap</small></dt><dd>{hoursPt(i.place.hours).map((h) => <span>{h}</span>)}</dd></div>}
+                    {i.place.phone && <div><dt>Telefone</dt><dd><a href={`tel:${i.place.phone.replace(/[^+\d]/g, '')}`}>{i.place.phone}</a></dd></div>}
+                    {i.place.website && <div><dt>Site</dt><dd><a href={i.place.website} target="_blank" rel="noopener">{host(i.place.website)}</a></dd></div>}
+                  </dl>
+                )}
+                <a class="detail-maps" href={`https://www.google.com/maps/search/?api=1&query=${i.lat},${i.lng}`} target="_blank" rel="noopener"><Icon name="external" size={15} /> Abrir no Google Maps</a>
+              </div>
+            </article>
+          )))}
+        </section>
+        <button type="button" class="map-close"><Icon name="list" size={18} /> <span class="on-phone">Lista</span><span class="on-desk">Ocultar mapa</span></button>
+      </aside>
+    </div>
+
+    <button type="button" class="map-open"><Icon name="map" size={18} /> <span class="on-phone">Ver no mapa</span><span class="on-desk">Mostrar mapa</span></button>
+
+    <script type="application/json" id="trip-map" set:html={JSON.stringify(mapData)} />
+    <script>
+      import L from 'leaflet';
+      import 'leaflet/dist/leaflet.css';
+
+      type Stop = { type: string; name: string; time: string; lat: number; lng: number };
+      const days: { date: string; stops: Stop[]; legs: ([number, number][] | null)[] }[] = JSON.parse(document.getElementById('trip-map')!.textContent!);
+      const root = document.documentElement;
+      const mobile = matchMedia('(max-width: 959px)');
+
+      const map = L.map('map', { zoomControl: false });
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+      map.attributionControl.setPrefix(false);
+      // The timeline never depends on the map: tile failures only change the status line.
+      const status = document.querySelector<HTMLElement>('.map-status')!;
+      // Esri World Street Map (keyless, Google-like palette); at night the same tiles are dimmed by --tiles.
+      const tiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles © <a href="https://www.esri.com">Esri</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+      let tileOk = false;
+      tiles.on('tileload', () => { tileOk = true; status.hidden = true; });
+      tiles.on('tileerror', () => { if (!tileOk) { status.hidden = false; status.textContent = 'Mapa indisponível sem conexão'; } });
+      const accent = () => getComputedStyle(root).getPropertyValue('--accent').trim();
+      const layer = L.layerGroup().addTo(map);
+      let markers: L.Marker[] = [];
+      let current = -1;
+
+      // Time states in the viewer's local clock: past (ended), now (in progress), next (first upcoming today), future.
+      // Recomputed every minute and whenever the tab comes back, so a page left open mid-trip stays right.
+      // ?agora=2026-11-12T13:00 pins the clock, to preview a trip day before it happens.
+      const pinned = new URLSearchParams(location.search).get('agora');
+      const stopEls = [...document.querySelectorAll<HTMLElement>('.stop')];
+      const state = new Map<string, string>();
+      let today = '';
+      let focus: HTMLElement | undefined;
+      const card = document.querySelector<HTMLButtonElement>('.next-card')!;
+      const jump = document.querySelector<HTMLButtonElement>('.days-next')!;
+      function updateTimes() {
+        const nowD = pinned ? new Date(pinned) : new Date();
+        today = nowD.toLocaleDateString('sv-SE');
+        const hhmm = nowD.toTimeString().slice(0, 5);
+        state.clear();
+        for (const [i, el] of stopEls.entries()) {
+          // Without an end time, a stop lasts until the next stop of the same day starts.
+          const after = stopEls[i + 1]?.dataset.date === el.dataset.date ? stopEls[i + 1].dataset.time! : '23:59';
+          const d = el.dataset.date!, t = el.dataset.time!, end = el.dataset.end || after;
+          const s = d < today || (d === today && end < hhmm) ? 'past' : d === today && t <= hhmm ? 'now' : '';
+          if (s) state.set(`${el.dataset.day}-${el.dataset.stop}`, s);
+        }
+        const upcoming = stopEls.find((el) => el.dataset.date === today && el.dataset.time! > hhmm);
+        if (upcoming) state.set(`${upcoming.dataset.day}-${upcoming.dataset.stop}`, 'next');
+        focus = undefined;
+        for (const el of stopEls) {
+          const s = state.get(`${el.dataset.day}-${el.dataset.stop}`) ?? '';
+          el.classList.remove('is-past', 'is-now', 'is-next');
+          if (s) el.classList.add(`is-${s}`);
+          if (s === 'now' || s === 'next') { el.querySelector('.now-tag')!.textContent = s === 'now' ? 'Agora' : 'Próximo'; focus ??= el; }
+        }
+        document.querySelectorAll<HTMLElement>('.days a').forEach((a) => a.classList.toggle('is-today', a.dataset.date === today));
+        // The card names the current or next stop and how to get there; it only exists during the trip.
+        card.hidden = jump.hidden = !focus;
+        if (focus) {
+          const label = focus.querySelector('.now-tag')!.textContent!;
+          const time = focus.querySelector('time')!.textContent!;
+          const name = focus.querySelector('.stop-link')!.textContent!;
+          const leg = focus.previousElementSibling?.classList.contains('leg') ? focus.previousElementSibling.querySelector('span')!.textContent! : '';
+          card.querySelector('.now-tag')!.textContent = label;
+          card.querySelector('.next-main')!.textContent = `${time} · ${name}`;
+          card.querySelector('.next-leg')!.textContent = leg;
+          card.setAttribute('aria-label', `${label}: ${time}, ${name}${leg ? `. ${leg}` : ''}. Ir para a parada`);
+          jump.textContent = `${label} ${time}`;
+          jump.setAttribute('aria-label', `Ir para ${label.toLowerCase()}: ${time}, ${name}`);
+        }
+      }
+      const goToFocus = () => { if (!focus) return; focus.scrollIntoView({ behavior: motion(), block: 'center' }); focus.querySelector<HTMLElement>('.stop-link')!.focus({ preventScroll: true }); };
+      card.addEventListener('click', goToFocus);
+      jump.addEventListener('click', goToFocus);
+      const stateOf = (n: number, k: number) => state.get(`${n}-${k}`) ?? '';
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+      const motion = (): ScrollBehavior => (reduce.matches ? 'auto' : 'smooth');
+
+      function showDay(n: number, fit = true) {
+        if (n === current) return;
+        current = n;
+        layer.clearLayers();
+        const pts = days[n].stops.map((s) => L.latLng(s.lat, s.lng));
+        pts.slice(1).forEach((b, k) => {
+          const leg = days[n].legs[k];
+          L.polyline(leg ?? [pts[k], b], { color: accent(), weight: 4, opacity: leg ? 0.85 : 1, dashArray: leg ? undefined : '1 8', lineCap: 'round' }).addTo(layer);
+        });
+        markers = days[n].stops.map((s, k) =>
+          L.marker([s.lat, s.lng], {
+            icon: L.divIcon({ className: `pin pin-${s.type}${stateOf(n, k) ? ' is-' + stateOf(n, k) : ''}`, html: `<span>${k + 1}</span>`, iconSize: [28, 28] }),
+            title: s.name,
+          })
+            .bindTooltip(`${s.time} · ${s.name}`, { direction: 'top', offset: [0, -14] })
+            .on('click', () => focusStop(n, k, false))
+            .addTo(layer),
+        );
+        document.querySelectorAll<HTMLElement>('.days a').forEach((a) => a.toggleAttribute('aria-current', Number(a.dataset.day) === n));
+        if (fit) fitDay();
+      }
+
+      function fitDay() {
+        const pts = days[current].stops.map((s) => L.latLng(s.lat, s.lng));
+        map.fitBounds(L.latLngBounds(pts), { padding: [48, 48], maxZoom: 15 });
+      }
+
+      function focusStop(n: number, k: number, fromList: boolean) {
+        showDay(n, false);
+        const s = days[n].stops[k];
+        const z = Math.max(map.getZoom(), 15);
+        map.flyTo(clearOfPanel(L.latLng(s.lat, s.lng), z), z, { duration: 0.6, animate: !reduce.matches });
+        markers.forEach((m, i) => m.getElement()?.classList.toggle('is-active', i === k));
+        markers[k].openTooltip();
+        document.querySelectorAll('.stop.is-active').forEach((e) => e.classList.remove('is-active'));
+        const li = document.querySelector<HTMLElement>(`.stop[data-day="${n}"][data-stop="${k}"]`);
+        li?.classList.add('is-active');
+        if (!fromList && !mobile.matches) li?.scrollIntoView({ behavior: motion(), block: 'center' });
+      }
+
+      // The detail panel covers the right side (desktop) or the bottom (phone): offset the centre so the pin lands in the visible part.
+      function clearOfPanel(ll: L.LatLng, z: number) {
+        if (panel.hidden) return ll;
+        const p = panel.getBoundingClientRect(), m = map.getContainer().getBoundingClientRect();
+        const shift = mobile.matches ? L.point(0, (m.bottom - p.top) / 2) : L.point(p.width / 2, 0);
+        return map.unproject(map.project(ll, z).add(shift), z);
+      }
+
+      // On phones the map is hidden until opened, so it must be resized before any move.
+      // Desktop shows the map beside the list unless the viewer hid it; the choice is remembered.
+      // On phones the open map is a modal sheet: the list behind it goes inert and focus moves into it and back.
+      const plan = document.querySelector<HTMLElement>('.plan')!;
+      const mapwrap = document.querySelector<HTMLElement>('.mapwrap')!;
+      const mapOpen = document.querySelector<HTMLButtonElement>('.map-open')!;
+      const mapClose = document.querySelector<HTMLButtonElement>('.map-close')!;
+      function openMap(open: boolean, fit = true) {
+        if (!mobile.matches) {
+          root.classList.toggle('map-off', !open);
+          try { localStorage.setItem('map-off', open ? '' : '1'); } catch {}
+        }
+        const sheet = open && mobile.matches, wasSheet = root.classList.contains('map-is-open');
+        root.classList.toggle('map-is-open', sheet);
+        plan.inert = mapOpen.inert = sheet;
+        if (sheet) { mapwrap.setAttribute('role', 'dialog'); mapwrap.setAttribute('aria-modal', 'true'); }
+        else { mapwrap.removeAttribute('role'); mapwrap.removeAttribute('aria-modal'); }
+        map.invalidateSize();
+        if (open && fit) fitDay();
+        if (sheet && !wasSheet) mapClose.focus();
+        else if (!sheet && wasSheet) (openLink ?? mapOpen).focus({ preventScroll: true });
+      }
+
+      // Clicking a row opens its details over the map column; hovering only previews it on the map.
+      const panel = document.getElementById('detail')!;
+      let openLink: HTMLButtonElement | undefined;
+      function openDetail(b: HTMLButtonElement) {
+        const n = Number(b.dataset.day), k = Number(b.dataset.stop);
+        if (mobile.matches || root.classList.contains('map-off')) openMap(true, false);
+        panel.querySelectorAll<HTMLElement>('.detail').forEach((a) => (a.hidden = !(a.dataset.day === String(n) && a.dataset.stop === String(k))));
+        // Gallery photos load only when their item is opened.
+        panel.querySelectorAll<HTMLImageElement>('.detail:not([hidden]) img[data-src]').forEach((img) => { img.src = img.dataset.src!; img.removeAttribute('data-src'); });
+        panel.querySelector<HTMLElement>('.detail:not([hidden]) .gallery')?.scrollTo({ left: 0 });
+        panel.hidden = false;
+        root.classList.add('detail-open');
+        openLink?.setAttribute('aria-expanded', 'false');
+        openLink = b;
+        b.setAttribute('aria-expanded', 'true');
+        map.invalidateSize();
+        focusStop(n, k, true);
+        panel.querySelector<HTMLElement>('.detail:not([hidden]) h2')!.focus({ preventScroll: true });
+      }
+      function closeDetail() {
+        if (panel.hidden) return false;
+        panel.hidden = true;
+        root.classList.remove('detail-open');
+        openLink?.setAttribute('aria-expanded', 'false');
+        if (!plan.inert) openLink?.focus({ preventScroll: true });
+        requestAnimationFrame(() => map.invalidateSize());
+        return true;
+      }
+      panel.querySelector('.detail-close')!.addEventListener('click', closeDetail);
+      document.querySelectorAll<HTMLButtonElement>('.stop-link').forEach((b) => {
+        b.addEventListener('click', () => openDetail(b));
+        b.closest('.stop')!.addEventListener('mouseenter', () => !mobile.matches && !root.classList.contains('map-off') && !root.classList.contains('detail-open') && focusStop(Number(b.dataset.day), Number(b.dataset.stop), true));
+      });
+      mapOpen.addEventListener('click', () => openMap(true));
+      mapClose.addEventListener('click', () => { closeDetail(); openMap(false); });
+      addEventListener('keydown', (e) => e.key === 'Escape' && !closeDetail() && mobile.matches && openMap(false));
+
+      // The day in view drives the map.
+      const io = new IntersectionObserver(
+        (entries) => entries.forEach((e) => e.isIntersecting && showDay(Number((e.target as HTMLElement).dataset.day))),
+        { rootMargin: '-35% 0px -60% 0px' },
+      );
+      document.querySelectorAll('.day').forEach((s) => io.observe(s));
+      updateTimes();
+      const todayIdx = days.findIndex((d) => d.date === today);
+      showDay(todayIdx >= 0 ? todayIdx : 0);
+      focus?.scrollIntoView({ block: 'center' });
+      const refresh = () => { updateTimes(); const n = current; current = -1; showDay(n, false); };
+      setInterval(refresh, 60_000);
+      document.addEventListener('visibilitychange', () => document.visibilityState === 'visible' && refresh());
+
+      // Redraw the route when the system theme flips, so it follows the accent.
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { const n = current; current = -1; showDay(n, false); });
+    </script>
+  </body>
+</html>

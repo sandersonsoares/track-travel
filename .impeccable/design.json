@@ -1,0 +1,516 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T01:59:01+00:00",
+  "title": "Design System: Roteiros",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#fbfbfa",
+        "tonalRamp": [
+          "#2a2a22",
+          "#4a4a3b",
+          "#696954",
+          "#88886d",
+          "#a2a28b",
+          "#bbbbaa",
+          "#d6d6cc",
+          "#f4f4f1"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#17191c",
+        "tonalRamp": [
+          "#22252a",
+          "#3c4149",
+          "#555c68",
+          "#6e7886",
+          "#8c94a1",
+          "#abb1ba",
+          "#cdd0d6",
+          "#f1f2f4"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#555b63",
+        "tonalRamp": [
+          "#232629",
+          "#3d4247",
+          "#575d66",
+          "#717984",
+          "#8e959e",
+          "#adb2b8",
+          "#ced1d5",
+          "#f1f2f3"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#646a72",
+        "tonalRamp": [
+          "#242629",
+          "#3e4247",
+          "#585d65",
+          "#727982",
+          "#90959d",
+          "#adb2b8",
+          "#ced1d4",
+          "#f1f2f3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#e6e7e4",
+        "tonalRamp": [
+          "#272824",
+          "#44463e",
+          "#606459",
+          "#7d8273",
+          "#989d90",
+          "#b4b7ae",
+          "#d2d4ce",
+          "#f2f3f2"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "#cfd2cd",
+        "tonalRamp": [
+          "#262824",
+          "#42463f",
+          "#5d6359",
+          "#798174",
+          "#959c91",
+          "#b2b7ae",
+          "#d1d4cf",
+          "#f2f3f2"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal Orange",
+        "canonical": "#b93d0a"
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Orange Wash",
+        "canonical": "#fdeee4"
+      },
+      "food": {
+        "role": "tertiary",
+        "displayName": "Wine",
+        "canonical": "#9b2343"
+      },
+      "place": {
+        "role": "tertiary",
+        "displayName": "Atlas Blue",
+        "canonical": "#2f5fa8",
+        "tonalRamp": [
+          "#11223c",
+          "#1d3b68",
+          "#295393",
+          "#366cbf",
+          "#5c8ad1",
+          "#87aade",
+          "#b7cceb",
+          "#ebf1f9"
+        ]
+      },
+      "activity": {
+        "role": "tertiary",
+        "displayName": "Muted Violet",
+        "canonical": "#7b4bb0",
+        "tonalRamp": [
+          "#251736",
+          "#41285d",
+          "#5c3884",
+          "#7849ac",
+          "#946cc1",
+          "#b194d1",
+          "#d0bfe4",
+          "#f2edf7"
+        ]
+      },
+      "lodging": {
+        "role": "tertiary",
+        "displayName": "Slate",
+        "canonical": "#5a6470",
+        "tonalRamp": [
+          "#22262a",
+          "#3b424a",
+          "#545d69",
+          "#6d7988",
+          "#8b95a2",
+          "#aab2bb",
+          "#ccd1d6",
+          "#f1f2f4"
+        ]
+      },
+      "notice-bg": {
+        "role": "neutral",
+        "displayName": "Notice Amber",
+        "canonical": "#fff7e0",
+        "tonalRamp": [
+          "#4c3900",
+          "#856200",
+          "#bd8c00",
+          "#f5b600",
+          "#ffc92e",
+          "#ffd866",
+          "#ffe7a3",
+          "#fff8e5"
+        ]
+      },
+      "notice-ink": {
+        "role": "neutral",
+        "displayName": "Notice Ink",
+        "canonical": "#6b4d00",
+        "tonalRamp": [
+          "#4c3700",
+          "#855f00",
+          "#bd8800",
+          "#f5b000",
+          "#ffc42e",
+          "#ffd466",
+          "#ffe5a3",
+          "#fff8e5"
+        ]
+      },
+      "dark-ground": {
+        "role": "neutral",
+        "displayName": "Dark Paper",
+        "canonical": "#121416",
+        "tonalRamp": [
+          "#22262a",
+          "#3c4249",
+          "#555e68",
+          "#6e7a87",
+          "#8c96a1",
+          "#abb2ba",
+          "#cdd1d6",
+          "#f1f2f4"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark White",
+        "canonical": "#1b1e21",
+        "tonalRamp": [
+          "#22262a",
+          "#3c4249",
+          "#555e68",
+          "#6e7a87",
+          "#8c96a1",
+          "#abb2ba",
+          "#cdd1d6",
+          "#f1f2f4"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "canonical": "#eceeef",
+        "tonalRamp": [
+          "#23272a",
+          "#3d4448",
+          "#566166",
+          "#707e85",
+          "#8d999f",
+          "#acb5b9",
+          "#cdd2d5",
+          "#f1f3f3"
+        ]
+      },
+      "dark-ink-2": {
+        "role": "neutral",
+        "displayName": "Dark Graphite",
+        "canonical": "#b4b9bf",
+        "tonalRamp": [
+          "#232629",
+          "#3d4248",
+          "#575e66",
+          "#717a84",
+          "#8e969f",
+          "#acb2b9",
+          "#cdd1d5",
+          "#f1f2f3"
+        ]
+      },
+      "dark-ink-3": {
+        "role": "neutral",
+        "displayName": "Dark Muted Slate",
+        "canonical": "#9aa0a7",
+        "tonalRamp": [
+          "#242629",
+          "#3e4247",
+          "#585e65",
+          "#727a83",
+          "#8f969e",
+          "#adb2b8",
+          "#ced1d4",
+          "#f1f2f3"
+        ]
+      },
+      "dark-rule": {
+        "role": "neutral",
+        "displayName": "Dark Hairline",
+        "canonical": "#2a2e32",
+        "tonalRamp": [
+          "#23262a",
+          "#3d4248",
+          "#565e67",
+          "#707a85",
+          "#8d96a0",
+          "#acb2b9",
+          "#cdd1d5",
+          "#f1f2f3"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Signal Orange",
+        "canonical": "#ff9a5c"
+      },
+      "dark-accent-soft": {
+        "role": "primary",
+        "displayName": "Dark Orange Wash",
+        "canonical": "#3a2216"
+      },
+      "dark-food": {
+        "role": "tertiary",
+        "displayName": "Dark Wine",
+        "canonical": "#f08aa6"
+      },
+      "dark-place": {
+        "role": "tertiary",
+        "displayName": "Dark Atlas Blue",
+        "canonical": "#86aef0"
+      },
+      "dark-activity": {
+        "role": "tertiary",
+        "displayName": "Dark Muted Violet",
+        "canonical": "#c4a3f0"
+      },
+      "dark-lodging": {
+        "role": "tertiary",
+        "displayName": "Dark Slate",
+        "canonical": "#a3adb8"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Trip title, once per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Day title."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Trip facts."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Stop name; subtitle at 400."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base text."
+      },
+      "body-strong": {
+        "displayName": "Body Strong",
+        "purpose": "Stop time and cost."
+      },
+      "body-sm": {
+        "displayName": "Body Sm",
+        "purpose": "Notes, day meta, date line, notice."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Fact labels, rate, legs, tooltips, pin numerals."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Category label, tab weekday, end time."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Agora/Próximo tag only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-pill",
+        "value": "0 6px 20px rgb(0 0 0 / .22), 0 2px 4px rgb(0 0 0 / .12)",
+        "purpose": "Mobile Ver no mapa button."
+      },
+      {
+        "name": "map-control",
+        "value": "0 4px 14px rgb(0 0 0 / .18)",
+        "purpose": "Controls over the map."
+      },
+      {
+        "name": "map-pin",
+        "value": "0 2px 6px rgb(0 0 0 / .25)",
+        "purpose": "Numbered pins on tiles."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(.2, 0, 0, 1)",
+        "purpose": "All state transitions, 150–250ms."
+      },
+      {
+        "name": "sheet",
+        "value": "250ms",
+        "purpose": "Mobile map sheet slide."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "480px"
+      },
+      {
+        "name": "split",
+        "value": "960px"
+      },
+      {
+        "name": "wide",
+        "value": "1400px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Day Tab",
+      "kind": "nav",
+      "refersTo": "day-tab",
+      "description": "Day Tab",
+      "html": "<nav class=\"ds-days\"><a class=\"ds-tab\" aria-current=\"true\" href=\"#\"><b>Dia 1</b><span>sáb., 14 jun.</span></a><a class=\"ds-tab\" href=\"#\"><b>Dia 2</b><span>dom., 15 jun.</span></a></nav>",
+      "css": ".ds-days{display:flex;gap:6px}.ds-tab{display:grid;min-height:44px;align-content:center;padding:6px 14px;border-radius:999px;border:1px solid #e6e7e4;background:#fff;color:#555b63;text-decoration:none;line-height:1.2;font:400 .75rem system-ui,sans-serif;transition:background-color .2s,color .2s,border-color .2s}.ds-tab b{font-size:.875rem;font-weight:600}.ds-tab:hover{border-color:#cfd2cd;color:#17191c}.ds-tab[aria-current]{background:#17191c;border-color:#17191c;color:#fff}.ds-tab:focus-visible{outline:2px solid #b93d0a;outline-offset:2px}"
+    },
+    {
+      "name": "Timeline Stop",
+      "kind": "custom",
+      "refersTo": "stop-row-active",
+      "description": "Timeline Stop",
+      "html": "<div class=\"ds-stop is-next\"><div class=\"ds-time\">10:00<small>até 12:30</small></div><span class=\"ds-pin\">2</span><div><span class=\"ds-type\">Lugar <i>Próximo</i></span><h3>Mosteiro dos Jerónimos</h3><p>Exemplo — dado fictício.</p></div><div class=\"ds-cost\">€ 12,00<span>≈ R$ 72</span></div></div>",
+      "css": ".ds-stop{display:grid;grid-template-columns:52px 28px 1fr auto;gap:12px;padding:8px 0 12px;border-radius:12px;font:400 1rem/1.5 system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#17191c}.ds-stop:hover{background:#fdeee4}.ds-time{font-weight:600;font-size:.9375rem;display:grid}.ds-time small{font-size:.75rem;font-weight:400;color:#646a72}.ds-pin{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;border:2px solid #17191c;background:#fff;font-size:.8125rem;font-weight:700}.is-next .ds-pin{background:#b93d0a;border-color:#b93d0a;color:#fff}.ds-type{font-size:.75rem;font-weight:600;color:#2f5fa8}.ds-type i{font-style:normal;margin-left:6px;padding:1px 7px;border-radius:999px;background:#b93d0a;color:#fff;font-size:.6875rem}.ds-stop h3{margin:2px 0 0;font-size:1.0625rem;font-weight:600;line-height:1.3}.ds-stop p{margin:4px 0 0;font-size:.875rem;color:#555b63}.ds-cost{font-weight:600;font-size:.9375rem;white-space:nowrap}.ds-cost span{color:#646a72;font-weight:400;font-size:.875em;margin-left:4px}"
+    },
+    {
+      "name": "Locate Button",
+      "kind": "button",
+      "refersTo": "locate-button",
+      "description": "Locate Button",
+      "html": "<button class=\"ds-locate\" aria-label=\"Ver no mapa\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z\"/><circle cx=\"12\" cy=\"10\" r=\"2.5\"/></svg></button>",
+      "css": ".ds-locate{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;border:1px solid #e6e7e4;background:#fff;color:#555b63;cursor:pointer;transition:color .15s,border-color .15s}.ds-locate:hover{color:#b93d0a;border-color:#b93d0a}.ds-locate:active{background:#fdeee4}.ds-locate:focus-visible{outline:2px solid #b93d0a;outline-offset:2px}"
+    },
+    {
+      "name": "Floating Map Button",
+      "kind": "button",
+      "refersTo": "map-button-floating",
+      "description": "Floating Map Button",
+      "html": "<button class=\"ds-fab\">Ver no mapa</button>",
+      "css": ".ds-fab{height:48px;padding:12px 20px;border-radius:999px;border:0;background:#17191c;color:#fff;font:600 .9375rem system-ui,sans-serif;box-shadow:0 6px 20px rgb(0 0 0/.22),0 2px 4px rgb(0 0 0/.12);cursor:pointer}.ds-fab:hover{background:#2a2e32}.ds-fab:focus-visible{outline:2px solid #b93d0a;outline-offset:3px}"
+    },
+    {
+      "name": "Now Tag",
+      "kind": "chip",
+      "refersTo": "now-tag",
+      "description": "Now Tag",
+      "html": "<span class=\"ds-now\">Agora</span>",
+      "css": ".ds-now{display:inline-block;padding:1px 7px;border-radius:999px;background:#b93d0a;color:#fff;font:600 .6875rem/1.2 system-ui,sans-serif}"
+    },
+    {
+      "name": "Placeholder Notice",
+      "kind": "custom",
+      "refersTo": "placeholder-notice",
+      "description": "Placeholder Notice",
+      "html": "<p class=\"ds-notice\">Roteiro de exemplo: preços, horários e lugares são fictícios.</p>",
+      "css": ".ds-notice{margin:0;padding:10px 12px;border-radius:10px;background:#fff7e0;color:#6b4d00;font:400 .875rem/1.45 system-ui,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Folha de Bolso",
+    "overview": "Category-standard travel timeline beside a live map at Wanderlog/Google Travel craft: quiet light world (with system dark theme), one signal orange for position and route, exact figures, pins mirrored on the map. Voice: agile and utilitarian; components soft and round.",
+    "keyCharacteristics": [
+      "Light default, full dark theme",
+      "One orange accent for position and route",
+      "Numbered rail mirrored on the map",
+      "Past / current / future time states",
+      "Local cost with ≈ R$ beside it",
+      "Flat flow; shadows only for floating controls"
+    ],
+    "rules": [
+      {
+        "name": "The One Orange Rule",
+        "body": "Orange marks where you are in the trip; nothing else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tint-Not-Fill Rule",
+        "body": "Category colours only tint icon and label.",
+        "section": "colors"
+      },
+      {
+        "name": "The Contrast Floor Rule",
+        "body": "No text below 4.5:1 in either theme; recede with ink-3, not opacity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Every number tabular; cost always paired with ≈ R$.",
+        "section": "typography"
+      },
+      {
+        "name": "The Data-Above-Heading Rule",
+        "body": "Only real data above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float-Only Shadow Rule",
+        "body": "Shadows only for things above the map or scroll.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do pair local cost with ≈ R$ and state the rate once",
+      "Do mirror pin shape, number and state on the map",
+      "Do keep tap targets ≥44px",
+      "Do keep the timeline usable without the map"
+    ],
+    "donts": [
+      "Don't wrap stops in cards",
+      "Don't use category colours as fills",
+      "Don't fade small text with opacity",
+      "Don't show sample data without the notice",
+      "Don't load web fonts"
+    ]
+  }
+}

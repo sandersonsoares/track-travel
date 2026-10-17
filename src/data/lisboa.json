@@ -1,0 +1,674 @@
+{
+  "placeholder": true,
+  "title": "Lisboa e Sintra",
+  "subtitle": "Três dias entre bairros, miradouros e palácios",
+  "travelers": 2,
+  "countries": [
+    "PT"
+  ],
+  "currency": "EUR",
+  "rateBRL": 6.1,
+  "rateDate": "2026-10-01",
+  "days": [
+    {
+      "date": "2026-11-12",
+      "title": "Belém e beira-rio",
+      "items": [
+        {
+          "time": "08:30",
+          "type": "lodging",
+          "name": "Hotel na Baixa",
+          "note": "Ponto de partida. Café da manhã incluso.",
+          "lat": 38.711,
+          "lng": -9.137,
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Baixa_Pombalina_002.jpg",
+            "author": "Alegna13",
+            "license": "CC BY-SA 3.0"
+          }
+        },
+        {
+          "time": "09:30",
+          "end": "11:30",
+          "type": "place",
+          "name": "Mosteiro dos Jerónimos",
+          "note": "Comprar ingresso online para evitar fila.",
+          "cost": 18,
+          "lat": 38.6979,
+          "lng": -9.2068,
+          "leg": {
+            "mode": "tram",
+            "minutes": 30,
+            "cost": 3.1,
+            "label": "Elétrico 15E"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg/960px-1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg",
+                "author": "Holger Uwe Schmitt",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Mosteiro_dos_Jer%C3%B3nimos_-_Lisbon_%2852742527644%29.jpg/960px-Mosteiro_dos_Jer%C3%B3nimos_-_Lisbon_%2852742527644%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Mosteiro_dos_Jer%C3%B3nimos_-_Lisbon_(52742527644).jpg",
+                "author": "Haydn Blackey from Cardiff, Wales",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/33487-Lisbon_%2835577499003%29.jpg/960px-33487-Lisbon_%2835577499003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:33487-Lisbon_(35577499003).jpg",
+                "author": "xiquinhosilva from Cacau",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/33534-Lisbon_%2849090554052%29.jpg/960px-33534-Lisbon_%2849090554052%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:33534-Lisbon_(49090554052).jpg",
+                "author": "xiquinhosilva from Cacau",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/33537-Lisbon_%2835989141090%29.jpg/960px-33537-Lisbon_%2835989141090%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:33537-Lisbon_(35989141090).jpg",
+                "author": "xiquinhosilva from Cacau",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ambient_Light%2C_Mosterio_dos_Jer%C3%B3nimos%2C_Lisbon_Portugal_%2854123888415%29.jpg/960px-Ambient_Light%2C_Mosterio_dos_Jer%C3%B3nimos%2C_Lisbon_Portugal_%2854123888415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Ambient_Light,_Mosterio_dos_Jer%C3%B3nimos,_Lisbon_Portugal_(54123888415).jpg",
+                "author": "londonexpat",
+                "license": "CC BY-SA 2.0"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg/960px-1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg",
+            "author": "Holger Uwe Schmitt",
+            "license": "CC BY-SA 4.0"
+          }
+        },
+        {
+          "time": "11:40",
+          "type": "food",
+          "name": "Pastéis de Belém",
+          "note": "Balcão de viagem anda mais rápido que as mesas.",
+          "cost": 6,
+          "lat": 38.6975,
+          "lng": -9.2032,
+          "leg": {
+            "mode": "walk",
+            "minutes": 4
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Past%C3%A9is_de_Bel%C3%A9m_-13.jpg/960px-Past%C3%A9is_de_Bel%C3%A9m_-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bel%C3%A9m_-13.jpg",
+            "author": "claralieu",
+            "license": "CC BY 2.0"
+          }
+        },
+        {
+          "time": "12:30",
+          "end": "13:30",
+          "type": "place",
+          "name": "Torre de Belém",
+          "cost": 10,
+          "lat": 38.6916,
+          "lng": -9.216,
+          "leg": {
+            "mode": "walk",
+            "minutes": 15
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Belem_Tower_-_April_2019_%282%29.jpg/960px-Belem_Tower_-_April_2019_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Belem_Tower_-_April_2019_(2).jpg",
+                "author": "Rehman Abubakr",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Aerial_view_of_Bel%C3%A9m%2C_Lisboa_%2848212310956%29.jpg/960px-Aerial_view_of_Bel%C3%A9m%2C_Lisboa_%2848212310956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bel%C3%A9m,_Lisboa_(48212310956).jpg",
+                "author": "pedrik",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Bel%C3%A9m_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853886178716%29.jpg/960px-Bel%C3%A9m_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853886178716%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Bel%C3%A9m_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(53886178716).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_001.jpg/960px-Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_001.jpg",
+                "author": "Rafael Lemieszek",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_002.jpg/960px-Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_002.jpg",
+                "author": "Rafael Lemieszek",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_004.jpg/960px-Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Bel%C3%A9m_-_Torre_de_Bel%C3%A9m_-_2025-10-31_17-56-53_004.jpg",
+                "author": "Rafael Lemieszek",
+                "license": "CC BY-SA 4.0"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Belem_Tower_-_April_2019_%282%29.jpg/960px-Belem_Tower_-_April_2019_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Belem_Tower_-_April_2019_(2).jpg",
+            "author": "Rehman Abubakr",
+            "license": "CC BY-SA 4.0"
+          }
+        },
+        {
+          "time": "14:15",
+          "end": "16:30",
+          "type": "activity",
+          "name": "LX Factory",
+          "note": "Livraria Ler Devagar e lojas. Almoço leve por lá.",
+          "cost": 15,
+          "lat": 38.7034,
+          "lng": -9.1786,
+          "leg": {
+            "mode": "bus",
+            "minutes": 20,
+            "cost": 2.1,
+            "label": "Ônibus 728"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/LX_Factory_%2833728936824%29.jpg/960px-LX_Factory_%2833728936824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:LX_Factory_(33728936824).jpg",
+            "author": "Shadowgate from Novara, ITALY",
+            "license": "CC BY 2.0"
+          }
+        },
+        {
+          "time": "17:30",
+          "type": "place",
+          "name": "Miradouro de Santa Catarina",
+          "note": "Pôr do sol.",
+          "lat": 38.7096,
+          "lng": -9.1474,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "cost": 9,
+            "label": "Uber"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg/960px-Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Lisboa_-_Miradouro_de_Santa_Catarina_(53897765512).jpg",
+            "author": "Jorge Franganillo",
+            "license": "CC BY 2.0"
+          }
+        },
+        {
+          "time": "20:00",
+          "type": "food",
+          "name": "Time Out Market",
+          "cost": 25,
+          "lat": 38.7071,
+          "lng": -9.1458,
+          "leg": {
+            "mode": "walk",
+            "minutes": 8
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mercado_da_Ribeira%2C_Time_Out_Market%2C_Lisbon_-_49677105008.jpg/960px-Mercado_da_Ribeira%2C_Time_Out_Market%2C_Lisbon_-_49677105008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Mercado_da_Ribeira,_Time_Out_Market,_Lisbon_-_49677105008.jpg",
+                "author": "Sonse",
+                "license": "CC BY 2.0"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Time_Out_Market%2C_Lisboa_%2840935702680%29.jpg/960px-Time_Out_Market%2C_Lisboa_%2840935702680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Time_Out_Market,_Lisboa_(40935702680).jpg",
+            "author": "FlyingCrimsonPig",
+            "license": "CC BY 2.0"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Alfama e Castelo",
+      "items": [
+        {
+          "time": "09:00",
+          "type": "lodging",
+          "name": "Hotel na Baixa",
+          "lat": 38.711,
+          "lng": -9.137,
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Baixa_Pombalina_002.jpg",
+            "author": "Alegna13",
+            "license": "CC BY-SA 3.0"
+          }
+        },
+        {
+          "time": "09:30",
+          "end": "11:30",
+          "type": "place",
+          "name": "Castelo de São Jorge",
+          "cost": 15,
+          "lat": 38.7139,
+          "lng": -9.1335,
+          "leg": {
+            "mode": "walk",
+            "minutes": 18,
+            "label": "Subida íngreme"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Castelo_Sao_Jorge_Lisboa_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "page": "https://commons.wikimedia.org/wiki/File:Castelo_Sao_Jorge_Lisboa_1.JPG",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/011499_-_Lisboa_%2821691724913%29.jpg/960px-011499_-_Lisboa_%2821691724913%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:011499_-_Lisboa_(21691724913).jpg",
+                "author": "M.Peinado from Alcalá de Henares, España",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/2019-05-16_12-22-39_PT_Lisbon_JHe_K70_%2854144955867%29.jpg/960px-2019-05-16_12-22-39_PT_Lisbon_JHe_K70_%2854144955867%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2019-05-16_12-22-39_PT_Lisbon_JHe_K70_(54144955867).jpg",
+                "author": "Jan Helebrant",
+                "license": "CC0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/2019-05-16_12-34-17_PT_Lisbon_JHe_K70_%2854146275515%29.jpg/960px-2019-05-16_12-34-17_PT_Lisbon_JHe_K70_%2854146275515%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2019-05-16_12-34-17_PT_Lisbon_JHe_K70_(54146275515).jpg",
+                "author": "Jan Helebrant",
+                "license": "CC0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/2019-05-16_12-35-13_PT_Lisbon_JHe_K70_%2854145816051%29.jpg/960px-2019-05-16_12-35-13_PT_Lisbon_JHe_K70_%2854145816051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2019-05-16_12-35-13_PT_Lisbon_JHe_K70_(54145816051).jpg",
+                "author": "Jan Helebrant",
+                "license": "CC0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/2019-05-16_12-35-41_PT_Lisbon_JHe_K70_%2854145816071%29.jpg/960px-2019-05-16_12-35-41_PT_Lisbon_JHe_K70_%2854145816071%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2019-05-16_12-35-41_PT_Lisbon_JHe_K70_(54145816071).jpg",
+                "author": "Jan Helebrant",
+                "license": "CC0"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Castelo_Sao_Jorge_Lisboa_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "page": "https://commons.wikimedia.org/wiki/File:Castelo_Sao_Jorge_Lisboa_1.JPG",
+            "license": "CC BY-SA 2.0"
+          }
+        },
+        {
+          "time": "11:45",
+          "end": "13:00",
+          "type": "activity",
+          "name": "Caminhada por Alfama",
+          "note": "Descer pelas escadinhas até a Sé.",
+          "lat": 38.711,
+          "lng": -9.13,
+          "leg": {
+            "mode": "walk",
+            "minutes": 10
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Alfama%2C_Lisboa_-_2010-09-09.jpg/960px-Alfama%2C_Lisboa_-_2010-09-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Alfama,_Lisboa_-_2010-09-09.jpg",
+            "author": "dirk.olbertz",
+            "license": "CC BY 2.0"
+          }
+        },
+        {
+          "time": "13:15",
+          "type": "food",
+          "name": "Tasca em Alfama",
+          "note": "Reservar. Sardinhas fora de época podem faltar.",
+          "cost": 22,
+          "lat": 38.7097,
+          "lng": -9.1325,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ha_Sardinha_Assada_-_panoramio.jpg/960px-Ha_Sardinha_Assada_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Ha_Sardinha_Assada_-_panoramio.jpg",
+            "author": "Ugo Cuesta",
+            "license": "CC BY-SA 3.0"
+          }
+        },
+        {
+          "time": "15:00",
+          "type": "activity",
+          "name": "Elétrico 28",
+          "note": "Pegar no Largo Portas do Sol, sentido Graça.",
+          "cost": 3.1,
+          "lat": 38.712,
+          "lng": -9.1305,
+          "leg": {
+            "mode": "walk",
+            "minutes": 8
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Tram_28_Lisbon_Portuguese.jpg/960px-Tram_28_Lisbon_Portuguese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Tram_28_Lisbon_Portuguese.jpg",
+            "author": "Ввласенко",
+            "license": "CC BY-SA 4.0"
+          }
+        },
+        {
+          "time": "15:30",
+          "type": "place",
+          "name": "Miradouro da Senhora do Monte",
+          "lat": 38.7193,
+          "lng": -9.1327,
+          "leg": {
+            "mode": "tram",
+            "minutes": 15
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Miradouro_Nossa_Senhora_do_Monte_II.jpg/960px-Miradouro_Nossa_Senhora_do_Monte_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_Nossa_Senhora_do_Monte_II.jpg",
+                "author": "Filipe Rocha,user:sacavem (pt) http://pt.wikipedia.org/wiki/Usu%C3%A1rio:Sacavem",
+                "license": "CC BY-SA 3.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._04.jpg/960px-%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._04.jpg",
+                "author": "Holger Uwe Schmitt",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._05.jpg/960px-%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._05.jpg",
+                "author": "Holger Uwe Schmitt",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._07.jpg/960px-%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:%2B_Abends_mit_dem_Tuck-Tuck_durch_Lissabon._07.jpg",
+                "author": "Holger Uwe Schmitt",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/BAR000273_-_Miradouro_da_Senhora_do_Monte.jpg/960px-BAR000273_-_Miradouro_da_Senhora_do_Monte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:BAR000273_-_Miradouro_da_Senhora_do_Monte.jpg",
+                "author": "José Artur Leitão Bárcia",
+                "license": "Public domain"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BAR000280_-_Padr%C3%A3o_erguido_em_1148.jpg/960px-BAR000280_-_Padr%C3%A3o_erguido_em_1148.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:BAR000280_-_Padr%C3%A3o_erguido_em_1148.jpg",
+                "author": "José Artur Leitão Bárcia",
+                "license": "Public domain"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Miradouro_Nossa_Senhora_do_Monte_II.jpg/960px-Miradouro_Nossa_Senhora_do_Monte_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Miradouro_Nossa_Senhora_do_Monte_II.jpg",
+            "author": "Filipe Rocha,user:sacavem (pt) http://pt.wikipedia.org/wiki/Usu%C3%A1rio:Sacavem",
+            "license": "CC BY-SA 3.0"
+          }
+        },
+        {
+          "time": "20:30",
+          "type": "food",
+          "name": "Jantar em Príncipe Real",
+          "cost": 35,
+          "lat": 38.7163,
+          "lng": -9.1488,
+          "leg": {
+            "mode": "metro",
+            "minutes": 25,
+            "cost": 1.85,
+            "label": "Metrô linha amarela"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lisbon%2C_the_Jardim_do_Pr%C3%ADncipe_Real.JPG/960px-Lisbon%2C_the_Jardim_do_Pr%C3%ADncipe_Real.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Lisbon,_the_Jardim_do_Pr%C3%ADncipe_Real.JPG",
+            "author": "Dguendel",
+            "license": "CC BY 4.0"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Bate-volta a Sintra",
+      "items": [
+        {
+          "time": "08:00",
+          "type": "lodging",
+          "name": "Hotel na Baixa",
+          "lat": 38.711,
+          "lng": -9.137,
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Baixa_Pombalina_002.jpg",
+            "author": "Alegna13",
+            "license": "CC BY-SA 3.0"
+          }
+        },
+        {
+          "time": "09:30",
+          "end": "12:30",
+          "type": "place",
+          "name": "Palácio da Pena",
+          "note": "Chegar cedo. Ônibus 434 sobe da estação.",
+          "cost": 20,
+          "lat": 38.7876,
+          "lng": -9.3906,
+          "leg": {
+            "mode": "train",
+            "minutes": 70,
+            "cost": 2.4,
+            "label": "Trem do Rossio + ônibus 434"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg/960px-Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+                "author": "Singa Hitam",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/2025-c-Sintra%2BPalais_de_Pena_-_13_%2854886752492%29.jpg/960px-2025-c-Sintra%2BPalais_de_Pena_-_13_%2854886752492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2025-c-Sintra%2BPalais_de_Pena_-_13_(54886752492).jpg",
+                "author": "Werner Bayer",
+                "license": "CC0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2025-c-Sintra%2BPalais_de_Pena_-_16_%2854887629251%29.jpg/960px-2025-c-Sintra%2BPalais_de_Pena_-_16_%2854887629251%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:2025-c-Sintra%2BPalais_de_Pena_-_16_(54887629251).jpg",
+                "author": "Werner Bayer",
+                "license": "CC0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Bust_of_D._Fernando_II_%2855255555367%29.jpg/960px-Bust_of_D._Fernando_II_%2855255555367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Bust_of_D._Fernando_II_(55255555367).jpg",
+                "author": "Michael Gaylard from Horsham, UK",
+                "license": "CC BY 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Casa_%28Pal%C3%A1cio_da_Pena%29.jpg/960px-Casa_%28Pal%C3%A1cio_da_Pena%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Casa_(Pal%C3%A1cio_da_Pena).jpg",
+                "author": "Martina Dias",
+                "license": "CC BY-SA 4.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Civic_Greeting_to_King_Manuel_II_of_Portugal%2C_Westminster%2C_1909_%2855256687064%29.jpg/960px-Civic_Greeting_to_King_Manuel_II_of_Portugal%2C_Westminster%2C_1909_%2855256687064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Civic_Greeting_to_King_Manuel_II_of_Portugal,_Westminster,_1909_(55256687064).jpg",
+                "author": "Michael Gaylard from Horsham, UK",
+                "license": "CC BY 4.0"
+              }
+            ]
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg/960px-Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Sintra_-_Palacio_da_Pena_(20332995770).jpg",
+            "author": "Singa Hitam",
+            "license": "CC BY 2.0"
+          }
+        },
+        {
+          "time": "13:00",
+          "type": "food",
+          "name": "Piriquita",
+          "note": "Travesseiros e queijadas.",
+          "cost": 8,
+          "lat": 38.7977,
+          "lng": -9.3906,
+          "leg": {
+            "mode": "bus",
+            "minutes": 15,
+            "cost": 0
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg/960px-Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra,_Portugal_(55139884975).jpg",
+            "author": "Philip Mallis from Melbourne",
+            "license": "CC BY-SA 4.0"
+          }
+        },
+        {
+          "time": "14:00",
+          "end": "16:30",
+          "type": "place",
+          "name": "Quinta da Regaleira",
+          "note": "Poço Iniciático. Levar lanterna do celular.",
+          "cost": 15,
+          "lat": 38.7963,
+          "lng": -9.396,
+          "leg": {
+            "mode": "walk",
+            "minutes": 12
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg/960px-Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Po%C3%A7o_inici%C3%A1tico,_Quinta_da_Regaleira,_Sintra,_Portugal_julesvernex2.jpg",
+            "author": "Jules Verne Times Two",
+            "license": "CC BY-SA 4.0"
+          }
+        },
+        {
+          "time": "20:30",
+          "type": "food",
+          "name": "Cervejaria Ramiro",
+          "note": "Fila sem reserva. Chegar antes das 20h.",
+          "cost": 40,
+          "lat": 38.7208,
+          "lng": -9.1356,
+          "leg": {
+            "mode": "train",
+            "minutes": 60,
+            "cost": 2.4,
+            "label": "Trem para o Rossio"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": []
+          },
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cervejaria_Ramiro_%2829109082128%29.jpg/960px-Cervejaria_Ramiro_%2829109082128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Cervejaria_Ramiro_(29109082128).jpg",
+            "author": "Kent Wang from London, United Kingdom",
+            "license": "CC BY-SA 2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
