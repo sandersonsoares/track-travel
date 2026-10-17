@@ -143,14 +143,13 @@
     },
     {
       "date": "2026-11-04",
-      "title": "Paraguai: compras + Yup Star no pôr do sol",
+      "title": "Paraguai: roteiro de compras + Yup Star e Marco",
       "items": [
         {
-          "time": "07:00",
-          "end": "07:15",
+          "time": "06:55",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Transfer busca no Airbnb. O carro alugado fica na garagem (não pode cruzar a fronteira).",
+          "note": "Levar: passaportes (Hortência e Sanderson), RG da Gracinha, dólares em notas novas e azuis, cartões, carregador e sacolas dobráveis.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -161,23 +160,88 @@
           }
         },
         {
+          "time": "07:00",
+          "end": "07:40",
+          "type": "food",
+          "name": "Café da manhã · Trigo & Cia",
+          "note": "Padaria 24h a 200 m. Café reforçado: o almoço só sai por volta das 13h.",
+          "cost": 45,
+          "lat": -25.5177,
+          "lng": -54.5742,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "200 m"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Aberto 24 horas",
+            "phone": "(45) 3025-3800",
+            "instagram": "https://www.instagram.com/trigoeciafoz/",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Trigo%20%26%20Cia%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "08:00",
+          "end": "08:10",
+          "type": "place",
+          "name": "Estacionar · Pousada e Estacionamento 277",
+          "note": "Aberto até 1h30: dá para voltar à noite sem pressa (os vizinhos fecham 16h–17h). Diária a combinar na entrada. Não deixar compras à vista no carro.",
+          "lat": -25.5076,
+          "lng": -54.5932,
+          "leg": {
+            "mode": "car",
+            "minutes": 20,
+            "label": "Rota Google 6 min + margem para achar a vaga"
+          },
+          "place": {
+            "address": "R. Vicente de Carvalho, 21 · Portes, Foz do Iguaçu - PR (10 min a pé da Ponte)",
+            "hours": "Seg–sex 6h–1h30 · sáb 6h–0h · dom 24h",
+            "phone": "(45) 99930-3269",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "photos": [],
+            "osmPending": true
+          },
+          "alternatives": [
+            {
+              "name": "Estacionamento Português",
+              "type": "place",
+              "note": "Coberto e muito bem avaliado (4,9), mas FECHA ÀS 16H: só serve se voltarem antes.",
+              "place": {
+                "address": "R. Oswaldo Cruz, 301 · Portes, Foz do Iguaçu - PR",
+                "hours": "Seg–sáb 5h30–16h · dom fechado",
+                "phone": "(45) 99957-9106",
+                "website": "https://estacionamentoportugues.netlify.app/",
+                "rating": 4.9,
+                "googlePlaceId": "ChIJx_lq5QiQ9pQRi3T3XOZFq1o",
+                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJx_lq5QiQ9pQRi3T3XOZFq1o",
+                "photos": [],
+                "osmPending": true
+              },
+              "lat": -25.5108,
+              "lng": -54.5964
+            }
+          ]
+        },
+        {
           "time": "08:30",
-          "end": "10:00",
-          "type": "shopping",
-          "name": "CellShop",
-          "note": "Comparar iPhones: garantia, eSIM, versão. Compras fora do orçamento turístico.",
+          "end": "09:40",
+          "type": "activity",
+          "name": "CellShop · iPhone (1ª cotação)",
+          "note": "Começar pela loja mais distante da ponte e voltar em direção a ela. Anotar preço em dólar à vista e no cartão, versão (modelo americano é só eSIM), cor, garantia e nota. Ainda não comprar: comparar com Nissei, Visão Vip e Mega.",
           "lat": -25.5104,
           "lng": -54.6111,
           "leg": {
             "mode": "car",
-            "minutes": 75,
-            "cost": 80,
-            "label": "Transfer + Ponte da Amizade · rota 15 min + fila 45–60 min · ~R$ 239,70 p/ três, a contratar"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/cellshop.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
+            "minutes": 20,
+            "label": "Mototáxi pela Ponte da Amizade (1 por pessoa, combinar o preço antes, capacete) + aduana"
           },
           "place": {
             "address": "Av. Carlos Antonio López c/ Av. Adrián Jara, Ciudad del Este, Paraguai",
@@ -187,28 +251,75 @@
             "rating": 4.5,
             "googlePlaceId": "ChIJY_kGT1WF9pQRpAGp81pvRmQ",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY_kGT1WF9pQRpAGp81pvRmQ",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cellshop%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CellShop%20Ciudad%20del%20Este"
+            "osmPending": true
           }
         },
         {
-          "time": "10:05",
-          "end": "11:30",
-          "type": "shopping",
-          "name": "Nissei",
-          "note": "Fecha às 17h. Comparar preços com a CellShop antes de comprar.",
+          "time": "09:45",
+          "end": "10:30",
+          "type": "activity",
+          "name": "Monalisa · perfumes, maquiagem e moda",
+          "note": "Loja de luxo com produtos originais: boa para perfumes e cosméticos. Fecha 16h30.",
+          "lat": -25.5099,
+          "lng": -54.6104,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "130 m"
+          },
+          "place": {
+            "address": "Monseñor Rodríguez, 654 · Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h30–16h30 · dom 8h30–13h",
+            "phone": "+595 61 500 645",
+            "website": "https://www.monalisa.com.py/",
+            "rating": 4.3,
+            "googlePlaceId": "ChIJYYs4kKqa9pQRrxMbTvnK6fQ",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJYYs4kKqa9pQRrxMbTvnK6fQ",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Monalisa%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "10:35",
+          "end": "11:00",
+          "type": "activity",
+          "name": "Galería Jebai · acessórios baratos (opcional)",
+          "note": "Galeria antiga e movimentada: capinhas, películas, fones, carregadores, bolsas. Pechinchar e evitar eletrônicos caros sem nota.",
+          "lat": -25.5103,
+          "lng": -54.6098,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "90 m"
+          },
+          "place": {
+            "address": "Galería Jebai · Av. Adrián Jara, Ciudad del Este, Paraguai",
+            "hours": "Seg–sex 6h–16h · sáb 6h–15h · dom fechado",
+            "phone": "+595 61 502 266",
+            "website": "https://shoppingjebai.com.py/",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJ0SLnRVWF9pQRgiCD_JCCiUo",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0SLnRVWF9pQRgiCD_JCCiUo",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Jebai%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "11:05",
+          "end": "11:50",
+          "type": "activity",
+          "name": "Nissei · iPhone (2ª cotação) e eletrônicos",
+          "note": "Comparar com a CellShop. Também boa para Apple Watch, AirPods, caixas de som e eletroportáteis. Fecha 17h.",
           "lat": -25.5111,
           "lng": -54.6096,
           "leg": {
             "mode": "walk",
             "minutes": 5,
-            "label": "200 m"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/nissei.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
+            "label": "85 m"
           },
           "place": {
             "address": "Shopping Hijazi, Av. Adrián Jara esq., Ciudad del Este, Paraguai",
@@ -218,120 +329,94 @@
             "rating": 4.9,
             "googlePlaceId": "ChIJzQZs_f-P9pQRq7ZwBVjStQw",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJzQZs_f-P9pQRq7ZwBVjStQw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Nissei%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Nissei%20Ciudad%20del%20Este"
+            "osmPending": true
           }
         },
         {
-          "time": "11:40",
-          "end": "12:30",
-          "type": "food",
-          "name": "Cé La Vi Café",
-          "note": "1º piso do Shopping del Este. Combo inspirado na Dior ~R$ 136 (150.000 guaranis), dividido por três. Contém lactose: Hortência leva a lactase.",
-          "cost": 45,
-          "lat": -25.5099,
-          "lng": -54.6057,
-          "leg": {
-            "mode": "walk",
-            "minutes": 10,
-            "label": "600 m"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Shopping_del_Este_134147.jpg/960px-Shopping_del_Este_134147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_134147.jpg",
-            "author": "Cmasi",
-            "license": "CC BY-SA 4.0"
-          },
-          "place": {
-            "address": "Shopping del Este, 1º piso · Monseñor Rodríguez, Ciudad del Este, Paraguai",
-            "hours": "Seg 8h–18h · ter 8h–20h · qua 8h–20h30 · qui–sex 8h–20h · sáb 8h–23h30 · dom 8h–18h",
-            "phone": "+595 992 029440",
-            "instagram": "https://www.instagram.com/celavi_coffee",
-            "rating": 3.3,
-            "googlePlaceId": "ChIJY321YN6R9pQRR3L-iz55-Mw",
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY321YN6R9pQRR3L-iz55-Mw",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=C%C3%A9%20La%20Vi%20Caf%C3%A9%20Ciudad%20del%20Este"
-          },
-          "alternatives": [
-            {
-              "name": "Brooklyn Kitchen & Bar",
-              "type": "food",
-              "note": "No mesmo Shopping del Este. Mais refeição do que café; ambiente moderno.",
-              "cost": 60,
-              "place": {
-                "address": "Shopping del Este (New Zone) · Ciudad del Este, Paraguai",
-                "hours": "Todos os dias 8h–0h",
-                "phone": "+595 984 000825",
-                "website": "https://www.bklyn.com.py/",
-                "rating": 4.6,
-                "googlePlaceId": "ChIJjaOgDACR9pQRhVTUWm1lr18",
-                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjaOgDACR9pQRhVTUWm1lr18",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Brooklyn%20Kitchen%20%26%20Bar%20Ciudad%20del%20Este"
-              },
-              "lat": -25.5108,
-              "lng": -54.6056
-            }
-          ]
-        },
-        {
-          "time": "12:35",
-          "end": "13:30",
-          "type": "food",
-          "name": "Almoço · UNIC (Shopping del Este)",
-          "note": "Mesmo shopping do café. Alternativa: praça de alimentação do Shopping China. R$ 120–240 para três.",
-          "cost": 60,
-          "lat": -25.5108,
-          "lng": -54.6054,
+          "time": "11:55",
+          "end": "12:20",
+          "type": "activity",
+          "name": "Lai Lai Center · Visão Vip (informática)",
+          "note": "4º andar. Notebooks, SSD, periféricos e iPhone. Fecha 16h.",
+          "lat": -25.5107,
+          "lng": -54.6091,
           "leg": {
             "mode": "walk",
             "minutes": 5,
-            "label": "Mesmo prédio"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Shopping_del_Este_20180609.jpg/960px-Shopping_del_Este_20180609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_20180609.jpg",
-            "author": "Cmasi",
-            "license": "CC BY-SA 4.0"
+            "label": "50 m"
           },
           "place": {
-            "address": "Shopping del Este · Ciudad del Este, Paraguai",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJG3AaXQCR9pQRu-Kd0cjlrdQ",
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJG3AaXQCR9pQRu-Kd0cjlrdQ",
+            "address": "Lai Lai Center, 4º piso · Av. Adrián Jara, Ciudad del Este, Paraguai",
+            "hours": "Seg–sex 6h30–16h · sáb 6h30–15h · dom fechado",
+            "phone": "+595 61 501 748",
+            "website": "http://www.visaovip.com/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJpyV5q6qa9pQRbd7tZNMsIB4",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJpyV5q6qa9pQRbd7tZNMsIB4",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Visao%20Vip%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=UNIC%20Ciudad%20del%20Este"
+            "osmPending": true
+          }
+        },
+        {
+          "time": "12:25",
+          "end": "13:00",
+          "type": "activity",
+          "name": "Mega Eletrônicos · iPhone (última cotação) e COMPRA",
+          "note": "Com as 4 cotações em mãos, comprar onde estiver melhor. Avaliações citam fila no caixa: separar 20 min. Testar o aparelho e conferir lacre e nota antes de sair.",
+          "lat": -25.5099,
+          "lng": -54.6088,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "170 m"
+          },
+          "place": {
+            "address": "Monseñor Rodríguez esq. · Ciudad del Este, Paraguai",
+            "hours": "Seg 7h–16h30 · ter–sex 6h30–16h30 · sáb 6h–15h · dom fechado",
+            "phone": "+595 61 504 444",
+            "website": "https://www.megaeletronicos.com/",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mega%20Eletronicos%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "13:10",
+          "end": "14:00",
+          "type": "food",
+          "name": "Almoço · praça de alimentação do Shopping Paris",
+          "note": "Vários restaurantes no andar de cima, ar-condicionado e banheiros: boa pausa para os joelhos. R$ 120–240 para três.",
+          "cost": 60,
+          "lat": -25.5131,
+          "lng": -54.606,
+          "leg": {
+            "mode": "walk",
+            "minutes": 10,
+            "label": "500 m"
+          },
+          "place": {
+            "address": "Av. Dr. Luis María Argaña · Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–19h · dom 7h–17h",
+            "phone": "+595 61 252 5000",
+            "website": "http://www.shoppingparis.com.py/",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Paris%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
           },
           "alternatives": [
             {
-              "name": "Brooklyn Kitchen & Bar",
-              "type": "food",
-              "note": "No mesmo shopping, 8h–0h. Avaliações melhores (4,6).",
-              "cost": 70,
-              "place": {
-                "address": "Shopping del Este (New Zone) · Ciudad del Este, Paraguai",
-                "hours": "Todos os dias 8h–0h",
-                "phone": "+595 984 000825",
-                "website": "https://www.bklyn.com.py/",
-                "rating": 4.6,
-                "googlePlaceId": "ChIJjaOgDACR9pQRhVTUWm1lr18",
-                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjaOgDACR9pQRhVTUWm1lr18",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Brooklyn%20Kitchen%20%26%20Bar%20Ciudad%20del%20Este"
-              },
-              "lat": -25.5108,
-              "lng": -54.6056
-            },
-            {
               "name": "Praça de alimentação do Shopping China",
               "type": "food",
-              "note": "Já fica no caminho da próxima parada.",
+              "note": "Próxima parada, a 400 m.",
               "cost": 45,
               "place": {
                 "address": "Av. Luis María Argaña, Ciudad del Este, Paraguai",
@@ -341,32 +426,73 @@
                 "rating": 4.5,
                 "googlePlaceId": "ChIJsWkZAAGQ9pQRFfVNE6L4jEI",
                 "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsWkZAAGQ9pQRFfVNE6L4jEI",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20China%20Ciudad%20del%20Este",
                 "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20China%20Importados%20Ciudad%20del%20Este"
+                "osmPending": true
               },
               "lat": -25.515,
               "lng": -54.6062
+            },
+            {
+              "name": "Brooklyn Kitchen & Bar",
+              "type": "food",
+              "note": "Restaurante à mesa no Shopping del Este.",
+              "cost": 70,
+              "place": {
+                "address": "Shopping del Este (New Zone) · Ciudad del Este, Paraguai",
+                "hours": "Todos os dias 8h–0h",
+                "phone": "+595 984 000825",
+                "website": "https://www.bklyn.com.py/",
+                "rating": 4.6,
+                "googlePlaceId": "ChIJjaOgDACR9pQRhVTUWm1lr18",
+                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjaOgDACR9pQRhVTUWm1lr18",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Brooklyn%20Kitchen%20Bar%20Ciudad%20del%20Este",
+                "photos": [],
+                "osmPending": true
+              },
+              "lat": -25.5108,
+              "lng": -54.6056
             }
           ]
         },
         {
-          "time": "13:45",
-          "end": "15:00",
-          "type": "shopping",
-          "name": "Shopping China",
-          "note": "Compras complementares. Saída às 15h para fugir do pico de fila na ponte.",
+          "time": "14:00",
+          "end": "14:45",
+          "type": "activity",
+          "name": "Shopping Paris · perfumes, cosméticos e casa",
+          "note": "Perfumaria grande, eletroportáteis e utilidades. Aberto até 19h.",
+          "lat": -25.5131,
+          "lng": -54.606,
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "address": "Av. Dr. Luis María Argaña · Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–19h · dom 7h–17h",
+            "phone": "+595 61 252 5000",
+            "website": "http://www.shoppingparis.com.py/",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Paris%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "14:55",
+          "end": "15:45",
+          "type": "activity",
+          "name": "Shopping China · tudo que não é eletrônico",
+          "note": "Maior loja da cidade: vinhos, chocolates, supermercado importado, roupas, tênis, malas. Se precisarem, comprar uma mala aqui para levar as compras. Aberto até 20h.",
           "lat": -25.515,
           "lng": -54.6062,
           "leg": {
             "mode": "walk",
-            "minutes": 15,
-            "label": "700 m · com sacolas"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/shopping-china.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
+            "minutes": 10,
+            "label": "400 m"
           },
           "place": {
             "address": "Av. Luis María Argaña, Ciudad del Este, Paraguai",
@@ -376,50 +502,96 @@
             "rating": 4.5,
             "googlePlaceId": "ChIJsWkZAAGQ9pQRFfVNE6L4jEI",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsWkZAAGQ9pQRFfVNE6L4jEI",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20China%20Ciudad%20del%20Este"
-          }
-        },
-        {
-          "time": "16:30",
-          "end": "17:40",
-          "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
-          "note": "Guardar compras, banho e descanso.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "car",
-            "minutes": 90,
-            "label": "Volta pela Ponte da Amizade · rota 15 min + fila 60–75 min"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20China%20Ciudad%20del%20Este",
             "photos": [],
             "osmPending": true
           }
         },
         {
-          "time": "18:10",
-          "end": "19:20",
+          "time": "16:00",
+          "end": "16:50",
+          "type": "food",
+          "name": "Café da tarde · Cé La Vi (combo Dior)",
+          "note": "Shopping del Este, ao lado da ponte. Combo ~R$ 136 (150.000 guaranis) dividido por três. Contém lactose: Hortência leva a lactase. Avaliações reclamam da demora: pedir tudo de uma vez.",
+          "cost": 45,
+          "lat": -25.5099,
+          "lng": -54.6057,
+          "leg": {
+            "mode": "walk",
+            "minutes": 15,
+            "label": "650 m · com sacolas"
+          },
+          "place": {
+            "address": "Shopping del Este, 1º piso · Monseñor Rodríguez, Ciudad del Este, Paraguai",
+            "hours": "Seg 8h–18h · ter 8h–20h · qua 8h–20h30 · qui–sex 8h–20h · sáb 8h–23h30 · dom 8h–18h",
+            "phone": "+595 992 029440",
+            "instagram": "https://www.instagram.com/celavi_coffee",
+            "rating": 3.3,
+            "googlePlaceId": "ChIJY321YN6R9pQRR3L-iz55-Mw",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJY321YN6R9pQRR3L-iz55-Mw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ce%20La%20Vi%20Cafe%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true
+          },
+          "alternatives": [
+            {
+              "name": "Brooklyn Kitchen & Bar",
+              "type": "food",
+              "note": "No mesmo shopping, se o Cé La Vi estiver lotado.",
+              "cost": 50,
+              "place": {
+                "address": "Shopping del Este (New Zone) · Ciudad del Este, Paraguai",
+                "hours": "Todos os dias 8h–0h",
+                "phone": "+595 984 000825",
+                "website": "https://www.bklyn.com.py/",
+                "rating": 4.6,
+                "googlePlaceId": "ChIJjaOgDACR9pQRhVTUWm1lr18",
+                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJjaOgDACR9pQRhVTUWm1lr18",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Brooklyn%20Kitchen%20Bar%20Ciudad%20del%20Este",
+                "photos": [],
+                "osmPending": true
+              },
+              "lat": -25.5108,
+              "lng": -54.6056
+            }
+          ]
+        },
+        {
+          "time": "17:30",
+          "end": "17:40",
+          "type": "place",
+          "name": "Pegar o carro · Pousada e Estacionamento 277",
+          "note": "Volta pela aduana brasileira: cota de US$ 500 por pessoa (não soma entre os três); o que passar paga 50%. Guardar as notas fiscais.",
+          "lat": -25.5076,
+          "lng": -54.5932,
+          "leg": {
+            "mode": "car",
+            "minutes": 40,
+            "label": "Mototáxi na volta + fila da aduana brasileira"
+          },
+          "place": {
+            "address": "R. Vicente de Carvalho, 21 · Portes, Foz do Iguaçu - PR (10 min a pé da Ponte)",
+            "hours": "Seg–sex 6h–1h30 · sáb 6h–0h · dom 24h",
+            "phone": "(45) 99930-3269",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "photos": []
+          }
+        },
+        {
+          "time": "18:05",
+          "end": "18:50",
           "type": "activity",
           "name": "Yup Star · roda-gigante no pôr do sol",
-          "note": "Pôr do sol por volta das 19h. Fecha às 20h30 e não abre às segundas. Preço estudante; confirmar.",
+          "note": "Pôr do sol por volta das 19h. Fecha 20h30 (segunda fechado). Compras trancadas no porta-malas.",
           "cost": 39.9,
           "lat": -25.5867,
           "lng": -54.5884,
           "leg": {
             "mode": "car",
-            "minutes": 30,
-            "label": "Rota Google 21 min + margem · estacionar"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/yup-star-roda-gigante-no-por-do-sol.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
+            "minutes": 25,
+            "label": "Rota Google 21 min + margem"
           },
           "place": {
             "address": "R. Quixadá, 127 · Três Fronteiras, Foz do Iguaçu - PR (ao lado do Marco)",
@@ -429,50 +601,50 @@
             "rating": 4.7,
             "googlePlaceId": "ChIJ9emz6HWT9pQRsMmEhINrqq8",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ9emz6HWT9pQRsMmEhINrqq8",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Yup%20Star%20Roda%20Gigante%20Foz%20do%20Igua%C3%A7u",
             "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Yup%20Star%20Roda%20Gigante%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "name": "Marco das Três Fronteiras no pôr do sol",
-              "type": "place",
-              "note": "A 300 m da roda-gigante. Se a Yup Star estiver lotada, ver o pôr do sol do Marco (abre 13h30).",
-              "place": {
-                "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
-                "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
-                "phone": "(45) 3132-4104",
-                "website": "https://bit.ly/49Y2MPu",
-                "rating": 4.6,
-                "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
-                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwcXU_R6S9pQR0RMKDXu46GE",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5902,
-              "lng": -54.5902
-            }
-          ]
+            "osmPending": true
+          }
         },
         {
-          "time": "19:40",
-          "end": "21:00",
+          "time": "18:55",
+          "end": "20:00",
+          "type": "place",
+          "name": "Marco das Três Fronteiras · show da noite",
+          "note": "A 300 m da roda-gigante. Shows culturais dos três países a partir de 18h15–18h30 (confirmar). Fecha 21h. Meia-entrada a confirmar.",
+          "lat": -25.5902,
+          "lng": -54.5902,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "300 m"
+          },
+          "place": {
+            "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
+            "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
+            "phone": "(45) 3132-4104",
+            "website": "https://bit.ly/49Y2MPu",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwcXU_R6S9pQR0RMKDXu46GE",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tres%20Fronteiras%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "20:15",
+          "end": "21:30",
           "type": "food",
-          "name": "Jantar no centro",
-          "note": "Restaurante a definir (sugestão: Bendito).",
+          "name": "Jantar · Bendito",
+          "note": "Restaurante a definir; Bendito fica a 13 min.",
+          "cost": 88,
           "lat": -25.5441,
           "lng": -54.582,
           "leg": {
             "mode": "car",
-            "minutes": 20,
+            "minutes": 15,
             "label": "Rota Google 13 min + margem"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Pra%C3%A7a_do_Mitre_Foz_do_Igua%C3%A7u.jpg/960px-Pra%C3%A7a_do_Mitre_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_do_Mitre_Foz_do_Igua%C3%A7u.jpg",
-            "author": "Herr stahlhoefer",
-            "license": "Public domain"
           },
           "place": {
             "address": "R. Mal. Deodoro, 816 · Centro, Foz do Iguaçu - PR",
@@ -482,34 +654,15 @@
             "rating": 4.7,
             "googlePlaceId": "ChIJQZNE9bSR9pQRALXqebUevVk",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQZNE9bSR9pQRALXqebUevVk",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u",
             "photos": [],
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u"
+            "osmPending": true
           },
           "alternatives": [
             {
-              "name": "Bendito",
-              "type": "food",
-              "note": "Sugestão principal. 11h–0h.",
-              "cost": 88,
-              "place": {
-                "address": "R. Mal. Deodoro, 816 · Centro, Foz do Iguaçu - PR",
-                "hours": "Todos os dias 11h–0h",
-                "phone": "(45) 3029-7373",
-                "website": "https://usetag.me/benditobar",
-                "rating": 4.7,
-                "googlePlaceId": "ChIJQZNE9bSR9pQRALXqebUevVk",
-                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQZNE9bSR9pQRALXqebUevVk",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5441,
-              "lng": -54.582
-            },
-            {
               "name": "Água Doce Cachaçaria",
               "type": "food",
-              "note": "Comida mineira e cachaças; porções grandes. Abre 17h nos dias de semana.",
+              "note": "Abre 17h.",
               "cost": 70,
               "place": {
                 "address": "R. Castelo Branco, 714 · Maracanã, Foz do Iguaçu - PR",
@@ -519,9 +672,9 @@
                 "rating": 4.9,
                 "googlePlaceId": "ChIJd9Mn-BuR9pQRKXEgAh8Ko1c",
                 "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJd9Mn-BuR9pQRKXEgAh8Ko1c",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Agua%20Doce%20Cachacaria%20Foz%20do%20Igua%C3%A7u",
                 "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=%C3%81gua%20Doce%20Cacha%C3%A7aria%20Foz%20do%20Igua%C3%A7u"
+                "osmPending": true
               },
               "lat": -25.5388,
               "lng": -54.5787
@@ -529,7 +682,7 @@
             {
               "name": "Capitão Bar",
               "type": "food",
-              "note": "Música ao vivo; cobra entrada.",
+              "note": "Música ao vivo.",
               "cost": 75,
               "place": {
                 "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
@@ -538,9 +691,9 @@
                 "rating": 4.4,
                 "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
                 "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ663-G7WR9pQRpcyvW4EY3q8",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capitao%20Bar%20Foz%20do%20Igua%C3%A7u",
                 "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capit%C3%A3o%20Bar%20Foz%20do%20Igua%C3%A7u"
+                "osmPending": true
               },
               "lat": -25.5471,
               "lng": -54.5854
@@ -548,9 +701,10 @@
           ]
         },
         {
-          "time": "21:20",
+          "time": "21:45",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
+          "note": "Tirar as compras do carro.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -562,8 +716,7 @@
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": [],
-            "osmPending": true
+            "photos": []
           }
         }
       ]
@@ -1464,7 +1617,7 @@
     },
     {
       "date": "2026-11-08",
-      "title": "AquaFoz, Marco das Três Fronteiras e Kattamaram ou show",
+      "title": "AquaFoz e Kattamaram no pôr do sol",
       "items": [
         {
           "time": "08:30",
@@ -1615,7 +1768,7 @@
         },
         {
           "time": "14:05",
-          "end": "15:30",
+          "end": "16:15",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
           "note": "Banho e descanso.",
@@ -1635,38 +1788,6 @@
           }
         },
         {
-          "time": "16:00",
-          "end": "16:40",
-          "type": "place",
-          "name": "Marco das Três Fronteiras",
-          "note": "Abre às 13h30 (fechado às segundas). Fotos com os três países. Meia-entrada a confirmar.",
-          "lat": -25.5902,
-          "lng": -54.5902,
-          "leg": {
-            "mode": "car",
-            "minutes": 30,
-            "label": "Rota Google 21 min + margem · estacionar"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg/960px-Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
-            "author": "CLAITON LUIS MORAES",
-            "license": "CC BY-SA 4.0"
-          },
-          "place": {
-            "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
-            "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
-            "phone": "(45) 3132-4104",
-            "website": "https://bit.ly/49Y2MPu",
-            "rating": 4.6,
-            "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwcXU_R6S9pQR0RMKDXu46GE",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
-          }
-        },
-        {
           "time": "16:50",
           "end": "19:00",
           "type": "activity",
@@ -1677,8 +1798,8 @@
           "lng": -54.5789,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 5 min + estacionar"
+            "minutes": 25,
+            "label": "Rota Google 16 min + estacionar"
           },
           "image": {
             "src": "/img/foz-do-iguacu/kattamaram-ii.jpg",
@@ -1703,7 +1824,7 @@
               "end": "19:30",
               "type": "activity",
               "name": "Ficar no Marco: pôr do sol + show (sem barco)",
-              "note": "Em vez do barco: pôr do sol no Marco e shows culturais dos três países, a partir de 18h15–18h30 (confirmar). Decidir no dia.",
+              "note": "Em vez do barco: pôr do sol e show no Marco (já visitado no dia 04, então só se gostarem muito). Decidir no dia.",
               "lat": -25.5902,
               "lng": -54.5902,
               "place": {
@@ -1720,32 +1841,6 @@
               }
             }
           ]
-        },
-        {
-          "time": "19:10",
-          "end": "19:50",
-          "type": "activity",
-          "name": "Marco: show da noite (depois do barco)",
-          "note": "Depois do barco, voltar ao Marco (4 min) se ainda houver show após as 19h. Confirmar horários das sessões e se o ingresso permite reentrada. Fecha às 21h.",
-          "lat": -25.5902,
-          "lng": -54.5902,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 4 min + estacionar"
-          },
-          "place": {
-            "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
-            "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
-            "phone": "(45) 3132-4104",
-            "website": "https://bit.ly/49Y2MPu",
-            "rating": 4.6,
-            "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJwcXU_R6S9pQR0RMKDXu46GE",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
-          }
         },
         {
           "time": "20:10",

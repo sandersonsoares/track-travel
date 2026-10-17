@@ -257,19 +257,20 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .leg strong { color: var(--ink-2); font-weight: 600; }
 /* The leg is a block of its own: closed it reads as one line, open it compares ways to get there. */
 .leg-box {
-  grid-column: 3 / -1; justify-self: start; max-width: 100%; margin-right: 8px;
-  border: 1px solid var(--rule); border-radius: 10px; background: var(--surface);
-  transition: border-color .2s var(--ease);
+  grid-column: 3 / -1; justify-self: start; max-width: 100%; margin: 0 8px 0 -12px;
+  border: 1px solid transparent; border-radius: 10px;
+  transition: background-color .2s var(--ease), border-color .2s var(--ease);
 }
-.leg-box:hover { border-color: var(--rule-strong); }
-.leg-box[open] { justify-self: stretch; border-color: var(--rule-strong); }
+/* Closed it is plain text on the rail; only hover hints that it opens. */
+.leg-box:not([open]):hover { background: var(--hover); }
+.leg-box[open] { justify-self: stretch; margin-left: 0; border-color: var(--rule); background: var(--surface); }
 .leg-box summary {
   display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 7px 10px 7px 12px;
   list-style: none; cursor: pointer; border-radius: 10px;
 }
 .leg-box summary::-webkit-details-marker { display: none; }
 .leg-text { flex: 1; min-width: 0; }
-.leg-box summary > svg { flex: none; color: var(--ink-3); transition: transform .2s var(--ease); }
+.leg-box summary > svg { flex: none; color: var(--ink-3); opacity: .7; transition: transform .2s var(--ease); }
 .leg-box[open] summary > svg { transform: rotate(180deg); }
 .leg-options { list-style: none; margin: 0; padding: 0 12px; border-top: 1px solid var(--rule); }
 .leg-options li { display: grid; grid-template-columns: 16px minmax(0, 1fr) auto; align-items: center; column-gap: 12px; padding: 10px 0; color: var(--ink-2); }
