@@ -328,20 +328,31 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .detail .gallery + .detail-body .detail-type { padding-right: 0; }
 .detail-icon { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; border: 1.5px solid var(--c); color: var(--c); }
 .detail h2 { margin-top: 8px; font-size: 1.375rem; line-height: 1.2; letter-spacing: -0.015em; font-weight: 700; }
-.detail-cost { margin-top: 6px; font-size: 0.9375rem; font-weight: 600; color: var(--money); }
+/* Under the name: Google rating, then cost. */
+.detail-sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin-top: 6px; font-size: 0.875rem; color: var(--ink-3); }
+.rating { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
+.rating svg { align-self: center; color: var(--ink-2); }
+.rating strong { font-weight: 600; color: var(--ink); }
+.detail-cost { font-size: 0.9375rem; font-weight: 600; color: var(--money); }
 .detail-cost span { font-weight: 400; color: var(--ink-3); font-size: 0.8125rem; }
-.detail-note { margin-top: 14px; color: var(--ink-2); font-size: 0.9375rem; max-width: 60ch; }
+/* One row of ways out: Maps leads (filled), the rest are outline pills. */
+.detail-actions { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 0; padding: 0; }
+.detail-actions a {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 42px; padding: 0 14px;
+  border: 1px solid var(--rule-strong); border-radius: 999px; background: var(--surface); color: var(--ink);
+  font-size: 0.875rem; font-weight: 600; text-decoration: none;
+  transition: border-color .2s var(--ease), background-color .2s var(--ease);
+}
+.detail-actions a:hover { border-color: var(--ink); }
+.detail-actions a.is-primary { background: var(--ink); border-color: var(--ink); color: var(--on-ink); }
+.detail-actions a.is-primary:hover { background: color-mix(in srgb, var(--ink) 86%, var(--surface)); }
+.detail-note { margin-top: 16px; color: var(--ink-2); font-size: 0.9375rem; max-width: 60ch; }
 .detail-facts { margin: 20px 0 0; display: grid; gap: 14px; padding-top: 16px; border-top: 1px solid var(--rule); }
 .detail-facts dt { font-size: 0.75rem; color: var(--ink-3); }
 .detail-facts small { font-size: inherit; opacity: .8; }
-.detail-facts small::before { content: "· "; }
+.detail-facts small::before { content: " · "; }
 .detail-facts dd { margin: 2px 0 0; font-size: 0.9375rem; display: grid; }
-.detail-facts a, .detail-maps { color: var(--ink); text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
-.detail-maps {
-  display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; min-height: 44px; padding: 0 16px;
-  border: 1px solid var(--rule-strong); border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 0.9375rem;
-}
-.detail-maps:hover { border-color: var(--ink); }
+.detail-facts a { color: var(--ink); text-decoration-color: var(--rule-strong); text-underline-offset: 3px; }
 .stop:has(.stop-link[aria-expanded="true"]) { background: var(--hover); }
 
 /* Map */
