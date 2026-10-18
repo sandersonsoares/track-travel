@@ -9,7 +9,12 @@
   "currency": "EUR",
   "rateBRL": 6.1,
   "rateDate": "2026-10-01",
-  "cover": { "src": "/img/lisboa/capa.webp", "page": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2015_9043.jpg", "author": "Jakub Hałun", "license": "CC BY 4.0" },
+  "cover": {
+    "src": "/img/lisboa/capa.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2015_9043.jpg",
+    "author": "Jakub Hałun",
+    "license": "CC BY 4.0"
+  },
   "days": [
     {
       "date": "2026-11-12",
@@ -113,7 +118,44 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [
+              {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Past%C3%A9is_de_Bel%C3%A9m_-_20140911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "page": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bel%C3%A9m_-_20140911.jpg",
+                "author": "Ze Caetano.",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Past%C3%A9is_de_Bel%C3%A9m_%2822342611376%29.jpg/960px-Past%C3%A9is_de_Bel%C3%A9m_%2822342611376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bel%C3%A9m_(22342611376).jpg",
+                "author": "Bex Walton from London, England",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Casa_Pasteis_de_Belem_-_panoramio.jpg/960px-Casa_Pasteis_de_Belem_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Casa_Pasteis_de_Belem_-_panoramio.jpg",
+                "author": "Mister No",
+                "license": "CC BY 3.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/20200206_Pasteis_de_Belem_6273_%2849659751293%29.jpg/960px-20200206_Pasteis_de_Belem_6273_%2849659751293%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:20200206_Pasteis_de_Belem_6273_(49659751293).jpg",
+                "author": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/20200206_Pasteis_de_Belem_7784_%2849660289541%29.jpg/960px-20200206_Pasteis_de_Belem_7784_%2849660289541%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:20200206_Pasteis_de_Belem_7784_(49660289541).jpg",
+                "author": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/20200206_Pasteis_de_Belem_7783_%2849660569667%29.jpg/960px-20200206_Pasteis_de_Belem_7783_%2849660569667%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:20200206_Pasteis_de_Belem_7783_(49660569667).jpg",
+                "author": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+                "license": "CC BY-SA 2.0"
+              }
+            ]
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Past%C3%A9is_de_Bel%C3%A9m_-13.jpg/960px-Past%C3%A9is_de_Bel%C3%A9m_-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -201,7 +243,44 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/LX_Factory_%2822342591986%29.jpg/960px-LX_Factory_%2822342591986%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:LX_Factory_(22342591986).jpg",
+                "author": "Bex Walton from London, England",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/LX_Factory_%2822379332901%29.jpg/960px-LX_Factory_%2822379332901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:LX_Factory_(22379332901).jpg",
+                "author": "Bex Walton from London, England",
+                "license": "CC BY 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854409592332%29.jpg/960px-Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854409592332%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(54409592332).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410642649%29.jpg/960px-Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410642649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(54410642649).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410642624%29.jpg/960px-Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410642624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(54410642624).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410464196%29.jpg/960px-Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2854410464196%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Lx_Factory_-_Lisboa_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(54410464196).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              }
+            ]
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/LX_Factory_%2833728936824%29.jpg/960px-LX_Factory_%2833728936824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -226,7 +305,44 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Miradouro_Santa_Catarina_-_panoramio.jpg/960px-Miradouro_Santa_Catarina_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_Santa_Catarina_-_panoramio.jpg",
+                "author": "Andreas Schäfer",
+                "license": "CC BY-SA 3.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851791811002%29.jpg/960px-Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851791811002%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_(51791811002).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851793495985%29.jpg/960px-Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851793495985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_(51793495985).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851793131734%29.jpg/960px-Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851793131734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_(51793131734).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851967277831%29.jpg/960px-Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2851967277831%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_(51967277831).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2852227759373%29.jpg/960px-Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_%2852227759373%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Miradouro_de_Santa_Catarina_-_Lisboa_-_Portugal_(52227759373).jpg",
+                "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+                "license": "CC BY-SA 2.0"
+              }
+            ]
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg/960px-Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -634,7 +750,44 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/The_gardens_of_the_Quinta_da_Regaleira_%2833553787143%29.jpg/960px-The_gardens_of_the_Quinta_da_Regaleira_%2833553787143%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:The_gardens_of_the_Quinta_da_Regaleira_(33553787143).jpg",
+                "author": "Maria Eklind",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_gardens_of_the_Quinta_da_Regaleira_%2833567189583%29.jpg/960px-The_gardens_of_the_Quinta_da_Regaleira_%2833567189583%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:The_gardens_of_the_Quinta_da_Regaleira_(33567189583).jpg",
+                "author": "Maria Eklind",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/The_gardens_of_the_Quinta_da_Regaleira_%2833992951380%29.jpg/960px-The_gardens_of_the_Quinta_da_Regaleira_%2833992951380%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:The_gardens_of_the_Quinta_da_Regaleira_(33992951380).jpg",
+                "author": "Maria Eklind",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/The_gardens_of_the_Quinta_da_Regaleira_%2834377606085%29.jpg/960px-The_gardens_of_the_Quinta_da_Regaleira_%2834377606085%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:The_gardens_of_the_Quinta_da_Regaleira_(34377606085).jpg",
+                "author": "Maria Eklind",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_gardens_of_the_Quinta_da_Regaleira_%2825044605367%29.jpg/960px-The_gardens_of_the_Quinta_da_Regaleira_%2825044605367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:The_gardens_of_the_Quinta_da_Regaleira_(25044605367).jpg",
+                "author": "Maria Eklind",
+                "license": "CC BY-SA 2.0"
+              },
+              {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Loggia_of_the_Quinta_da_Regaleira_84.jpg/960px-Loggia_of_the_Quinta_da_Regaleira_84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Loggia_of_the_Quinta_da_Regaleira_84.jpg",
+                "author": "Kent Wang",
+                "license": "CC BY 4.0"
+              }
+            ]
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg/960px-Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
