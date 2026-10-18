@@ -364,7 +364,25 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .gallery figure:not(:only-child) { width: 86%; }
 .gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--rule); }
 .gallery figcaption { position: absolute; left: 8px; bottom: 8px; right: 8px; font-size: 0.6875rem; line-height: 1.3; }
-.gallery figcaption a { display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 2px 6px; border-radius: 4px; background: rgb(0 0 0 / .55); color: #fff; text-decoration: none; }
+.gallery figcaption a, .photo-stage figcaption a { display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 2px 6px; border-radius: 4px; background: rgb(0 0 0 / .55); color: #fff; text-decoration: none; }
+.gallery-open { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; color: inherit; }
+.gallery-open:focus-visible { outline-offset: -2px; }
+
+/* Photo viewer: native modal dialog on the paper ground; prev/next stay at the photo's edges. */
+.photo-view { width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: var(--ground); color: var(--ink); }
+.photo-view::backdrop { background: transparent; }
+.photo-stage { position: absolute; inset: 0; margin: 0; display: grid; place-items: center; padding: 64px 56px 56px; box-sizing: border-box; }
+.photo-stage img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; border-radius: var(--radius); }
+.photo-stage figcaption { position: absolute; left: 16px; right: 16px; bottom: 16px; font-size: 0.6875rem; line-height: 1.3; }
+.photo-count { position: absolute; top: 18px; left: 16px; margin: 0; font-size: 0.8125rem; font-weight: 600; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.photo-view button { position: absolute; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--float-border); background: color-mix(in srgb, var(--surface) 86%, transparent); color: var(--ink); box-shadow: var(--shadow-control); backdrop-filter: blur(8px); cursor: pointer; }
+.photo-view button:disabled { opacity: .35; cursor: default; }
+.photo-close { top: 10px; right: 10px; }
+.photo-prev, .photo-next { top: 50%; margin-top: -22px; }
+.photo-prev { left: 10px; }
+.photo-next { right: 10px; }
+.photo-prev svg { transform: rotate(90deg); }
+.photo-next svg { transform: rotate(-90deg); }
 .detail-body { padding: 18px 20px 24px; }
 .detail-type { display: flex; align-items: center; gap: 8px; padding-right: 44px; font-size: 0.8125rem; color: var(--ink-3); }
 .detail .gallery + .detail-body .detail-type { padding-right: 0; }

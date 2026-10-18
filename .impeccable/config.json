@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/pages/roteiros/[slug].astro"
+        ],
+        "createdAt": "2026-10-18T13:35:32.641Z",
+        "reason": "False positive: L537 is document.createElement('img') in the photo viewer script. It gets src in showShot() before showModal(), and no empty img ships in markup."
+      }
+    ]
+  }
+}

@@ -260,9 +260,11 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
             <article class="detail" data-day={n} data-stop={k} data-type={i.type} hidden>
               {photos(i).length ? (
                 <div class="gallery" tabindex="0" aria-label={`Fotos de ${i.name}`}>
-                  {photos(i).map((ph) => (
+                  {photos(i).map((ph, p) => (
                     <figure>
-                      <img data-src={ph.src} alt="" decoding="async" />
+                      <button type="button" class="gallery-open" aria-label={`Ampliar foto ${p + 1} de ${photos(i).length}`}>
+                        <img data-src={ph.src} alt="" decoding="async" />
+                      </button>
                       <figcaption><a href={ph.page} target="_blank" rel="noopener">{[ph.author, ph.license].filter(Boolean).join(' · ') || 'Wikimedia Commons'}</a></figcaption>
                     </figure>
                   ))}
@@ -322,6 +324,16 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
         <button type="button" class="map-close"><Icon name="list" size={18} /> <span class="on-phone">Lista</span><span class="on-desk">Ocultar mapa</span></button>
       </aside>
     </div>
+
+    <dialog class="photo-view" aria-label="Foto ampliada">
+      <figure class="photo-stage">
+        <figcaption><a target="_blank" rel="noopener"></a></figcaption>
+      </figure>
+      <p class="photo-count" aria-live="polite"></p>
+      <button type="button" class="photo-close" aria-label="Fechar foto"><Icon name="close" size={18} /></button>
+      <button type="button" class="photo-prev" aria-label="Foto anterior"><Icon name="chevron" size={18} /></button>
+      <button type="button" class="photo-next" aria-label="Próxima foto"><Icon name="chevron" size={18} /></button>
+    </dialog>
 
     <button type="button" class="map-open"><Icon name="map" size={18} /> <span class="on-phone">Ver no mapa</span><span class="on-desk">Mostrar mapa</span></button>
 
@@ -518,7 +530,50 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
       });
       mapOpen.addEventListener('click', () => openMap(true));
       mapClose.addEventListener('click', () => { closeDetail(); openMap(false); });
-      addEventListener('keydown', (e) => e.key === 'Escape' && !closeDetail() && mobile.matches && openMap(false));
+      addEventListener('keydown', (e) => e.key === 'Escape' && !viewer.open && !closeDetail() && mobile.matches && openMap(false));
+
+      // Photo viewer: taps on a gallery photo open it full size, with its own prev/next and credit.
+      const viewer = document.querySelector<HTMLDialogElement>('.photo-view')!;
+      // The image is created on first open, so the markup never ships an empty <img>.
+      const viewImg = document.createElement('img');
+      viewer.querySelector('.photo-stage')!.prepend(viewImg);
+      const viewCredit = viewer.querySelector<HTMLAnchorElement>('figcaption a')!;
+      const viewCount = viewer.querySelector<HTMLElement>('.photo-count')!;
+      const viewPrev = viewer.querySelector<HTMLButtonElement>('.photo-prev')!;
+      const viewNext = viewer.querySelector<HTMLButtonElement>('.photo-next')!;
+      let shots: { src: string; page: string; credit: string }[] = [];
+      let shot = 0;
+      function showShot(n: number) {
+        shot = Math.min(Math.max(n, 0), shots.length - 1);
+        const s = shots[shot];
+        viewImg.src = s.src;
+        viewCredit.href = s.page;
+        viewCredit.textContent = s.credit;
+        viewCount.textContent = `${shot + 1} / ${shots.length}`;
+        viewPrev.disabled = shot === 0;
+        viewNext.disabled = shot === shots.length - 1;
+        viewPrev.hidden = viewNext.hidden = shots.length < 2;
+        viewCount.hidden = shots.length < 2;
+      }
+      document.querySelectorAll<HTMLButtonElement>('.gallery-open').forEach((b) => b.addEventListener('click', () => {
+        const figs = [...b.closest('.gallery')!.querySelectorAll<HTMLElement>('figure')];
+        shots = figs.map((f) => {
+          const a = f.querySelector<HTMLAnchorElement>('figcaption a')!;
+          return { src: f.querySelector('img')!.getAttribute('src')!, page: a.href, credit: a.textContent!.trim() };
+        });
+        viewImg.alt = b.closest('.detail')!.querySelector('h2')!.textContent!;
+        showShot(figs.indexOf(b.closest('figure')!));
+        viewer.showModal();
+      }));
+      viewPrev.addEventListener('click', () => showShot(shot - 1));
+      viewNext.addEventListener('click', () => showShot(shot + 1));
+      viewer.querySelector('.photo-close')!.addEventListener('click', () => viewer.close());
+      // A click on the dark area around the photo (not on the photo or its controls) closes the viewer.
+      viewer.addEventListener('click', (e) => e.target === viewer || e.target === viewer.querySelector('.photo-stage') ? viewer.close() : undefined);
+      viewer.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') showShot(shot - 1);
+        if (e.key === 'ArrowRight') showShot(shot + 1);
+      });
 
       // Tabs and the day-end buttons switch days; once the strip is stuck, the new day starts at its top.
       const trip = document.querySelector<HTMLElement>('.trip')!;
