@@ -4,13 +4,17 @@
 // The OSM feature is found by coordinates AND name, so generic items ("Hotel na Baixa") stay empty
 // instead of borrowing a neighbour's data. If OSM has no Wikidata link, a Wikipedia article near the
 // item with the same name is used instead.
-// Items that already have `place` are skipped (delete it to refetch); items saved while Overpass was
-// down, or added without photos yet, carry `osmPending` and are retried. A retry only fills what is
-// missing: existing fields and photos are kept.
+// An item is looked up only when it has no `place`, when its name or coordinates changed since the last
+// lookup (`place.lookupKey`), or when it carries `osmPending` (Overpass was down) and the last try is over
+// RECHECK_MS old. Delete `place` to refetch by hand. A retry only fills what is missing: existing fields
+// and photos are kept. Lookups run CONCURRENCY at a time; each host is still paced by HOST_GAP_MS.
 import { Glob } from 'bun';
 
 const MAX_PHOTOS = 6;
 const RADIUS_M = 200;
+const CONCURRENCY = 4;
+const RECHECK_MS = 7 * 24 * 3600 * 1000;
+const HOST_GAP_MS = 250;
 const OVERPASS = ['https://overpass-api.de/api/interpreter', 'https://overpass.private.coffee/api/interpreter', 'https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
 // Wikimedia throttles agents without a contact URL.
 const UA = { 'User-Agent': 'roteiros/1.0 (https://www.mediawiki.org/wiki/API:Etiquette) bun' };
@@ -24,10 +28,20 @@ const sameName = (name: string, other = '') => { const t = new Set(words(other))
 const km = (a: number, b: number, c: number, d: number) => { const r = Math.PI / 180; return Math.hypot((d - b) * r * Math.cos(((a + c) / 2) * r), (c - a) * r) * 6371; };
 const strip = (h?: string) => h?.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() || undefined;
 
+// Reserves the next request slot for the host, so parallel lookups never hit one host faster than HOST_GAP_MS.
+const nextSlot = new Map<string, number>();
+async function throttle(url: string | URL) {
+  const host = new URL(url).hostname;
+  const now = Date.now();
+  const at = Math.max(now, nextSlot.get(host) ?? 0);
+  nextSlot.set(host, at + HOST_GAP_MS);
+  if (at > now) await Bun.sleep(at - now);
+}
+
 async function get(url: string | URL, init?: RequestInit) {
   for (let n = 0; n < 2; n++) {
+    await throttle(url);
     const res = await fetch(url, { ...init, headers: UA, signal: AbortSignal.timeout(30_000) }).catch(() => undefined);
-    await Bun.sleep(700);
     if (res?.ok) return res.json();
     await Bun.sleep(4000 * (n + 1));
   }
@@ -112,25 +126,58 @@ async function lookup(name: string, lat: number, lng: number): Promise<Place> {
   };
 }
 
-const seen = new Map<string, Place>();
+const keyOf = (item: any) => `${item.name}@${item.lat},${item.lng}`;
+
+function needsLookup(item: any, now: number) {
+  const p = item.place;
+  if (!p) return true;
+  if (p.lookupKey && p.lookupKey !== keyOf(item)) return true;
+  if (!p.osmPending) return false;
+  return now - (p.checkedAt ? Date.parse(p.checkedAt) : 0) > RECHECK_MS;
+}
+
+async function pool<T>(xs: T[], n: number, fn: (x: T) => Promise<void>) {
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(n, xs.length) }, async () => {
+    while (i < xs.length) await fn(xs[i++]);
+  }));
+}
+
+const now = Date.now();
+const files: { path: string; trip: any; todo: any[] }[] = [];
 for await (const path of new Glob('src/data/*.json').scan()) {
   const trip = await Bun.file(path).json();
-  let changed = false;
   // Alternatives (item.alternatives) get the same treatment as the planned items.
+  const all = trip.days.flatMap((day: any) => day.items.flatMap((i: any) => [i, ...(i.alternatives ?? [])]));
+  files.push({ path, trip, todo: all.filter((item: any) => needsLookup(item, now)) });
+}
+
+// One lookup per distinct name@coordinates, shared by every item that has it.
+const first = new Map<string, any>();
+for (const f of files) for (const item of f.todo) if (!first.has(keyOf(item))) first.set(keyOf(item), item);
+const results = new Map<string, Place | Error>();
+await pool([...first.keys()], CONCURRENCY, async (key) => {
+  const item = first.get(key);
+  try { results.set(key, await lookup(item.name, item.lat, item.lng)); }
+  catch (err) { results.set(key, err as Error); }
+});
+
+for (const { path, trip, todo } of files) {
+  const due = new Set(todo);
+  let changed = false;
   for (const day of trip.days) for (const item of day.items.flatMap((i: any) => [i, ...(i.alternatives ?? [])])) {
-    if (item.place && !item.place.osmPending) continue;
-    const key = `${item.name}@${item.lat},${item.lng}`;
-    try {
-      if (!seen.has(key)) seen.set(key, JSON.parse(JSON.stringify(await lookup(item.name, item.lat, item.lng))));
-    } catch (err) {
-      console.warn('!', item.name, (err as Error).message);
+    if (!due.has(item)) {
+      // Finished places from before lookupKey existed get stamped once, so later name changes are detected.
+      if (item.place && !item.place.lookupKey) { item.place.lookupKey = keyOf(item); changed = true; }
       continue;
     }
+    const found0 = results.get(keyOf(item))!;
+    if (found0 instanceof Error) { console.warn('!', item.name, found0.message); continue; }
+    const found: Place = JSON.parse(JSON.stringify(found0));
     // Merge instead of replace: fields already filled by hand or from Google (address, hours,
     // phone, website, instagram, googleMapsUrl…) and photos already saved are never overwritten.
-    const found = seen.get(key)!;
-    const kept = Object.fromEntries(Object.entries(item.place ?? {}).filter(([k, v]) => k !== 'osmPending' && v != null && v !== '' && !(Array.isArray(v) && !v.length)));
-    item.place = { ...found, ...kept, photos: item.place?.photos?.length ? item.place.photos : found.photos };
+    const kept = Object.fromEntries(Object.entries(item.place ?? {}).filter(([k, v]) => !['osmPending', 'lookupKey', 'checkedAt'].includes(k) && v != null && v !== '' && !(Array.isArray(v) && !v.length)));
+    item.place = { ...found, ...kept, photos: item.place?.photos?.length ? item.place.photos : found.photos, lookupKey: keyOf(item), checkedAt: new Date().toISOString() };
     if (!found.osmPending) delete item.place.osmPending;
     changed = true;
     const p = item.place;
