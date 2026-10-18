@@ -1300,28 +1300,66 @@
           "time": "20:30",
           "end": "21:45",
           "type": "food",
-          "name": "Jantar · Bendito",
-          "note": "Restaurante a definir; Bendito fica a 13 min.",
-          "lat": -25.5441,
-          "lng": -54.582,
+          "name": "Jantar · Di Paolo (2x1 Surpreenda)",
+          "note": "Galeto e cozinha da Serra Gaúcha. Surpreenda Restaurantes: na compra de um prato principal, o segundo sai grátis (1 voucher por mesa, 10 pontos, pagar com o Black). Reservar até terça 3/11 pelo Mastercard Concierge 0800 725 2025 (24h de antecedência, seg–sáb). Não acumula com outras promoções da casa.",
+          "lat": -25.544,
+          "lng": -54.5762,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Rota Google 13 min + margem"
+            "label": "Marco das Três Fronteiras → Centro · cerca de 13 min + margem"
           },
           "place": {
-            "address": "R. Mal. Deodoro, 816 · Centro, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 11h–0h",
-            "phone": "(45) 3029-7373",
-            "website": "https://usetag.me/benditobar",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJQZNE9bSR9pQRALXqebUevVk",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bendito&query_place_id=ChIJQZNE9bSR9pQRALXqebUevVk",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u",
+            "address": "Av. das Cataratas, 67 (esq. Av. Paraná) · Centro, Foz do Iguaçu - PR",
+            "hours": "Seg–sex 11h30–16h e 18h–23h · sáb, dom e feriados 11h30–22h",
+            "website": "https://dipaolo.com.br/restaurantes/foz-do-iguacu/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Di%20Paolo%20Foz%20do%20Igua%C3%A7u%20Av.%20das%20Cataratas%2067",
+            "tripadvisorUrl": "https://www.tripadvisor.com/Restaurant_Review-g303444-d33989462-Reviews-Di_Paolo_Foz_do_Iguacu-Foz_do_Iguacu_State_of_Parana.html",
             "photos": [],
             "osmPending": true
           },
           "alternatives": [
+            {
+              "name": "Bendito",
+              "note": "Plano B se o Di Paolo não confirmar o 2x1. Fica a 13 min.",
+              "place": {
+                "address": "R. Mal. Deodoro, 816 · Centro, Foz do Iguaçu - PR",
+                "hours": "Todos os dias 11h–0h",
+                "phone": "(45) 3029-7373",
+                "website": "https://usetag.me/benditobar",
+                "rating": 4.7,
+                "googlePlaceId": "ChIJQZNE9bSR9pQRALXqebUevVk",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bendito&query_place_id=ChIJQZNE9bSR9pQRALXqebUevVk",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "osmPending": true
+              },
+              "lat": -25.5441,
+              "lng": -54.582,
+              "cost": 88,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 88,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 88,
+                "people": 3,
+                "totalGroup": 264,
+                "status": "estimativa",
+                "checkedAt": "2026-10-17",
+                "rangePerPerson": [
+                  65,
+                  110
+                ],
+                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+              },
+              "image": {
+                "src": "/img/foz-do-iguacu/bendito.jpg",
+                "page": "https://www.hoteltarobafoz.com.br",
+                "author": "hoteltarobafoz.com.br"
+              },
+              "type": "food"
+            },
             {
               "name": "Água Doce Cachaçaria",
               "type": "food",
@@ -1399,27 +1437,22 @@
               }
             }
           ],
-          "cost": 88,
+          "cost": 65,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 88,
+            "fullPerPerson": 90,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 88,
+            "payPerPerson": 65,
             "people": 3,
-            "totalGroup": 264,
+            "totalGroup": 195,
             "status": "estimativa",
-            "checkedAt": "2026-10-17",
+            "checkedAt": "2026-10-18",
             "rangePerPerson": [
-              65,
-              110
+              50,
+              80
             ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/bendito.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
+            "note": "Estimativa: 3 pratos de ~R$ 90 com o 2x1 (paga 2 de 3), sem bebidas. Economia ~R$ 60–90 sobre o Bendito."
           }
         },
         {
@@ -1556,10 +1589,10 @@
         },
         {
           "time": "07:20",
-          "end": "08:00",
+          "end": "08:45",
           "type": "food",
           "name": "Café da manhã do Sanderson · Engenho Doce",
-          "note": "Padaria e confeitaria tradicional do Centro, abre às 6h30. Valor não estimado.",
+          "note": "Padaria e confeitaria tradicional do Centro, abre às 6h30. Café sem pressa: as lojas de lembranças só abrem às 9h. Valor não estimado.",
           "lat": -25.5404702,
           "lng": -54.5763553,
           "leg": {
@@ -1577,53 +1610,17 @@
           }
         },
         {
-          "time": "08:05",
-          "end": "08:55",
-          "type": "shopping",
-          "name": "Ailabiu Souvenirs · lembranças",
-          "note": "Loja de souvenirs de Foz. O Google indica abertura às 8h todos os dias; o Instagram indica 9h. Confirmar pelo WhatsApp na véspera; se abrir às 9h, inverter com a Feira Iguaçu.",
-          "lat": -25.53475,
-          "lng": -54.585892,
-          "leg": {
-            "mode": "car",
-            "minutes": 5,
-            "label": "Av. Paraná → Av. Brasil · 5 min"
-          },
-          "place": {
-            "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
-            "hours": "Seg–sáb 9h–12h e 14h–18h30 (Instagram; sem domingo)",
-            "phone": "(45) 99135-6318 (WhatsApp)",
-            "instagram": "https://www.instagram.com/ailabiuiguassu/",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": false
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": false,
-            "payPerPerson": 0,
-            "people": 1,
-            "totalGroup": 0,
-            "status": "informado",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
-          }
-        },
-        {
           "time": "09:00",
-          "end": "10:10",
+          "end": "10:05",
           "type": "shopping",
           "name": "Feira Iguaçu e Bela Artesanato · lembranças",
           "note": "Duas quadras de lojinhas no estilo feira: ímãs, canecas, camisetas, bandeiras e artesanato do Brasil, Paraguai e Argentina, com preços abaixo dos atrativos. A Bela Artesanato fica no nº 742, ao lado. Entrada livre; compras à parte.",
           "lat": -25.5358073,
           "lng": -54.5856072,
           "leg": {
-            "mode": "walk",
-            "minutes": 4,
-            "label": "A pé, cerca de 300 m"
+            "mode": "car",
+            "minutes": 10,
+            "label": "Av. Paraná → R. Eng. Rebouças · 5 min + estacionar"
           },
           "place": {
             "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
@@ -1648,25 +1645,24 @@
           }
         },
         {
-          "time": "10:30",
-          "end": "11:00",
+          "time": "10:10",
+          "end": "10:55",
           "type": "shopping",
-          "name": "Pedacinho de Foz · Falls Galli Hotel",
-          "note": "Visita de Sanderson à loja de lembrancinhas no Falls Galli Hotel. Procurar miniaturas do Marco das Três Fronteiras, Cataratas, bandeiras dos três países e peças decorativas para a estante. Compras à parte. O horário próprio da loja não foi publicado: confirmar com a recepção antes de sair; se estiver fechada, pular esta parada e seguir para a Ailabiu, com atendimento também a confirmar.",
-          "lat": -25.5246,
-          "lng": -54.5647,
+          "name": "Ailabiu Souvenirs · lembranças",
+          "note": "Loja de souvenirs de Foz. Vem depois da Feira Iguaçu porque, pelo Instagram, abre às 9h (o Google diz 8h) e fecha das 12h às 14h. Confirmar pelo WhatsApp na véspera.",
+          "lat": -25.53475,
+          "lng": -54.585892,
           "leg": {
-            "mode": "car",
-            "minutes": 20,
-            "label": "Centro → Falls Galli Hotel · cerca de 20 min"
+            "mode": "walk",
+            "minutes": 4,
+            "label": "Feira Iguaçu → Av. Brasil, 74 · a pé, cerca de 300 m"
           },
           "place": {
-            "address": "Av. Costa e Silva, 1602 · Centro, Foz do Iguaçu - PR, 85852-282 (Falls Galli Hotel)",
-            "hours": "Horário próprio da loja a confirmar com a recepção do Falls Galli Hotel",
-            "phone": "+55 (45) 3520-1015 · (45) 99942-8995 (recepção do hotel)",
-            "instagram": "https://www.instagram.com/pedacinhodefoz/",
-            "website": "https://linktr.ee/pedacinhodefoz",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
+            "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
+            "hours": "Seg–sáb 9h–12h e 14h–18h30 (Instagram; sem domingo)",
+            "phone": "(45) 99135-6318 (WhatsApp)",
+            "instagram": "https://www.instagram.com/ailabiuiguassu/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
             "photos": [],
             "osmPending": false
           },
@@ -1700,7 +1696,7 @@
           "leg": {
             "mode": "car",
             "minutes": 35,
-            "label": "Falls Galli → AquaFoz, Av. das Cataratas · cerca de 35 min"
+            "label": "Centro → AquaFoz, Av. das Cataratas · cerca de 30 min + estacionar"
           },
           "place": {
             "address": "Av. das Cataratas (BR-469), km 18 · Porto Meira, Foz do Iguaçu - PR (em frente ao Parque Nacional do Iguaçu)",
@@ -1723,8 +1719,8 @@
             "halfPerPerson": 75,
             "halfApplies": true,
             "payPerPerson": 75,
-            "people": 3,
-            "totalGroup": 225,
+            "people": 1,
+            "totalGroup": 75,
             "status": "estimativa",
             "checkedAt": "2026-10-18",
             "note": "Valores do planejamento (inteira R$ 150; meia R$ 75). Comprando com 1 dia de antecedência, a meia cai para R$ 67,50 (site oficial)."
@@ -1768,8 +1764,8 @@
             "halfPerPerson": null,
             "halfApplies": false,
             "payPerPerson": 50,
-            "people": 3,
-            "totalGroup": 150,
+            "people": 1,
+            "totalGroup": 50,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
             "rangePerPerson": [
@@ -1913,6 +1909,22 @@
             "note": "Jantar-show: bufê de churrasco + show; bebidas à parte. Revendedores cobram bem mais (US$ 115–140). Comprar no site do Rafain e confirmar se há meia para estudante."
           },
           "alternatives": [
+            {
+              "name": "Fondue no Sanma Hotel (2x1 Prime Gourmet)",
+              "type": "food",
+              "note": "Opção de economia: fondue na quinta (Sanma só vale dom–qui, 19h–23h) e Rafain na sexta no lugar do Óga. Ganha outro fondue (desconto no de menor valor). Exige assinatura Prime Gourmet (R$ 200) e reserva antecipada com sinal: (45) 9101-5253 ou (45) 9104-8418. Economia líquida estimada ~R$ 0–50.",
+              "lat": -25.615,
+              "lng": -54.483,
+              "place": {
+                "address": "Av. das Cataratas, 12280 · Parque Nacional, Foz do Iguaçu - PR, 85855-750",
+                "hours": "Fondue dom–qui 19h–23h",
+                "phone": "(45) 9101-5253",
+                "website": "https://primegourmetclub.com.br/foz-do-iguacu-regiao/lA5kNR98Qb06",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "osmPending": true
+              }
+            },
             {
               "name": "Capitão Bar",
               "type": "food",
@@ -2094,10 +2106,10 @@
         },
         {
           "time": "07:15",
-          "end": "08:00",
+          "end": "07:45",
           "type": "food",
           "name": "Café da manhã do Sanderson · Bella Foz Café",
-          "note": "Padaria e cafeteria do Centro (nota 4,8), abre às 7h. Tapioca, omelete, sucos naturais. Valor não estimado.",
+          "note": "Padaria e cafeteria do Centro (nota 4,8), abre às 7h. Tapioca, omelete, sucos naturais. Sair às 7h45 em ponto para chegar à Itaipu às 8h10. Valor não estimado.",
           "lat": -25.5408574,
           "lng": -54.5801342,
           "leg": {
@@ -2119,7 +2131,7 @@
           "end": "11:00",
           "type": "activity",
           "name": "Itaipu · Circuito Especial (Sanderson)",
-          "note": "Visita por dentro da usina: galeria de quase 1 km, descida ao nível das turbinas e sala de controle, além dos mirantes. Cerca de 2h30. Relatos indicam idade mínima de 14 anos. Confirmar no site oficial de ingressos o horário da saída, o calçado exigido e o documento.",
+          "note": "Visita por dentro da usina: galeria de quase 1 km, descida ao nível das turbinas e sala de controle, além dos mirantes. Cerca de 2h30. Relatos indicam idade mínima de 14 anos. Confirmar no site oficial de ingressos o horário da saída, o calçado exigido e o documento. Chegar às 8h10 (20 min antes da saída das 8h30) para estacionar e fazer o check-in.",
           "lat": -25.4469,
           "lng": -54.5846,
           "image": {
@@ -2185,7 +2197,7 @@
             "halfPerPerson": 0,
             "halfApplies": false,
             "payPerPerson": 0,
-            "people": 3,
+            "people": 1,
             "totalGroup": 0,
             "status": "informado",
             "checkedAt": "2026-10-18",
@@ -2229,8 +2241,8 @@
             "halfPerPerson": null,
             "halfApplies": false,
             "payPerPerson": 45,
-            "people": 3,
-            "totalGroup": 135,
+            "people": 1,
+            "totalGroup": 45,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
             "rangePerPerson": [
@@ -2242,16 +2254,53 @@
         },
         {
           "time": "13:40",
+          "end": "14:10",
+          "type": "shopping",
+          "name": "Pedacinho de Foz · Falls Galli Hotel",
+          "note": "Loja de lembrancinhas no Falls Galli Hotel, na mesma avenida do JL e do congresso (passou da quinta para cá para evitar o desvio até o Centro). Procurar miniaturas do Marco das Três Fronteiras, Cataratas, bandeiras dos três países e peças decorativas para a estante. Compras à parte. O horário da loja não foi publicado: confirmar com a recepção; se estiver fechada, seguir direto para o JL.",
+          "lat": -25.5246,
+          "lng": -54.5647,
+          "leg": {
+            "mode": "car",
+            "minutes": 20,
+            "label": "Itaipu → Falls Galli Hotel, Av. Costa e Silva, 1602 · cerca de 20 min"
+          },
+          "place": {
+            "address": "Av. Costa e Silva, 1602 · Centro, Foz do Iguaçu - PR, 85852-282 (Falls Galli Hotel)",
+            "hours": "Horário próprio da loja a confirmar com a recepção do Falls Galli Hotel",
+            "phone": "+55 (45) 3520-1015 · (45) 99942-8995 (recepção do hotel)",
+            "instagram": "https://www.instagram.com/pedacinhodefoz/",
+            "website": "https://linktr.ee/pedacinhodefoz",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": false
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": false,
+            "payPerPerson": 0,
+            "people": 1,
+            "totalGroup": 0,
+            "status": "informado",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
+          }
+        },
+        {
+          "time": "14:20",
           "end": "19:30",
           "type": "shopping",
           "name": "Cataratas JL Shopping · compras (Sanderson)",
-          "note": "Compras no shopping. Lojas seg–sáb 10h–22h. Fica na mesma avenida do congresso.",
+          "note": "Compras no shopping (ou voltar ao Airbnb para descansar, a 10–15 min). Lojas seg–sáb 10h–22h. Fica na mesma avenida do congresso.",
           "lat": -25.5329347,
           "lng": -54.5752058,
           "leg": {
             "mode": "car",
-            "minutes": 20,
-            "label": "Itaipu → Av. Costa e Silva · cerca de 20 min"
+            "minutes": 10,
+            "label": "Falls Galli → JL · mesma avenida"
           },
           "place": {
             "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
@@ -2385,15 +2434,15 @@
           }
         }
       ],
-      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar. Horários das atrações conferidos nos sites oficiais Dreams Park Show, Wonder Park e Pátio Pomare."
+      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho (Itaipu, Pedacinho de Foz e JL). Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar."
     },
     {
       "date": "2026-11-07",
       "title": "Congresso + city tour no Paraguai (Sanderson) + festa do congresso",
       "items": [
         {
-          "time": "06:45",
-          "end": "07:15",
+          "time": "06:00",
+          "end": "06:30",
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
           "note": "Café no apartamento, os três.",
@@ -2424,7 +2473,7 @@
           }
         },
         {
-          "time": "07:25",
+          "time": "06:35",
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem.",
@@ -2439,11 +2488,11 @@
           }
         },
         {
-          "time": "07:40",
-          "end": "07:50",
+          "time": "06:50",
+          "end": "07:00",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h (confirmar se no sábado começa mais tarde; se sim, atrasar café e saída). Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
           "image": {
@@ -2470,7 +2519,7 @@
           "time": "08:15",
           "type": "lodging",
           "name": "Agência busca o Sanderson no Airbnb",
-          "note": "Deixar o carro na garagem. Levar documento com foto (RG ou passaporte) para a fronteira. Horário da busca a confirmar com a agência.",
+          "note": "Deixar o carro na garagem. Tempo livre entre a volta (7h15) e a busca. Levar documento com foto (RG ou passaporte) para a fronteira. Horário da busca a confirmar com a agência.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -2488,10 +2537,10 @@
         },
         {
           "time": "08:30",
-          "end": "17:00",
+          "end": "15:30",
           "type": "activity",
-          "name": "City Tour Paraguai com parada para compras (Sanderson)",
-          "note": "Roteiro típico: Catedral de San Blas, Casino Acaray, Mesquita del Este, Chipería Mi Abuela, Museu El Mensú, Lago de la República, passagem pela Prefeitura de Ciudad del Este e Saltos del Monday (cerca de 1h), com parada para compras no fim. Almoço: lanche na Chipería Mi Abuela, parada do próprio tour (o tour não inclui refeição). Horários de saída e volta a confirmar com a agência.",
+          "name": "City Tour Paraguai (Sanderson)",
+          "note": "Versão só city tour, sem a parada de compras: as compras no Paraguai já foram feitas na quarta, no sábado muitas lojas fecham entre 15h e 16h e a fila da ponte é a pior da semana. Roteiro típico: Catedral de San Blas, Casino Acaray, Mesquita del Este, Chipería Mi Abuela, Museu El Mensú, Lago de la República, Prefeitura de Ciudad del Este e Saltos del Monday (cerca de 1h). Almoço: lanche na Chipería Mi Abuela (o tour não inclui refeição). Horários de saída e volta a confirmar com a agência.",
           "lat": -25.55928,
           "lng": -54.6315432,
           "leg": {
@@ -2504,26 +2553,26 @@
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbWMMrEqO9pQRPc49_XBaN8I",
             "photos": []
           },
-          "cost": 150,
+          "cost": 130,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 150,
+            "fullPerPerson": 130,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 150,
+            "payPerPerson": 130,
             "people": 1,
-            "totalGroup": 150,
+            "totalGroup": 130,
             "status": "a confirmar",
             "checkedAt": "2026-10-18",
-            "note": "Valor da lista (City Tour Paraguai com parada para compras). A versão só city tour sai R$ 130 e termina por volta das 15h30."
+            "note": "Valor da lista (City Tour Paraguai, só city tour, termina por volta das 15h30). A versão com parada para compras sai R$ 150."
           }
         },
         {
-          "time": "17:15",
+          "time": "16:10",
           "end": "19:20",
           "type": "lodging",
           "name": "Volta ao Airbnb",
-          "note": "A agência deixa no Airbnb. Banho e troca de roupa. Sair às 19h20 para o Capitão Bar.",
+          "note": "A agência deixa no Airbnb. Tarde de descanso, banho e troca de roupa. Sair às 19h20 para o Capitão Bar.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -2672,7 +2721,7 @@
           }
         }
       ],
-      "note": "Sábado: café dos três no Airbnb, congresso para Hortência e Gracinha e manhã de lembrancinhas para Sanderson. Pedacinho de Foz e Ailabiu foram transferidos da quinta para evitar visitas antes da abertura. Almoço no Cataratas JL e tarde de descanso; noite conforme confirmação da festa. Itaipu Panorâmica e Bistrot ficam somente no domingo, com os três. Tempos de deslocamento são referências com margem, não previsão do trânsito de novembro; recalcular pelos links de rotas no dia. Confirmar abertura das lojas pelo telefone antes da saída."
+      "note": "Sábado: café dos três no Airbnb, congresso para Hortência e Gracinha e city tour no Paraguai (só passeio, sem compras) para Sanderson, com tarde de descanso. À noite, as meninas vão à festa do congresso e Sanderson janta no Capitão Bar (é o único motorista: sem álcool). Tempos de deslocamento são referências com margem; recalcular pelos links de rotas no dia."
     },
     {
       "date": "2026-11-08",
@@ -2923,10 +2972,10 @@
         },
         {
           "time": "13:00",
-          "end": "15:30",
+          "end": "15:15",
           "type": "place",
           "name": "Parque das Aves",
-          "note": "Fecha às 16h30. Caminhos planos e sombreados. Preço estudante.",
+          "note": "Fecha às 16h30. Caminhos planos e sombreados. Preço estudante. Sair às 15h15 em ponto: o embarque do Kattamaram é às 16h30.",
           "lat": -25.6139,
           "lng": -54.4826,
           "image": {
@@ -3004,11 +3053,11 @@
           }
         },
         {
-          "time": "15:45",
-          "end": "16:20",
+          "time": "15:30",
+          "end": "16:00",
           "type": "shopping",
           "name": "Artesanato e Chocolate Caseiro Três Fronteiras",
-          "note": "Loja grande de souvenirs, pedras, artesanato, café e chocolate caseiro, com degustação. Entrada livre; compras à parte.",
+          "note": "Loja grande de souvenirs, pedras, artesanato, café e chocolate caseiro, com degustação. Parada rápida (30 min): sair às 16h para o Kattamaram. Entrada livre; compras à parte.",
           "lat": -25.5789007,
           "lng": -54.5364949,
           "leg": {
@@ -3039,11 +3088,11 @@
           }
         },
         {
-          "time": "16:50",
+          "time": "16:20",
           "end": "19:00",
           "type": "activity",
           "name": "Kattamaram II no pôr do sol",
-          "note": "Embarque no Porto Meira, a 1,6 km do Marco. Pôr do sol na tríplice fronteira, sem jantar a bordo. Confirmar horário de embarque. Meia-entrada; validar carteirinhas.",
+          "note": "Embarque no Porto Meira às 16h30, saída às 17h, volta por volta das 19h (site oficial). Chegar às 16h20. Opção sem buffet (sem jantar a bordo). Rota: Ponte da Fraternidade, Encontro das Águas, Marco das Três Fronteiras e Ponte da Amizade. Meia para estudante com carteirinha brasileira. Confirmar a saída no WhatsApp (45) 98414-4800.",
           "lat": -25.5901,
           "lng": -54.5789,
           "image": {
@@ -3054,11 +3103,11 @@
           "leg": {
             "mode": "car",
             "minutes": 20,
-            "label": "Av. das Cataratas → Porto Meira · cerca de 20 min"
+            "label": "Av. das Cataratas, km 11 → Porto Meira · cerca de 20 min"
           },
           "place": {
             "address": "Av. Gen. Meira, 5890 · Porto Meira, Foz do Iguaçu - PR (1,6 km do Marco)",
-            "hours": "Atendimento 9h–17h · saída do pôr do sol a confirmar",
+            "hours": "Embarque 16h30 · saída 17h · volta ~19h (pôr do sol)",
             "phone": "(45) 3132-8147",
             "website": "https://kattamaram.com.br/",
             "rating": 4.6,
@@ -3077,9 +3126,10 @@
             "payPerPerson": 120,
             "people": 3,
             "totalGroup": 360,
-            "status": "a confirmar",
-            "checkedAt": "2026-10-17",
-            "note": "Valor do planejamento anterior (meia R$ 120). O site não mostra preços: confirmar no WhatsApp (45) 98414-4800."
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Site oficial: sem buffet R$ 240 (inteira) / R$ 120 (desconto estudante). Com buffet: R$ 300 / R$ 150.",
+            "source": "https://kattamaram.com.br/por-do-sol-com-jantar-a-bordo/"
           },
           "alternatives": [
             {
@@ -3385,7 +3435,7 @@
           "end": "15:30",
           "type": "shopping",
           "name": "Duty Free Shop Puerto Iguazú",
-          "note": "Fica logo depois da aduana argentina. Fecha às 20h. Perfumes, bebidas e importados; entrada gratuita. Na entrada, as bolsas são lacradas em um saco de segurança.",
+          "note": "Fica entre as duas aduanas: para entrar é preciso sair da Argentina pela imigração e, para voltar a Puerto Iguazú (feirinha, Icebar, Hito e jantar), entrar de novo. São duas filas de fronteira a mais: confirmar com a agência como ela faz esse trecho. Fecha às 20h. Perfumes, bebidas e importados; entrada gratuita. Na entrada, as bolsas são lacradas em um saco de segurança.",
           "lat": -25.5994,
           "lng": -54.5639,
           "image": {
@@ -3658,7 +3708,7 @@
           "end": "07:50",
           "type": "lodging",
           "name": "Check-out antecipado · malas na SUV",
-          "note": "Check-out e malas no carro. Mulheres: levar roupa que cubra as pernas para a mesquita (o véu é emprestado na entrada).",
+          "note": "Check-out e malas no carro. Mulheres: levar roupa que cubra as pernas para a mesquita (o véu é emprestado na entrada). Malas fora de vista no porta-malas durante as visitas.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -3711,7 +3761,7 @@
           "end": "09:20",
           "type": "place",
           "name": "Mesquita Omar Ibn Al-Khattab",
-          "note": "A maior mesquita do Brasil. Visita gratuita com vídeo sobre a cultura islâmica; mulheres recebem o véu na entrada. Roupa cobrindo as pernas. Abertura: o roteiro anterior indica 8h30 e um blog indica visitas a partir das 9h. Se for 9h, fazer a Kapadokya antes.",
+          "note": "A maior mesquita do Brasil. Visita gratuita com vídeo sobre a cultura islâmica; mulheres recebem o véu na entrada. Roupa cobrindo as pernas. Abertura: o roteiro anterior indica 8h30 e um blog indica visitas a partir das 9h. Se for 9h, fazer a Kapadokya antes; há folga até a Catedral.",
           "lat": -25.5206,
           "lng": -54.5787,
           "leg": {
@@ -3763,8 +3813,42 @@
           }
         },
         {
-          "time": "09:55",
-          "end": "10:45",
+          "time": "09:50",
+          "end": "10:20",
+          "type": "place",
+          "name": "Catedral Nossa Senhora de Guadalupe",
+          "note": "Inaugurada em 2023, com arquitetura moderna e vitrais grandes. Vem antes do Templo porque fica no caminho e, na terça, fecha às 11h30.",
+          "lat": -25.4975,
+          "lng": -54.5734,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Mesquita → Catedral, Av. Paraná · cerca de 10 min"
+          },
+          "place": {
+            "address": "Av. Paraná, 5440",
+            "hours": "Ter–sex 8h–11h30 / 14h–17h30 · domingo fechado",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catedral%20Nossa%20Senhora%20de%20Guadalupe%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": false,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada gratuita (confirmar)."
+          }
+        },
+        {
+          "time": "10:35",
+          "end": "11:10",
           "type": "place",
           "name": "Templo Budista Chen Tien",
           "note": "Entrada gratuita. Buda dourado da prosperidade e a fileira de estátuas douradas. Ter–dom 9h30–16h30; fecha às segundas.",
@@ -3779,7 +3863,7 @@
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Mesquita → Templo Budista · cerca de 15 min"
+            "label": "Catedral → Templo Budista · cerca de 12 min"
           },
           "place": {
             "address": "R. Dr. Josivalter Vilanova, 99 · Porto Belo, Foz do Iguaçu - PR",
@@ -3808,51 +3892,17 @@
           }
         },
         {
-          "time": "10:55",
-          "end": "11:25",
-          "type": "place",
-          "name": "Catedral Nossa Senhora de Guadalupe",
-          "note": "Inaugurada em 2023, com arquitetura moderna e vitrais grandes. Na terça fecha às 11h30.",
-          "lat": -25.4975,
-          "lng": -54.5734,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Templo → Catedral · 11 min"
-          },
-          "place": {
-            "address": "Av. Paraná, 5440",
-            "hours": "Ter–sex 8h–11h30 / 14h–17h30 · domingo fechado",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Catedral%20Nossa%20Senhora%20de%20Guadalupe%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": true
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": false,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "estimativa",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada gratuita (confirmar)."
-          }
-        },
-        {
-          "time": "11:35",
-          "end": "12:50",
-          "type": "food",
-          "name": "Almoço · Mercado Público Barrageiro + Artes Sem Fronteiras",
-          "note": "Mercado com lojinhas, comidinhas e produtos regionais. Dentro dele fica a Artes Sem Fronteiras, loja de artesanato regional com muita variedade (ter–sáb 10h–21h): bom lugar para as últimas lembranças. Sair às 12h50 para o aeroporto.",
+          "time": "11:25",
+          "end": "11:45",
+          "type": "shopping",
+          "name": "Mercado Público Barrageiro + Artes Sem Fronteiras · lembranças",
+          "note": "Parada rápida para as últimas lembranças na Artes Sem Fronteiras (ter–sáb 10h–21h). O almoço passou para O Ovelheiro, no caminho do aeroporto. Sair às 11h45.",
           "lat": -25.5044,
           "lng": -54.5826,
           "leg": {
             "mode": "car",
-            "minutes": 5,
-            "label": "Catedral → Mercado · cerca de 5 min"
+            "minutes": 15,
+            "label": "Templo → Mercado · cerca de 15 min"
           },
           "place": {
             "address": "Av. Araucária, 140",
@@ -3860,20 +3910,74 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u",
             "photos": [],
             "osmPending": true
+          }
+        },
+        {
+          "time": "12:00",
+          "end": "13:05",
+          "type": "food",
+          "name": "Almoço · O Ovelheiro (50% Primeira)",
+          "note": "Churrascaria de cordeiro (nota 4,9 no app Primeira). 50% em todos os pratos para mesa de até 4, taxa de reserva R$ 18. Reservar no app Primeira o horário das 12h de terça (confirmar se está liberado). Bebidas à parte. Perguntar opção sem lactose para a Hortência. Fica no caminho do aeroporto.",
+          "lat": -25.5688,
+          "lng": -54.5581,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Mercado → Av. das Cataratas, 3570 · cerca de 15 min"
           },
-          "cost": 60,
+          "place": {
+            "address": "Av. das Cataratas, 3570 · Vila Yolanda, Foz do Iguaçu - PR, 85853-000",
+            "website": "https://primeira.app/restaurante/o-ovelheiro",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=O%20Ovelheiro%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 55,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 60,
+            "fullPerPerson": 100,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 60,
+            "payPerPerson": 56,
             "people": 3,
-            "totalGroup": 180,
-            "status": "informado",
+            "totalGroup": 168,
+            "status": "estimativa",
             "checkedAt": "2026-10-18",
-            "note": "R$ 60 por pessoa (planejamento)."
-          }
+            "rangePerPerson": [
+              45,
+              70
+            ],
+            "note": "Estimativa: conta de ~R$ 300 para três com 50% (R$ 150) + R$ 18 da reserva, sem bebidas. Economia ~R$ 70–115 em relação ao plano anterior."
+          },
+          "alternatives": [
+            {
+              "name": "Almoço no Mercado Público Barrageiro",
+              "type": "food",
+              "note": "Plano B se não houver mesa às 12h no Ovelheiro: almoçar no Mercado e sair às 12h50.",
+              "place": {
+                "address": "Av. Araucária, 140",
+                "hours": "Seg fechado · ter–sáb 10h–22h",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "osmPending": true
+              },
+              "lat": -25.5044,
+              "lng": -54.5826,
+              "cost": 60,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 60,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 60,
+                "people": 3,
+                "totalGroup": 180,
+                "status": "informado",
+                "checkedAt": "2026-10-18",
+                "note": "R$ 60 por pessoa (planejamento)."
+              }
+            }
+          ]
         },
         {
           "time": "13:20",
@@ -3885,8 +3989,8 @@
           "lng": -54.4885,
           "leg": {
             "mode": "car",
-            "minutes": 30,
-            "label": "Mercado → posto perto do aeroporto · 29 min + margem"
+            "minutes": 15,
+            "label": "Ovelheiro → posto perto do aeroporto · cerca de 12 min + margem"
           },
           "place": {
             "address": "Rod. BR-469, km 16,5 · Aeroporto, Foz do Iguaçu - PR, 85863-900",
