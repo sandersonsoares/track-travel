@@ -37,4 +37,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=${{ env.PAGES_PROJECT_NAME }} --branch=main --commit-hash=${{ github.sha }}
+          command: pages deploy dist/client --project-name=${{ env.PAGES_PROJECT_NAME }} --branch=main --commit-hash=${{ github.sha }}
