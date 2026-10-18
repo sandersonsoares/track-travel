@@ -1425,7 +1425,7 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Congresso + AquaFoz e Catuaí (Sanderson) + Rafain",
+      "title": "Congresso + lembrancinhas + AquaFoz e Catuaí (Sanderson) + Rafain",
       "items": [
         {
           "time": "06:10",
@@ -1514,27 +1514,31 @@
             "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": []
-          }
+          },
+          "end": "07:05"
         },
         {
-          "time": "07:15",
-          "end": "08:20",
-          "type": "activity",
-          "name": "Caminhada no Bosque Guarani",
-          "note": "Grátis. Confirmar horário de abertura. Endereço e coordenadas aproximados: confirmar no mapa.",
-          "lat": -25.547,
-          "lng": -54.588,
+          "time": "07:12",
+          "end": "07:45",
+          "type": "shopping",
+          "name": "Pedacinho de Foz · Falls Galli Hotel",
+          "note": "Loja de lembrancinhas da rede Pedacinho de Foz (6 lojas em Foz, incluindo Hotel Manacá, Hotel Luz, Foz Budget, Cataratas Park). Procurar miniaturas do Marco das Três Fronteiras, bandeiras dos três países, Cataratas e outros souvenirs decorativos. Entrada gratuita; compras à parte. Horário próprio da loja não divulgado: confirmar com a recepção do hotel antes das 7h10.",
+          "lat": -25.5246,
+          "lng": -54.5647,
           "leg": {
             "mode": "car",
-            "minutes": 15,
-            "label": "Estimativa de carro (confirmar)"
+            "minutes": 6,
+            "label": "Rota estimada ~6 min do Recanto (confirmar no mapa)"
           },
           "place": {
-            "address": "Centro, Foz do Iguaçu - PR (endereço a confirmar)",
-            "hours": "Horário a confirmar",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bosque%20Guarani%20Foz%20do%20Igua%C3%A7u",
+            "address": "Av. Costa e Silva, 1602 · Centro, Foz do Iguaçu - PR, 85852-282 (Falls Galli Hotel)",
+            "hours": "A confirmar com o hotel (abertura prevista às 7h)",
+            "phone": "+55 (45) 3520-1015 · (45) 99942-8995 (recepção do hotel)",
+            "instagram": "https://www.instagram.com/pedacinhodefoz/",
+            "website": "https://linktr.ee/pedacinhodefoz",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
             "photos": [],
-            "osmPending": true
+            "osmPending": false
           },
           "cost": 0,
           "costDetails": {
@@ -1547,7 +1551,43 @@
             "totalGroup": 0,
             "status": "informado",
             "checkedAt": "2026-10-18",
-            "note": "Grátis."
+            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
+          }
+        },
+        {
+          "time": "08:00",
+          "end": "08:25",
+          "type": "shopping",
+          "name": "Ailabiu Iguassu · Centro",
+          "note": "Segunda loja de lembrancinhas: comparar preços, modelos e qualidade e priorizar miniaturas para a estante. Entrada gratuita; compras à parte. Visita reduzida para 25 min para sair às 8h25. CONFLITO: o Instagram indica abertura às 9h (seg–sáb), não às 8h. Confirmar pelo WhatsApp antes de sair; se estiver fechada, substituir por outra loja de souvenirs próxima aberta às 8h. Uma matéria antiga (Clickfoz) citava 7h30–19h30 todos os dias, mas está desatualizada.",
+          "lat": -25.5488,
+          "lng": -54.5867,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Rota estimada ~10 min do Pedacinho (confirmar no mapa)"
+          },
+          "place": {
+            "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
+            "hours": "Seg–sáb 9h–12h e 14h–18h30 (Instagram; sem domingo)",
+            "phone": "(45) 99135-6318 (WhatsApp)",
+            "instagram": "https://www.instagram.com/ailabiuiguassu/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": false
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": false,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "informado",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
           }
         },
         {
@@ -1555,24 +1595,26 @@
           "end": "11:30",
           "type": "place",
           "name": "AquaFoz",
-          "note": "Carro 35 min. Meia R$ 75; inteira R$ 150.",
+          "note": "Aquário de Foz (site oficial). Carro 35 min. Inteira R$ 150; meia-entrada conforme legislação do Paraná (comprovante obrigatório). Site mostra promoções antecipadas de R$ 135 e R$ 120 (confirmar no momento da compra). Moradores de Foz: R$ 30, só na bilheteria. Crianças até 6 anos e 11 meses: grátis. Última entrada 17h.",
           "lat": -25.6165,
           "lng": -54.481,
           "leg": {
             "mode": "car",
             "minutes": 35,
-            "label": "Carro 35 min"
+            "label": "Saída 8h25 da Ailabiu · carro 35 min (Rota estimada)"
           },
           "place": {
-            "address": "Av. das Cataratas, 12860 · Porto Meira, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 9h–17h",
-            "phone": "(21) 3613-0705",
+            "address": "Av. das Cataratas (BR-469), km 18 · Porto Meira, Foz do Iguaçu - PR (em frente ao Parque Nacional do Iguaçu)",
+            "hours": "Todos os dias 9h–18h30 (última entrada 17h)",
+            "phone": "+55 (45) 99149-6336 (WhatsApp)",
+            "email": "contato@aquafoz.com.br",
             "website": "https://aquafoz.com.br/",
+            "instagram": "https://www.instagram.com/aquariodefoz/",
             "rating": 4.7,
             "googlePlaceId": "ChIJr8Hzwj2V9pQRBnAaHa_-LB4",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=AquaFoz&query_place_id=ChIJr8Hzwj2V9pQRBnAaHa_-LB4",
             "photos": [],
-            "osmPending": true,
+            "osmPending": false,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=AquaFoz%20Foz%20do%20Igua%C3%A7u"
           },
           "image": {
@@ -1622,7 +1664,8 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Divino%20Fog%C3%A3o%20%28Sanderson%29&query_place_id=ChIJ-R6tzGSR9pQRVQqhH3uLTvc",
             "photos": [],
             "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Divino%20Fog%C3%A3o%20Foz%20do%20Igua%C3%A7u"
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Divino%20Fog%C3%A3o%20Foz%20do%20Igua%C3%A7u",
+            "instagram": "https://www.instagram.com/divino_fogao/"
           },
           "alternatives": [
             {
