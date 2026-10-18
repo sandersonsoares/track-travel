@@ -196,6 +196,26 @@
             ],
             "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           }
+        },
+        {
+          "time": "22:55",
+          "type": "lodging",
+          "name": "Airbnb Solar das Violetas",
+          "note": "Fim do dia.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Trigo & Cia → Airbnb · 200 m a pé"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
         }
       ]
     },
@@ -1425,34 +1445,40 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Congresso + lembrancinhas + AquaFoz e Catuaí (Sanderson) + Rafain",
+      "title": "Congresso + lembranças, AquaFoz e Catuaí (Sanderson) + Rafain",
       "items": [
         {
           "time": "06:10",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "A pé. Sanderson leva Hortência e Gracinha de carro e segue com o roteiro dele.",
+          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": []
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
           }
         },
         {
           "time": "06:15",
-          "end": "06:45",
+          "end": "06:40",
           "type": "food",
           "name": "Café da manhã · Trigo & Cia",
-          "note": "Padaria 24h a 200 m. Café reforçado: o almoço só sai por volta das 13h.",
+          "note": "Café das meninas antes do congresso. Sanderson só toma um café aqui; o café da manhã dele é depois de deixá-las.",
           "lat": -25.5177,
           "lng": -54.5742,
+          "image": {
+            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
+            "page": "https://www.trigoecia.com.br",
+            "author": "trigoecia.com.br"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 5,
-            "label": "200 m"
+            "minutes": 3,
+            "label": "Airbnb → Trigo & Cia · 200 m a pé"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -1466,11 +1492,6 @@
             "photos": [],
             "osmPending": true
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
-            "page": "https://www.trigoecia.com.br",
-            "author": "trigoecia.com.br"
-          },
           "cost": 40,
           "costDetails": {
             "unit": "pessoa",
@@ -1478,33 +1499,50 @@
             "halfPerPerson": null,
             "halfApplies": false,
             "payPerPerson": 40,
-            "people": 3,
-            "totalGroup": 120,
+            "people": 2,
+            "totalGroup": 80,
             "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              30,
-              60
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+            "checkedAt": "2026-10-18",
+            "note": "Valor médio por pessoa, sem bebida alcoólica."
+          }
+        },
+        {
+          "time": "06:45",
+          "type": "lodging",
+          "name": "Volta ao Airbnb · pegar o carro na garagem",
+          "note": "Pegar o carro na garagem.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Trigo & Cia → Airbnb · 200 m a pé"
           }
         },
         {
           "time": "06:55",
+          "end": "07:05",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
           "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
             "page": "https://book.omnibees.com/hotel/1118",
             "author": "book.omnibees.com"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Airbnb → Recanto Cataratas · cerca de 10 min"
           },
           "place": {
             "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
@@ -1514,58 +1552,42 @@
             "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": []
-          },
-          "end": "07:05"
-        },
-        {
-          "time": "07:12",
-          "end": "07:45",
-          "type": "shopping",
-          "name": "Pedacinho de Foz · Falls Galli Hotel",
-          "note": "Loja de lembrancinhas da rede Pedacinho de Foz (6 lojas em Foz, incluindo Hotel Manacá, Hotel Luz, Foz Budget, Cataratas Park). Procurar miniaturas do Marco das Três Fronteiras, bandeiras dos três países, Cataratas e outros souvenirs decorativos. Entrada gratuita; compras à parte. Horário próprio da loja não divulgado: confirmar com a recepção do hotel antes das 7h10.",
-          "lat": -25.5246,
-          "lng": -54.5647,
-          "leg": {
-            "mode": "car",
-            "minutes": 6,
-            "label": "Rota estimada ~6 min do Recanto (confirmar no mapa)"
-          },
-          "place": {
-            "address": "Av. Costa e Silva, 1602 · Centro, Foz do Iguaçu - PR, 85852-282 (Falls Galli Hotel)",
-            "hours": "A confirmar com o hotel (abertura prevista às 7h)",
-            "phone": "+55 (45) 3520-1015 · (45) 99942-8995 (recepção do hotel)",
-            "instagram": "https://www.instagram.com/pedacinhodefoz/",
-            "website": "https://linktr.ee/pedacinhodefoz",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": false
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": false,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "informado",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
           }
         },
         {
-          "time": "08:00",
-          "end": "08:25",
-          "type": "shopping",
-          "name": "Ailabiu Iguassu · Centro",
-          "note": "Segunda loja de lembrancinhas: comparar preços, modelos e qualidade e priorizar miniaturas para a estante. Entrada gratuita; compras à parte. Visita reduzida para 25 min para sair às 8h25. CONFLITO: o Instagram indica abertura às 9h (seg–sáb), não às 8h. Confirmar pelo WhatsApp antes de sair; se estiver fechada, substituir por outra loja de souvenirs próxima aberta às 8h. Uma matéria antiga (Clickfoz) citava 7h30–19h30 todos os dias, mas está desatualizada.",
-          "lat": -25.5488,
-          "lng": -54.5867,
+          "time": "07:20",
+          "end": "08:00",
+          "type": "food",
+          "name": "Café da manhã do Sanderson · Engenho Doce",
+          "note": "Padaria e confeitaria tradicional do Centro, abre às 6h30. Valor não estimado.",
+          "lat": -25.5404702,
+          "lng": -54.5763553,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota estimada ~10 min do Pedacinho (confirmar no mapa)"
+            "minutes": 15,
+            "label": "Recanto Cataratas → Av. Paraná · cerca de 15 min"
+          },
+          "place": {
+            "address": "Av. Paraná, 909 · Centro, Foz do Iguaçu - PR",
+            "hours": "Seg–sáb 6h30–21h30 · dom 7h–19h",
+            "phone": "+55 45 3028-7010",
+            "rating": 4.4,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn_LSgFKQ9pQRdyDI_HHEG00",
+            "photos": []
+          }
+        },
+        {
+          "time": "08:05",
+          "end": "08:55",
+          "type": "shopping",
+          "name": "Ailabiu Souvenirs · lembranças",
+          "note": "Loja de souvenirs de Foz. O Google indica abertura às 8h todos os dias; o Instagram indica 9h. Confirmar pelo WhatsApp na véspera; se abrir às 9h, inverter com a Feira Iguaçu.",
+          "lat": -25.53475,
+          "lng": -54.585892,
+          "leg": {
+            "mode": "car",
+            "minutes": 5,
+            "label": "Av. Paraná → Av. Brasil · 5 min"
           },
           "place": {
             "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
@@ -1583,7 +1605,7 @@
             "halfPerPerson": 0,
             "halfApplies": false,
             "payPerPerson": 0,
-            "people": 3,
+            "people": 1,
             "totalGroup": 0,
             "status": "informado",
             "checkedAt": "2026-10-18",
@@ -1592,16 +1614,93 @@
         },
         {
           "time": "09:00",
-          "end": "11:30",
+          "end": "10:10",
+          "type": "shopping",
+          "name": "Feira Iguaçu e Bela Artesanato · lembranças",
+          "note": "Duas quadras de lojinhas no estilo feira: ímãs, canecas, camisetas, bandeiras e artesanato do Brasil, Paraguai e Argentina, com preços abaixo dos atrativos. A Bela Artesanato fica no nº 742, ao lado. Entrada livre; compras à parte.",
+          "lat": -25.5358073,
+          "lng": -54.5856072,
+          "leg": {
+            "mode": "walk",
+            "minutes": 4,
+            "label": "A pé, cerca de 300 m"
+          },
+          "place": {
+            "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
+            "hours": "Feira Iguaçu: seg–sex 9h–19h · sáb 9h–16h · dom fechado. Bela Artesanato: todos os dias 9h–19h",
+            "phone": "+55 45 99108-8565",
+            "rating": 4.3,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
+            "photos": []
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras à parte."
+          }
+        },
+        {
+          "time": "10:30",
+          "end": "11:00",
+          "type": "shopping",
+          "name": "Pedacinho de Foz · Falls Galli Hotel",
+          "note": "Visita de Sanderson à loja de lembrancinhas no Falls Galli Hotel. Procurar miniaturas do Marco das Três Fronteiras, Cataratas, bandeiras dos três países e peças decorativas para a estante. Compras à parte. O horário próprio da loja não foi publicado: confirmar com a recepção antes de sair; se estiver fechada, pular esta parada e seguir para a Ailabiu, com atendimento também a confirmar.",
+          "lat": -25.5246,
+          "lng": -54.5647,
+          "leg": {
+            "mode": "car",
+            "minutes": 20,
+            "label": "Centro → Falls Galli Hotel · cerca de 20 min"
+          },
+          "place": {
+            "address": "Av. Costa e Silva, 1602 · Centro, Foz do Iguaçu - PR, 85852-282 (Falls Galli Hotel)",
+            "hours": "Horário próprio da loja a confirmar com a recepção do Falls Galli Hotel",
+            "phone": "+55 (45) 3520-1015 · (45) 99942-8995 (recepção do hotel)",
+            "instagram": "https://www.instagram.com/pedacinhodefoz/",
+            "website": "https://linktr.ee/pedacinhodefoz",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": false
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": false,
+            "payPerPerson": 0,
+            "people": 1,
+            "totalGroup": 0,
+            "status": "informado",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
+          }
+        },
+        {
+          "time": "11:35",
+          "end": "13:50",
           "type": "place",
           "name": "AquaFoz",
-          "note": "Aquário de Foz (site oficial). Carro 35 min. Inteira R$ 150; meia-entrada conforme legislação do Paraná (comprovante obrigatório). Site mostra promoções antecipadas de R$ 135 e R$ 120 (confirmar no momento da compra). Moradores de Foz: R$ 30, só na bilheteria. Crianças até 6 anos e 11 meses: grátis. Última entrada 17h.",
+          "note": "Aquário de Foz (site oficial). Inteira R$ 150; meia-entrada conforme legislação do Paraná (comprovante obrigatório). Site mostra promoções antecipadas de R$ 135 e R$ 120 (confirmar no momento da compra). Moradores de Foz: R$ 30, só na bilheteria. Crianças até 6 anos e 11 meses: grátis. Última entrada 17h.",
           "lat": -25.6165,
           "lng": -54.481,
+          "image": {
+            "src": "/img/foz-do-iguacu/aquafoz.jpg",
+            "page": "https://aquafoz.com.br",
+            "author": "aquafoz.com.br"
+          },
           "leg": {
             "mode": "car",
             "minutes": 35,
-            "label": "Saída 8h25 da Ailabiu · carro 35 min (Rota estimada)"
+            "label": "Falls Galli → AquaFoz, Av. das Cataratas · cerca de 35 min"
           },
           "place": {
             "address": "Av. das Cataratas (BR-469), km 18 · Porto Meira, Foz do Iguaçu - PR (em frente ao Parque Nacional do Iguaçu)",
@@ -1616,11 +1715,6 @@
             "photos": [],
             "osmPending": false,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=AquaFoz%20Foz%20do%20Igua%C3%A7u"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/aquafoz.jpg",
-            "page": "https://aquafoz.com.br",
-            "author": "aquafoz.com.br"
           },
           "cost": 75,
           "costDetails": {
@@ -1637,22 +1731,22 @@
           }
         },
         {
-          "time": "11:45",
-          "end": "12:45",
+          "time": "14:15",
+          "end": "15:05",
           "type": "food",
-          "name": "Divino Fogão (Sanderson)",
-          "note": "Dentro do Catuaí. Alternativa: Griletto. Depois: cinema, café ou compras até 15h30.",
+          "name": "Almoço · Divino Fogão (Sanderson)",
+          "note": "Dentro do Shopping Catuaí. Alternativa: Griletto. Depois, compras no Catuaí até 19h20.",
           "lat": -25.5688,
           "lng": -54.5581,
-          "leg": {
-            "mode": "car",
-            "minutes": 13,
-            "label": "13 min de carro"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/divino-fogao.jpg",
             "page": "https://www.divinofogao.com.br",
             "author": "divinofogao.com.br"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 25,
+            "label": "AquaFoz → Shopping Catuaí · cerca de 25 min"
           },
           "place": {
             "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR",
@@ -1666,6 +1760,23 @@
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Divino%20Fog%C3%A3o%20Foz%20do%20Igua%C3%A7u",
             "instagram": "https://www.instagram.com/divino_fogao/"
+          },
+          "cost": 50,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 50,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 50,
+            "people": 3,
+            "totalGroup": 150,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "rangePerPerson": [
+              40,
+              65
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           },
           "alternatives": [
             {
@@ -1702,42 +1813,25 @@
                 "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
               }
             }
-          ],
-          "cost": 50,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 50,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 50,
-            "people": 3,
-            "totalGroup": 150,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              40,
-              65
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          }
+          ]
         },
         {
-          "time": "12:45",
-          "end": "19:25",
+          "time": "15:05",
+          "end": "19:20",
           "type": "shopping",
           "name": "Shopping Catuaí Palladium (Sanderson)",
-          "note": "Tarde livre para conhecer as lojas, olhar eletrônicos na Cellshop Duty Free e fazer uma pausa para café. Dica: aproveitar uma sessão no Cinemark, conforme os filmes e horários disponíveis no dia.",
+          "note": "Compras no shopping até a hora de buscar as meninas.",
           "lat": -25.5688,
           "lng": -54.5581,
-          "leg": {
-            "mode": "walk",
-            "minutes": 0,
-            "label": "Mesmo shopping"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/shopping-catuai-palladium.jpg",
             "page": "https://www.hoteltarobafoz.com.br",
             "author": "hoteltarobafoz.com.br"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 0,
+            "label": "Mesmo shopping"
           },
           "place": {
             "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR",
@@ -1760,15 +1854,15 @@
           "note": "Fim do congresso às 20h.",
           "lat": -25.5125,
           "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 20,
-            "label": "20 min de carro"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
             "page": "https://book.omnibees.com/hotel/1118",
             "author": "book.omnibees.com"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 25,
+            "label": "Catuaí → Recanto Cataratas · cerca de 25 min"
           },
           "place": {
             "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
@@ -1791,7 +1885,7 @@
           "leg": {
             "mode": "car",
             "minutes": 20,
-            "label": "Rota Google 13 min + margem · direto do congresso"
+            "label": "Recanto Cataratas → Rafain · 13 min + margem"
           },
           "place": {
             "address": "Av. das Cataratas, 1749 · Vila Yolanda, Foz do Iguaçu - PR",
@@ -1804,6 +1898,19 @@
             "photos": [],
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Rafain%20Churrascaria%20Show%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 200,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 200,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 200,
+            "people": 3,
+            "totalGroup": 600,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "note": "Jantar-show: bufê de churrasco + show; bebidas à parte. Revendedores cobram bem mais (US$ 115–140). Comprar no site do Rafain e confirmar se há meia para estudante."
           },
           "alternatives": [
             {
@@ -1882,31 +1989,19 @@
                 "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
               }
             }
-          ],
-          "cost": 200,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 200,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 200,
-            "people": 3,
-            "totalGroup": 600,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "note": "Jantar-show: bufê de churrasco + show; bebidas à parte. Revendedores cobram bem mais (US$ 115–140). Comprar no site do Rafain e confirmar se há meia para estudante."
-          }
+          ]
         },
         {
           "time": "22:30",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
+          "note": "Fim do dia.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Rota Google 12 min + margem"
+            "label": "Rafain → Airbnb · 12 min + margem"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -1920,13 +2015,14 @@
     },
     {
       "date": "2026-11-06",
-      "title": "Congresso + Dreams Park e Wonder Park",
+      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + fondue no Óga",
       "items": [
         {
           "time": "06:00",
+          "end": "06:30",
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
-          "note": "Hortência, Gracinha e Sanderson tomam café antes de sair para o congresso. Deixar pão, frutas e bebidas comprados na véspera; café no apartamento, sem desvio de rota. Estimativa de R$ 20 por pessoa.",
+          "note": "Café rápido no apartamento antes do congresso. O café da manhã do Sanderson é no Bella Foz, depois de deixar as meninas.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -1935,7 +2031,6 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": []
           },
-          "end": "06:30",
           "cost": 20,
           "costDetails": {
             "unit": "pessoa",
@@ -1958,37 +2053,34 @@
           "time": "06:35",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Saída de carro com os três, após o café no apartamento. Levar os ingressos do congresso e dos passeios, documento com foto e comprovante de meia-entrada, se aplicável.",
+          "note": "Pegar o carro na garagem.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": []
-          },
-          "leg": {
-            "mode": "walk",
-            "minutes": 0,
-            "label": "Café no próprio apartamento · organizar a saída para a garagem"
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
           }
         },
         {
           "time": "06:50",
+          "end": "07:00",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Chegar ao Recanto Cataratas antes do início às 7h. Deixar Hortência e Gracinha na entrada do evento; almoço delas no resort. Sanderson segue sozinho e retorna para buscá-las às 19h45. Hortência: VIP; Gracinha: Start.",
+          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Airbnb → Recanto Cataratas, Av. Costa e Silva, 3500 · cerca de 6 min dirigindo + margem de acesso"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
             "page": "https://book.omnibees.com/hotel/1118",
             "author": "book.omnibees.com"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Airbnb → Recanto Cataratas, Av. Costa e Silva, 3500"
           },
           "place": {
             "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
@@ -1998,743 +2090,47 @@
             "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": []
-          },
-          "end": "07:00"
+          }
         },
         {
           "time": "07:15",
-          "end": "09:20",
-          "type": "lodging",
-          "name": "Descanso no Airbnb (Sanderson)",
-          "note": "Voltar ao apartamento depois de deixar as meninas. Descansar e organizar a saída às 9h20 para chegar ao Dreams às 10h. O café dos três já foi feito antes do congresso.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Recanto Cataratas → Solar das Violetas, R. Padre Bernardo Plate, 1610 · estimativa com margem"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20da%20manh%C3%A3%20e%20descanso%20%28Sanderson%29&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": []
-          }
-        },
-        {
-          "time": "10:00",
-          "end": "11:20",
-          "type": "activity",
-          "name": "Dreams Motor Show (Sanderson)",
-          "note": "Museu de motocicletas, com ambientes temáticos, bar e restaurante; os carros de filmes ficam no Movie Cars, à tarde. Visita das 10h às 11h20, dentro da janela comum da sexta (10h–12h). Entre 12h e 15h, o acesso é restrito ao ingresso do Espetáculo Magic. Museu de Cera e Vale dos Dinossauros ficam de fora. Confirmar ingresso e meia-entrada antes de comprar. Estacionamento do Dreams: R$ 35 por veículo, à parte.",
-          "lat": -25.5913,
-          "lng": -54.5176,
-          "leg": {
-            "mode": "car",
-            "minutes": 40,
-            "label": "Airbnb → Dreams Motor Show, Av. das Cataratas, 8100 · cerca de 20 km; referência de 19 min dirigindo + folga para trânsito, estacionamento e entrada"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          },
-          "place": {
-            "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-            "hours": "Seg 10h–22h · ter–dom 10h–12h e 15h–19h30 para visitação comum",
-            "phone": "(45) 3527-8100",
-            "website": "https://dreamsparkshow.com.br/dreams-motor-show/",
-            "rating": 4.3,
-            "googlePlaceId": "ChIJXXarUC-V9pQRL9a15NloCxY",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Dreams%20Motor%20Show%20%28Sanderson%29&query_place_id=ChIJXXarUC-V9pQRL9a15NloCxY",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Dreams%20Motor%20Show%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 74.5,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 149,
-            "halfPerPerson": 74.5,
-            "halfApplies": true,
-            "payPerPerson": 74.5,
-            "people": 1,
-            "totalGroup": 74.5,
-            "status": "a confirmar",
-            "checkedAt": "2026-10-17",
-            "source": "https://dreamsparkshow.com.br/dreams-motor-show/",
-            "note": "Inteira oficial R$ 149. A meia não aparece no site: confirmar se aceitam carteirinha."
-          }
-        },
-        {
-          "time": "12:00",
-          "end": "12:50",
+          "end": "08:00",
           "type": "food",
-          "name": "Bonnie's Burger (Sanderson)",
-          "note": "Hamburgueria temática dentro do Wonder Park, aberta a partir das 12h. Sair do Dreams por volta das 11h40; reservar 15 min para dirigir, estacionar e chegar à entrada. A folga até meio-dia cobre espera pela abertura. Estimativa de R$ 45–80 para Sanderson.",
-          "lat": -25.609,
-          "lng": -54.4878,
+          "name": "Café da manhã do Sanderson · Bella Foz Café",
+          "note": "Padaria e cafeteria do Centro (nota 4,8), abre às 7h. Tapioca, omelete, sucos naturais. Valor não estimado.",
+          "lat": -25.5408574,
+          "lng": -54.5801342,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Dreams → Wonder Park / Bonnie’s Burger, Av. das Cataratas, 11547 · cerca de 3,6 km e 5 min dirigindo + estacionamento"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/bonnie-s-burger.jpg",
-            "page": "https://wonderparkfoz.com.br",
-            "author": "wonderparkfoz.com.br"
+            "label": "Recanto Cataratas → Centro · cerca de 15 min"
           },
           "place": {
-            "address": "BR-469, km 20, nº 11547 · dentro do Wonder Park",
-            "hours": "Todos os dias 12h–22h",
-            "phone": "(45) 3132-5416",
-            "website": "http://www.wonderparkfoz.com.br/",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJM3zfnTeV9pQRjikFtB9Nmn4",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bonnie%27s%20Burger%20%28Sanderson%29&query_place_id=ChIJM3zfnTeV9pQRjikFtB9Nmn4",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bonnie%27s%20Burger%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "name": "Almoço no Dreams Motor Show",
-              "type": "food",
-              "note": "Alternativa somente se comprar o Espetáculo Magic das 12h30, com refeição, e confirmar duração e valor. À sexta, a visitação comum fica restrita das 12h às 15h; nesse caso, atrasar o início do Wonder Park e reduzir o tempo de Big Land.",
-              "place": {
-                "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-                "hours": "Seg 10h–22h · ter–dom 10h–12h e 15h–19h30 para visitação comum",
-                "phone": "(45) 3527-8100",
-                "website": "https://dreamsparkshow.com.br/dreams-motor-show/",
-                "rating": 4.3,
-                "googlePlaceId": "ChIJXXarUC-V9pQRL9a15NloCxY",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Almo%C3%A7o%20no%20Dreams%20Motor%20Show&query_place_id=ChIJXXarUC-V9pQRL9a15NloCxY",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Dreams%20Motor%20Show%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5913,
-              "lng": -54.5176,
-              "cost": 70,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 70,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 70,
-                "people": 1,
-                "totalGroup": 70,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  50,
-                  90
-                ],
-                "note": "Estimativa anterior apenas da refeição; ingresso do Espetáculo Magic não incluído. Confirmar o total antes de escolher esta alternativa."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
-              }
-            }
-          ],
-          "cost": 60,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 60,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 60,
-            "people": 1,
-            "totalGroup": 60,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              45,
-              80
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+            "address": "R. Jorge Sanwais, 1239 · Centro, Foz do Iguaçu - PR",
+            "hours": "Seg–sex 7h–22h · sáb e dom 7h–21h",
+            "phone": "+55 45 99825-0727",
+            "rating": 4.8,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkSs53hyR9pQRxzQ-ARS1S5E",
+            "photos": []
           }
         },
         {
-          "time": "12:55",
-          "end": "16:10",
+          "time": "08:30",
+          "end": "11:00",
           "type": "activity",
-          "name": "Wonder Park: Movie Cars e Big Land (Sanderson)",
-          "note": "Sugestão flexível: 12h55–14h30 no Movie Cars, com carros e cenários de filmes; 14h30–15h para café e pausa; 15h–16h no Big Land, com jogos gigantes, se houver interesse. Big Land é opcional: pode encurtar e voltar mais cedo. Conferir o que o ingresso inclui; o valor registrado é só do Movie Cars. Não inclui Lumina Park (a partir das 19h30) nem Show das Águas (20h30), que conflitam com a busca no congresso. Estacionamento gratuito.",
-          "lat": -25.6091,
-          "lng": -54.489,
-          "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "Bonnie’s Burger → Movie Cars / Big Land · caminhada dentro do mesmo complexo"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/wonder-park-movie-cars-e-big-land.jpg",
-            "page": "https://wonderparkfoz.com.br",
-            "author": "wonderparkfoz.com.br"
-          },
-          "place": {
-            "address": "Av. das Cataratas, 11547 · Parque Nacional, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 12h–22h · Lumina Park a partir das 19h30 · Show das Águas às 20h30",
-            "phone": "(45) 3132-5416",
-            "website": "https://www.wonderparkfoz.com.br/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJ7XuM-26T9pQR0mQV_OnMYEQ",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wonder%20Park%3A%20Movie%20Cars%20e%20Big%20Land&query_place_id=ChIJ7XuM-26T9pQR0mQV_OnMYEQ",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Wonder%20Park%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 50,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 100,
-            "halfPerPerson": 50,
-            "halfApplies": true,
-            "payPerPerson": 50,
-            "people": 1,
-            "totalGroup": 50,
-            "status": "oficial (Movie Cars)",
-            "checkedAt": "2026-10-17",
-            "source": "https://ingresso.wonderparkfoz.com.br/produto/vitrine/movie_cars",
-            "note": "Valor do Movie Cars (inteira R$ 100 / reduzido R$ 50). Big Land e combos à parte: consultar a loja."
-          }
-        },
-        {
-          "time": "16:50",
-          "end": "19:30",
-          "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
-          "note": "Volta ao apartamento para banho e descanso. Fazer um lanche por volta das 17h com o que houver no Airbnb; o jantar será depois das 20h30. Sair às 19h30 para buscar as meninas, com margem para o movimento na entrada do evento.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "car",
-            "minutes": 40,
-            "label": "Wonder Park → Solar das Violetas · cerca de 15,6 km e 25 min dirigindo + margem de trânsito"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": [],
-            "osmPending": true
-          }
-        },
-        {
-          "time": "19:45",
-          "end": "20:10",
-          "type": "event",
-          "name": "Buscar as meninas no congresso",
-          "note": "Chegar ao Recanto Cataratas antes do encerramento das 20h. Combinar por mensagem o ponto de encontro e aguardar Hortência e Gracinha; saída prevista até 20h10.",
-          "lat": -25.5125,
-          "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
-            "page": "https://book.omnibees.com/hotel/1118",
-            "author": "book.omnibees.com"
-          },
-          "place": {
-            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
-            "phone": "(45) 2102-3000",
-            "website": "http://www.recantocataratasresort.com.br/",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buscar%20as%20meninas%20no%20congresso&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "photos": []
-          }
-        },
-        {
-          "time": "20:35",
-          "end": "22:00",
-          "type": "food",
-          "name": "Pátio Pomare",
-          "note": "Jantar dos três após o congresso. Sexta: atendimento até 23h, com portões fechando às 22h30. Estimativa de R$ 150–300 para três; confirmar cardápio e valores. Alternativas: BONA Gastronomia Italiana e Luigia Pizzeria. Hortência: levar lactase se escolher pratos com lactose.",
-          "lat": -25.5506,
-          "lng": -54.5736,
-          "leg": {
-            "mode": "car",
-            "minutes": 25,
-            "label": "Recanto Cataratas → Pátio Pomare, Av. das Cataratas, 544 · cerca de 6,3 km e 13 min dirigindo + estacionamento"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/patio-pomare.jpg",
-            "page": "https://www.viajenaviagem.com/destino/foz-do-iguacu/onde-comer-foz-do-iguacu",
-            "author": "viajenaviagem.com"
-          },
-          "place": {
-            "address": "Av. das Cataratas, 544 · Vila Yolanda, Foz do Iguaçu - PR",
-            "hours": "Ter–sex 15h–23h · sáb 12h–23h · dom 12h–22h · portões fecham 30 min antes · seg fechado",
-            "phone": "(45) 3029-8098",
-            "website": "https://patiopomare.com.br/",
-            "rating": 4.9,
-            "googlePlaceId": "ChIJWx1TDSmR9pQRN-r7iQR7h9o",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A1tio%20Pomare&query_place_id=ChIJWx1TDSmR9pQRN-r7iQR7h9o",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=P%C3%A1tio%20Pomare%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "name": "BONA Gastronomia Italiana",
-              "type": "food",
-              "note": "Massas frescas, cozinha aberta. 11h30–23h.",
-              "place": {
-                "address": "R. Alm. Barroso, 883 · Centro, Foz do Iguaçu - PR",
-                "hours": "Seg–sáb 11h30–23h · dom 11h30–22h",
-                "phone": "(45) 99924-7162",
-                "rating": 4.7,
-                "googlePlaceId": "ChIJd3xkgnWR9pQR3VIj8loB8RM",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BONA%20Gastronomia%20Italiana&query_place_id=ChIJd3xkgnWR9pQR3VIj8loB8RM",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=BONA%20Gastronomia%20Italiana%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5477,
-              "lng": -54.5854,
-              "cost": 90,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 90,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 90,
-                "people": 3,
-                "totalGroup": 270,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  70,
-                  120
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            },
-            {
-              "name": "Luigia Pizzeria Napoletana",
-              "type": "food",
-              "note": "Pizza napolitana em forno a lenha. Abre 18h.",
-              "place": {
-                "address": "Av. Paraná, 960 · Maracanã, Foz do Iguaçu - PR",
-                "hours": "Todos os dias 18h–23h (sex e sáb até 23h30)",
-                "phone": "(45) 98422-3212",
-                "website": "http://luigiapizzeria.com.br/",
-                "rating": 4.5,
-                "googlePlaceId": "ChIJcxsWD_qR9pQRvcKT8xjsswU",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Luigia%20Pizzeria%20Napoletana&query_place_id=ChIJcxsWD_qR9pQRvcKT8xjsswU",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Luigia%20Pizzeria%20Napoletana%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5397,
-              "lng": -54.5759,
-              "cost": 80,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 80,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 80,
-                "people": 3,
-                "totalGroup": 240,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  60,
-                  100
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            }
-          ],
-          "cost": 75,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 75,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 75,
-            "people": 3,
-            "totalGroup": 225,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              50,
-              100
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          }
-        },
-        {
-          "time": "22:20",
-          "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "car",
-            "minutes": 20,
-            "label": "Pátio Pomare → Solar das Violetas · cerca de 4,6 km e 12 min dirigindo + margem"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": [],
-            "osmPending": true
-          },
-          "note": "Retorno dos três ao apartamento; deixar o café de sábado organizado antes de dormir."
-        }
-      ],
-      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar. Horários das atrações conferidos nos sites oficiais Dreams Park Show, Wonder Park e Pátio Pomare."
-    },
-    {
-      "date": "2026-11-07",
-      "title": "Congresso + Itaipu e noite a confirmar",
-      "items": [
-        {
-          "time": "06:45",
-          "type": "food",
-          "name": "Café da manhã no Airbnb (os três)",
-          "note": "Hortência, Gracinha e Sanderson tomam café antes de sair para o congresso. Deixar pão, frutas e bebidas comprados na véspera; café no apartamento, sem desvio de rota. Estimativa de R$ 20 por pessoa.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": []
-          },
-          "end": "07:15",
-          "cost": 20,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 20,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 20,
-            "people": 3,
-            "totalGroup": 60,
-            "status": "estimativa",
-            "checkedAt": "2026-10-18",
-            "rangePerPerson": [
-              10,
-              30
-            ],
-            "note": "Café no apartamento para os três, com compras feitas na véspera. Estimativa; não é despesa paga."
-          }
-        },
-        {
-          "time": "07:25",
-          "type": "lodging",
-          "name": "Saída do Airbnb",
-          "note": "Saída de carro após o café dos três no apartamento. Sanderson deixa Hortência e Gracinha no congresso e segue direto para Itaipu, sem voltar ao Airbnb. Levar documento com foto, comprovante de meia-entrada e ingresso, se comprado.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": []
-          },
-          "leg": {
-            "mode": "walk",
-            "minutes": 0,
-            "label": "Café no próprio apartamento · organizar a saída para a garagem"
-          }
-        },
-        {
-          "time": "07:40",
-          "type": "event",
-          "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Chegar antes do início das 8h e desembarcar Hortência e Gracinha na entrada do evento. Almoço delas no resort. Hortência: VIP; Gracinha: Start. Confirmar durante o dia as regras e o horário da festa e a possibilidade de entrada de Sanderson.",
-          "lat": -25.5125,
-          "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
-            "page": "https://book.omnibees.com/hotel/1118",
-            "author": "book.omnibees.com"
-          },
-          "place": {
-            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
-            "phone": "(45) 2102-3000",
-            "website": "http://www.recantocataratasresort.com.br/",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "photos": []
-          },
-          "end": "07:50"
-        },
-        {
-          "time": "08:20",
-          "end": "11:10",
-          "type": "activity",
-          "name": "Itaipu Panorâmica (Sanderson)",
-          "note": "Destino: Centro de Recepção de Visitantes, Av. Tancredo Neves, 6702. Chegada planejada às 8h20 para estacionar, passar pela segurança e procurar saída por volta das 9h; não há reserva confirmada. A Panorâmica dura cerca de 1h10, em ônibus com duas paradas externas. Reservar até 11h10 para espera, passeio, banheiros e lojas de lembrancinhas COART/ASSEMIB no centro de visitantes. Levar documento e comprovante de meia. Bolsas pequenas são toleradas mediante revista; a proibição total é do Itaipu Especial. Estacionamento: referência de R$ 28 por veículo, à parte. Confirmar horário da saída ao comprar: páginas oficiais divergem entre início às 8h15 e 8h30.",
+          "name": "Itaipu · Circuito Especial (Sanderson)",
+          "note": "Visita por dentro da usina: galeria de quase 1 km, descida ao nível das turbinas e sala de controle, além dos mirantes. Cerca de 2h30. Relatos indicam idade mínima de 14 anos. Confirmar no site oficial de ingressos o horário da saída, o calçado exigido e o documento.",
           "lat": -25.4469,
           "lng": -54.5846,
-          "leg": {
-            "mode": "car",
-            "minutes": 30,
-            "label": "Recanto Cataratas → Centro de Recepção de Visitantes de Itaipu, Av. Tancredo Neves, 6702 · referência de 11 km e 14 min dirigindo + acesso e estacionamento"
-          },
           "image": {
             "src": "/img/foz-do-iguacu/itaipu-panoramica.jpg",
             "page": "https://turismoitaipu.com.br",
             "author": "turismoitaipu.com.br"
           },
-          "place": {
-            "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes, Foz do Iguaçu - PR",
-            "hours": "Diariamente · saídas aproximadamente a cada 30 min; confirmar grade ao comprar (páginas oficiais indicam 8h15–17h ou 8h30–16h)",
-            "phone": "(45) 99131-9119",
-            "website": "https://www.turismoitaipu.com.br/pt",
-            "rating": 4.9,
-            "googlePlaceId": "ChIJyRGgguab9pQRXwjBFqIwPvM",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Itaipu%20Panor%C3%A2mica%20%28Sanderson%29&query_place_id=ChIJyRGgguab9pQRXwjBFqIwPvM",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Itaipu%20Binacional%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 31.5,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 63,
-            "halfPerPerson": 31.5,
-            "halfApplies": true,
-            "payPerPerson": 31.5,
-            "people": 1,
-            "totalGroup": 31.5,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "source": "https://www.turismoitaipu.com.br/pt",
-            "note": "Inteira R$ 63; meia com carteirinha."
-          }
-        },
-        {
-          "time": "11:15",
-          "end": "12:15",
-          "type": "food",
-          "name": "Itaipu Bistrot (Sanderson)",
-          "note": "Almoço de Sanderson no Bistrot do Centro de Recepção de Visitantes, antes de pegar o carro. Há refeição por quilo, lanches e café. Confirmar no balcão o início do serviço de almoço; se ainda não estiver disponível, usar a folga para as lojas e almoçar um pouco depois. Estimativa de R$ 35–60; não é reserva nem despesa paga.",
-          "lat": -25.4472,
-          "lng": -54.5837,
-          "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "Desembarque / lojas de Itaipu → Bistrot do Centro de Recepção · caminhada no mesmo local"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/itaipu-bistrot.jpg",
-            "page": "https://turismoitaipu.com.br",
-            "author": "turismoitaipu.com.br"
-          },
-          "place": {
-            "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes de Itaipu",
-            "hours": "Todos os dias 8h–19h20 · horário do bufê de almoço a confirmar",
-            "phone": "(45) 3198-1800",
-            "website": "https://www.turismoitaipu.com.br/",
-            "rating": 3.8,
-            "googlePlaceId": "ChIJlfEDlz6b9pQRpnJM3hRQUlM",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Itaipu%20Bistrot%20%28Sanderson%29&query_place_id=ChIJlfEDlz6b9pQRpnJM3hRQUlM",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Itaipu%20Bistrot%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 45,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 45,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 45,
-            "people": 1,
-            "totalGroup": 45,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              35,
-              60
-            ],
-            "note": "Bufê por quilo (~R$ 90/kg)."
-          }
-        },
-        {
-          "time": "12:40",
-          "end": "19:30",
-          "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
-          "note": "Volta direta de Itaipu ao apartamento. Tarde livre para banho e descanso; café ou lanche no Airbnb por volta das 16h. Não há passeio obrigatório à tarde. O Templo Budista está previsto com os três em 10/11, por isso não repetir aqui. Até o fim da tarde, confirmar horário da festa, entrada de Sanderson e alimentação. Se a festa for confirmada para os três, saída às 19h30 para chegar ao resort às 19h45; ajustar se a organização divulgar outro horário.",
-          "lat": -25.519,
-          "lng": -54.5745,
           "leg": {
             "mode": "car",
             "minutes": 25,
-            "label": "Itaipu → Solar das Violetas, R. Padre Bernardo Plate, 1610 · cerca de 10 km e 15 min dirigindo + margem"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": [],
-            "osmPending": true
-          }
-        },
-        {
-          "time": "19:45",
-          "type": "event",
-          "name": "Recanto Cataratas · festa do congresso (a confirmar)",
-          "note": "Chegada de referência ao resort; 19h45 não é horário confirmado de início da festa. Plano A: se Sanderson puder entrar, os três participam; confirmar ingresso dele, alimentação e encerramento. Se não houver refeição incluída, jantar antes ou combinar outra opção. Volta: Recanto Cataratas → Solar das Violetas, reservar 15 min de carro após o encerramento; horário ainda indefinido. Se não houver festa, chegar para buscar Hortência e Gracinha às 20h e jantar juntos, conforme alternativa abaixo.",
-          "lat": -25.5125,
-          "lng": -54.5493,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/opcao-a-festa-do-congresso.jpg",
-            "page": "https://book.omnibees.com/hotel/1118",
-            "author": "book.omnibees.com"
-          },
-          "place": {
-            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
-            "phone": "(45) 2102-3000",
-            "website": "http://www.recantocataratasresort.com.br/",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Festa%20do%20congresso&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Recanto%20Cataratas%20Thermas%20Resort%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "type": "food",
-              "name": "Plano B · Catuaí ou jantar dos três",
-              "note": "Se houver festa só para Hortência e Gracinha: Sanderson sai do Airbnb às 19h25 para chegar ao Catuaí por volta das 19h50 (reservar 25 min de carro), janta e só assiste a um filme se a sessão terminar antes do horário combinado de busca. Catuaí → Recanto: reservar 25 min (referência de 7,5 km e 14 min dirigindo + margem); Recanto → Airbnb: 15 min. O fim da festa ainda não está confirmado, portanto 22h não é horário fixo de saída. Se não houver festa: buscar as duas às 20h, sair do resort por volta de 20h10 e chegar ao Catuaí por volta de 20h35 para jantar juntos. Lojas até 22h; alimentação até 23h; cinema conforme sessão.",
-              "lat": -25.5688,
-              "lng": -54.5581,
-              "image": {
-                "src": "/img/foz-do-iguacu/shopping-catuai-palladium.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
-              },
-              "place": {
-                "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR",
-                "hours": "Seg–sáb: lojas 10h–22h · alimentação diariamente 11h–23h · cinema conforme programação",
-                "phone": "(45) 3939-0000",
-                "website": "http://www.catuaipalladium.com.br/",
-                "rating": 4.5,
-                "googlePlaceId": "ChIJ-R6tzGSR9pQRVQqhH3uLTvc",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jantar%20e%20cinema%20no%20Catua%C3%AD%20%28Sanderson%29&query_place_id=ChIJ-R6tzGSR9pQRVQqhH3uLTvc",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Catua%C3%AD%20Palladium%20Foz%20do%20Igua%C3%A7u"
-              },
-              "cost": 70,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 90,
-                "halfPerPerson": 70,
-                "halfApplies": true,
-                "payPerPerson": 70,
-                "people": 1,
-                "totalGroup": 70,
-                "status": "estimativa",
-                "checkedAt": "2026-10-18",
-                "note": "Estimativa individual: jantar R$ 50 + cinema R$ 20 (meia) ou R$ 40 (inteira); meia somente no cinema. Se os três jantarem, recalcular pelo consumo e pelo número de pessoas; cinema é opcional."
-              }
-            }
-          ],
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "a confirmar",
-            "checkedAt": "2026-10-17",
-            "note": "Incluída no ingresso do congresso para Hortência e Gracinha; entrada de Sanderson a confirmar."
-          }
-        }
-      ],
-      "note": "Sábado: café dos três no Airbnb, congresso para Hortência e Gracinha e Itaipu para Sanderson. Tarde de descanso intencional, com lanche no apartamento. A noite depende da confirmação da festa. Tempos de carro são referências consultadas em 18/10/2026 com margem; abrir as rotas no Google Maps e recalcular no dia. Itaipu continua também no domingo do roteiro atual: decidir a repetição ao revisar 08/11."
-    },
-    {
-      "date": "2026-11-08",
-      "title": "Itaipu, Ecomuseu e Kattamaram no pôr do sol",
-      "items": [
-        {
-          "time": "07:45",
-          "end": "08:15",
-          "type": "food",
-          "name": "Café · Trigo",
-          "note": "Airbnb ou Trigo & Cia (24h, a 200 m).",
-          "lat": -25.5177,
-          "lng": -54.5742,
-          "image": {
-            "src": "/img/foz-do-iguacu/cafe-da-manha.jpg",
-            "page": "https://www.trigoecia.com.br",
-            "author": "trigoecia.com.br"
-          },
-          "place": {
-            "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
-            "hours": "Aberto 24 horas",
-            "phone": "(45) 3025-3800",
-            "instagram": "https://www.instagram.com/trigoeciafoz/",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJh_fwpVqQ9pQRST3nixm8xlw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trigo%20%26%20Cia&query_place_id=ChIJh_fwpVqQ9pQRST3nixm8xlw",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Trigo%20%26%20Cia%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": true
-          },
-          "cost": 40,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 40,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 40,
-            "people": 3,
-            "totalGroup": 120,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              30,
-              60
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          }
-        },
-        {
-          "time": "08:30",
-          "end": "10:45",
-          "type": "activity",
-          "name": "Itaipu Panorâmica",
-          "note": "Abre às 8h30: chegar cedo para a 1ª saída do ônibus (confirmar horário). Não entra bolsa no passeio. Referência estudante.",
-          "lat": -25.4469,
-          "lng": -54.5846,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "20 min de carro (grade dá 15 min)"
+            "label": "Centro → Centro de Recepção de Visitantes da Itaipu · cerca de 25 min"
           },
           "place": {
             "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes, Foz do Iguaçu - PR",
@@ -2748,29 +2144,23 @@
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Itaipu%20Binacional%20Foz%20do%20Igua%C3%A7u"
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/itaipu-panoramica.jpg",
-            "page": "https://turismoitaipu.com.br",
-            "author": "turismoitaipu.com.br"
-          },
-          "cost": 31.5,
+          "cost": 182,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 63,
-            "halfPerPerson": 31.5,
-            "halfApplies": true,
-            "payPerPerson": 31.5,
-            "people": 3,
-            "totalGroup": 94.5,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "source": "https://www.turismoitaipu.com.br/pt",
-            "note": "Inteira R$ 63; meia com carteirinha."
+            "fullPerPerson": 182,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 182,
+            "people": 1,
+            "totalGroup": 182,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-18",
+            "note": "Valor inteiro da lista de passeios. Verificar se há meia para estudante."
           }
         },
         {
-          "time": "10:55",
-          "end": "11:55",
+          "time": "11:10",
+          "end": "12:10",
           "type": "place",
           "name": "Ecomuseu de Itaipu",
           "note": "Grátis. Endereço dentro do complexo de Itaipu (confirmar na entrada).",
@@ -2779,7 +2169,7 @@
           "leg": {
             "mode": "car",
             "minutes": 10,
-            "label": "Estimativa de carro (confirmar)"
+            "label": "Centro de Recepção → Ecomuseu · 1 km"
           },
           "place": {
             "address": "Av. Tancredo Neves, 6702 · Complexo de Itaipu (endereço a confirmar)",
@@ -2803,17 +2193,22 @@
           }
         },
         {
-          "time": "12:05",
-          "end": "13:05",
+          "time": "12:20",
+          "end": "13:15",
           "type": "food",
-          "name": "Itaipu Bistrot",
+          "name": "Almoço · Itaipu Bistrot (Sanderson)",
           "note": "No próprio centro de visitantes. Almoço cedo, antes do pico.",
           "lat": -25.4472,
           "lng": -54.5837,
+          "image": {
+            "src": "/img/foz-do-iguacu/itaipu-bistrot.jpg",
+            "page": "https://turismoitaipu.com.br",
+            "author": "turismoitaipu.com.br"
+          },
           "leg": {
-            "mode": "walk",
+            "mode": "car",
             "minutes": 10,
-            "label": "Dentro do complexo de Itaipu"
+            "label": "Ecomuseu → Itaipu Bistrot"
           },
           "place": {
             "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes de Itaipu",
@@ -2826,11 +2221,6 @@
             "photos": [],
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Itaipu%20Bistrot%20Foz%20do%20Igua%C3%A7u"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/itaipu-bistrot.jpg",
-            "page": "https://turismoitaipu.com.br",
-            "author": "turismoitaipu.com.br"
           },
           "cost": 45,
           "costDetails": {
@@ -2851,161 +2241,109 @@
           }
         },
         {
-          "time": "13:25",
-          "end": "16:15",
-          "type": "lodging",
-          "name": "Descanso no Airbnb Solar das Violetas",
-          "note": "Banho e descanso.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "time": "13:40",
+          "end": "19:30",
+          "type": "shopping",
+          "name": "Cataratas JL Shopping · compras (Sanderson)",
+          "note": "Compras no shopping. Lojas seg–sáb 10h–22h. Fica na mesma avenida do congresso.",
+          "lat": -25.5329347,
+          "lng": -54.5752058,
           "leg": {
             "mode": "car",
             "minutes": 20,
-            "label": "20 min de carro"
+            "label": "Itaipu → Av. Costa e Silva · cerca de 20 min"
           },
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "photos": [],
-            "osmPending": true
+            "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Lojas seg–sáb 10h–22h · dom/feriados 14h–20h · praça de alimentação diariamente 11h–23h",
+            "phone": "(45) 3026-5657",
+            "website": "https://www.cataratasjlshopping.com.br/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "photos": []
+          },
+          "cost": 0
+        },
+        {
+          "time": "19:45",
+          "end": "20:10",
+          "type": "event",
+          "name": "Buscar as meninas no congresso",
+          "note": "Fim do congresso às 20h.",
+          "lat": -25.5125,
+          "lng": -54.5493,
+          "image": {
+            "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
+            "page": "https://book.omnibees.com/hotel/1118",
+            "author": "book.omnibees.com"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "JL → Recanto Cataratas · mesma avenida"
+          },
+          "place": {
+            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
+            "phone": "(45) 2102-3000",
+            "website": "http://www.recantocataratasresort.com.br/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buscar%20as%20meninas%20no%20congresso&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "photos": []
           }
         },
         {
-          "time": "16:50",
-          "end": "19:00",
-          "type": "activity",
-          "name": "Kattamaram II no pôr do sol",
-          "note": "Embarque no Porto Meira, a 1,6 km do Marco. Pôr do sol na tríplice fronteira, sem jantar a bordo. Confirmar horário de embarque. Meia-entrada; validar carteirinhas.",
-          "lat": -25.5901,
-          "lng": -54.5789,
+          "time": "20:30",
+          "end": "22:00",
+          "type": "food",
+          "name": "Fondue no Óga Restaurante",
+          "note": "Restaurante do roteiro do city tour de Foz, com cozinha regional da fronteira (nota 4,7). De segunda a sexta abre às 17h. Reservar. Alternativa para a noite: Pátio Pomare.",
+          "lat": -25.534113,
+          "lng": -54.5882284,
           "leg": {
             "mode": "car",
-            "minutes": 25,
-            "label": "Rota Google 16 min + estacionar"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/kattamaram-ii.jpg",
-            "page": "https://kattamaram.com.br",
-            "author": "kattamaram.com.br"
+            "minutes": 15,
+            "label": "Recanto Cataratas → Centro · cerca de 15 min"
           },
           "place": {
-            "address": "Av. Gen. Meira, 5890 · Porto Meira, Foz do Iguaçu - PR (1,6 km do Marco)",
-            "hours": "Atendimento 9h–17h · saída do pôr do sol a confirmar",
-            "phone": "(45) 3132-8147",
-            "website": "https://kattamaram.com.br/",
-            "rating": 4.6,
-            "googlePlaceId": "ChIJR1VVVaGR9pQR_r99ymGIFIA",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kattamaram%20II%20no%20p%C3%B4r%20do%20sol&query_place_id=ChIJR1VVVaGR9pQR_r99ymGIFIA",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Kattamaram%20II%20Foz%20do%20Igua%C3%A7u"
+            "address": "Av. República Argentina, 632 · Centro, Foz do Iguaçu - PR",
+            "hours": "Seg–sex 17h–23h30 · sáb e dom 11h30–23h30",
+            "phone": "+55 45 3026-5035",
+            "rating": 4.7,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbUBax6aR9pQRTF8JLx9NT1k",
+            "photos": []
           },
-          "alternatives": [
-            {
-              "time": "16:40",
-              "end": "19:30",
-              "type": "activity",
-              "name": "Ficar no Marco: pôr do sol + show (sem barco)",
-              "note": "Em vez do barco: pôr do sol e show no Marco (já visitado no dia 04, então só se gostarem muito). Decidir no dia.",
-              "lat": -25.5902,
-              "lng": -54.5902,
-              "place": {
-                "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
-                "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
-                "phone": "(45) 3132-4104",
-                "website": "https://bit.ly/49Y2MPu",
-                "rating": 4.6,
-                "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ficar%20no%20Marco%3A%20p%C3%B4r%20do%20sol%20%2B%20show%20%28sem%20barco%29&query_place_id=ChIJwcXU_R6S9pQR0RMKDXu46GE",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
-              },
-              "cost": 35.25,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 70.5,
-                "halfPerPerson": 35.25,
-                "halfApplies": true,
-                "payPerPerson": 35.25,
-                "people": 3,
-                "totalGroup": 105.75,
-                "status": "oficial (2026)",
-                "checkedAt": "2026-10-17",
-                "source": "https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras.html",
-                "note": "Meia para estudantes com carteirinha. Há cupom de 15% em sites parceiros."
-              },
-              "image": {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg/960px-Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-                "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
-                "author": "CLAITON LUIS MORAES",
-                "license": "CC BY-SA 4.0"
-              }
-            }
-          ],
-          "cost": 120,
+          "cost": 249.9,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 240,
-            "halfPerPerson": 120,
-            "halfApplies": true,
-            "payPerPerson": 120,
+            "fullPerPerson": 249.9,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 249.9,
             "people": 3,
-            "totalGroup": 360,
+            "totalGroup": 749.7,
             "status": "a confirmar",
-            "checkedAt": "2026-10-17",
-            "note": "Valor do planejamento anterior (meia R$ 120). O site não mostra preços: confirmar no WhatsApp (45) 98414-4800."
-          }
-        },
-        {
-          "time": "19:20",
-          "end": "20:50",
-          "type": "food",
-          "name": "Bendito",
-          "note": "Alternativa: Capitão Bar. R$ 195–330 para três.",
-          "lat": -25.5441,
-          "lng": -54.582,
-          "leg": {
-            "mode": "car",
-            "minutes": 20,
-            "label": "Rota Google 13 min + margem"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/bendito.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          },
-          "place": {
-            "address": "R. Mal. Deodoro, 816 · Centro, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 11h–0h",
-            "phone": "(45) 3029-7373",
-            "website": "https://usetag.me/benditobar",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJQZNE9bSR9pQRALXqebUevVk",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bendito&query_place_id=ChIJQZNE9bSR9pQRALXqebUevVk",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bendito%20Foz%20do%20Igua%C3%A7u"
+            "checkedAt": "2026-10-18",
+            "note": "Valor da lista de passeios (Fondue no Óga). Confirmar se é por pessoa ou por casal."
           },
           "alternatives": [
             {
-              "name": "Capitão Bar",
               "type": "food",
-              "note": "Música ao vivo.",
+              "name": "Pátio Pomare",
+              "note": "Alternativa para a noite do grupo: food park ao ar livre. Sex 15h–23h; os portões fecham 30 min antes.",
+              "lat": -25.5506,
+              "lng": -54.5736,
               "place": {
-                "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
-                "hours": "Todos os dias 11h30–0h (sex e sáb até 2h)",
-                "phone": "(45) 99959-0024",
-                "rating": 4.4,
-                "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Capit%C3%A3o%20Bar&query_place_id=ChIJ663-G7WR9pQRpcyvW4EY3q8",
+                "address": "Av. das Cataratas, 544 · Vila Yolanda, Foz do Iguaçu - PR",
+                "hours": "Ter–sex 15h–23h · sáb 12h–23h · dom 12h–22h · portões fecham 30 min antes · seg fechado",
+                "phone": "(45) 3029-8098",
+                "website": "https://patiopomare.com.br/",
+                "rating": 4.9,
+                "googlePlaceId": "ChIJWx1TDSmR9pQRN-r7iQR7h9o",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A1tio%20Pomare&query_place_id=ChIJWx1TDSmR9pQRN-r7iQR7h9o",
                 "photos": [],
                 "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capit%C3%A3o%20Bar%20Foz%20do%20Igua%C3%A7u"
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=P%C3%A1tio%20Pomare%20Foz%20do%20Igua%C3%A7u"
               },
-              "lat": -25.5471,
-              "lng": -54.5854,
               "cost": 75,
               "costDetails": {
                 "unit": "pessoa",
@@ -3022,78 +2360,21 @@
                   100
                 ],
                 "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/capitao-bar.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
-              }
-            },
-            {
-              "name": "Água Doce Cachaçaria",
-              "type": "food",
-              "note": "Domingo abre 11h.",
-              "place": {
-                "address": "R. Castelo Branco, 714 · Maracanã, Foz do Iguaçu - PR",
-                "hours": "Seg–sex 17h–0h · sáb 11h30–0h · dom 11h–0h",
-                "phone": "(45) 99992-5310",
-                "website": "https://aguadoce.com.br/fozdoiguacu/",
-                "rating": 4.9,
-                "googlePlaceId": "ChIJd9Mn-BuR9pQRKXEgAh8Ko1c",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%81gua%20Doce%20Cacha%C3%A7aria&query_place_id=ChIJd9Mn-BuR9pQRKXEgAh8Ko1c",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=%C3%81gua%20Doce%20Cacha%C3%A7aria%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5388,
-              "lng": -54.5787,
-              "cost": 70,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 70,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 70,
-                "people": 3,
-                "totalGroup": 210,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  50,
-                  90
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
               }
             }
-          ],
-          "cost": 88,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 88,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 88,
-            "people": 3,
-            "totalGroup": 264,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              65,
-              110
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          }
+          ]
         },
         {
-          "time": "21:55",
+          "time": "22:15",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
+          "note": "Fim do dia.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Rota Google 10 min + margem"
+            "label": "Centro → Airbnb · cerca de 15 min"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -3103,29 +2384,25 @@
             "osmPending": true
           }
         }
-      ]
+      ],
+      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar. Horários das atrações conferidos nos sites oficiais Dreams Park Show, Wonder Park e Pátio Pomare."
     },
     {
-      "date": "2026-11-09",
-      "title": "Cataratas, Parque das Aves e city tour argentino",
+      "date": "2026-11-07",
+      "title": "Congresso + city tour no Paraguai (Sanderson) + festa do congresso",
       "items": [
         {
-          "time": "07:30",
-          "end": "08:10",
+          "time": "06:45",
+          "end": "07:15",
           "type": "food",
-          "name": "Café da manhã",
-          "note": "Segunda-feira: Cataratas abrem às 9h.",
+          "name": "Café da manhã no Airbnb (os três)",
+          "note": "Café no apartamento, os três.",
           "lat": -25.519,
           "lng": -54.5745,
-          "image": {
-            "src": "/img/foz-do-iguacu/cafe-da-manha.jpg",
-            "page": "https://www.trigoecia.com.br",
-            "author": "trigoecia.com.br"
-          },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20da%20manh%C3%A3&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": []
           },
           "cost": 20,
@@ -3138,32 +2415,400 @@
             "people": 3,
             "totalGroup": 60,
             "status": "estimativa",
-            "checkedAt": "2026-10-17",
+            "checkedAt": "2026-10-18",
             "rangePerPerson": [
               10,
               30
             ],
-            "note": "Café no Airbnb com compras de mercado/padaria."
+            "note": "Café no apartamento para os três, com compras feitas na véspera. Estimativa; não é despesa paga."
           }
         },
         {
-          "time": "09:00",
-          "end": "12:00",
-          "type": "place",
-          "name": "Cataratas do Iguaçu · lado brasileiro",
-          "note": "Chegar na abertura, antes dos ônibus de excursão; comprar ingresso online. Ônibus interno e mirantes, sem Macuco Safari. Há elevador no fim da trilha. Sanderson: cuidado com piso molhado e degraus irregulares nas passarelas.",
-          "lat": -25.6138,
-          "lng": -54.4791,
+          "time": "07:25",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Pegar o carro na garagem.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "07:40",
+          "end": "07:50",
+          "type": "event",
+          "name": "Deixar as meninas no Congresso Espectro",
+          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "lat": -25.5125,
+          "lng": -54.5493,
+          "image": {
+            "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
+            "page": "https://book.omnibees.com/hotel/1118",
+            "author": "book.omnibees.com"
+          },
           "leg": {
             "mode": "car",
-            "minutes": 50,
-            "label": "Rota Google 29 min + margem · estacionar e fila da bilheteria"
+            "minutes": 15,
+            "label": "Airbnb → Recanto Cataratas"
           },
+          "place": {
+            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
+            "phone": "(45) 2102-3000",
+            "website": "http://www.recantocataratasresort.com.br/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "photos": []
+          }
+        },
+        {
+          "time": "08:15",
+          "type": "lodging",
+          "name": "Agência busca o Sanderson no Airbnb",
+          "note": "Deixar o carro na garagem. Levar documento com foto (RG ou passaporte) para a fronteira. Horário da busca a confirmar com a agência.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Recanto Cataratas → Airbnb"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "08:30",
+          "end": "17:00",
+          "type": "activity",
+          "name": "City Tour Paraguai com parada para compras (Sanderson)",
+          "note": "Roteiro típico: Catedral de San Blas, Casino Acaray, Mesquita del Este, Chipería Mi Abuela, Museu El Mensú, Lago de la República, passagem pela Prefeitura de Ciudad del Este e Saltos del Monday (cerca de 1h), com parada para compras no fim. Almoço: lanche na Chipería Mi Abuela, parada do próprio tour (o tour não inclui refeição). Horários de saída e volta a confirmar com a agência.",
+          "lat": -25.55928,
+          "lng": -54.6315432,
+          "leg": {
+            "mode": "car",
+            "minutes": 40,
+            "label": "Transporte da agência · ponte e aduana"
+          },
+          "place": {
+            "address": "Ciudad del Este e Saltos del Monday · Presidente Franco, Paraguai",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbWMMrEqO9pQRPc49_XBaN8I",
+            "photos": []
+          },
+          "cost": 150,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 150,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 150,
+            "people": 1,
+            "totalGroup": 150,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-18",
+            "note": "Valor da lista (City Tour Paraguai com parada para compras). A versão só city tour sai R$ 130 e termina por volta das 15h30."
+          }
+        },
+        {
+          "time": "17:15",
+          "end": "19:20",
+          "type": "lodging",
+          "name": "Volta ao Airbnb",
+          "note": "A agência deixa no Airbnb. Banho e troca de roupa. Sair às 19h20 para o Capitão Bar.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "car",
+            "minutes": 40,
+            "label": "Transporte da agência · aduana e ponte"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "19:45",
+          "type": "event",
+          "name": "Festa do congresso (Hortência e Gracinha)",
+          "note": "As meninas seguem do congresso direto para a festa no Recanto Cataratas. Confirmar se acontece e a que horas termina, para combinar a busca.",
+          "lat": -25.5125,
+          "lng": -54.5493,
+          "image": {
+            "src": "/img/foz-do-iguacu/opcao-a-festa-do-congresso.jpg",
+            "page": "https://book.omnibees.com/hotel/1118",
+            "author": "book.omnibees.com"
+          },
+          "place": {
+            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
+            "phone": "(45) 2102-3000",
+            "website": "http://www.recantocataratasresort.com.br/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Festa%20do%20congresso&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Recanto%20Cataratas%20Thermas%20Resort%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-17",
+            "note": "Incluída no ingresso do congresso para Hortência e Gracinha; entrada de Sanderson a confirmar."
+          }
+        },
+        {
+          "time": "19:45",
+          "end": "21:30",
+          "type": "food",
+          "name": "Jantar do Sanderson · Capitão Bar",
+          "note": "Restaurante e bar com música ao vivo na Av. Jorge Schimmelpfeng, 288. Pode ter couvert artístico. Depois, buscar as meninas no fim da festa.",
+          "lat": -25.547145,
+          "lng": -54.585441,
+          "image": {
+            "src": "/img/foz-do-iguacu/capitao-bar.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 25,
+            "label": "Airbnb → Capitão Bar · cerca de 25 min"
+          },
+          "place": {
+            "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
+            "hours": "Todos os dias 11h30–0h (sex e sáb até 2h)",
+            "phone": "(45) 99959-0024",
+            "rating": 4.4,
+            "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Capit%C3%A3o%20Bar&query_place_id=ChIJ663-G7WR9pQRpcyvW4EY3q8",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capitao%20Bar%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 75,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 75,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 75,
+            "people": 1,
+            "totalGroup": 75,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "rangePerPerson": [
+              50,
+              100
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+          }
+        },
+        {
+          "time": "22:00",
+          "end": "22:20",
+          "type": "event",
+          "name": "Buscar as meninas na festa (horário a confirmar)",
+          "note": "O horário depende do fim da festa do congresso.",
+          "lat": -25.5125,
+          "lng": -54.5493,
+          "image": {
+            "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
+            "page": "https://book.omnibees.com/hotel/1118",
+            "author": "book.omnibees.com"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Capitão Bar → Recanto Cataratas"
+          },
+          "place": {
+            "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
+            "phone": "(45) 2102-3000",
+            "website": "http://www.recantocataratasresort.com.br/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Buscar%20as%20meninas%20no%20congresso&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
+            "photos": []
+          }
+        },
+        {
+          "time": "22:35",
+          "type": "lodging",
+          "name": "Airbnb Solar das Violetas",
+          "note": "Fim do dia.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Recanto Cataratas → Airbnb"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        }
+      ],
+      "note": "Sábado: café dos três no Airbnb, congresso para Hortência e Gracinha e manhã de lembrancinhas para Sanderson. Pedacinho de Foz e Ailabiu foram transferidos da quinta para evitar visitas antes da abertura. Almoço no Cataratas JL e tarde de descanso; noite conforme confirmação da festa. Itaipu Panorâmica e Bistrot ficam somente no domingo, com os três. Tempos de deslocamento são referências com margem, não previsão do trânsito de novembro; recalcular pelos links de rotas no dia. Confirmar abertura das lojas pelo telefone antes da saída."
+    },
+    {
+      "date": "2026-11-08",
+      "title": "Feirinha da JK, Cataratas, Parque das Aves, Kattamaram e Wonder Park",
+      "items": [
+        {
+          "time": "06:40",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "06:45",
+          "end": "07:15",
+          "type": "food",
+          "name": "Café da manhã · Trigo & Cia",
+          "note": "Café da manhã ao lado do Airbnb (24 horas).",
+          "lat": -25.5177,
+          "lng": -54.5742,
+          "image": {
+            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
+            "page": "https://www.trigoecia.com.br",
+            "author": "trigoecia.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Aberto 24 horas",
+            "phone": "(45) 3025-3800",
+            "instagram": "https://www.instagram.com/trigoeciafoz/",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trigo%20%26%20Cia&query_place_id=ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Trigo%20%26%20Cia%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 40,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 40,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 40,
+            "people": 3,
+            "totalGroup": 120,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "note": "Valor médio por pessoa, sem bebida alcoólica."
+          }
+        },
+        {
+          "time": "07:20",
+          "type": "lodging",
+          "name": "Volta ao Airbnb · pegar o carro na garagem",
+          "note": "Levar dinheiro em espécie para a feirinha.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Trigo & Cia → Airbnb · 200 m a pé"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "07:30",
+          "end": "08:30",
+          "type": "shopping",
+          "name": "Feirinha da JK · artesanato e lembranças",
+          "note": "A feira de artesanato mais conhecida de Foz, só aos domingos: cerca de 40 barracas de artesanato, produtos regionais e doces. Ir cedo. Muitas barracas não aceitam cartão.",
+          "lat": -25.5444069,
+          "lng": -54.5881291,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Airbnb → Av. JK, Centro · cerca de 10 min"
+          },
+          "place": {
+            "address": "Av. Juscelino Kubitschek, 256 · Centro (ao lado da Praça da Paz), Foz do Iguaçu - PR",
+            "hours": "Domingos 7h–12h",
+            "rating": 4.3,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJrzPsCkqQ9pQRSHC7FSXfVew",
+            "photos": []
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras à parte."
+          }
+        },
+        {
+          "time": "09:10",
+          "end": "11:50",
+          "type": "place",
+          "name": "Cataratas do Iguaçu · lado brasileiro",
+          "note": "Aos domingos abre às 8h30; chegada prevista às 9h10, depois da Feirinha da JK. Comprar o ingresso online. Ônibus interno e mirantes, sem Macuco Safari. Há elevador no fim da trilha. Sanderson: cuidado com piso molhado e degraus irregulares nas passarelas.",
+          "lat": -25.6138,
+          "lng": -54.4791,
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cataratas_do_Igua%C3%A7u_%282022%29.jpg/960px-Cataratas_do_Igua%C3%A7u_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Cataratas_do_Igua%C3%A7u_(2022).jpg",
             "author": "Pribruder",
             "license": "CC0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 40,
+            "label": "Centro → Centro de Visitantes · 29 min + estacionar e fila"
           },
           "place": {
             "address": "Centro de Visitantes · BR-469, km 18, Foz do Iguaçu - PR",
@@ -3213,38 +2858,6 @@
             ],
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Parque%20Nacional%20do%20Igua%C3%A7u%20Cataratas%20Foz%20do%20Igua%C3%A7u"
           },
-          "alternatives": [
-            {
-              "name": "Cataratas argentinas (Parque Nacional Iguazú)",
-              "type": "place",
-              "note": "Só como troca total do dia. Garganta del Diablo fechada sem data (notícia de 13/10/2026).",
-              "place": {
-                "address": "Ruta 101, km 142 · Puerto Iguazú, Misiones, Argentina",
-                "rating": 4.9,
-                "googlePlaceId": "ChIJGZGd60Hq9pQRosCdl07XuCo",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20argentinas%20%28Parque%20Nacional%20Iguaz%C3%BA%29&query_place_id=ChIJGZGd60Hq9pQRosCdl07XuCo",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Parque%20Nacional%20Iguaz%C3%BA%20Puerto%20Iguaz%C3%BA"
-              },
-              "lat": -25.6829,
-              "lng": -54.4546,
-              "cost": 240,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 240,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 240,
-                "people": 3,
-                "totalGroup": 720,
-                "status": "oficial (jun/2026)",
-                "checkedAt": "2026-10-17",
-                "source": "https://www.gazetasp.com.br/gazeta-mais/ingresso-cataratas-argentina-reajuste-junho-2026/",
-                "note": "P$ 60.000 (~R$ 240); sem desconto para estudante brasileiro."
-              }
-            }
-          ],
           "cost": 121,
           "costDetails": {
             "unit": "pessoa",
@@ -3261,151 +2874,71 @@
           }
         },
         {
-          "time": "12:00",
+          "time": "12:15",
           "end": "13:00",
           "type": "food",
-          "name": "Almoço · Porto Canoas",
-          "note": "Restaurante dentro do parque, no fim da trilha, sem precisar sair e voltar. ATENÇÃO: avaliação de ago/2026 diz que estava reduzido a café, com a vista bloqueada por obras. Confirmar com o parque (45 3521-4443) antes. Se estiver fechado: Sabores da Floresta, no Parque das Aves, às 13h20.",
-          "lat": -25.6926,
-          "lng": -54.4339,
+          "name": "Almoço · Sabores da Floresta (Parque das Aves)",
+          "note": "Restaurante dentro do Parque das Aves, em frente ao Centro de Visitantes das Cataratas. Escolhido no lugar do Porto Canoas, que segundo relato de agosto de 2026 está com o buffet fechado por obra.",
+          "lat": -25.6144,
+          "lng": -54.4831,
+          "image": {
+            "src": "/img/foz-do-iguacu/sabores-da-floresta.jpg",
+            "page": "https://www.parquedasaves.com.br/blog/restaurantes-foz-do-iguacu/",
+            "author": "parquedasaves.com.br"
+          },
           "leg": {
-            "mode": "walk",
-            "minutes": 0,
-            "label": "Fim da trilha das Cataratas"
+            "mode": "car",
+            "minutes": 25,
+            "label": "Ônibus interno até o Centro de Visitantes + atravessar a rua"
           },
           "place": {
-            "address": "BR-469, km 30 · Espaço Porto Canoas, Parque Nacional do Iguaçu",
-            "hours": "Todos os dias 12h–16h",
-            "phone": "(45) 3521-4443",
-            "website": "https://cataratasdoiguacu.com.br/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJ7zI3oWKQ9pQRya3-LLue9gM",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Porto%20Canoas&query_place_id=ChIJ7zI3oWKQ9pQRya3-LLue9gM",
+            "address": "Av. das Cataratas, 12499 · Parque das Aves, Foz do Iguaçu - PR",
+            "hours": "Todos os dias 8h30–16h30",
+            "phone": "(45) 3529-8282",
+            "website": "https://www.parquedasaves.com.br/cardapio/",
+            "rating": 4.0,
+            "googlePlaceId": "ChIJT1psJx6V9pQRuUs3vE_QGvU",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sabores%20da%20Floresta&query_place_id=ChIJT1psJx6V9pQRuUs3vE_QGvU",
             "photos": [],
             "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Porto%20Canoas%20Foz%20do%20Igua%C3%A7u"
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Sabores%20da%20Floresta%20Foz%20do%20Igua%C3%A7u"
           },
-          "alternatives": [
-            {
-              "name": "Sabores da Floresta",
-              "type": "food",
-              "note": "No Parque das Aves, 8h30–16h30. Usar se o Porto Canoas estiver fechado ou lotado.",
-              "place": {
-                "address": "Av. das Cataratas, 12499 · Parque das Aves, Foz do Iguaçu - PR",
-                "hours": "Todos os dias 8h30–16h30",
-                "phone": "(45) 3529-8282",
-                "website": "https://www.parquedasaves.com.br/cardapio/",
-                "rating": 4.0,
-                "googlePlaceId": "ChIJT1psJx6V9pQRuUs3vE_QGvU",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sabores%20da%20Floresta&query_place_id=ChIJT1psJx6V9pQRuUs3vE_QGvU",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Sabores%20da%20Floresta%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.6144,
-              "lng": -54.4831,
-              "cost": 65,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 65,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 65,
-                "people": 3,
-                "totalGroup": 195,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  45,
-                  85
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/sabores-da-floresta.jpg",
-                "page": "https://www.parquedasaves.com.br/blog/restaurantes-foz-do-iguacu/",
-                "author": "parquedasaves.com.br"
-              }
-            },
-            {
-              "name": "Bistrô da Mata",
-              "type": "food",
-              "note": "Lanche leve dentro do Parque das Aves.",
-              "place": {
-                "address": "Av. das Cataratas, 12450 · dentro do Parque das Aves",
-                "hours": "Todos os dias 8h30–16h30",
-                "phone": "(45) 3529-8282",
-                "website": "https://www.parquedasaves.com.br/",
-                "rating": 4.6,
-                "googlePlaceId": "ChIJEz-8QfOV9pQRNfX-3G6E4HM",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistr%C3%B4%20da%20Mata&query_place_id=ChIJEz-8QfOV9pQRNfX-3G6E4HM",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bistr%C3%B4%20da%20Mata%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.6161,
-              "lng": -54.4847,
-              "cost": 40,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 40,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 40,
-                "people": 3,
-                "totalGroup": 120,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  25,
-                  55
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            }
-          ],
-          "cost": 110,
+          "cost": 65,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 110,
+            "fullPerPerson": 65,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 110,
+            "payPerPerson": 65,
             "people": 3,
-            "totalGroup": 330,
+            "totalGroup": 195,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
             "rangePerPerson": [
-              80,
-              140
+              45,
+              85
             ],
-            "note": "Bufê dentro do parque; bebidas e sobremesa à parte."
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cataratas_do_Igua%C3%A7u_%282022%29.jpg/960px-Cataratas_do_Igua%C3%A7u_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Cataratas_do_Igua%C3%A7u_(2022).jpg",
-            "author": "Pribruder",
-            "license": "CC0"
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           }
         },
         {
-          "time": "13:40",
-          "end": "16:00",
+          "time": "13:00",
+          "end": "15:30",
           "type": "place",
           "name": "Parque das Aves",
           "note": "Fecha às 16h30. Caminhos planos e sombreados. Preço estudante.",
           "lat": -25.6139,
           "lng": -54.4826,
-          "leg": {
-            "mode": "bus",
-            "minutes": 35,
-            "label": "Ônibus interno do parque até o Centro de Visitantes + atravessar a avenida"
-          },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tucano_parque_das_aves_2015.jpg/960px-Tucano_parque_das_aves_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Tucano_parque_das_aves_2015.jpg",
             "author": "Julio Cesar R. Lopes",
             "license": "CC BY-SA 4.0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 0,
+            "label": "Já dentro do parque"
           },
           "place": {
             "address": "Av. das Cataratas, 12450 · km 17,1, Foz do Iguaçu - PR (em frente às Cataratas)",
@@ -3471,17 +3004,316 @@
           }
         },
         {
-          "time": "16:40",
-          "end": "17:15",
-          "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
-          "note": "Banho rápido. A agência busca no Airbnb; o carro fica na garagem.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "time": "15:45",
+          "end": "16:20",
+          "type": "shopping",
+          "name": "Artesanato e Chocolate Caseiro Três Fronteiras",
+          "note": "Loja grande de souvenirs, pedras, artesanato, café e chocolate caseiro, com degustação. Entrada livre; compras à parte.",
+          "lat": -25.5789007,
+          "lng": -54.5364949,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Parque das Aves → Av. das Cataratas, km 11 · cerca de 10 min"
+          },
+          "place": {
+            "address": "Av. das Cataratas, km 11 · Carimã, Foz do Iguaçu - PR",
+            "hours": "Todos os dias 8h–18h30",
+            "phone": "+55 45 3529-6565",
+            "rating": 3.9,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2XmGbuST9pQRzEiLUx2kkAA",
+            "photos": []
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras à parte."
+          }
+        },
+        {
+          "time": "16:50",
+          "end": "19:00",
+          "type": "activity",
+          "name": "Kattamaram II no pôr do sol",
+          "note": "Embarque no Porto Meira, a 1,6 km do Marco. Pôr do sol na tríplice fronteira, sem jantar a bordo. Confirmar horário de embarque. Meia-entrada; validar carteirinhas.",
+          "lat": -25.5901,
+          "lng": -54.5789,
+          "image": {
+            "src": "/img/foz-do-iguacu/kattamaram-ii.jpg",
+            "page": "https://kattamaram.com.br",
+            "author": "kattamaram.com.br"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 20,
+            "label": "Av. das Cataratas → Porto Meira · cerca de 20 min"
+          },
+          "place": {
+            "address": "Av. Gen. Meira, 5890 · Porto Meira, Foz do Iguaçu - PR (1,6 km do Marco)",
+            "hours": "Atendimento 9h–17h · saída do pôr do sol a confirmar",
+            "phone": "(45) 3132-8147",
+            "website": "https://kattamaram.com.br/",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJR1VVVaGR9pQR_r99ymGIFIA",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kattamaram%20II%20no%20p%C3%B4r%20do%20sol&query_place_id=ChIJR1VVVaGR9pQR_r99ymGIFIA",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Kattamaram%20II%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 120,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 240,
+            "halfPerPerson": 120,
+            "halfApplies": true,
+            "payPerPerson": 120,
+            "people": 3,
+            "totalGroup": 360,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-17",
+            "note": "Valor do planejamento anterior (meia R$ 120). O site não mostra preços: confirmar no WhatsApp (45) 98414-4800."
+          },
+          "alternatives": [
+            {
+              "time": "16:40",
+              "end": "19:30",
+              "type": "activity",
+              "name": "Ficar no Marco: pôr do sol + show (sem barco)",
+              "note": "Em vez do barco: pôr do sol e show no Marco (já visitado no dia 04, então só se gostarem muito). Decidir no dia.",
+              "lat": -25.5902,
+              "lng": -54.5902,
+              "place": {
+                "address": "Acesso Três Fronteiras · Foz do Iguaçu - PR",
+                "hours": "Ter–dom 13h30–21h · segunda fechado · shows a partir de ~18h15 (confirmar)",
+                "phone": "(45) 3132-4104",
+                "website": "https://bit.ly/49Y2MPu",
+                "rating": 4.6,
+                "googlePlaceId": "ChIJwcXU_R6S9pQR0RMKDXu46GE",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ficar%20no%20Marco%3A%20p%C3%B4r%20do%20sol%20%2B%20show%20%28sem%20barco%29&query_place_id=ChIJwcXU_R6S9pQR0RMKDXu46GE",
+                "photos": [],
+                "osmPending": true,
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Marco%20das%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
+              },
+              "cost": 35.25,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 70.5,
+                "halfPerPerson": 35.25,
+                "halfApplies": true,
+                "payPerPerson": 35.25,
+                "people": 3,
+                "totalGroup": 105.75,
+                "status": "oficial (2026)",
+                "checkedAt": "2026-10-17",
+                "source": "https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras.html",
+                "note": "Meia para estudantes com carteirinha. Há cupom de 15% em sites parceiros."
+              },
+              "image": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg/960px-Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
+                "author": "CLAITON LUIS MORAES",
+                "license": "CC BY-SA 4.0"
+              }
+            }
+          ]
+        },
+        {
+          "time": "19:25",
+          "end": "22:00",
+          "type": "activity",
+          "name": "Wonder Park · passaporte 5 atrações (grupo)",
+          "note": "19h30 Lumina Park (percurso iluminado de 700 m, plano) · 20h Wonder Games (reservar a sessão das 20h na compra) · 20h30 Show das Águas (sessão única) · 20h55 Movie Cars · 21h30 Big Land. O parque fecha às 22h. Estacionamento gratuito. Ingresso com QR code por e-mail, válido por 180 dias.",
+          "lat": -25.6091,
+          "lng": -54.489,
+          "image": {
+            "src": "/img/foz-do-iguacu/wonder-park-movie-cars-e-big-land.jpg",
+            "page": "https://wonderparkfoz.com.br",
+            "author": "wonderparkfoz.com.br"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 25,
+            "label": "Porto Meira → Av. das Cataratas, 11547 · cerca de 25 min"
+          },
+          "place": {
+            "address": "Av. das Cataratas, 11547 · Parque Nacional, Foz do Iguaçu - PR",
+            "hours": "Todos os dias 12h–22h · Lumina Park a partir das 19h30 · Show das Águas às 20h30",
+            "phone": "(45) 3132-5416",
+            "website": "https://www.wonderparkfoz.com.br/",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJ7XuM-26T9pQR0mQV_OnMYEQ",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wonder%20Park%3A%20Movie%20Cars%20e%20Big%20Land&query_place_id=ChIJ7XuM-26T9pQR0mQV_OnMYEQ",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Wonder%20Park%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 170,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 199,
+            "halfPerPerson": 170,
+            "halfApplies": true,
+            "payPerPerson": 170,
+            "people": 3,
+            "totalGroup": 510,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "source": "https://ingresso.wonderparkfoz.com.br/produto/vitrine/passaporte",
+            "note": "Passaporte 5 atrações: inteira R$ 199, reduzida R$ 170 (estudante, professor, 60+, com comprovante)."
+          }
+        },
+        {
+          "time": "22:40",
+          "end": "23:30",
+          "type": "food",
+          "name": "Jantar · Trigo & Cia",
+          "note": "Jantar ao lado do Airbnb, aberto 24 horas. O Bonnie's Burger, no Wonder Park, fecha às 22h.",
+          "lat": -25.5177,
+          "lng": -54.5742,
+          "image": {
+            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
+            "page": "https://www.trigoecia.com.br",
+            "author": "trigoecia.com.br"
+          },
           "leg": {
             "mode": "car",
             "minutes": 40,
-            "label": "Rota Google 27 min + margem"
+            "label": "Wonder Park → Airbnb · 25 min + margem"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Aberto 24 horas",
+            "phone": "(45) 3025-3800",
+            "instagram": "https://www.instagram.com/trigoeciafoz/",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trigo%20%26%20Cia&query_place_id=ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Trigo%20%26%20Cia%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 40,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 40,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 40,
+            "people": 3,
+            "totalGroup": 120,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "rangePerPerson": [
+              30,
+              60
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+          }
+        },
+        {
+          "time": "23:35",
+          "type": "lodging",
+          "name": "Airbnb Solar das Violetas",
+          "note": "Fim do dia.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "walk",
+            "minutes": 2,
+            "label": "A pé"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Dia inteiro na Argentina: Cataratas argentinas e By Night",
+      "items": [
+        {
+          "time": "06:25",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "06:30",
+          "end": "07:00",
+          "type": "food",
+          "name": "Café da manhã · Trigo & Cia",
+          "note": "Café da manhã ao lado do Airbnb.",
+          "lat": -25.5177,
+          "lng": -54.5742,
+          "image": {
+            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
+            "page": "https://www.trigoecia.com.br",
+            "author": "trigoecia.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Aberto 24 horas",
+            "phone": "(45) 3025-3800",
+            "instagram": "https://www.instagram.com/trigoeciafoz/",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trigo%20%26%20Cia&query_place_id=ChIJh_fwpVqQ9pQRST3nixm8xlw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Trigo%20%26%20Cia%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 40,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 40,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 40,
+            "people": 3,
+            "totalGroup": 120,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "note": "Valor médio por pessoa, sem bebida alcoólica."
+          }
+        },
+        {
+          "time": "07:15",
+          "type": "lodging",
+          "name": "Agência busca no Airbnb",
+          "note": "Dia inteiro na Argentina com transporte da agência: o carro alugado não pode entrar no país. O ideal é um transfer de dia inteiro, para não voltar ao Brasil entre o parque e o By Night. Horários a confirmar com a agência.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Trigo & Cia → Airbnb · 200 m a pé"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -3492,36 +3324,80 @@
           }
         },
         {
-          "time": "18:15",
-          "end": "19:20",
-          "type": "shopping",
-          "name": "Duty Free Shop Puerto Iguazú",
-          "note": "FECHA ÀS 20H, por isso é a 1ª parada. Perfumes importados; entrada gratuita.",
-          "lat": -25.5994,
-          "lng": -54.5639,
+          "time": "08:30",
+          "end": "12:00",
+          "type": "place",
+          "name": "Cataratas argentinas · Parque Nacional Iguazú",
+          "note": "Desde 15/10/2026 só o Circuito Inferior está aberto; o Circuito Superior e a Garganta del Diablo seguem fechados pela cheia, sem data de reabertura. Confirmar com a agência a regra de reembolso ou troca. Levar documento com foto (RG ou passaporte).",
+          "lat": -25.6829,
+          "lng": -54.4546,
           "leg": {
             "mode": "car",
-            "minutes": 60,
-            "label": "City tour Argentina (agência) · rota 25 min + migração 20–35 min · a cotar",
-            "cost": 110,
-            "costDetails": {
-              "unit": "pessoa",
-              "fullPerPerson": 110,
-              "halfPerPerson": null,
-              "halfApplies": false,
-              "payPerPerson": 110,
-              "people": 3,
-              "totalGroup": 330,
-              "status": "estimativa",
-              "checkedAt": "2026-10-17",
-              "note": "City tour Argentina com agência, ida e volta. Referência: R$ 330 para três; cotar."
-            }
+            "minutes": 75,
+            "label": "Transporte da agência · ponte Tancredo Neves e aduana"
           },
+          "place": {
+            "address": "Ruta 101, km 142 · Puerto Iguazú, Misiones, Argentina",
+            "rating": 4.9,
+            "googlePlaceId": "ChIJGZGd60Hq9pQRosCdl07XuCo",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20argentinas%20%28Parque%20Nacional%20Iguaz%C3%BA%29&query_place_id=ChIJGZGd60Hq9pQRosCdl07XuCo",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Parque%20Nacional%20Iguaz%C3%BA%20Puerto%20Iguaz%C3%BA"
+          },
+          "cost": 510,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 510,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 510,
+            "people": 3,
+            "totalGroup": 1530,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-18",
+            "note": "Combo Cataratas Argentinas com transporte e ingresso (valor da lista). Confirmar se é por pessoa."
+          }
+        },
+        {
+          "time": "12:00",
+          "end": "13:00",
+          "type": "food",
+          "name": "Almoço · Restaurante La Selva (dentro do parque)",
+          "note": "Buffet com churrasco e saladas, dentro do Parque Nacional Iguazú. Alternativa: Fortín Cataratas (buffet e parrilla, 8h–16h30). Valor não estimado.",
+          "lat": -25.6810706,
+          "lng": -54.4543811,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Dentro do parque"
+          },
+          "place": {
+            "address": "Área Cataratas · Parque Nacional Iguazú, Misiones, Argentina",
+            "hours": "Todos os dias 8h–17h",
+            "rating": 4.5,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBTpOZwDr9pQRmuua2QYw4FE",
+            "photos": []
+          }
+        },
+        {
+          "time": "13:45",
+          "end": "15:30",
+          "type": "shopping",
+          "name": "Duty Free Shop Puerto Iguazú",
+          "note": "Fica logo depois da aduana argentina. Fecha às 20h. Perfumes, bebidas e importados; entrada gratuita. Na entrada, as bolsas são lacradas em um saco de segurança.",
+          "lat": -25.5994,
+          "lng": -54.5639,
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Duty_Free_Shop_Iguaz%C3%BA_%28in_2011%29.jpg/960px-Duty_Free_Shop_Iguaz%C3%BA_%28in_2011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Duty_Free_Shop_Iguaz%C3%BA_(in_2011).jpg",
             "author": "Ezequiel12096",
             "license": "CC BY-SA 4.0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 40,
+            "label": "Parque → Duty Free, logo depois da aduana argentina"
           },
           "place": {
             "address": "RN 12, km 1645 · logo após a aduana argentina, Puerto Iguazú",
@@ -3549,23 +3425,88 @@
           }
         },
         {
-          "time": "19:45",
-          "end": "20:10",
-          "type": "place",
-          "name": "Hito Tres Fronteras (opcional)",
-          "note": "Marco argentino iluminado à noite. Costuma estar incluído no city tour; pular se o Duty Free atrasar.",
-          "lat": -25.5948,
-          "lng": -54.5908,
+          "time": "15:45",
+          "end": "16:45",
+          "type": "food",
+          "name": "Feirinha de Puerto Iguazú",
+          "note": "Paseo gastronómico: alfajores, azeitonas, queijos, salames, doce de leite e vinhos. Muitas barracas não aceitam cartão; aceitam pesos ou reais.",
+          "lat": -25.594,
+          "lng": -54.5739,
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Feirinha_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
+            "author": "Horacio Cambeiro",
+            "license": "CC BY-SA 4.0"
+          },
           "leg": {
             "mode": "car",
-            "minutes": 25,
-            "label": "Rota Google 22 min + margem"
+            "minutes": 10,
+            "label": "Duty Free → Feirinha · cerca de 10 min"
           },
+          "place": {
+            "address": "Av. Brasil c/ Félix de Azara · Puerto Iguazú, Misiones, Argentina",
+            "hours": "Seg–sáb 10h–23h · dom 10h–23h30",
+            "phone": "+54 3757 15-54-1551",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feirinha%20de%20Puerto%20Iguaz%C3%BA&query_place_id=ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feirinha%20de%20Puerto%20Iguaz%C3%BA"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada gratuita; consumo à parte."
+          }
+        },
+        {
+          "time": "17:00",
+          "end": "17:45",
+          "type": "activity",
+          "name": "Icebar Iguazú",
+          "note": "Bar de gelo a -10 °C: casaco e luvas fornecidos, drinques servidos em copos de gelo. Visita de cerca de 20 a 30 min. Valor a confirmar.",
+          "lat": -25.6195139,
+          "lng": -54.5548889,
+          "leg": {
+            "mode": "car",
+            "minutes": 10,
+            "label": "Feirinha → Ruta 12, km 4,5 · cerca de 10 min"
+          },
+          "place": {
+            "address": "Ruta 12, km 4,5 · Puerto Iguazú, Misiones, Argentina",
+            "hours": "Todos os dias 14h–0h",
+            "rating": 4.4,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJO0LuPAmT9pQRxt6l9EZBJTk",
+            "photos": []
+          }
+        },
+        {
+          "time": "18:15",
+          "end": "19:10",
+          "type": "place",
+          "name": "Hito Tres Fronteras · pôr do sol",
+          "note": "Marco argentino da tríplice fronteira, com vista para Brasil e Paraguai. Pôr do sol por volta das 19h. Gratuito.",
+          "lat": -25.5948,
+          "lng": -54.5908,
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Triple_frontera_monument_%28Argentina%29_%C2%B7_Hito_Tres_Fronteras_%28Puerto_Iguaz%C3%BA%2C_Argentina%29.jpg/960px-Triple_frontera_monument_%28Argentina%29_%C2%B7_Hito_Tres_Fronteras_%28Puerto_Iguaz%C3%BA%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Triple_frontera_monument_(Argentina)_%C2%B7_Hito_Tres_Fronteras_(Puerto_Iguaz%C3%BA,_Argentina).jpg",
             "author": "Horacio Cambeiro",
             "license": "CC BY 4.0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Icebar → Hito Tres Fronteras · cerca de 15 min"
           },
           "place": {
             "address": "Av. Río Iguazú · Puerto Iguazú, Misiones, Argentina",
@@ -3593,216 +3534,51 @@
           }
         },
         {
-          "time": "20:20",
+          "time": "19:20",
           "end": "21:00",
           "type": "food",
-          "name": "Feirinha de Puerto Iguazú",
-          "note": "Empanadas, alfajores, vinhos. Aceita reais, mas leve pesos ou dinheiro: muitas bancas não aceitam cartão.",
-          "lat": -25.594,
-          "lng": -54.5739,
+          "name": "Jantar com show de tango · El Quincho del Tío Querido",
+          "note": "Jantar do By Night: parrilla argentina com show de tango ao vivo. Na segunda abre só para o jantar, às 18h30.",
+          "lat": -25.6060772,
+          "lng": -54.5657043,
           "leg": {
             "mode": "car",
             "minutes": 10,
-            "label": "Rota Google 9 min + margem"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Feirinha_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
-            "author": "Horacio Cambeiro",
-            "license": "CC BY-SA 4.0"
+            "label": "Hito → Av. Perón · cerca de 10 min"
           },
           "place": {
-            "address": "Av. Brasil c/ Félix de Azara · Puerto Iguazú, Misiones, Argentina",
-            "hours": "Seg–sáb 10h–23h · dom 10h–23h30",
-            "phone": "+54 3757 15-54-1551",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feirinha%20de%20Puerto%20Iguaz%C3%BA&query_place_id=ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feirinha%20de%20Puerto%20Iguaz%C3%BA"
+            "address": "Av. Pres. Juan Domingo Perón, 159 · Puerto Iguazú, Misiones, Argentina",
+            "hours": "Seg 18h30–22h30 · ter–dom 11h30–14h30 e 18h30–22h30",
+            "phone": "+54 3757 42-0151",
+            "rating": 4.3,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJafD1JTGS9pQRTb23YN3CBwc",
+            "photos": []
           },
-          "alternatives": [
-            {
-              "name": "Yabuticaba, Mercadito de la Selva",
-              "type": "food",
-              "note": "Bar-mercado com cara de estufa na selva; abre 16h. Bom para drinques e compras de erva-mate.",
-              "place": {
-                "address": "Hipólito Yrigoyen, 386 · Puerto Iguazú, Misiones, Argentina",
-                "hours": "Todos os dias 16h–0h",
-                "rating": 4.2,
-                "googlePlaceId": "ChIJJ3oqfLGT9pQRLh1eegQBARo",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yabuticaba%2C%20Mercadito%20de%20la%20Selva&query_place_id=ChIJJ3oqfLGT9pQRLh1eegQBARo",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Yabuticaba%20Puerto%20Iguaz%C3%BA"
-              },
-              "lat": -25.6017,
-              "lng": -54.5672,
-              "cost": 60,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 60,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 60,
-                "people": 3,
-                "totalGroup": 180,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  40,
-                  90
-                ],
-                "note": "Drinques e petiscos."
-              }
-            }
-          ],
-          "cost": 0,
+          "cost": 390,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada gratuita; consumo à parte."
-          }
-        },
-        {
-          "time": "21:10",
-          "end": "22:30",
-          "type": "food",
-          "name": "La Rueda 1975",
-          "note": "Segunda: aberto 12h–0h. Alternativas: Patanegra Gourmet, Yabuticaba. R$ 300–540 para três.",
-          "lat": -25.6013,
-          "lng": -54.572,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 4 min + margem · ou 16 min a pé"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/la-rueda-1975.jpg",
-            "page": "https://www.welcomeargentina.com/puertoiguazu/restaurante-la-rueda-1975.html",
-            "author": "welcomeargentina.com"
-          },
-          "place": {
-            "address": "Av. Córdoba, 28 · Puerto Iguazú, Misiones, Argentina",
-            "hours": "Seg, qui–dom 12h–0h · ter e qua 18h–0h",
-            "phone": "+54 3757 69-3447",
-            "website": "https://restaurantelarueda1975.com.ar/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJ69mDaTqS9pQRVkzKBCfD3s4",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=La%20Rueda%201975&query_place_id=ChIJ69mDaTqS9pQRVkzKBCfD3s4",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=La%20Rueda%201975%20Puerto%20Iguaz%C3%BA"
-          },
-          "alternatives": [
-            {
-              "name": "Patanegra Gourmet",
-              "type": "food",
-              "note": "Carnes argentinas e loja de vinhos. 13h–1h.",
-              "place": {
-                "address": "Tareferos, 155 · Puerto Iguazú, Misiones, Argentina",
-                "hours": "Todos os dias 13h–1h",
-                "phone": "+54 3757 15-45-1072",
-                "website": "https://patanegragourmet.com/",
-                "rating": 4.2,
-                "googlePlaceId": "ChIJSTTgcJuT9pQRg7N1rxwxfnE",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Patanegra%20Gourmet&query_place_id=ChIJSTTgcJuT9pQRg7N1rxwxfnE",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Patanegra%20Gourmet%20Puerto%20Iguaz%C3%BA"
-              },
-              "lat": -25.6038,
-              "lng": -54.5676,
-              "cost": 140,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 140,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 140,
-                "people": 3,
-                "totalGroup": 420,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  100,
-                  180
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            },
-            {
-              "name": "Yabuticaba",
-              "type": "food",
-              "note": "Ambiente diferente; avaliações da cozinha irregulares.",
-              "place": {
-                "address": "Hipólito Yrigoyen, 386 · Puerto Iguazú, Misiones, Argentina",
-                "hours": "Todos os dias 16h–0h",
-                "rating": 4.2,
-                "googlePlaceId": "ChIJJ3oqfLGT9pQRLh1eegQBARo",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Yabuticaba&query_place_id=ChIJJ3oqfLGT9pQRLh1eegQBARo",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Yabuticaba%20Puerto%20Iguaz%C3%BA"
-              },
-              "lat": -25.6017,
-              "lng": -54.5672,
-              "cost": 110,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 110,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 110,
-                "people": 3,
-                "totalGroup": 330,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  80,
-                  140
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            }
-          ],
-          "cost": 140,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 140,
+            "fullPerPerson": 390,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 140,
+            "payPerPerson": 390,
             "people": 3,
-            "totalGroup": 420,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              100,
-              180
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+            "totalGroup": 1170,
+            "status": "a confirmar",
+            "checkedAt": "2026-10-18",
+            "note": "By Night com jantar no Tío Querido (R$ 260) + transporte saindo de Foz (R$ 130), valores da lista. Confirmar o que está incluído."
           }
         },
         {
-          "time": "23:35",
+          "time": "22:15",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
-          "note": "Volta com a agência.",
+          "note": "Volta com a agência, passando pela aduana.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 65,
-            "label": "Rota 31 min + migração na volta 25–35 min"
+            "minutes": 75,
+            "label": "Transporte da agência · aduana e ponte"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -3816,16 +3592,41 @@
     },
     {
       "date": "2026-11-10",
-      "title": "Check-out e volta para casa",
+      "title": "City tour de Foz de carro e volta para casa",
       "items": [
         {
-          "time": "07:30",
-          "end": "08:15",
+          "time": "06:40",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "06:45",
+          "end": "07:20",
           "type": "food",
-          "name": "Café · Trigo",
-          "note": "Padaria 24h a 200 m do Airbnb.",
+          "name": "Café da manhã · Trigo & Cia",
+          "note": "Café da manhã ao lado do Airbnb.",
           "lat": -25.5177,
           "lng": -54.5742,
+          "image": {
+            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
+            "page": "https://www.trigoecia.com.br",
+            "author": "trigoecia.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+          },
           "place": {
             "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
             "hours": "Aberto 24 horas",
@@ -3838,11 +3639,6 @@
             "photos": [],
             "osmPending": true
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/trigo-cia.jpg",
-            "page": "https://www.trigoecia.com.br",
-            "author": "trigoecia.com.br"
-          },
           "cost": 40,
           "costDetails": {
             "unit": "pessoa",
@@ -3853,22 +3649,23 @@
             "people": 3,
             "totalGroup": 120,
             "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              30,
-              60
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+            "checkedAt": "2026-10-18",
+            "note": "Valor médio por pessoa, sem bebida alcoólica."
           }
         },
         {
-          "time": "08:15",
-          "end": "08:40",
+          "time": "07:20",
+          "end": "07:50",
           "type": "lodging",
           "name": "Check-out antecipado · malas na SUV",
-          "note": "Malas já na SUV.",
+          "note": "Check-out e malas no carro. Mulheres: levar roupa que cubra as pernas para a mesquita (o véu é emprestado na entrada).",
           "lat": -25.519,
           "lng": -54.5745,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "Trigo & Cia → Airbnb · 200 m a pé"
+          },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
@@ -3878,17 +3675,49 @@
           }
         },
         {
-          "time": "08:45",
-          "end": "09:45",
+          "time": "08:00",
+          "end": "08:15",
+          "type": "place",
+          "name": "Avenida Pedro Basso · túnel de árvores",
+          "note": "Primeira parada do city tour de Foz, feito de carro próprio: avenida com o \"túnel\" de árvores, tombada como patrimônio de Foz. Passar devagar de carro.",
+          "lat": -25.5230689,
+          "lng": -54.5728452,
+          "leg": {
+            "mode": "car",
+            "minutes": 3,
+            "label": "Ao lado do Airbnb"
+          },
+          "place": {
+            "address": "Av. Pedro Basso · Foz do Iguaçu - PR",
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOwvoRFyQ9pQRodi_YjGq3FM",
+            "photos": []
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Gratuito."
+          }
+        },
+        {
+          "time": "08:40",
+          "end": "09:20",
           "type": "place",
           "name": "Mesquita Omar Ibn Al-Khattab",
-          "note": "Grátis; véu emprestado. Ter–sáb 8h30–11h30 / 14h–15h30 / 16h30–17h30; domingo fechado.",
+          "note": "A maior mesquita do Brasil. Visita gratuita com vídeo sobre a cultura islâmica; mulheres recebem o véu na entrada. Roupa cobrindo as pernas. Abertura: o roteiro anterior indica 8h30 e um blog indica visitas a partir das 9h. Se for 9h, fazer a Kapadokya antes.",
           "lat": -25.5206,
           "lng": -54.5787,
           "leg": {
             "mode": "car",
             "minutes": 5,
-            "label": "6 min de carro (grade dá 5 min)"
+            "label": "Av. Pedro Basso → Mesquita · cerca de 5 min"
           },
           "place": {
             "address": "R. Meca, 599",
@@ -3912,38 +3741,84 @@
           }
         },
         {
-          "time": "09:45",
-          "end": "10:05",
+          "time": "09:20",
+          "end": "09:40",
           "type": "food",
           "name": "Kapadokya · doces árabes",
-          "note": "Compras de doces árabes. Preço a conferir.",
-          "lat": -25.5211,
-          "lng": -54.5788,
+          "note": "Loja de doces árabes e artesanato em frente à mesquita, com o letreiro \"Eu ❤ Foz\" para fotos. Ao lado fica a Albayan Doceria Arabic (8h30–20h), se a Kapadokya estiver fechada.",
+          "lat": -25.521068,
+          "lng": -54.578823,
           "leg": {
             "mode": "walk",
-            "minutes": 0,
-            "label": "2 min a pé (grade dá 0 min)"
+            "minutes": 1,
+            "label": "Em frente à mesquita, a pé"
           },
           "place": {
-            "address": "R. Meca, 642",
-            "hours": "a confirmar",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kapadokya%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": true
+            "address": "R. Meca, 642 · Monjolo, Foz do Iguaçu - PR",
+            "hours": "Seg–sex 9h–12h e 14h–17h30 · sáb 9h–12h e 14h–16h · dom 9h–14h",
+            "phone": "+55 45 3526-2567",
+            "rating": 4.6,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4XdSmeWR9pQRN-h3hE2X7Tc",
+            "photos": []
           }
         },
         {
-          "time": "10:15",
-          "end": "10:55",
+          "time": "09:55",
+          "end": "10:45",
+          "type": "place",
+          "name": "Templo Budista Chen Tien",
+          "note": "Entrada gratuita. Buda dourado da prosperidade e a fileira de estátuas douradas. Ter–dom 9h30–16h30; fecha às segundas.",
+          "lat": -25.4745,
+          "lng": -54.5995,
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg/960px-Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Templo_Budista_-_Foz_do_Iguacu_-_Brasil_(23649550064).jpg",
+            "author": "Cesar I. Martins from Jundiai, Brazil",
+            "license": "CC BY 2.0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Mesquita → Templo Budista · cerca de 15 min"
+          },
+          "place": {
+            "address": "R. Dr. Josivalter Vilanova, 99 · Porto Belo, Foz do Iguaçu - PR",
+            "hours": "Ter–dom 9h30–16h30 · segunda fechado",
+            "phone": "(45) 3524-5566",
+            "website": "https://www.facebook.com/profile.php?id=61556566776694",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJWxcRdSSb9pQR98E93lLYRg0",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Templo%20Budista%20Chen%20Tien%20%28opcional%29&query_place_id=ChIJWxcRdSSb9pQR98E93lLYRg0",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Templo%20Budista%20Chen%20Tien%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada gratuita."
+          }
+        },
+        {
+          "time": "10:55",
+          "end": "11:25",
           "type": "place",
           "name": "Catedral Nossa Senhora de Guadalupe",
-          "note": "Entrada gratuita (confirmar). Ter–sex 8h–11h30 / 14h–17h30; domingo fechado.",
+          "note": "Inaugurada em 2023, com arquitetura moderna e vitrais grandes. Na terça fecha às 11h30.",
           "lat": -25.4975,
           "lng": -54.5734,
           "leg": {
             "mode": "car",
-            "minutes": 8,
-            "label": "8 min de carro"
+            "minutes": 10,
+            "label": "Templo → Catedral · 11 min"
           },
           "place": {
             "address": "Av. Paraná, 5440",
@@ -3967,97 +3842,17 @@
           }
         },
         {
-          "time": "11:10",
-          "end": "12:00",
-          "type": "place",
-          "name": "Templo Budista Chen Tien",
-          "note": "Entrada gratuita. Fica no caminho de volta (Itaipu → centro).",
-          "lat": -25.4745,
-          "lng": -54.5995,
-          "leg": {
-            "mode": "car",
-            "minutes": 11,
-            "label": "11 min de carro"
-          },
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg/960px-Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Templo_Budista_-_Foz_do_Iguacu_-_Brasil_(23649550064).jpg",
-            "author": "Cesar I. Martins from Jundiai, Brazil",
-            "license": "CC BY 2.0"
-          },
-          "place": {
-            "address": "R. Dr. Josivalter Vilanova, 99 · Porto Belo, Foz do Iguaçu - PR",
-            "hours": "Ter–dom 9h30–16h30 · segunda fechado",
-            "phone": "(45) 3524-5566",
-            "website": "https://www.facebook.com/profile.php?id=61556566776694",
-            "rating": 4.6,
-            "googlePlaceId": "ChIJWxcRdSSb9pQR98E93lLYRg0",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Templo%20Budista%20Chen%20Tien%20%28opcional%29&query_place_id=ChIJWxcRdSSb9pQR98E93lLYRg0",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Templo%20Budista%20Chen%20Tien%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "name": "Ecomuseu de Itaipu",
-              "type": "place",
-              "note": "Museu da construção da usina, a 1 km do Centro de Visitantes. Fecha às terças (07/11 é sábado: aberto).",
-              "place": {
-                "address": "Av. Tancredo Neves, 6001 · Itaipu Binacional, Foz do Iguaçu - PR",
-                "hours": "Qua–seg 8h30–16h · terça fechado",
-                "phone": "(45) 3198-1800",
-                "website": "http://www.turismoitaipu.com.br/",
-                "rating": 4.7,
-                "googlePlaceId": "ChIJn-ilRRib9pQR4b4u_bS-cM8",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ecomuseu%20de%20Itaipu&query_place_id=ChIJn-ilRRib9pQR4b4u_bS-cM8",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ecomuseu%20de%20Itaipu%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.455,
-              "lng": -54.5847,
-              "cost": 0,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 0,
-                "halfPerPerson": 0,
-                "halfApplies": true,
-                "payPerPerson": 0,
-                "people": 3,
-                "totalGroup": 0,
-                "status": "oficial",
-                "checkedAt": "2026-10-17",
-                "source": "https://www.turismoitaipu.com.br/pt",
-                "note": "Gratuito."
-              }
-            }
-          ],
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada gratuita."
-          }
-        },
-        {
-          "time": "12:10",
-          "end": "13:20",
+          "time": "11:35",
+          "end": "12:50",
           "type": "food",
-          "name": "Almoço · Mercado Público Barrageiro",
-          "note": "Seg fechado; ter–sáb 10h–22h. R$ 60 por pessoa.",
+          "name": "Almoço · Mercado Público Barrageiro + Artes Sem Fronteiras",
+          "note": "Mercado com lojinhas, comidinhas e produtos regionais. Dentro dele fica a Artes Sem Fronteiras, loja de artesanato regional com muita variedade (ter–sáb 10h–21h): bom lugar para as últimas lembranças. Sair às 12h50 para o aeroporto.",
           "lat": -25.5044,
           "lng": -54.5826,
           "leg": {
             "mode": "car",
-            "minutes": 9,
-            "label": "9 min de carro"
+            "minutes": 5,
+            "label": "Catedral → Mercado · cerca de 5 min"
           },
           "place": {
             "address": "Av. Araucária, 140",
@@ -4081,8 +3876,8 @@
           }
         },
         {
-          "time": "13:25",
-          "end": "14:05",
+          "time": "13:20",
+          "end": "14:00",
           "type": "transport",
           "name": "Posto + devolução da SUV",
           "note": "Abastecer perto do aeroporto antes de devolver.",
@@ -4090,8 +3885,8 @@
           "lng": -54.4885,
           "leg": {
             "mode": "car",
-            "minutes": 5,
-            "label": "Mercado → posto: 29 min + margem no mapa; grade dá 5 min"
+            "minutes": 30,
+            "label": "Mercado → posto perto do aeroporto · 29 min + margem"
           },
           "place": {
             "address": "Rod. BR-469, km 16,5 · Aeroporto, Foz do Iguaçu - PR, 85863-900",
@@ -4109,19 +3904,19 @@
           "end": "14:45",
           "type": "transport",
           "name": "Aeroporto: check-in e despacho",
-          "note": "Chegada com 3h45 de antecedência: folga para devolução e fila de despacho.",
+          "note": "Chegada com 3h de antecedência: folga para a devolução do carro e a fila de despacho.",
           "lat": -25.5978,
           "lng": -54.4885,
-          "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "Locadora → terminal"
-          },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Airport_Foz_do_Iguacu.jpg/960px-Airport_Foz_do_Iguacu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Airport_Foz_do_Iguacu.jpg",
             "author": "Fernando Barbosa",
             "license": "Public domain"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "Locadora → terminal"
           },
           "place": {
             "address": "Rod. BR-469, km 16,5 · Aeroporto, Foz do Iguaçu - PR, 85863-900",
