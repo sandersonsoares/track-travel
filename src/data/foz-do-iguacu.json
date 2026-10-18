@@ -1726,7 +1726,7 @@
           "end": "19:25",
           "type": "shopping",
           "name": "Shopping Catuaí Palladium (Sanderson)",
-          "note": "Eletrônicos, Cellshop Duty Free e cinema. Eletrônicos, Cellshop Duty Free, compras tranquilas.",
+          "note": "Tarde livre para conhecer as lojas, olhar eletrônicos na Cellshop Duty Free e fazer uma pausa para café. Dica: aproveitar uma sessão no Cinemark, conforme os filmes e horários disponíveis no dia.",
           "lat": -25.5688,
           "lng": -54.5581,
           "leg": {
@@ -1750,45 +1750,7 @@
             "photos": [],
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Catua%C3%AD%20Palladium%20Foz%20do%20Igua%C3%A7u"
-          },
-          "alternatives": [
-            {
-              "name": "Vale dos Dinossauros (Sanderson)",
-              "type": "activity",
-              "note": "Complexo Dreams Park, caminhos planos. Abre 9h30.",
-              "place": {
-                "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-                "hours": "Todos os dias 9h30–22h",
-                "phone": "(45) 3527-8100",
-                "website": "https://dreamsparkshow.com.br/vale-dos-dinossauros-foz-do-iguacu/",
-                "rating": 4.2,
-                "googlePlaceId": "ChIJ3dg9IZyV9pQRYnoRr2ywdAI",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vale%20dos%20Dinossauros%20%28Sanderson%29&query_place_id=ChIJ3dg9IZyV9pQRYnoRr2ywdAI",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Vale%20dos%20Dinossauros%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5926,
-              "lng": -54.5171,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": null,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": null,
-                "people": 3,
-                "totalGroup": null,
-                "status": "a pesquisar",
-                "checkedAt": "2026-10-17",
-                "note": "Preço no site do Dreams Park."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
-              }
-            }
-          ]
+          }
         },
         {
           "time": "19:50",
@@ -1961,10 +1923,10 @@
       "title": "Congresso + Dreams Park e Wonder Park",
       "items": [
         {
-          "time": "06:45",
-          "type": "lodging",
-          "name": "Saída do Airbnb",
-          "note": "Sanderson leva Hortência e Gracinha de carro e segue com o roteiro dele.",
+          "time": "06:00",
+          "type": "food",
+          "name": "Café da manhã no Airbnb (os três)",
+          "note": "Hortência, Gracinha e Sanderson tomam café antes de sair para o congresso. Deixar pão, frutas e bebidas comprados na véspera; café no apartamento, sem desvio de rota. Estimativa de R$ 20 por pessoa.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -1972,19 +1934,56 @@
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": []
+          },
+          "end": "06:30",
+          "cost": 20,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 20,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 20,
+            "people": 3,
+            "totalGroup": 60,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "rangePerPerson": [
+              10,
+              30
+            ],
+            "note": "Café no apartamento para os três, com compras feitas na véspera. Estimativa; não é despesa paga."
           }
         },
         {
-          "time": "06:55",
+          "time": "06:35",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Saída de carro com os três, após o café no apartamento. Levar os ingressos do congresso e dos passeios, documento com foto e comprovante de meia-entrada, se aplicável.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": []
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Café no próprio apartamento · organizar a saída para a garagem"
+          }
+        },
+        {
+          "time": "06:50",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Chegar ao Recanto Cataratas antes do início às 7h. Deixar Hortência e Gracinha na entrada do evento; almoço delas no resort. Sanderson segue sozinho e retorna para buscá-las às 19h45. Hortência: VIP; Gracinha: Start.",
           "lat": -25.5125,
           "lng": -54.5493,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
+            "minutes": 15,
+            "label": "Airbnb → Recanto Cataratas, Av. Costa e Silva, 3500 · cerca de 6 min dirigindo + margem de acesso"
           },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
@@ -1999,43 +1998,27 @@
             "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": []
-          }
+          },
+          "end": "07:00"
         },
         {
-          "time": "07:05",
-          "end": "09:30",
+          "time": "07:15",
+          "end": "09:20",
           "type": "lodging",
-          "name": "Café da manhã e descanso (Sanderson)",
-          "note": "Dreams Park abre às 9h.",
+          "name": "Descanso no Airbnb (Sanderson)",
+          "note": "Voltar ao apartamento depois de deixar as meninas. Descansar e organizar a saída às 9h20 para chegar ao Dreams às 10h. O café dos três já foi feito antes do congresso.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
+            "minutes": 15,
+            "label": "Recanto Cataratas → Solar das Violetas, R. Padre Bernardo Plate, 1610 · estimativa com margem"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20da%20manh%C3%A3%20e%20descanso%20%28Sanderson%29&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": []
-          },
-          "cost": 20,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 20,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 20,
-            "people": 3,
-            "totalGroup": 60,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              10,
-              30
-            ],
-            "note": "Café no Airbnb com compras de mercado/padaria."
           }
         },
         {
@@ -2043,13 +2026,13 @@
           "end": "11:20",
           "type": "activity",
           "name": "Dreams Motor Show (Sanderson)",
-          "note": "Carros e motos de filmes, no complexo do Dreams Park. Museu de Cera fica de fora (já visitado em Gramado, mesma empresa). Ingresso a pesquisar.",
+          "note": "Museu de motocicletas, com ambientes temáticos, bar e restaurante; os carros de filmes ficam no Movie Cars, à tarde. Visita das 10h às 11h20, dentro da janela comum da sexta (10h–12h). Entre 12h e 15h, o acesso é restrito ao ingresso do Espetáculo Magic. Museu de Cera e Vale dos Dinossauros ficam de fora. Confirmar ingresso e meia-entrada antes de comprar. Estacionamento do Dreams: R$ 35 por veículo, à parte.",
           "lat": -25.5913,
           "lng": -54.5176,
           "leg": {
             "mode": "car",
-            "minutes": 30,
-            "label": "Rota Google 21 min + margem"
+            "minutes": 40,
+            "label": "Airbnb → Dreams Motor Show, Av. das Cataratas, 8100 · cerca de 20 km; referência de 19 min dirigindo + folga para trânsito, estacionamento e entrada"
           },
           "image": {
             "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
@@ -2058,7 +2041,7 @@
           },
           "place": {
             "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-            "hours": "Todos os dias 9h–22h",
+            "hours": "Seg 10h–22h · ter–dom 10h–12h e 15h–19h30 para visitação comum",
             "phone": "(45) 3527-8100",
             "website": "https://dreamsparkshow.com.br/dreams-motor-show/",
             "rating": 4.3,
@@ -2068,44 +2051,6 @@
             "osmPending": true,
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Dreams%20Motor%20Show%20Foz%20do%20Igua%C3%A7u"
           },
-          "alternatives": [
-            {
-              "name": "Vale dos Dinossauros",
-              "type": "activity",
-              "note": "No mesmo complexo, sem o Museu de Cera.",
-              "place": {
-                "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-                "hours": "Todos os dias 9h30–22h",
-                "phone": "(45) 3527-8100",
-                "website": "https://dreamsparkshow.com.br/vale-dos-dinossauros-foz-do-iguacu/",
-                "rating": 4.2,
-                "googlePlaceId": "ChIJ3dg9IZyV9pQRYnoRr2ywdAI",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vale%20dos%20Dinossauros&query_place_id=ChIJ3dg9IZyV9pQRYnoRr2ywdAI",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Vale%20dos%20Dinossauros%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5926,
-              "lng": -54.5171,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": null,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": null,
-                "people": 3,
-                "totalGroup": null,
-                "status": "a pesquisar",
-                "checkedAt": "2026-10-17",
-                "note": "Preço no site do Dreams Park."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
-              }
-            }
-          ],
           "cost": 74.5,
           "costDetails": {
             "unit": "pessoa",
@@ -2113,8 +2058,8 @@
             "halfPerPerson": 74.5,
             "halfApplies": true,
             "payPerPerson": 74.5,
-            "people": 3,
-            "totalGroup": 223.5,
+            "people": 1,
+            "totalGroup": 74.5,
             "status": "a confirmar",
             "checkedAt": "2026-10-17",
             "source": "https://dreamsparkshow.com.br/dreams-motor-show/",
@@ -2126,13 +2071,13 @@
           "end": "12:50",
           "type": "food",
           "name": "Bonnie's Burger (Sanderson)",
-          "note": "Dentro do Wonder Park, abre às 12h.",
+          "note": "Hamburgueria temática dentro do Wonder Park, aberta a partir das 12h. Sair do Dreams por volta das 11h40; reservar 15 min para dirigir, estacionar e chegar à entrada. A folga até meio-dia cobre espera pela abertura. Estimativa de R$ 45–80 para Sanderson.",
           "lat": -25.609,
           "lng": -54.4878,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Rota Google 6 min + margem · estacionar e entrar"
+            "label": "Dreams → Wonder Park / Bonnie’s Burger, Av. das Cataratas, 11547 · cerca de 3,6 km e 5 min dirigindo + estacionamento"
           },
           "image": {
             "src": "/img/foz-do-iguacu/bonnie-s-burger.jpg",
@@ -2155,10 +2100,10 @@
             {
               "name": "Almoço no Dreams Motor Show",
               "type": "food",
-              "note": "Bar-restaurante entre motos e carros; mesmo complexo da manhã.",
+              "note": "Alternativa somente se comprar o Espetáculo Magic das 12h30, com refeição, e confirmar duração e valor. À sexta, a visitação comum fica restrita das 12h às 15h; nesse caso, atrasar o início do Wonder Park e reduzir o tempo de Big Land.",
               "place": {
                 "address": "Av. das Cataratas, 8100 · Foz do Iguaçu - PR (complexo Dreams Park)",
-                "hours": "Todos os dias 9h–22h",
+                "hours": "Seg 10h–22h · ter–dom 10h–12h e 15h–19h30 para visitação comum",
                 "phone": "(45) 3527-8100",
                 "website": "https://dreamsparkshow.com.br/dreams-motor-show/",
                 "rating": 4.3,
@@ -2177,15 +2122,15 @@
                 "halfPerPerson": null,
                 "halfApplies": false,
                 "payPerPerson": 70,
-                "people": 3,
-                "totalGroup": 210,
+                "people": 1,
+                "totalGroup": 70,
                 "status": "estimativa",
                 "checkedAt": "2026-10-17",
                 "rangePerPerson": [
                   50,
                   90
                 ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+                "note": "Estimativa anterior apenas da refeição; ingresso do Espetáculo Magic não incluído. Confirmar o total antes de escolher esta alternativa."
               },
               "image": {
                 "src": "/img/foz-do-iguacu/dreams-park-show.jpg",
@@ -2201,8 +2146,8 @@
             "halfPerPerson": null,
             "halfApplies": false,
             "payPerPerson": 60,
-            "people": 3,
-            "totalGroup": 180,
+            "people": 1,
+            "totalGroup": 60,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
             "rangePerPerson": [
@@ -2213,17 +2158,17 @@
           }
         },
         {
-          "time": "12:50",
-          "end": "16:15",
+          "time": "12:55",
+          "end": "16:10",
           "type": "activity",
-          "name": "Wonder Park: Movie Cars e Big Land",
-          "note": "Carros de filmes, ambientes temáticos e jogos gigantes. Evitar atividades físicas exigentes. Ingressos a pesquisar.",
+          "name": "Wonder Park: Movie Cars e Big Land (Sanderson)",
+          "note": "Sugestão flexível: 12h55–14h30 no Movie Cars, com carros e cenários de filmes; 14h30–15h para café e pausa; 15h–16h no Big Land, com jogos gigantes, se houver interesse. Big Land é opcional: pode encurtar e voltar mais cedo. Conferir o que o ingresso inclui; o valor registrado é só do Movie Cars. Não inclui Lumina Park (a partir das 19h30) nem Show das Águas (20h30), que conflitam com a busca no congresso. Estacionamento gratuito.",
           "lat": -25.6091,
           "lng": -54.489,
           "leg": {
             "mode": "walk",
-            "minutes": 0,
-            "label": "Mesmo parque"
+            "minutes": 5,
+            "label": "Bonnie’s Burger → Movie Cars / Big Land · caminhada dentro do mesmo complexo"
           },
           "image": {
             "src": "/img/foz-do-iguacu/wonder-park-movie-cars-e-big-land.jpg",
@@ -2232,7 +2177,7 @@
           },
           "place": {
             "address": "Av. das Cataratas, 11547 · Parque Nacional, Foz do Iguaçu - PR",
-            "hours": "Ter–dom 10h–22h · seg 12h–22h",
+            "hours": "Todos os dias 12h–22h · Lumina Park a partir das 19h30 · Show das Águas às 20h30",
             "phone": "(45) 3132-5416",
             "website": "https://www.wonderparkfoz.com.br/",
             "rating": 4.5,
@@ -2249,8 +2194,8 @@
             "halfPerPerson": 50,
             "halfApplies": true,
             "payPerPerson": 50,
-            "people": 3,
-            "totalGroup": 150,
+            "people": 1,
+            "totalGroup": 50,
             "status": "oficial (Movie Cars)",
             "checkedAt": "2026-10-17",
             "source": "https://ingresso.wonderparkfoz.com.br/produto/vitrine/movie_cars",
@@ -2259,16 +2204,16 @@
         },
         {
           "time": "16:50",
-          "end": "19:35",
+          "end": "19:30",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
-          "note": "Descanso.",
+          "note": "Volta ao apartamento para banho e descanso. Fazer um lanche por volta das 17h com o que houver no Airbnb; o jantar será depois das 20h30. Sair às 19h30 para buscar as meninas, com margem para o movimento na entrada do evento.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 35,
-            "label": "Rota Google 27 min + margem"
+            "minutes": 40,
+            "label": "Wonder Park → Solar das Violetas · cerca de 15,6 km e 25 min dirigindo + margem de trânsito"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -2279,17 +2224,17 @@
           }
         },
         {
-          "time": "19:50",
+          "time": "19:45",
           "end": "20:10",
           "type": "event",
           "name": "Buscar as meninas no congresso",
-          "note": "Fim do congresso às 20h.",
+          "note": "Chegar ao Recanto Cataratas antes do encerramento das 20h. Combinar por mensagem o ponto de encontro e aguardar Hortência e Gracinha; saída prevista até 20h10.",
           "lat": -25.5125,
           "lng": -54.5493,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
+            "minutes": 15,
+            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
           },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
@@ -2307,17 +2252,17 @@
           }
         },
         {
-          "time": "20:30",
+          "time": "20:35",
           "end": "22:00",
           "type": "food",
           "name": "Pátio Pomare",
-          "note": "Sexta: 15h–22h30. Pizzas R$ 64–119. Alternativa: Bona Trattoria. R$ 150–300 para três.",
+          "note": "Jantar dos três após o congresso. Sexta: atendimento até 23h, com portões fechando às 22h30. Estimativa de R$ 150–300 para três; confirmar cardápio e valores. Alternativas: BONA Gastronomia Italiana e Luigia Pizzeria. Hortência: levar lactase se escolher pratos com lactose.",
           "lat": -25.5506,
           "lng": -54.5736,
           "leg": {
             "mode": "car",
-            "minutes": 20,
-            "label": "Rota Google 13 min + margem"
+            "minutes": 25,
+            "label": "Recanto Cataratas → Pátio Pomare, Av. das Cataratas, 544 · cerca de 6,3 km e 13 min dirigindo + estacionamento"
           },
           "image": {
             "src": "/img/foz-do-iguacu/patio-pomare.jpg",
@@ -2326,7 +2271,7 @@
           },
           "place": {
             "address": "Av. das Cataratas, 544 · Vila Yolanda, Foz do Iguaçu - PR",
-            "hours": "Ter–sex 15h–22h30 · sáb 12h–22h30 · dom 12h–21h30 · seg fechado",
+            "hours": "Ter–sex 15h–23h · sáb 12h–23h · dom 12h–22h · portões fecham 30 min antes · seg fechado",
             "phone": "(45) 3029-8098",
             "website": "https://patiopomare.com.br/",
             "rating": 4.9,
@@ -2428,15 +2373,15 @@
           }
         },
         {
-          "time": "22:15",
+          "time": "22:20",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 15,
-            "label": "Rota Google 13 min + margem"
+            "minutes": 20,
+            "label": "Pátio Pomare → Solar das Violetas · cerca de 4,6 km e 12 min dirigindo + margem"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -2444,19 +2389,21 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": [],
             "osmPending": true
-          }
+          },
+          "note": "Retorno dos três ao apartamento; deixar o café de sábado organizado antes de dormir."
         }
-      ]
+      ],
+      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar. Horários das atrações conferidos nos sites oficiais Dreams Park Show, Wonder Park e Pátio Pomare."
     },
     {
       "date": "2026-11-07",
-      "title": "Congresso + Itaipu e Templo Budista",
+      "title": "Congresso + Itaipu e noite a confirmar",
       "items": [
         {
-          "time": "07:40",
-          "type": "lodging",
-          "name": "Saída do Airbnb",
-          "note": "Sanderson leva Hortência e Gracinha de carro e segue com o roteiro dele.",
+          "time": "06:45",
+          "type": "food",
+          "name": "Café da manhã no Airbnb (os três)",
+          "note": "Hortência, Gracinha e Sanderson tomam café antes de sair para o congresso. Deixar pão, frutas e bebidas comprados na véspera; café no apartamento, sem desvio de rota. Estimativa de R$ 20 por pessoa.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -2464,19 +2411,56 @@
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
             "photos": []
+          },
+          "end": "07:15",
+          "cost": 20,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 20,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 20,
+            "people": 3,
+            "totalGroup": 60,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "rangePerPerson": [
+              10,
+              30
+            ],
+            "note": "Café no apartamento para os três, com compras feitas na véspera. Estimativa; não é despesa paga."
           }
         },
         {
-          "time": "07:50",
+          "time": "07:25",
+          "type": "lodging",
+          "name": "Saída do Airbnb",
+          "note": "Saída de carro após o café dos três no apartamento. Sanderson deixa Hortência e Gracinha no congresso e segue direto para Itaipu, sem voltar ao Airbnb. Levar documento com foto, comprovante de meia-entrada e ingresso, se comprado.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": []
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Café no próprio apartamento · organizar a saída para a garagem"
+          }
+        },
+        {
+          "time": "07:40",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 8h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Chegar antes do início das 8h e desembarcar Hortência e Gracinha na entrada do evento. Almoço delas no resort. Hortência: VIP; Gracinha: Start. Confirmar durante o dia as regras e o horário da festa e a possibilidade de entrada de Sanderson.",
           "lat": -25.5125,
           "lng": -54.5493,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
+            "minutes": 15,
+            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
           },
           "image": {
             "src": "/img/foz-do-iguacu/congresso-espectro.jpg",
@@ -2491,20 +2475,21 @@
             "googlePlaceId": "ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": []
-          }
+          },
+          "end": "07:50"
         },
         {
-          "time": "08:15",
-          "end": "10:50",
+          "time": "08:20",
+          "end": "11:10",
           "type": "activity",
           "name": "Itaipu Panorâmica (Sanderson)",
-          "note": "Abre às 8h30: chegar cedo para a 1ª saída do ônibus (confirmar horário). Não entra bolsa no passeio. Referência estudante.",
+          "note": "Destino: Centro de Recepção de Visitantes, Av. Tancredo Neves, 6702. Chegada planejada às 8h20 para estacionar, passar pela segurança e procurar saída por volta das 9h; não há reserva confirmada. A Panorâmica dura cerca de 1h10, em ônibus com duas paradas externas. Reservar até 11h10 para espera, passeio, banheiros e lojas de lembrancinhas COART/ASSEMIB no centro de visitantes. Levar documento e comprovante de meia. Bolsas pequenas são toleradas mediante revista; a proibição total é do Itaipu Especial. Estacionamento: referência de R$ 28 por veículo, à parte. Confirmar horário da saída ao comprar: páginas oficiais divergem entre início às 8h15 e 8h30.",
           "lat": -25.4469,
           "lng": -54.5846,
           "leg": {
             "mode": "car",
-            "minutes": 25,
-            "label": "Rota Google 15 min + margem do resort"
+            "minutes": 30,
+            "label": "Recanto Cataratas → Centro de Recepção de Visitantes de Itaipu, Av. Tancredo Neves, 6702 · referência de 11 km e 14 min dirigindo + acesso e estacionamento"
           },
           "image": {
             "src": "/img/foz-do-iguacu/itaipu-panoramica.jpg",
@@ -2513,7 +2498,7 @@
           },
           "place": {
             "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 8h30–16h",
+            "hours": "Diariamente · saídas aproximadamente a cada 30 min; confirmar grade ao comprar (páginas oficiais indicam 8h15–17h ou 8h30–16h)",
             "phone": "(45) 99131-9119",
             "website": "https://www.turismoitaipu.com.br/pt",
             "rating": 4.9,
@@ -2530,8 +2515,8 @@
             "halfPerPerson": 31.5,
             "halfApplies": true,
             "payPerPerson": 31.5,
-            "people": 3,
-            "totalGroup": 94.5,
+            "people": 1,
+            "totalGroup": 31.5,
             "status": "oficial",
             "checkedAt": "2026-10-17",
             "source": "https://www.turismoitaipu.com.br/pt",
@@ -2539,17 +2524,17 @@
           }
         },
         {
-          "time": "10:50",
-          "end": "12:00",
+          "time": "11:15",
+          "end": "12:15",
           "type": "food",
           "name": "Itaipu Bistrot (Sanderson)",
-          "note": "No próprio centro de visitantes. Almoço cedo, antes do pico.",
+          "note": "Almoço de Sanderson no Bistrot do Centro de Recepção de Visitantes, antes de pegar o carro. Há refeição por quilo, lanches e café. Confirmar no balcão o início do serviço de almoço; se ainda não estiver disponível, usar a folga para as lojas e almoçar um pouco depois. Estimativa de R$ 35–60; não é reserva nem despesa paga.",
           "lat": -25.4472,
           "lng": -54.5837,
           "leg": {
             "mode": "walk",
-            "minutes": 0,
-            "label": "Mesmo local"
+            "minutes": 5,
+            "label": "Desembarque / lojas de Itaipu → Bistrot do Centro de Recepção · caminhada no mesmo local"
           },
           "image": {
             "src": "/img/foz-do-iguacu/itaipu-bistrot.jpg",
@@ -2558,7 +2543,7 @@
           },
           "place": {
             "address": "Av. Tancredo Neves, 6702 · Centro de Recepção de Visitantes de Itaipu",
-            "hours": "Todos os dias 8h–18h20 (sex e sáb até 19h20)",
+            "hours": "Todos os dias 8h–19h20 · horário do bufê de almoço a confirmar",
             "phone": "(45) 3198-1800",
             "website": "https://www.turismoitaipu.com.br/",
             "rating": 3.8,
@@ -2575,8 +2560,8 @@
             "halfPerPerson": null,
             "halfApplies": false,
             "payPerPerson": 45,
-            "people": 3,
-            "totalGroup": 135,
+            "people": 1,
+            "totalGroup": 45,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
             "rangePerPerson": [
@@ -2587,17 +2572,17 @@
           }
         },
         {
-          "time": "13:35",
-          "end": "19:25",
+          "time": "12:40",
+          "end": "19:30",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
-          "note": "Descanso. À noite: festa do congresso (opção A) ou Catuaí (opção B).",
+          "note": "Volta direta de Itaipu ao apartamento. Tarde livre para banho e descanso; café ou lanche no Airbnb por volta das 16h. Não há passeio obrigatório à tarde. O Templo Budista está previsto com os três em 10/11, por isso não repetir aqui. Até o fim da tarde, confirmar horário da festa, entrada de Sanderson e alimentação. Se a festa for confirmada para os três, saída às 19h30 para chegar ao resort às 19h45; ajustar se a organização divulgar outro horário.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 20,
-            "label": "Rota Google 15 min + margem"
+            "minutes": 25,
+            "label": "Itaipu → Solar das Violetas, R. Padre Bernardo Plate, 1610 · cerca de 10 km e 15 min dirigindo + margem"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -2608,16 +2593,16 @@
           }
         },
         {
-          "time": "19:50",
+          "time": "19:45",
           "type": "event",
-          "name": "Festa do congresso",
-          "note": "Se Sanderson puder entrar: festa dos três no resort. Sair do Airbnb às 19h40. Confirmar horário, ingresso dele e alimentação. Alternativa abaixo, se ele não puder.",
+          "name": "Recanto Cataratas · festa do congresso (a confirmar)",
+          "note": "Chegada de referência ao resort; 19h45 não é horário confirmado de início da festa. Plano A: se Sanderson puder entrar, os três participam; confirmar ingresso dele, alimentação e encerramento. Se não houver refeição incluída, jantar antes ou combinar outra opção. Volta: Recanto Cataratas → Solar das Violetas, reservar 15 min de carro após o encerramento; horário ainda indefinido. Se não houver festa, chegar para buscar Hortência e Gracinha às 20h e jantar juntos, conforme alternativa abaixo.",
           "lat": -25.5125,
           "lng": -54.5493,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Rota Google 6 min + margem"
+            "minutes": 15,
+            "label": "Solar das Violetas → Recanto Cataratas, Av. Costa e Silva, 3500 · estimativa com margem"
           },
           "image": {
             "src": "/img/foz-do-iguacu/opcao-a-festa-do-congresso.jpg",
@@ -2637,11 +2622,9 @@
           },
           "alternatives": [
             {
-              "time": "19:50",
-              "end": "22:00",
               "type": "food",
-              "name": "Jantar e cinema no Catuaí (Sanderson)",
-              "note": "Se Sanderson não puder entrar: sai às 19h25 para o Catuaí e depois volta ao resort (16 min) para buscar as meninas. Se não houver festa: buscar às 20h e jantar dos três.",
+              "name": "Plano B · Catuaí ou jantar dos três",
+              "note": "Se houver festa só para Hortência e Gracinha: Sanderson sai do Airbnb às 19h25 para chegar ao Catuaí por volta das 19h50 (reservar 25 min de carro), janta e só assiste a um filme se a sessão terminar antes do horário combinado de busca. Catuaí → Recanto: reservar 25 min (referência de 7,5 km e 14 min dirigindo + margem); Recanto → Airbnb: 15 min. O fim da festa ainda não está confirmado, portanto 22h não é horário fixo de saída. Se não houver festa: buscar as duas às 20h, sair do resort por volta de 20h10 e chegar ao Catuaí por volta de 20h35 para jantar juntos. Lojas até 22h; alimentação até 23h; cinema conforme sessão.",
               "lat": -25.5688,
               "lng": -54.5581,
               "image": {
@@ -2651,7 +2634,7 @@
               },
               "place": {
                 "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR",
-                "hours": "Seg–sáb 10h–23h · dom 11h–23h",
+                "hours": "Seg–sáb: lojas 10h–22h · alimentação diariamente 11h–23h · cinema conforme programação",
                 "phone": "(45) 3939-0000",
                 "website": "http://www.catuaipalladium.com.br/",
                 "rating": 4.5,
@@ -2661,18 +2644,18 @@
                 "osmPending": true,
                 "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Catua%C3%AD%20Palladium%20Foz%20do%20Igua%C3%A7u"
               },
-              "cost": 60,
+              "cost": 70,
               "costDetails": {
                 "unit": "pessoa",
-                "fullPerPerson": 70,
-                "halfPerPerson": 60,
+                "fullPerPerson": 90,
+                "halfPerPerson": 70,
                 "halfApplies": true,
-                "payPerPerson": 60,
-                "people": 3,
-                "totalGroup": 180,
+                "payPerPerson": 70,
+                "people": 1,
+                "totalGroup": 70,
                 "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "note": "Jantar ~R$ 50 + cinema (meia ~R$ 20, inteira ~R$ 40)."
+                "checkedAt": "2026-10-18",
+                "note": "Estimativa individual: jantar R$ 50 + cinema R$ 20 (meia) ou R$ 40 (inteira); meia somente no cinema. Se os três jantarem, recalcular pelo consumo e pelo número de pessoas; cinema é opcional."
               }
             }
           ],
@@ -2690,7 +2673,8 @@
             "note": "Incluída no ingresso do congresso para Hortência e Gracinha; entrada de Sanderson a confirmar."
           }
         }
-      ]
+      ],
+      "note": "Sábado: café dos três no Airbnb, congresso para Hortência e Gracinha e Itaipu para Sanderson. Tarde de descanso intencional, com lanche no apartamento. A noite depende da confirmação da festa. Tempos de carro são referências consultadas em 18/10/2026 com margem; abrir as rotas no Google Maps e recalcular no dia. Itaipu continua também no domingo do roteiro atual: decidir a repetição ao revisar 08/11."
     },
     {
       "date": "2026-11-08",
