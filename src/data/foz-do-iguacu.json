@@ -15,7 +15,12 @@
   "currency": "BRL",
   "rateBRL": 1,
   "rateDate": "2026-10-16",
-  "cover": { "src": "/img/foz-do-iguacu/capa.webp", "page": "https://commons.wikimedia.org/wiki/File:1_iguazu_falls_aerial_2010.jpg", "author": "chensiyuan", "license": "CC BY-SA 4.0" },
+  "cover": {
+    "src": "/img/foz-do-iguacu/capa.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:1_iguazu_falls_aerial_2010.jpg",
+    "author": "chensiyuan",
+    "license": "CC BY-SA 4.0"
+  },
   "days": [
     {
       "date": "2026-11-03",
@@ -334,7 +339,7 @@
         },
         {
           "time": "08:30",
-          "end": "09:40",
+          "end": "09:20",
           "type": "activity",
           "name": "CellShop · iPhone (1ª cotação)",
           "note": "Começar pela loja mais distante da ponte e voltar em direção a ela. Anotar preço em dólar à vista e no cartão, versão (modelo americano é só eSIM), cor, garantia e nota. Ainda não comprar: comparar com Nissei, Visão Vip e Mega.",
@@ -368,7 +373,9 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CellShop&query_place_id=ChIJY_kGT1WF9pQRpAGp81pvRmQ",
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cellshop%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true
+            "osmPending": true,
+            "instagram": "https://www.instagram.com/cellshop.oficial",
+            "whatsapp": "https://wa.me/595994193150"
           },
           "cost": 0,
           "costDetails": {
@@ -390,8 +397,47 @@
           }
         },
         {
-          "time": "09:45",
-          "end": "10:30",
+          "time": "09:22",
+          "end": "09:45",
+          "type": "activity",
+          "name": "Elegancia Company · perfumes e cosméticos",
+          "note": "Edifício Victoria, ao lado da CellShop. Bom estoque; preço fixo, sem desconto. Pagamento e retirada podem demorar: pague em dólar.",
+          "lat": -25.5111,
+          "lng": -54.6113,
+          "leg": {
+            "mode": "walk",
+            "minutes": 2,
+            "label": "100 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          },
+          "place": {
+            "address": "Edificio Victoria, Av. Adrián Jara esq., Ciudad del Este",
+            "hours": "Seg–sex 6h30–15h30 · sáb 6h–15h30 · dom fechado",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJAYp3ZVWF9pQR1CUkH1gOcm8",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Elegancia%20Company&query_place_id=ChIJAYp3ZVWF9pQR1CUkH1gOcm8",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Elegancia%20Company%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "website": "http://www.eleganciacompany.com/",
+            "instagram": "https://www.instagram.com/eleganciacompany/"
+          }
+        },
+        {
+          "time": "09:50",
+          "end": "10:25",
           "type": "activity",
           "name": "Monalisa · perfumes, maquiagem e moda",
           "note": "Loja de luxo com produtos originais: boa para perfumes e cosméticos. Fecha 16h30.",
@@ -429,29 +475,111 @@
           }
         },
         {
-          "time": "10:35",
-          "end": "11:00",
+          "time": "10:30",
+          "end": "10:55",
           "type": "activity",
-          "name": "Galería Jebai · acessórios baratos (opcional)",
-          "note": "Galeria antiga e movimentada: capinhas, películas, fones, carregadores, bolsas. Pechinchar e evitar eletrônicos caros sem nota.",
-          "lat": -25.5103,
-          "lng": -54.6098,
+          "name": "Terra Nova · cosméticos",
+          "note": "Cosméticos e maquiagem (fama de produtos coreanos). Fecha às 16h.",
+          "lat": -25.5076,
+          "lng": -54.6096,
           "leg": {
             "mode": "walk",
             "minutes": 5,
-            "label": "90 m"
+            "label": "300 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
           },
           "place": {
-            "address": "Galería Jebai · Av. Adrián Jara, Ciudad del Este, Paraguai",
-            "hours": "Seg–sex 6h–16h · sáb 6h–15h · dom fechado",
-            "phone": "+595 61 502 266",
-            "website": "https://shoppingjebai.com.py/",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJ0SLnRVWF9pQRgiCD_JCCiUo",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Galer%C3%ADa%20Jebai&query_place_id=ChIJ0SLnRVWF9pQRgiCD_JCCiUo",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Jebai%20Ciudad%20del%20Este",
+            "address": "Emiliano R. Fernández · Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–16h · dom 8h–12h",
+            "phone": "+595 61 514 233",
+            "website": "https://www.shoppingterranova.com.py/",
+            "rating": 4.4,
+            "googlePlaceId": "ChIJpfCAy1SF9pQRRelvJ5eEA5o",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shopping%20Terra%20Nova&query_place_id=ChIJpfCAy1SF9pQRRelvJ5eEA5o",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Terra%20Nova%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true
+            "osmPending": true,
+            "instagram": "https://www.instagram.com/shoppingterranova/",
+            "whatsapp": "https://wa.me/595985114000"
+          }
+        },
+        {
+          "time": "11:00",
+          "end": "11:25",
+          "type": "activity",
+          "name": "Digital Center · eletrônicos e câmeras",
+          "note": "Shopping Americana. Câmeras, drones, áudio e eletrônicos; avaliações elogiam preço. Peça recibo/nota. Fecha às 15h30.",
+          "lat": -25.509,
+          "lng": -54.6088,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "300 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          },
+          "place": {
+            "address": "Shopping Americana · Av. San Blás, Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–15h30 · dom fechado",
+            "website": "https://digitalcenterpy.com/",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Digital%20Center&query_place_id=ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Digital%20Center%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "instagram": "https://www.instagram.com/pydigitalcenter/",
+            "whatsapp": "https://wa.me/595983450909"
+          }
+        },
+        {
+          "time": "11:30",
+          "end": "12:05",
+          "type": "activity",
+          "name": "Mega Eletrônicos · iPhone (2ª cotação)",
+          "note": "Segunda cotação do iPhone. Avaliações citam fila no caixa. Fecha 16h30.",
+          "lat": -25.5099,
+          "lng": -54.6088,
+          "leg": {
+            "mode": "walk",
+            "minutes": 5,
+            "label": "230 m"
+          },
+          "place": {
+            "address": "Monseñor Rodríguez esq. · Ciudad del Este, Paraguai",
+            "hours": "Seg 7h–16h30 · ter–sex 6h30–16h30 · sáb 6h–15h · dom fechado",
+            "phone": "+595 61 504 444",
+            "website": "https://www.megaeletronicos.com/",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mega%20Eletr%C3%B4nicos&query_place_id=ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mega%20Eletronicos%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "whatsapp": "https://wa.me/595973924466"
           },
           "cost": 0,
           "costDetails": {
@@ -468,17 +596,131 @@
           }
         },
         {
-          "time": "11:05",
-          "end": "11:50",
+          "time": "12:08",
+          "end": "12:30",
           "type": "activity",
-          "name": "Nissei · iPhone (2ª cotação) e eletrônicos",
-          "note": "Comparar com a CellShop. Também boa para Apple Watch, AirPods, caixas de som e eletroportáteis. Fecha 17h.",
+          "name": "Galeria Jebai · CityCell e Mobile Zone (cotações extras de iPhone)",
+          "note": "Duas cotações no mesmo prédio. CityCell (térreo, +595 61 513 300): preço baixo, mas uma avaliação relata troca de modelo. Mobile Zone Internacional (3º andar, +595 61 511 041, mobilezone.com.br): distribuidora oficial Samsung, também vende iPhone e tem iPhone Swap (seminovo). Exija lacrado/novo, confira IMEI (*#06#) e nota com IMEI.",
+          "lat": -25.5105,
+          "lng": -54.6099,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "150 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          },
+          "place": {
+            "address": "Galería Jebai Center, Ciudad del Este",
+            "hours": "Seg–sáb 7h–16h · dom fechado",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "phone": "+595 61 513 300"
+          },
+          "alternatives": [
+            {
+              "name": "Mobile Zone Internacional",
+              "lat": -25.51,
+              "lng": -54.6099,
+              "note": "Jebai Center, 3º andar. Seg–sex 6h30–15h30 · sáb 6h–15h.",
+              "place": {
+                "address": "Av. Monseñor Rodríguez c/ Av. Carlos Antonio López, Jebai Center 3º piso, Ciudad del Este",
+                "hours": "Seg–sex 6h30–15h30 · sáb 6h–15h · dom fechado",
+                "phone": "+595 61 511 041",
+                "website": "http://www.mobilezone.com.br/",
+                "rating": 4.4,
+                "googlePlaceId": "ChIJf4miSVWF9pQR7xbGIrkVN8o",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mobile%20Zone%20Internacional&query_place_id=ChIJf4miSVWF9pQR7xbGIrkVN8o",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mobile%20Zone%20Ciudad%20del%20Este",
+                "photos": [],
+                "osmPending": true
+              }
+            }
+          ]
+        },
+        {
+          "time": "12:32",
+          "end": "12:50",
+          "type": "activity",
+          "name": "Atacado Connect e Alana Cell · capinhas e acessórios",
+          "note": "Duas lojas vizinhas na Adrián Jara. Atacado Connect cobra +10% no cartão: pague em dinheiro. Alana Cell tem poucas avaliações.",
+          "lat": -25.5107,
+          "lng": -54.6101,
+          "leg": {
+            "mode": "walk",
+            "minutes": 2,
+            "label": "50 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          },
+          "place": {
+            "address": "Av. Adrián Jara, Ciudad del Este",
+            "hours": "Atacado Connect: seg–sex 6h–16h · sáb 6h–15h · dom fechado",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJj2KxUFWF9pQRvDFbSc1YvdI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Atacado%20Connect&query_place_id=ChIJj2KxUFWF9pQRvDFbSc1YvdI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Atacado%20Connect%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "phone": "+595 61 511 182",
+            "website": "https://www.atacadoconnect.com/"
+          },
+          "alternatives": [
+            {
+              "name": "Alana Cell",
+              "lat": -25.5109,
+              "lng": -54.61,
+              "note": "Ao lado da Atacado Connect.",
+              "place": {
+                "address": "Av. Adrián Jara, Ciudad del Este",
+                "rating": 5,
+                "googlePlaceId": "ChIJk9DZfp2F9pQRgpptdaNIfzA",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Alana%20cell&query_place_id=ChIJk9DZfp2F9pQRgpptdaNIfzA",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Alana%20Cell%20Ciudad%20del%20Este",
+                "photos": [],
+                "osmPending": true
+              }
+            }
+          ]
+        },
+        {
+          "time": "12:52",
+          "end": "13:20",
+          "type": "activity",
+          "name": "Nissei · última cotação e COMPRA do iPhone",
+          "note": "Com as 3 cotações (CellShop, Mega, Nissei), comprar onde estiver melhor. Testar o aparelho e conferir lacre e nota. Fecha 17h.",
           "lat": -25.5111,
           "lng": -54.6096,
           "leg": {
             "mode": "walk",
-            "minutes": 5,
-            "label": "85 m"
+            "minutes": 2,
+            "label": "100 m"
           },
           "place": {
             "address": "Shopping Hijazi, Av. Adrián Jara esq., Ciudad del Este, Paraguai",
@@ -512,16 +754,16 @@
           }
         },
         {
-          "time": "11:55",
-          "end": "12:20",
+          "time": "13:22",
+          "end": "13:40",
           "type": "activity",
-          "name": "Lai Lai Center · Visão Vip (informática)",
-          "note": "4º andar. Notebooks, SSD, periféricos e iPhone. Fecha 16h.",
+          "name": "Lai Lai Center · Matrix e Visão Vip (notebooks/MacBook)",
+          "note": "Matrix (notebooks e MacBook) e Visão Vip (informática) no mesmo prédio. Atenção: há relato de notebook recondicionado vendido como novo na Matrix daqui; conferir lacre, número de série e garantia. A Matrix também tem loja no Shopping Paris (aberta até 19h). Fecham 15h30–16h.",
           "lat": -25.5107,
           "lng": -54.6091,
           "leg": {
             "mode": "walk",
-            "minutes": 5,
+            "minutes": 2,
             "label": "50 m"
           },
           "place": {
@@ -551,47 +793,8 @@
           }
         },
         {
-          "time": "12:25",
-          "end": "13:00",
-          "type": "activity",
-          "name": "Mega Eletrônicos · iPhone (última cotação) e COMPRA",
-          "note": "Com as 4 cotações em mãos, comprar onde estiver melhor. Avaliações citam fila no caixa: separar 20 min. Testar o aparelho e conferir lacre e nota antes de sair.",
-          "lat": -25.5099,
-          "lng": -54.6088,
-          "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "170 m"
-          },
-          "place": {
-            "address": "Monseñor Rodríguez esq. · Ciudad del Este, Paraguai",
-            "hours": "Seg 7h–16h30 · ter–sex 6h30–16h30 · sáb 6h–15h · dom fechado",
-            "phone": "+595 61 504 444",
-            "website": "https://www.megaeletronicos.com/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mega%20Eletr%C3%B4nicos&query_place_id=ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mega%20Eletronicos%20Ciudad%20del%20Este",
-            "photos": [],
-            "osmPending": true
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          }
-        },
-        {
-          "time": "13:10",
-          "end": "14:00",
+          "time": "13:50",
+          "end": "14:30",
           "type": "food",
           "name": "Almoço · praça de alimentação do Shopping Paris",
           "note": "Vários restaurantes no andar de cima, ar-condicionado e banheiros: boa pausa para os joelhos. R$ 120–240 para três.",
@@ -718,11 +921,11 @@
           }
         },
         {
-          "time": "14:00",
-          "end": "14:45",
+          "time": "14:30",
+          "end": "14:55",
           "type": "activity",
           "name": "Shopping Paris · perfumes, cosméticos e casa",
-          "note": "Perfumaria grande, eletroportáteis e utilidades. Aberto até 19h.",
+          "note": "Perfumaria grande, eletroportáteis e utilidades. Aberto até 19h. Aqui também tem loja da Matrix (notebooks/MacBook) para comparar.",
           "lat": -25.5131,
           "lng": -54.606,
           "leg": {
@@ -757,8 +960,8 @@
           }
         },
         {
-          "time": "14:55",
-          "end": "15:45",
+          "time": "15:05",
+          "end": "15:35",
           "type": "activity",
           "name": "Shopping China · tudo que não é eletrônico",
           "note": "Maior loja da cidade: vinhos, chocolates, supermercado importado, roupas, tênis, malas. Se precisarem, comprar uma mala aqui para levar as compras. Aberto até 20h.",
@@ -779,7 +982,9 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shopping%20China&query_place_id=ChIJsWkZAAGQ9pQRFfVNE6L4jEI",
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20China%20Ciudad%20del%20Este",
             "photos": [],
-            "osmPending": true
+            "osmPending": true,
+            "instagram": "https://www.instagram.com/shoppingchinaparaguay/",
+            "whatsapp": "https://wa.me/595981701701"
           },
           "cost": 0,
           "costDetails": {
@@ -801,7 +1006,47 @@
           }
         },
         {
-          "time": "16:00",
+          "time": "15:45",
+          "end": "16:03",
+          "type": "activity",
+          "name": "New Zone · importados",
+          "note": "No mesmo prédio do Shopping del Este e do Cé La Vi. Aberto até 22h. Pagar em dólar: no cartão o câmbio para guarani sai ~3,5% pior.",
+          "lat": -25.5102,
+          "lng": -54.6057,
+          "leg": {
+            "mode": "walk",
+            "minutes": 10,
+            "label": "400 m"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          },
+          "place": {
+            "address": "Monseñor Rodríguez · Shopping del Este, Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–22h · dom 8h–21h",
+            "phone": "+595 994 376439",
+            "website": "https://newzone.com.py/",
+            "rating": 4.6,
+            "googlePlaceId": "ChIJ48wtdQqR9pQRhxJzt08Yk2Y",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20Zone%20Importados&query_place_id=ChIJ48wtdQqR9pQRhxJzt08Yk2Y",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=New%20Zone%20Importados%20Ciudad%20del%20Este",
+            "photos": [],
+            "osmPending": true,
+            "whatsapp": "https://wa.me/595994376439"
+          }
+        },
+        {
+          "time": "16:05",
           "end": "16:40",
           "type": "food",
           "name": "Café da tarde · Cé La Vi (combo Dior)",
@@ -810,8 +1055,8 @@
           "lng": -54.6057,
           "leg": {
             "mode": "walk",
-            "minutes": 15,
-            "label": "650 m · com sacolas"
+            "minutes": 2,
+            "label": "Mesmo prédio"
           },
           "place": {
             "address": "Shopping del Este, 1º piso · Monseñor Rodríguez, Ciudad del Este, Paraguai",
@@ -1180,7 +1425,7 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Congresso + compras de Sanderson + Rafain Show",
+      "title": "Congresso + AquaFoz e Catuaí (Sanderson) + Rafain",
       "items": [
         {
           "time": "06:10",
@@ -2406,7 +2651,7 @@
     },
     {
       "date": "2026-11-08",
-      "title": "AquaFoz e Kattamaram no pôr do sol",
+      "title": "Itaipu, Ecomuseu e Kattamaram no pôr do sol",
       "items": [
         {
           "time": "07:45",
@@ -2455,7 +2700,7 @@
           "time": "08:30",
           "end": "10:45",
           "type": "activity",
-          "name": "Itaipu Panorâmica (Sanderson)",
+          "name": "Itaipu Panorâmica",
           "note": "Abre às 8h30: chegar cedo para a 1ª saída do ônibus (confirmar horário). Não entra bolsa no passeio. Referência estudante.",
           "lat": -25.4469,
           "lng": -54.5846,
@@ -2534,7 +2779,7 @@
           "time": "12:05",
           "end": "13:05",
           "type": "food",
-          "name": "Itaipu Bistrot (Sanderson)",
+          "name": "Itaipu Bistrot",
           "note": "No próprio centro de visitantes. Almoço cedo, antes do pico.",
           "lat": -25.4472,
           "lng": -54.5837,
