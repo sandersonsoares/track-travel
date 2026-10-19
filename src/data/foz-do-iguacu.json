@@ -1478,7 +1478,7 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Congresso + lembranças, AquaFoz e Catuaí (Sanderson) + Rafain",
+      "title": "Congresso + lembranças, AquaFoz e Catuaí (Sanderson) + Pátio Pomare",
       "items": [
         {
           "time": "06:10",
@@ -1872,41 +1872,45 @@
         },
         {
           "time": "20:30",
-          "end": "22:15",
+          "end": "22:00",
           "type": "food",
-          "name": "Rafain Churrascaria Show",
-          "note": "Jantar com show latino-americano (Argentina, Paraguai, México e outros). Show às 20h40, fim por volta das 22h. Bufê grande, bom para a Hortência com a lactase. Bebidas à parte. Reservar e confirmar preço no site; à noite não abre aos domingos.",
-          "lat": -25.5565,
-          "lng": -54.5638,
+          "name": "Jantar · Pátio Pomare",
+          "note": "Food park ao ar livre, mais em conta que o Rafain. Ter–sex 15h–23h; os portões fecham 30 min antes.",
+          "lat": -25.5506,
+          "lng": -54.5736,
           "leg": {
             "mode": "car",
-            "minutes": 20,
-            "label": "Recanto Cataratas → Rafain · 13 min + margem"
+            "minutes": 25,
+            "label": "Recanto Cataratas → Av. das Cataratas, 544 · cerca de 25 min"
           },
           "place": {
-            "address": "Av. das Cataratas, 1749 · Vila Yolanda, Foz do Iguaçu - PR",
-            "hours": "Almoço todos os dias 11h30–16h · jantar-show seg–sáb 18h30–23h (show ~20h40)",
-            "phone": "(45) 3523-1177",
-            "website": "http://www.rafainchurrascaria.com.br/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJ1bnsQQqR9pQRH1gaX8c-vaM",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rafain%20Churrascaria%20Show&query_place_id=ChIJ1bnsQQqR9pQRH1gaX8c-vaM",
+            "address": "Av. das Cataratas, 544 · Vila Yolanda, Foz do Iguaçu - PR",
+            "hours": "Ter–sex 15h–23h · sáb 12h–23h · dom 12h–22h · portões fecham 30 min antes · seg fechado",
+            "phone": "(45) 3029-8098",
+            "website": "https://patiopomare.com.br/",
+            "rating": 4.9,
+            "googlePlaceId": "ChIJWx1TDSmR9pQRN-r7iQR7h9o",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A1tio%20Pomare&query_place_id=ChIJWx1TDSmR9pQRN-r7iQR7h9o",
             "photos": [],
             "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Rafain%20Churrascaria%20Show%20Foz%20do%20Igua%C3%A7u"
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=P%C3%A1tio%20Pomare%20Foz%20do%20Igua%C3%A7u"
           },
-          "cost": 200,
+          "cost": 75,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 200,
+            "fullPerPerson": 75,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 200,
+            "payPerPerson": 75,
             "people": 3,
-            "totalGroup": 600,
+            "totalGroup": 225,
             "status": "estimativa",
             "checkedAt": "2026-10-17",
-            "note": "Jantar-show: bufê de churrasco + show; bebidas à parte. Revendedores cobram bem mais (US$ 115–140). Comprar no site do Rafain e confirmar se há meia para estudante."
+            "rangePerPerson": [
+              50,
+              100
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           },
           "alternatives": [
             {
@@ -1923,46 +1927,6 @@
                 "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u",
                 "photos": [],
                 "osmPending": true
-              }
-            },
-            {
-              "name": "Capitão Bar",
-              "type": "food",
-              "note": "Se não quiserem o show: jantar com música ao vivo, 16 min do resort.",
-              "place": {
-                "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
-                "hours": "Todos os dias 11h30–0h (sex e sáb até 2h)",
-                "phone": "(45) 99959-0024",
-                "rating": 4.4,
-                "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Capit%C3%A3o%20Bar&query_place_id=ChIJ663-G7WR9pQRpcyvW4EY3q8",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capit%C3%A3o%20Bar%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5471,
-              "lng": -54.5854,
-              "cost": 75,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 75,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 75,
-                "people": 3,
-                "totalGroup": 225,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  50,
-                  100
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              },
-              "image": {
-                "src": "/img/foz-do-iguacu/capitao-bar.jpg",
-                "page": "https://www.hoteltarobafoz.com.br",
-                "author": "hoteltarobafoz.com.br"
               }
             },
             {
@@ -2004,7 +1968,7 @@
           ]
         },
         {
-          "time": "22:30",
+          "time": "22:20",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
           "note": "Fim do dia.",
@@ -2012,8 +1976,8 @@
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 15,
-            "label": "Rafain → Airbnb · 12 min + margem"
+            "minutes": 20,
+            "label": "Pátio Pomare → Airbnb · cerca de 4,6 km"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -2345,7 +2309,7 @@
           "end": "22:00",
           "type": "food",
           "name": "Fondue no Óga Restaurante",
-          "note": "Restaurante do roteiro do city tour de Foz, com cozinha regional da fronteira (nota 4,7). De segunda a sexta abre às 17h. Reservar. Alternativa para a noite: Pátio Pomare.",
+          "note": "Restaurante do roteiro do city tour de Foz, com cozinha regional da fronteira (nota 4,7). De segunda a sexta abre às 17h. Reservar.",
           "lat": -25.534113,
           "lng": -54.5882284,
           "leg": {
@@ -2373,45 +2337,7 @@
             "status": "a confirmar",
             "checkedAt": "2026-10-18",
             "note": "Valor da lista de passeios (Fondue no Óga). Confirmar se é por pessoa ou por casal."
-          },
-          "alternatives": [
-            {
-              "type": "food",
-              "name": "Pátio Pomare",
-              "note": "Alternativa para a noite do grupo: food park ao ar livre. Sex 15h–23h; os portões fecham 30 min antes.",
-              "lat": -25.5506,
-              "lng": -54.5736,
-              "place": {
-                "address": "Av. das Cataratas, 544 · Vila Yolanda, Foz do Iguaçu - PR",
-                "hours": "Ter–sex 15h–23h · sáb 12h–23h · dom 12h–22h · portões fecham 30 min antes · seg fechado",
-                "phone": "(45) 3029-8098",
-                "website": "https://patiopomare.com.br/",
-                "rating": 4.9,
-                "googlePlaceId": "ChIJWx1TDSmR9pQRN-r7iQR7h9o",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A1tio%20Pomare&query_place_id=ChIJWx1TDSmR9pQRN-r7iQR7h9o",
-                "photos": [],
-                "osmPending": true,
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=P%C3%A1tio%20Pomare%20Foz%20do%20Igua%C3%A7u"
-              },
-              "cost": 75,
-              "costDetails": {
-                "unit": "pessoa",
-                "fullPerPerson": 75,
-                "halfPerPerson": null,
-                "halfApplies": false,
-                "payPerPerson": 75,
-                "people": 3,
-                "totalGroup": 225,
-                "status": "estimativa",
-                "checkedAt": "2026-10-17",
-                "rangePerPerson": [
-                  50,
-                  100
-                ],
-                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-              }
-            }
-          ]
+          }
         },
         {
           "time": "22:15",
