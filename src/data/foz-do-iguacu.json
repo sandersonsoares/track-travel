@@ -2127,11 +2127,11 @@
           }
         },
         {
-          "time": "08:30",
-          "end": "11:00",
+          "time": "09:00",
+          "end": "11:30",
           "type": "activity",
           "name": "Itaipu · Circuito Especial (Sanderson)",
-          "note": "Visita por dentro da usina: galeria de quase 1 km, descida ao nível das turbinas e sala de controle, além dos mirantes. Cerca de 2h30. Relatos indicam idade mínima de 14 anos. Confirmar no site oficial de ingressos o horário da saída, o calçado exigido e o documento. Chegar às 8h10 (20 min antes da saída das 8h30) para estacionar e fazer o check-in.",
+          "note": "Visita por dentro da usina: galeria de quase 1 km, descida ao nível das turbinas e sala de controle, além dos mirantes. Cerca de 2h30. Relatos indicam idade mínima de 14 anos. Saídas às 9h e 14h30; chegar às 8h30 para cadastro e foto. Confirmar no site oficial, o calçado exigido e o documento. Chegar às 8h10 (20 min antes da saída das 8h30) para estacionar e fazer o check-in.",
           "lat": -25.4469,
           "lng": -54.5846,
           "image": {
@@ -2171,8 +2171,8 @@
           }
         },
         {
-          "time": "11:10",
-          "end": "12:10",
+          "time": "11:40",
+          "end": "12:40",
           "type": "place",
           "name": "Ecomuseu de Itaipu",
           "note": "Grátis. Endereço dentro do complexo de Itaipu (confirmar na entrada).",
@@ -2205,8 +2205,8 @@
           }
         },
         {
-          "time": "12:20",
-          "end": "13:15",
+          "time": "12:50",
+          "end": "13:40",
           "type": "food",
           "name": "Almoço · Itaipu Bistrot (Sanderson)",
           "note": "No próprio centro de visitantes. Almoço cedo, antes do pico.",
@@ -2290,7 +2290,7 @@
           }
         },
         {
-          "time": "14:20",
+          "time": "14:00",
           "end": "19:30",
           "type": "shopping",
           "name": "Cataratas JL Shopping · compras (Sanderson)",
@@ -3292,13 +3292,13 @@
     },
     {
       "date": "2026-11-09",
-      "title": "Dia inteiro na Argentina: Cataratas argentinas e By Night",
+      "title": "Manhã no Cataratas JL + By Night Argentina (Duty Free, cassino, Hito, Feirinha e tango)",
       "items": [
         {
-          "time": "06:25",
+          "time": "08:25",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "note": "Manhã leve. Café no Trigo & Cia, ao lado.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -3310,11 +3310,11 @@
           }
         },
         {
-          "time": "06:30",
-          "end": "07:00",
+          "time": "08:30",
+          "end": "09:15",
           "type": "food",
           "name": "Café da manhã · Trigo & Cia",
-          "note": "Café da manhã ao lado do Airbnb.",
+          "note": "Café da manhã sem pressa.",
           "lat": -25.5177,
           "lng": -54.5742,
           "image": {
@@ -3325,7 +3325,7 @@
           "leg": {
             "mode": "walk",
             "minutes": 3,
-            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+            "label": "Airbnb → Trigo · 200 m a pé"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -3349,21 +3349,25 @@
             "people": 3,
             "totalGroup": 120,
             "status": "estimativa",
-            "checkedAt": "2026-10-18",
-            "note": "Valor médio por pessoa, sem bebida alcoólica."
+            "checkedAt": "2026-10-17",
+            "rangePerPerson": [
+              30,
+              60
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           }
         },
         {
-          "time": "07:15",
+          "time": "09:20",
           "type": "lodging",
-          "name": "Agência busca no Airbnb",
-          "note": "Dia inteiro na Argentina com transporte da agência: o carro alugado não pode entrar no país. O ideal é um transfer de dia inteiro, para não voltar ao Brasil entre o parque e o By Night. Horários a confirmar com a agência.",
+          "name": "Volta ao Airbnb · pegar o carro na garagem",
+          "note": "",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "walk",
             "minutes": 3,
-            "label": "Trigo & Cia → Airbnb · 200 m a pé"
+            "label": "Trigo → Airbnb · a pé"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
@@ -3374,65 +3378,81 @@
           }
         },
         {
-          "time": "08:30",
-          "end": "12:00",
-          "type": "place",
-          "name": "Cataratas argentinas · Parque Nacional Iguazú",
-          "note": "Desde 15/10/2026 só o Circuito Inferior está aberto; o Circuito Superior e a Garganta del Diablo seguem fechados pela cheia, sem data de reabertura. Confirmar com a agência a regra de reembolso ou troca. Levar documento com foto (RG ou passaporte).",
-          "lat": -25.6829,
-          "lng": -54.4546,
+          "time": "10:00",
+          "end": "13:00",
+          "type": "shopping",
+          "name": "Cataratas JL Shopping · compras e almoço (grupo)",
+          "note": "Compras para as meninas (o Sanderson já foi na sexta). Almoço na praça de alimentação (aberta a partir das 11h). Lojas seg–sáb 10h–22h.",
+          "lat": -25.5329347,
+          "lng": -54.5752058,
           "leg": {
             "mode": "car",
-            "minutes": 75,
-            "label": "Transporte da agência · ponte Tancredo Neves e aduana"
+            "minutes": 15,
+            "label": "Airbnb → Av. Costa e Silva, 185"
           },
           "place": {
-            "address": "Ruta 101, km 142 · Puerto Iguazú, Misiones, Argentina",
-            "rating": 4.9,
-            "googlePlaceId": "ChIJGZGd60Hq9pQRosCdl07XuCo",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20argentinas%20%28Parque%20Nacional%20Iguaz%C3%BA%29&query_place_id=ChIJGZGd60Hq9pQRosCdl07XuCo",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Parque%20Nacional%20Iguaz%C3%BA%20Puerto%20Iguaz%C3%BA"
+            "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Lojas seg–sáb 10h–22h · dom/feriados 14h–20h · praça de alimentação diariamente 11h–23h",
+            "phone": "(45) 3026-5657",
+            "website": "https://www.cataratasjlshopping.com.br/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "photos": []
           },
-          "cost": 510,
+          "cost": 0
+        },
+        {
+          "time": "13:20",
+          "end": "15:30",
+          "type": "lodging",
+          "name": "Airbnb · preparar a noite na Argentina",
+          "note": "Banho, troca de roupa, separar RG ou passaporte (a CNH não serve na imigração) e pesos em dinheiro para a feirinha, o Hito e o jantar.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "JL → Airbnb"
+          },
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          }
+        },
+        {
+          "time": "15:30",
+          "type": "lodging",
+          "name": "MMC Turismo busca no Airbnb · By Night Argentina",
+          "note": "Transporte compartilhado ida e volta, todos os dias. Reservar com 2 dias de antecedência. Pedir na reserva para incluir o Hito Tres Fronteras. Cancelamento grátis até 24h antes.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "osmPending": true
+          },
+          "cost": 110,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 510,
+            "fullPerPerson": 110,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 510,
+            "payPerPerson": 110,
             "people": 3,
-            "totalGroup": 1530,
+            "totalGroup": 330,
             "status": "a confirmar",
             "checkedAt": "2026-10-18",
-            "note": "Combo Cataratas Argentinas com transporte e ingresso (valor da lista). Confirmar se é por pessoa."
+            "source": "https://mmcturismo.com.br/passeios/puerto-iguazu-arg/transporte/by-night-argentina/9",
+            "note": "\"A partir de R$ 110\". Confirmar se é por pessoa."
           }
         },
         {
-          "time": "12:00",
-          "end": "13:00",
-          "type": "food",
-          "name": "Almoço · Restaurante La Selva (dentro do parque)",
-          "note": "Buffet com churrasco e saladas, dentro do Parque Nacional Iguazú. Alternativa: Fortín Cataratas (buffet e parrilla, 8h–16h30). Valor não estimado.",
-          "lat": -25.6810706,
-          "lng": -54.4543811,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Dentro do parque"
-          },
-          "place": {
-            "address": "Área Cataratas · Parque Nacional Iguazú, Misiones, Argentina",
-            "hours": "Todos os dias 8h–17h",
-            "rating": 4.5,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJBTpOZwDr9pQRmuua2QYw4FE",
-            "photos": []
-          }
-        },
-        {
-          "time": "13:45",
-          "end": "15:30",
+          "time": "17:00",
+          "end": "18:00",
           "type": "shopping",
           "name": "Duty Free Shop Puerto Iguazú",
           "note": "Fica entre as duas aduanas: para entrar é preciso sair da Argentina pela imigração e, para voltar a Puerto Iguazú (feirinha, Icebar, Hito e jantar), entrar de novo. São duas filas de fronteira a mais: confirmar com a agência como ela faz esse trecho. Fecha às 20h. Perfumes, bebidas e importados; entrada gratuita. Na entrada, as bolsas são lacradas em um saco de segurança.",
@@ -3446,8 +3466,8 @@
           },
           "leg": {
             "mode": "car",
-            "minutes": 40,
-            "label": "Parque → Duty Free, logo depois da aduana argentina"
+            "minutes": 90,
+            "label": "Transporte da MMC · ponte e aduana"
           },
           "place": {
             "address": "RN 12, km 1645 · logo após a aduana argentina, Puerto Iguazú",
@@ -3475,76 +3495,33 @@
           }
         },
         {
-          "time": "15:45",
-          "end": "16:45",
-          "type": "food",
-          "name": "Feirinha de Puerto Iguazú",
-          "note": "Paseo gastronómico: alfajores, azeitonas, queijos, salames, doce de leite e vinhos. Muitas barracas não aceitam cartão; aceitam pesos ou reais.",
-          "lat": -25.594,
-          "lng": -54.5739,
-          "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-            "page": "https://commons.wikimedia.org/wiki/File:Feirinha_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
-            "author": "Horacio Cambeiro",
-            "license": "CC BY-SA 4.0"
-          },
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Duty Free → Feirinha · cerca de 10 min"
-          },
-          "place": {
-            "address": "Av. Brasil c/ Félix de Azara · Puerto Iguazú, Misiones, Argentina",
-            "hours": "Seg–sáb 10h–23h · dom 10h–23h30",
-            "phone": "+54 3757 15-54-1551",
-            "rating": 4.2,
-            "googlePlaceId": "ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feirinha%20de%20Puerto%20Iguaz%C3%BA&query_place_id=ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
-            "photos": [],
-            "osmPending": true,
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feirinha%20de%20Puerto%20Iguaz%C3%BA"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada gratuita; consumo à parte."
-          }
-        },
-        {
-          "time": "17:00",
-          "end": "17:45",
+          "time": "18:05",
+          "end": "18:50",
           "type": "activity",
-          "name": "Icebar Iguazú",
-          "note": "Bar de gelo a -10 °C: casaco e luvas fornecidos, drinques servidos em copos de gelo. Visita de cerca de 20 a 30 min. Valor a confirmar.",
-          "lat": -25.6195139,
-          "lng": -54.5548889,
+          "name": "Cassino City Center Iguazú",
+          "note": "Cassino junto ao hotel Iguazú Grand, a cerca de 1 km do Duty Free. Máquinas em pesos, dólares e reais. Pedir à MMC na reserva para incluir esta parada.",
+          "lat": -25.6044052,
+          "lng": -54.5643032,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Feirinha → Ruta 12, km 4,5 · cerca de 10 min"
+            "minutes": 5,
+            "label": "Duty Free → Cassino · cerca de 1 km"
           },
           "place": {
-            "address": "Ruta 12, km 4,5 · Puerto Iguazú, Misiones, Argentina",
-            "hours": "Todos os dias 14h–0h",
-            "rating": 4.4,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJO0LuPAmT9pQRxt6l9EZBJTk",
+            "address": "RN12 km 1640 · Puerto Iguazú, Misiones, Argentina",
+            "hours": "Seg–qui e dom 12h–4h · sex e sáb 12h–5h",
+            "phone": "+54 3757 67-6630",
+            "rating": 4.3,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJTHe17ST9pQRWkCNzt04k1c",
             "photos": []
           }
         },
         {
-          "time": "18:15",
-          "end": "19:10",
+          "time": "19:00",
+          "end": "19:20",
           "type": "place",
           "name": "Hito Tres Fronteras · pôr do sol",
-          "note": "Marco argentino da tríplice fronteira, com vista para Brasil e Paraguai. Pôr do sol por volta das 19h. Gratuito.",
+          "note": "Combinar com a MMC na reserva (não está no roteiro padrão). Mirante gratuito; pôr do sol por volta das 19h.",
           "lat": -25.5948,
           "lng": -54.5908,
           "image": {
@@ -3555,8 +3532,8 @@
           },
           "leg": {
             "mode": "car",
-            "minutes": 15,
-            "label": "Icebar → Hito Tres Fronteras · cerca de 15 min"
+            "minutes": 10,
+            "label": "Cassino → Hito"
           },
           "place": {
             "address": "Av. Río Iguazú · Puerto Iguazú, Misiones, Argentina",
@@ -3584,17 +3561,61 @@
           }
         },
         {
-          "time": "19:20",
-          "end": "21:00",
+          "time": "19:25",
+          "end": "20:00",
+          "type": "food",
+          "name": "Feirinha de Puerto Iguazú",
+          "note": "Paseo gastronómico: alfajores, azeitonas, queijos, salames, doce de leite e vinhos. Muitas barracas não aceitam cartão; aceitam pesos ou reais.",
+          "lat": -25.594,
+          "lng": -54.5739,
+          "image": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "page": "https://commons.wikimedia.org/wiki/File:Feirinha_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
+            "author": "Horacio Cambeiro",
+            "license": "CC BY-SA 4.0"
+          },
+          "leg": {
+            "mode": "car",
+            "minutes": 5,
+            "label": "Hito → Feirinha"
+          },
+          "place": {
+            "address": "Av. Brasil c/ Félix de Azara · Puerto Iguazú, Misiones, Argentina",
+            "hours": "Seg–sáb 10h–23h · dom 10h–23h30",
+            "phone": "+54 3757 15-54-1551",
+            "rating": 4.2,
+            "googlePlaceId": "ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feirinha%20de%20Puerto%20Iguaz%C3%BA&query_place_id=ChIJC2nhLTCS9pQR6T9d9D1NRxQ",
+            "photos": [],
+            "osmPending": true,
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feirinha%20de%20Puerto%20Iguaz%C3%BA"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada gratuita; consumo à parte."
+          }
+        },
+        {
+          "time": "20:00",
+          "end": "22:00",
           "type": "food",
           "name": "Jantar com show de tango · El Quincho del Tío Querido",
-          "note": "Jantar do By Night: parrilla argentina com show de tango ao vivo. Na segunda abre só para o jantar, às 18h30.",
+          "note": "Parrilla argentina com show de tango. Na segunda abre às 18h30. Reservar direto com o restaurante e avisar a MMC.",
           "lat": -25.6060772,
           "lng": -54.5657043,
           "leg": {
             "mode": "car",
-            "minutes": 10,
-            "label": "Hito → Av. Perón · cerca de 10 min"
+            "minutes": 5,
+            "label": "Feirinha → Av. Perón"
           },
           "place": {
             "address": "Av. Pres. Juan Domingo Perón, 159 · Puerto Iguazú, Misiones, Argentina",
@@ -3603,32 +3624,19 @@
             "rating": 4.3,
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJafD1JTGS9pQRTb23YN3CBwc",
             "photos": []
-          },
-          "cost": 390,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 390,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 390,
-            "people": 3,
-            "totalGroup": 1170,
-            "status": "a confirmar",
-            "checkedAt": "2026-10-18",
-            "note": "By Night com jantar no Tío Querido (R$ 260) + transporte saindo de Foz (R$ 130), valores da lista. Confirmar o que está incluído."
           }
         },
         {
-          "time": "22:15",
+          "time": "22:30",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
-          "note": "Volta com a agência, passando pela aduana.",
+          "note": "Volta com a MMC, passando pela aduana.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 75,
-            "label": "Transporte da agência · aduana e ponte"
+            "minutes": 60,
+            "label": "Transporte da MMC"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
