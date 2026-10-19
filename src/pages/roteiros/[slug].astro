@@ -6,7 +6,7 @@ type Photo = { src: string; page: string; author?: string; license?: string };
 // `cost` is always what one person pays (half price when students get it). The breakdown behind it:
 type CostDetails = { unit?: string; fullPerPerson?: number | null; halfPerPerson?: number | null; halfApplies?: boolean; payPerPerson?: number | null; people?: number; totalGroup?: number | null; groupTotal?: number; rangePerPerson?: [number, number]; status?: string; checkedAt?: string; source?: string; note?: string };
 type Leg = { mode: string; minutes: number; cost?: number; costDetails?: CostDetails; label?: string };
-type Place = { address?: string; hours?: string; website?: string; phone?: string; osm?: string; googleMapsUrl?: string; rating?: number; tripadvisorUrl?: string; instagram?: string; whatsapp?: string; photos: Photo[] };
+type Place = { address?: string; hours?: string; website?: string; phone?: string; osm?: string; googleMapsUrl?: string; airbnbUrl?: string; trivagoUrl?: string; rating?: number; tripadvisorUrl?: string; instagram?: string; whatsapp?: string; photos: Photo[] };
 // A swap the group can make on the day: same slot, another place.
 type Alt = { name: string; type?: string; time?: string; end?: string; note?: string; cost?: number; costDetails?: CostDetails; place?: Place; lat?: number; lng?: number };
 // A discount programme (Primeira Mesa, Surpreenda…) or a booking the stop depends on.
@@ -285,7 +285,10 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                 {/* Actions first: on the street the next move is usually "take me there" or "check it out". */}
                 <ul class="detail-actions">
                   <li><a class="is-primary" href={i.place?.googleMapsUrl ?? `https://www.google.com/maps/search/?api=1&query=${i.lat},${i.lng}`} target="_blank" rel="noopener"><Icon name="map" size={16} />Google Maps</a></li>
+                  <li><a href={`https://www.waze.com/ul?ll=${i.lat},${i.lng}&navigate=yes`} target="_blank" rel="noopener"><Icon name="map" size={16} />Waze</a></li>
                   {i.place?.website && <li><a href={i.place.website} target="_blank" rel="noopener" title={host(i.place.website)}><Icon name="globe" size={16} />Site</a></li>}
+                  {i.place?.airbnbUrl && <li><a href={i.place.airbnbUrl} target="_blank" rel="noopener"><Icon name="globe" size={16} />Airbnb</a></li>}
+                  {i.place?.trivagoUrl && <li><a href={i.place.trivagoUrl} target="_blank" rel="noopener"><Icon name="globe" size={16} />Trivago</a></li>}
                   {i.place?.whatsapp && <li><a href={i.place.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" size={16} />WhatsApp</a></li>}
                   {i.place?.instagram && <li><a href={i.place.instagram} target="_blank" rel="noopener"><Icon name="instagram" size={16} />Instagram</a></li>}
                   {i.place?.tripadvisorUrl && <li><a href={i.place.tripadvisorUrl} target="_blank" rel="noopener"><Icon name="reviews" size={16} />Tripadvisor</a></li>}
@@ -534,6 +537,8 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
         root.classList.remove('detail-open');
         openLink?.setAttribute('aria-expanded', 'false');
         if (!plan.inert) openLink?.focus({ preventScroll: true });
+        // On phones the detail opened over the map sheet, so closing it returns to the list.
+        if (mobile.matches) openMap(false);
         requestAnimationFrame(() => map.invalidateSize());
         return true;
       }
