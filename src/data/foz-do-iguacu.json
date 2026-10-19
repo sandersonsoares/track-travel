@@ -337,7 +337,8 @@
                 "googlePlaceId": "ChIJx_lq5QiQ9pQRi3T3XOZFq1o",
                 "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Estacionamento%20Portugu%C3%AAs&query_place_id=ChIJx_lq5QiQ9pQRi3T3XOZFq1o",
                 "lookupKey": "Estacionamento Português@-25.5108,-54.5964",
-                "checkedAt": "2026-10-19T01:59:37.306Z"
+                "checkedAt": "2026-10-19T01:59:37.306Z",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Estacionamento%20Portugu%C3%AAs%20Foz%20do%20Igua%C3%A7u"
               },
               "lat": -25.5108,
               "lng": -54.5964,
@@ -1833,7 +1834,8 @@
             "rating": 4.3,
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
             "photos": [],
-            "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072"
+            "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feira%20Igua%C3%A7u%20e%20Bela%20Artesanato%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -1877,7 +1879,8 @@
             "osmPending": false,
             "googlePlaceId": "ChIJa_uF3EeQ9pQRrm5L-qooiB8",
             "rating": 4.4,
-            "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892"
+            "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ailabiu%20Souvenirs%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -1998,24 +2001,21 @@
           },
           "alternatives": [
             {
-              "name": "Griletto Catuaí",
+              "name": "Griletto Cataratas JL Shopping",
               "type": "food",
-              "note": "Mesmo shopping. Avaliação baixa (3,3).",
+              "note": "Unidade do JL Shopping (não é a do Catuaí). Avaliação baixa (3,3).",
               "place": {
-                "osmPending": true,
-                "osm": null,
-                "photos": [],
-                "address": "Shopping Catuaí Palladium · Av. das Cataratas, 3570",
-                "hours": "Seg–sáb 10h–23h · dom 11h–23h",
+                "address": "Av. Costa e Silva, 185 · Cataratas JL Shopping, L319 · Polo Centro, Foz do Iguaçu - PR",
+                "hours": "Todos os dias 11h–23h (guia 2025, confirmar)",
+                "phone": "(45) 99152-3166",
                 "rating": 3.3,
-                "googlePlaceId": "ChIJFWLlZH6R9pQRb96QpYsx4LM",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Griletto%20Catua%C3%AD&query_place_id=ChIJFWLlZH6R9pQRb96QpYsx4LM",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Griletto%20Catua%C3%AD%20Foz%20do%20Igua%C3%A7u",
-                "lookupKey": "Griletto Catuaí@-25.5691,-54.5585",
-                "checkedAt": "2026-10-19T01:59:37.306Z"
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Griletto%20Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Griletto%20Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "lookupKey": "Griletto Cataratas JL Shopping@-25.5329347,-54.5752058"
               },
-              "lat": -25.5691,
-              "lng": -54.5585,
+              "lat": -25.5329347,
+              "lng": -54.5752058,
               "cost": 45,
               "costDetails": {
                 "unit": "pessoa",
@@ -2161,7 +2161,8 @@
                 "website": "https://primegourmetclub.com.br/foz-do-iguacu-regiao/lA5kNR98Qb06",
                 "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u",
                 "lookupKey": "Fondue no Sanma Hotel (2x1 Prime Gourmet)@-25.615,-54.483",
-                "checkedAt": "2026-10-19T01:59:37.306Z"
+                "checkedAt": "2026-10-19T01:59:37.306Z",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Fondue%20no%20Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u"
               }
             },
             {
@@ -2459,7 +2460,8 @@
             "phone": "(45) 3198-1800",
             "rating": 4.7,
             "lookupKey": "Ecomuseu de Itaipu@-25.455,-54.5847",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
+            "checkedAt": "2026-10-19T01:59:37.306Z",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ecomuseu%20de%20Itaipu%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -2555,7 +2557,8 @@
             "osmPending": false,
             "googlePlaceId": "ChIJH3gOePiR9pQRb5y3wrj2Byo",
             "rating": 5,
-            "lookupKey": "Pedacinho de Foz · Falls Galli Hotel@-25.5246,-54.5647"
+            "lookupKey": "Pedacinho de Foz · Falls Galli Hotel@-25.5246,-54.5647",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Pedacinho%20de%20Foz%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -2598,7 +2601,8 @@
             "photos": [],
             "googlePlaceId": "ChIJ9WnJFFCQ9pQRMGc54bK4PS0",
             "rating": 4.5,
-            "lookupKey": "Cataratas JL Shopping · compras (Sanderson)@-25.5329347,-54.5752058"
+            "lookupKey": "Cataratas JL Shopping · compras (Sanderson)@-25.5329347,-54.5752058",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "image": {
@@ -2840,7 +2844,8 @@
             "address": "Ciudad del Este e Saltos del Monday · Presidente Franco, Paraguai",
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbWMMrEqO9pQRPc49_XBaN8I",
             "photos": [],
-            "lookupKey": "City Tour Paraguai (Sanderson)@-25.55928,-54.6315432"
+            "lookupKey": "City Tour Paraguai (Sanderson)@-25.55928,-54.6315432",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=City%20Tour%20Paraguai%20Ciudad%20del%20Este"
           },
           "cost": 130,
           "costDetails": {
@@ -3147,7 +3152,8 @@
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJrzPsCkqQ9pQRSHC7FSXfVew",
             "photos": [],
             "googlePlaceId": "ChIJrzPsCkqQ9pQRSHC7FSXfVew",
-            "lookupKey": "Feirinha da JK · artesanato e lembranças@-25.5444069,-54.5881291"
+            "lookupKey": "Feirinha da JK · artesanato e lembranças@-25.5444069,-54.5881291",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feirinha%20da%20JK%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -3405,7 +3411,8 @@
             "rating": 3.9,
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ2XmGbuST9pQRzEiLUx2kkAA",
             "photos": [],
-            "lookupKey": "Artesanato e Chocolate Caseiro Três Fronteiras@-25.5789007,-54.5364949"
+            "lookupKey": "Artesanato e Chocolate Caseiro Três Fronteiras@-25.5789007,-54.5364949",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Artesanato%20e%20Chocolate%20Caseiro%20Tr%C3%AAs%20Fronteiras%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -3757,7 +3764,8 @@
             "photos": [],
             "googlePlaceId": "ChIJ9WnJFFCQ9pQRMGc54bK4PS0",
             "rating": 4.5,
-            "lookupKey": "Cataratas JL Shopping · compras (grupo)@-25.5329347,-54.5752058"
+            "lookupKey": "Cataratas JL Shopping · compras (grupo)@-25.5329347,-54.5752058",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "image": {
@@ -3954,7 +3962,8 @@
             "rating": 4.3,
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJJTHe17ST9pQRWkCNzt04k1c",
             "photos": [],
-            "lookupKey": "Cassino City Center Iguazú@-25.6044052,-54.5643032"
+            "lookupKey": "Cassino City Center Iguazú@-25.6044052,-54.5643032",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cassino%20City%20Center%20Iguaz%C3%BA%20Puerto%20Iguaz%C3%BA"
           },
           "image": {
             "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tl0EcZRYKKHoBHk6bze8BXUihGL9jVrWz1wT6MVjs6BOohm_yceX-QaAywcoq6Fp1oKV21S2c0ODCRIAPGw_A2K7qskvF1rrfnK4EJGi8F2d5vyLdoJvPTflxEQlfjs0K_ZD-aAlOshEbL=w900-h600-k-no",
@@ -4285,7 +4294,8 @@
             "photos": [],
             "googlePlaceId": "ChIJOwvoRFyQ9pQRodi_YjGq3FM",
             "hours": "Via pública, 24 horas",
-            "lookupKey": "Avenida Pedro Basso · túnel de árvores@-25.5230689,-54.5728452"
+            "lookupKey": "Avenida Pedro Basso · túnel de árvores@-25.5230689,-54.5728452",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Avenida%20Pedro%20Basso%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -4325,7 +4335,8 @@
             "phone": "(45) 3573-1126",
             "rating": 4.5,
             "lookupKey": "Mesquita Omar Ibn Al-Khattab@-25.5206,-54.5787",
-            "checkedAt": "2026-10-19T01:59:37.307Z"
+            "checkedAt": "2026-10-19T01:59:37.307Z",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mesquita%20Omar%20Ibn%20Al-Khattab%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -4366,7 +4377,8 @@
             "rating": 4.6,
             "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ4XdSmeWR9pQRN-h3hE2X7Tc",
             "photos": [],
-            "lookupKey": "Kapadokya · doces árabes@-25.521068,-54.578823"
+            "lookupKey": "Kapadokya · doces árabes@-25.521068,-54.578823",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Kapadokya%20Foz%20do%20Igua%C3%A7u"
           },
           "image": {
             "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R_81FjdE__KKQ6JCLT3y42YFks7IVRoxL1sE1c29KyK2dWAvKz6kkDsKQ-YWsCU-2SLIR4oz21N-9ZQs_1oKfMUtwmYLxGsf0EqQfawR45oZH_3UIIq84-kZHDoyyoFzdGyofNXEwnlAqT=w900-h600-k-no",
@@ -4398,7 +4410,8 @@
             "phone": "(45) 99992-0405",
             "rating": 4.8,
             "lookupKey": "Catedral Nossa Senhora de Guadalupe@-25.4975,-54.5734",
-            "checkedAt": "2026-10-19T01:59:37.307Z"
+            "checkedAt": "2026-10-19T01:59:37.307Z",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Catedral%20Nossa%20Senhora%20de%20Guadalupe%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
           "costDetails": {
@@ -4491,7 +4504,8 @@
             "phone": "(45) 98838-0825",
             "rating": 4.5,
             "lookupKey": "Mercado Público Barrageiro + Artes Sem Fronteiras · lembranças@-25.5044,-54.5826",
-            "checkedAt": "2026-10-19T01:59:37.307Z"
+            "checkedAt": "2026-10-19T01:59:37.307Z",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u"
           },
           "image": {
             "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sufz6PDPkn2u6liwUsiOzSyR2l3l4SgUySEM0VhJybDa1IE4kuuDc92k_AuKsQMMSUy5xjQ8L1D-zGohqmIbeU2HtYqo5I_vcxdgdNeXIoXBwbxRdtPjeFMFOe9je6VPIn0HCYUUCGpd3j=w900-h600-k-no",
@@ -4555,7 +4569,8 @@
                 "hours": "Seg fechado · ter–sáb 10h–22h",
                 "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u",
                 "lookupKey": "Almoço no Mercado Público Barrageiro@-25.5044,-54.5826",
-                "checkedAt": "2026-10-19T01:59:37.307Z"
+                "checkedAt": "2026-10-19T01:59:37.307Z",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u"
               },
               "lat": -25.5044,
               "lng": -54.5826,
