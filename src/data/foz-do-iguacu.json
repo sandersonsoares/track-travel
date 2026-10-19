@@ -2162,7 +2162,8 @@
                 "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u",
                 "lookupKey": "Fondue no Sanma Hotel (2x1 Prime Gourmet)@-25.615,-54.483",
                 "checkedAt": "2026-10-19T01:59:37.306Z",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Fondue%20no%20Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u"
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Fondue%20no%20Sanma%20Hotel%20Foz%20do%20Igua%C3%A7u",
+                "trivagoUrl": "https://www.trivago.com.br/pt-BR/srl/hot%C3%A9is-puerto-iguaz%C3%BA-argentina?search=200-82877;addr-Sanma%20Hotel%20-%20Avenida%20das%20Cataratas%20-%20Parque%20Nacional,%20Foz%20do%20Igua%C3%A7u%20-%20PR,%20Brasil;coord--25.613686,-54.48494;dr-20261105-20261106;ds-20000;so-2"
               }
             },
             {
@@ -2558,7 +2559,8 @@
             "googlePlaceId": "ChIJH3gOePiR9pQRb5y3wrj2Byo",
             "rating": 5,
             "lookupKey": "Pedacinho de Foz · Falls Galli Hotel@-25.5246,-54.5647",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Pedacinho%20de%20Foz%20Foz%20do%20Igua%C3%A7u"
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Pedacinho%20de%20Foz%20Foz%20do%20Igua%C3%A7u",
+            "trivagoUrl": "https://www.trivago.com.br/pt-BR/srl/falls-galli-hotel-foz-do-igua%C3%A7u?search=100-312841;dr-20261105-20261106"
           },
           "cost": 0,
           "costDetails": {
