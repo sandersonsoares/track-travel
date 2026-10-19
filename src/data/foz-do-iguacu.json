@@ -1991,7 +1991,7 @@
     },
     {
       "date": "2026-11-06",
-      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + fondue no Óga",
+      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + pizza na Luigia",
       "items": [
         {
           "time": "06:00",
@@ -2308,35 +2308,35 @@
           "time": "20:30",
           "end": "22:00",
           "type": "food",
-          "name": "Fondue no Óga Restaurante",
-          "note": "Restaurante do roteiro do city tour de Foz, com cozinha regional da fronteira (nota 4,7). De segunda a sexta abre às 17h. Reservar.",
-          "lat": -25.534113,
-          "lng": -54.5882284,
+          "name": "Jantar · Luigia Pizzeria Napoletana",
+          "note": "Pizza napolitana em forno a lenha, massa de fermentação natural (nota 4,5). Sex 18h–23h30. Parceira do Prime Gourmet (2 por 1), útil só se o grupo assinar. No lugar do fondue no Óga, que era bem mais caro.",
+          "lat": -25.5397149,
+          "lng": -54.5758724,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Recanto Cataratas → Centro · cerca de 15 min"
+            "label": "Recanto Cataratas → Av. Paraná, 960 · cerca de 15 min"
           },
           "place": {
-            "address": "Av. República Argentina, 632 · Centro, Foz do Iguaçu - PR",
-            "hours": "Seg–sex 17h–23h30 · sáb e dom 11h30–23h30",
-            "phone": "+55 45 3026-5035",
-            "rating": 4.7,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJbUBax6aR9pQRTF8JLx9NT1k",
+            "address": "Av. Paraná, 960 · Maracanã, Foz do Iguaçu - PR",
+            "hours": "Dom–qui 18h–23h · sex e sáb 18h–23h30",
+            "phone": "+55 45 98422-3212",
+            "rating": 4.5,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcxsWD_qR9pQRvcKT8xjsswU",
             "photos": []
           },
-          "cost": 249.9,
+          "cost": 80,
           "costDetails": {
             "unit": "pessoa",
-            "fullPerPerson": 249.9,
+            "fullPerPerson": 80,
             "halfPerPerson": null,
             "halfApplies": false,
-            "payPerPerson": 249.9,
+            "payPerPerson": 80,
             "people": 3,
-            "totalGroup": 749.7,
-            "status": "a confirmar",
+            "totalGroup": 240,
+            "status": "estimativa",
             "checkedAt": "2026-10-18",
-            "note": "Valor da lista de passeios (Fondue no Óga). Confirmar se é por pessoa ou por casal."
+            "note": "Valor médio por pessoa, sem bebida alcoólica. Com Prime Gourmet (2 por 1), cerca de R$ 53 por pessoa."
           }
         },
         {
@@ -2348,8 +2348,8 @@
           "lng": -54.5745,
           "leg": {
             "mode": "car",
-            "minutes": 15,
-            "label": "Centro → Airbnb · cerca de 15 min"
+            "minutes": 10,
+            "label": "Luigia → Airbnb · cerca de 2,5 km"
           },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
