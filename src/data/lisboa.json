@@ -30,7 +30,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Hotel na Baixa@38.711,-9.137",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -94,7 +96,9 @@
                 "author": "londonexpat",
                 "license": "CC BY-SA 2.0"
               }
-            ]
+            ],
+            "lookupKey": "Mosteiro dos Jerónimos@38.6979,-9.2068",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg/960px-1502_legte_K%C3%B6nig_Manuel_I._den_Grundstein_f%C3%BCr_das_Hieronymus_Kloster_in_Lissabon._06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -155,7 +159,9 @@
                 "author": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
                 "license": "CC BY-SA 2.0"
               }
-            ]
+            ],
+            "lookupKey": "Pastéis de Belém@38.6975,-9.2032",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Past%C3%A9is_de_Bel%C3%A9m_-13.jpg/960px-Past%C3%A9is_de_Bel%C3%A9m_-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -216,7 +222,9 @@
                 "author": "Rafael Lemieszek",
                 "license": "CC BY-SA 4.0"
               }
-            ]
+            ],
+            "lookupKey": "Torre de Belém@38.6916,-9.216",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Belem_Tower_-_April_2019_%282%29.jpg/960px-Belem_Tower_-_April_2019_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -280,7 +288,9 @@
                 "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
                 "license": "CC BY-SA 2.0"
               }
-            ]
+            ],
+            "lookupKey": "LX Factory@38.7034,-9.1786",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/LX_Factory_%2833728936824%29.jpg/960px-LX_Factory_%2833728936824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -342,7 +352,9 @@
                 "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
                 "license": "CC BY-SA 2.0"
               }
-            ]
+            ],
+            "lookupKey": "Miradouro de Santa Catarina@38.7096,-9.1474",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg/960px-Lisboa_-_Miradouro_de_Santa_Catarina_%2853897765512%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -372,7 +384,9 @@
                 "author": "Sonse",
                 "license": "CC BY 2.0"
               }
-            ]
+            ],
+            "lookupKey": "Time Out Market@38.7071,-9.1458",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Time_Out_Market%2C_Lisboa_%2840935702680%29.jpg/960px-Time_Out_Market%2C_Lisboa_%2840935702680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -396,7 +410,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Hotel na Baixa@38.711,-9.137",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -457,7 +473,9 @@
                 "author": "Jan Helebrant",
                 "license": "CC0"
               }
-            ]
+            ],
+            "lookupKey": "Castelo de São Jorge@38.7139,-9.1335",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Castelo_Sao_Jorge_Lisboa_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -480,7 +498,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Caminhada por Alfama@38.711,-9.13",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Alfama%2C_Lisboa_-_2010-09-09.jpg/960px-Alfama%2C_Lisboa_-_2010-09-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -504,7 +524,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Tasca em Alfama@38.7097,-9.1325",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ha_Sardinha_Assada_-_panoramio.jpg/960px-Ha_Sardinha_Assada_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -528,7 +550,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Elétrico 28@38.712,-9.1305",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Tram_28_Lisbon_Portuguese.jpg/960px-Tram_28_Lisbon_Portuguese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -587,7 +611,9 @@
                 "author": "José Artur Leitão Bárcia",
                 "license": "Public domain"
               }
-            ]
+            ],
+            "lookupKey": "Miradouro da Senhora do Monte@38.7193,-9.1327",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Miradouro_Nossa_Senhora_do_Monte_II.jpg/960px-Miradouro_Nossa_Senhora_do_Monte_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -612,7 +638,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Jantar em Príncipe Real@38.7163,-9.1488",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Lisbon%2C_the_Jardim_do_Pr%C3%ADncipe_Real.JPG/960px-Lisbon%2C_the_Jardim_do_Pr%C3%ADncipe_Real.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -636,7 +664,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Hotel na Baixa@38.711,-9.137",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Baixa_Pombalina_002.jpg/960px-Baixa_Pombalina_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -700,7 +730,9 @@
                 "author": "Michael Gaylard from Horsham, UK",
                 "license": "CC BY 4.0"
               }
-            ]
+            ],
+            "lookupKey": "Palácio da Pena@38.7876,-9.3906",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg/960px-Sintra_-_Palacio_da_Pena_%2820332995770%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -725,7 +757,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Piriquita@38.7977,-9.3906",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg/960px-Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -787,7 +821,9 @@
                 "author": "Kent Wang",
                 "license": "CC BY 4.0"
               }
-            ]
+            ],
+            "lookupKey": "Quinta da Regaleira@38.7963,-9.396",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg/960px-Po%C3%A7o_inici%C3%A1tico%2C_Quinta_da_Regaleira%2C_Sintra%2C_Portugal_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -813,7 +849,9 @@
           "place": {
             "osmPending": true,
             "osm": null,
-            "photos": []
+            "photos": [],
+            "lookupKey": "Cervejaria Ramiro@38.7208,-9.1356",
+            "checkedAt": "2026-10-19T01:59:37.308Z"
           },
           "image": {
             "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cervejaria_Ramiro_%2829109082128%29.jpg/960px-Cervejaria_Ramiro_%2829109082128%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

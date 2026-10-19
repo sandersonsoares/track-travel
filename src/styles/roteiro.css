@@ -515,3 +515,14 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .cost-status { display: inline-block; margin-right: 6px; padding: 1px 6px; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; background: var(--notice-bg); color: var(--notice-ink); }
 .cost-status.is-ok { background: var(--hover); color: var(--money); }
 .detail-costs-src { display: inline-flex; align-items: center; gap: 4px; margin-top: 6px; font-size: 0.75rem; color: var(--ink-3); }
+
+/* Promotions and bookings: what to reserve, where, and by when. */
+.promo-tag { display: inline-flex; align-items: center; gap: 3px; padding: 1px 7px; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; background: var(--hover); color: var(--money); }
+.promo-tag.is-booking { background: var(--notice-bg); color: var(--notice-ink); }
+.detail-promo { margin-top: 16px; padding: 12px 14px; border-radius: var(--radius); background: var(--hover); }
+.detail-promo h3 { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; font-size: 0.75rem; font-weight: 600; color: var(--money); text-transform: uppercase; letter-spacing: .04em; }
+.promo-benefit { margin: 0 0 8px; font-weight: 600; font-size: 0.9375rem; }
+.detail-promo dl { margin: 0; display: grid; gap: 6px; font-size: 0.875rem; }
+.detail-promo dt { font-size: 0.75rem; color: var(--ink-3); }
+.detail-promo dd { margin: 0; }
+.promo-link { display: inline-flex; align-items: center; gap: 4px; margin-top: 10px; font-size: 0.875rem; font-weight: 600; color: var(--accent); }

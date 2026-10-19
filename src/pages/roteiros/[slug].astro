@@ -9,7 +9,9 @@ type Leg = { mode: string; minutes: number; cost?: number; costDetails?: CostDet
 type Place = { address?: string; hours?: string; website?: string; phone?: string; osm?: string; googleMapsUrl?: string; rating?: number; tripadvisorUrl?: string; instagram?: string; whatsapp?: string; photos: Photo[] };
 // A swap the group can make on the day: same slot, another place.
 type Alt = { name: string; type?: string; time?: string; end?: string; note?: string; cost?: number; costDetails?: CostDetails; place?: Place; lat?: number; lng?: number };
-type Item = { time: string; end?: string; type: string; name: string; place?: Place; image?: Photo; note?: string; cost?: number; costDetails?: CostDetails; lat: number; lng: number; leg?: Leg; alternatives?: Alt[] };
+// A discount programme (Primeira Mesa, Surpreenda…) or a booking the stop depends on.
+type Promo = { program?: string; benefit?: string; how: string; deadline?: string; url?: string; booking?: boolean };
+type Item = { time: string; end?: string; type: string; name: string; place?: Place; image?: Photo; note?: string; cost?: number; costDetails?: CostDetails; lat: number; lng: number; leg?: Leg; alternatives?: Alt[]; promo?: Promo };
 type Day = { date: string; title: string; items: Item[] };
 type Trip = { placeholder?: boolean; title: string; subtitle?: string; travelers: number; people?: string[]; countries?: string[]; cover?: Photo; currency: string; rateBRL: number; rateDate: string; days: Day[] };
 
@@ -211,6 +213,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                     <p class="stop-meta">
                       <span class="stop-cat"><Icon name={i.type} size={12} />{typeLabel[i.type]}</span>
                       {i.cost !== undefined && <span class="stop-cost" title="Por pessoa">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{isHalf(i.costDetails) && <span class="half-tag">meia</span>}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}<span class="sr"> por pessoa</span></span>}
+                      {i.promo && <span class={`promo-tag${i.promo.program ? '' : ' is-booking'}`} title={i.promo.program ? `${i.promo.program}: ${i.promo.benefit ?? ''}` : 'Precisa de reserva'}><Icon name={i.promo.program ? 'tag' : 'calendar'} size={12} />{i.promo.program ?? 'Reservar'}</span>}
                       {i.alternatives?.length ? (
                         <button type="button" class="alt-toggle" aria-expanded="false" aria-controls={`alt-${n}-${k}`}>
                           <Icon name="swap" size={13} />{i.alternatives.length}<span class="sr"> {i.alternatives.length > 1 ? 'alternativas' : 'alternativa'} para {i.name}</span>
@@ -288,6 +291,17 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                   {i.place?.tripadvisorUrl && <li><a href={i.place.tripadvisorUrl} target="_blank" rel="noopener"><Icon name="reviews" size={16} />Tripadvisor</a></li>}
                 </ul>
                 {i.note && <p class="detail-note">{i.note}</p>}
+                {i.promo && (
+                  <section class="detail-promo" aria-label={i.promo.program ? 'Promoção' : 'Reserva'}>
+                    <h3><Icon name={i.promo.program ? 'tag' : 'calendar'} size={14} />{i.promo.program ? `Promoção · ${i.promo.program}` : 'Precisa de reserva'}</h3>
+                    {i.promo.benefit && <p class="promo-benefit">{i.promo.benefit}</p>}
+                    <dl>
+                      {i.promo.booking && i.promo.deadline && <div><dt>Prazo</dt><dd>{i.promo.deadline}</dd></div>}
+                      <div><dt>Como garantir</dt><dd>{i.promo.how}</dd></div>
+                    </dl>
+                    {i.promo.url && <a class="promo-link" href={i.promo.url} target="_blank" rel="noopener"><Icon name="external" size={14} />{i.promo.program ? `Abrir no ${i.promo.program}` : 'Abrir reserva'}</a>}
+                  </section>
+                )}
                 {[{ c: i.costDetails, title: 'Custos' }, { c: i.leg?.costDetails, title: 'Custo do deslocamento até aqui' }].filter((x) => x.c).map(({ c, title }) => (
                   <section class="detail-costs" aria-label={title}>
                     <h3>{title}</h3>
