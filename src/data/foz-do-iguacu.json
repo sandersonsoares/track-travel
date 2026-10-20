@@ -35,7 +35,7 @@
           "lat": -25.5978,
           "lng": -54.4885,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Gol_Boeing_737-700_takes_off_from_Santos_Dumont_Airport.jpg/960px-Gol_Boeing_737-700_takes_off_from_Santos_Dumont_Airport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-b7d68f2a6d67.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Gol_Boeing_737-700_takes_off_from_Santos_Dumont_Airport.jpg",
             "author": "Nicolas Fagundes Figueiredo",
             "license": "CC BY-SA 4.0"
@@ -61,7 +61,7 @@
           "lat": -25.5978,
           "lng": -54.4885,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Terminal_building%2C_Foz_do_Igua%C3%A7%C3%BA_airport%2C_30-07-2025.jpg/960px-Terminal_building%2C_Foz_do_Igua%C3%A7%C3%BA_airport%2C_30-07-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-242345ba3a32.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Terminal_building,_Foz_do_Igua%C3%A7%C3%BA_airport,_30-07-2025.jpg",
             "author": "Jcornelius",
             "license": "CC BY-SA 4.0"
@@ -236,7 +236,7 @@
           "time": "06:55",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Levar: passaportes (Hortência e Sanderson), RG da Gracinha, dólares em notas novas e azuis, cartões, carregador e sacolas dobráveis.",
+          "note": "Pegar o carro na garagem e ir de carro direto ao Trigo & Cia. Levar: passaportes (Hortência e Sanderson), RG da Gracinha, dólares em notas novas e azuis, cartões, carregador e sacolas dobráveis.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -256,9 +256,9 @@
           "lat": -25.5177,
           "lng": -54.5742,
           "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "200 m"
+            "mode": "car",
+            "minutes": 2,
+            "label": "Carro até o Trigo & Cia · 200 m"
           },
           "place": {
             "photos": [],
@@ -373,7 +373,7 @@
             "note": "Diária do estacionamento perto da ponte; confirmar na entrada."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Re1ab8uFVaHQ8DqQyrNVXmDPj5tSvGoRfi-XR_ugK30cLPBuj4ZGYAd1KIAPnlayHxolwvGmywBxaUp9MvXqvM-PqD9p_cDU2ddRulBy6vq0q_uZH6gm75Z0YENaIvwmlts13pLDsHuSWW=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
             "author": "Google Maps"
           }
@@ -478,7 +478,7 @@
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ScD2II-EnQ_V-newTOVXMgrkkWK8TKrzha3fuiVLbsH_pejEtDPaMwgLKzWxhhv7-vw2XM83cg76mIkyZpJhvzcDcx2KXsvpKilHOSrTcNrI6ZjON-Gs00Vd9ryCxuuoZePtU=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-8eb3a1dd0555.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Elegancia%20Company&query_place_id=ChIJAYp3ZVWF9pQR1CUkH1gOcm8",
             "author": "Google Maps"
           }
@@ -524,7 +524,7 @@
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RZKD5ofBZ0m58nZpWbS-9yYgMl03913f45fOI6McoDcmUT0fJDf-jvZtNAhtgX8n3TGn2fuWSToPM6dGPBZnWfVM1UZAZGXqs4t2GxSggYBp_ZUrqrbowlEomgaPu7lCcAReMTJhFQlUGX=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-9caea91f91e3.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Monalisa&query_place_id=ChIJYYs4kKqa9pQRrxMbTvnK6fQ",
             "author": "Google Maps"
           }
@@ -573,7 +573,7 @@
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SGgTFaCY2wEjIRC3zrRypBrISPyPhYALgqWSUnxISrtfc-5axgbUKMcdb3a9nC_zTmGTSczxTMoo387gF-QN2d3bkxK-kG-19dW4HmcQY6csHjED3fTeRiHG_PJ_bl6_ARMLVQfQ=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-556ae696e170.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Shopping%20Terra%20Nova&query_place_id=ChIJpfCAy1SF9pQRRelvJ5eEA5o",
             "author": "Google Maps"
           }
@@ -621,7 +621,7 @@
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUnIIEx6cq7KoUCu3LnEEQZDr1aBgFc_JWc_RjVDdo4T7I_ifCBslDoqT76pyuSiqiarhnbMdpvxztQ_lBfaGt05LZbmvfXzm5E1q-yakNbjtnDF747AmOWEQQJTXnzX3wBEbx5wq1s0ZH=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-1ff39cfa9597.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Digital%20Center&query_place_id=ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
             "author": "Google Maps"
           }
@@ -669,7 +669,7 @@
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RdnS23YoHXu-Y7m_ANi-65ytaZV9_oqp7d-9jRrXyBXLId01eiwy13C5HmkTSaI3l9tFeWOskU8DNaUzUhMjnwXEu2t4ZeTaf5t7fHKe_f_Wrf0IZ-srhsOxf26AYihyBQqsz-YkgFwuE=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-fe930cbb6430.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Mega%20Eletr%C3%B4nicos&query_place_id=ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
             "author": "Google Maps"
           }
@@ -738,7 +738,7 @@
             }
           ],
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RDK_jZxXrf2YX5u6C_WpbVRi_Myken9H93jEsSq0o8sAM8Y00SDLuRSKRuEu1UJh8U18t23AOa1m2aiq2XZYlN1j9duxTjiQmbx2UCWEadqSEHh-Uk3mTU8gQWa856avpgjFq7=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
             "author": "Google Maps"
           }
@@ -805,7 +805,7 @@
             }
           ],
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q3bKe9upGqhgJcGa0gQrXTTFYwD2P6y1rgd1DgDNFcj3xyVToxHAJZ4WJnaLP7sCnpro69ENAZ4lwD0NleXMHWwh3anhD-h8Tnh7euAMkMMXwFlC7yEXTI4EV5YuQTIhanCm3s=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-1e343da90b16.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Atacado%20Connect&query_place_id=ChIJj2KxUFWF9pQRvDFbSc1YvdI",
             "author": "Google Maps"
           }
@@ -899,7 +899,7 @@
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RSpYxWlMldMi9C8vEy9wGE3bPxh8pOIEwrX8ZU9kzoIvuGyLLonRY2V7dSK7ZZCTfBnb5B-YXOQ1eyfUZpUJ6VI3AFS54wAuCYjnClny6af71WBM4Ul74PO7fdRuJRnrQC905DzLMvgPw=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-f59f55df336b.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Lai%20Lai%20Center&query_place_id=ChIJpyV5q6qa9pQRbd7tZNMsIB4",
             "author": "Google Maps"
           }
@@ -1016,7 +1016,7 @@
                 "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
               },
               "image": {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Shopping_del_Este_20180609.jpg/960px-Shopping_del_Este_20180609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-83030e3744dd.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_20180609.jpg",
                 "author": "Cmasi",
                 "license": "CC BY-SA 4.0"
@@ -1041,7 +1041,7 @@
             "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QYbosrXtPARuPKlqDw4BFXikBtfRWKAu3MRzyC3SV0wurwS4HSlUaY2quuu6jrw1QoBudugGu3Z4RtHBXyKOX2mZKOaVomQD12FGaICMjOv7x_iKY9ycsv6mGZ9k1WZX6d1vcqODKbcIve=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=pra%C3%A7a%20de%20alimenta%C3%A7%C3%A3o%20do%20Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
             "author": "Google Maps"
           }
@@ -1064,19 +1064,19 @@
             "osm": null,
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Shopping_Paris_111236.jpg/960px-Shopping_Paris_111236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-f633f208b6c1.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Shopping_Paris_111236.jpg",
                 "author": "Cmasi",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Shopping_Paris_105451_HDR.jpg/960px-Shopping_Paris_105451_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-5c06065095a9.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Shopping_Paris_105451_HDR.jpg",
                 "author": "Cmasi",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Shopping_Paris_110847.jpg/960px-Shopping_Paris_110847.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-a929c11e9217.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Shopping_Paris_110847.jpg",
                 "author": "Cmasi",
                 "license": "CC BY-SA 4.0"
@@ -1107,7 +1107,7 @@
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QYbosrXtPARuPKlqDw4BFXikBtfRWKAu3MRzyC3SV0wurwS4HSlUaY2quuu6jrw1QoBudugGu3Z4RtHBXyKOX2mZKOaVomQD12FGaICMjOv7x_iKY9ycsv6mGZ9k1WZX6d1vcqODKbcIve=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
             "author": "Google Maps"
           }
@@ -1204,7 +1204,7 @@
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJp7OBa-nszgfpiB5rmeyUuhDSWESIOUPOnXt5XL2_4WYLl7qq2J9sc6wAR8f13jUeHWPAK1igDyQzXs92F0NFrFuHSkDmaBwwtOA0u0OLS7DFwdru81DgpNtJ7mwgdfvhVL-1zZkqdvyH=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-d6240c56b8cd.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=New%20Zone%20Importados&query_place_id=ChIJ48wtdQqR9pQRhxJzt08Yk2Y",
             "author": "Google Maps"
           }
@@ -1277,7 +1277,7 @@
                 "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
               },
               "image": {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Shopping_del_Este_20180609.jpg/960px-Shopping_del_Este_20180609.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-83030e3744dd.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_20180609.jpg",
                 "author": "Cmasi",
                 "license": "CC BY-SA 4.0"
@@ -1298,7 +1298,7 @@
             "note": "Combo inspirado na Dior ~R$ 136 (150.000 guaranis) dividido por três."
           },
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Shopping_del_Este_134147.jpg/960px-Shopping_del_Este_134147.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-82d906162496.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_134147.jpg",
             "author": "Cmasi",
             "license": "CC BY-SA 4.0"
@@ -1356,7 +1356,7 @@
             "note": "Estacionamento já contado na chegada."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Re1ab8uFVaHQ8DqQyrNVXmDPj5tSvGoRfi-XR_ugK30cLPBuj4ZGYAd1KIAPnlayHxolwvGmywBxaUp9MvXqvM-PqD9p_cDU2ddRulBy6vq0q_uZH6gm75Z0YENaIvwmlts13pLDsHuSWW=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
             "author": "Google Maps"
           }
@@ -1452,7 +1452,7 @@
             "note": "Meia para estudantes com carteirinha. Há cupom de 15% em sites parceiros."
           },
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg/960px-Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-f2ca9a1c0597.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
             "author": "CLAITON LUIS MORAES",
             "license": "CC BY-SA 4.0"
@@ -1639,7 +1639,7 @@
             "booking": true
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJdBymTd6TKaU_TYo1M3x9kH-q6FEPEEtlrk_kmnuoxneudXS2bONZDPe-FwHMMCiYwwLb-lMNLgVT4bQ6PopxLsa5QKl9y3DGFfmBw9G-hdlCudtyrh9L0GGR76u6Yb3xhx1G3P6ldT8=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-9e5bd09fd2aa.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Di%20Paolo%20Foz%20do%20Igua%C3%A7u%20Av.%20das%20Cataratas%2067",
             "author": "Google Maps"
           }
@@ -1675,7 +1675,7 @@
           "time": "06:10",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "note": "Pegar o carro na garagem e ir de carro direto ao Trigo & Cia (200 m).",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -1703,9 +1703,9 @@
             "author": "trigoecia.com.br"
           },
           "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+            "mode": "car",
+            "minutes": 2,
+            "label": "Airbnb → Trigo & Cia · 200 m de carro"
           },
           "place": {
             "photos": [],
@@ -1735,34 +1735,11 @@
           }
         },
         {
-          "time": "06:45",
-          "type": "lodging",
-          "name": "Volta ao Airbnb · pegar o carro na garagem",
-          "note": "Pegar o carro na garagem.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Volta ao Airbnb · pegar o carro na garagem@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Trigo & Cia → Airbnb · 200 m a pé"
-          }
-        },
-        {
           "time": "06:55",
           "end": "07:05",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Recanto Cataratas Thermas Resort. Chegada às 7h (primeiro dia). Congresso das 8h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
           "image": {
@@ -1784,34 +1761,6 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Deixar%20as%20meninas%20no%20Congresso%20Espectro&query_place_id=ChIJtyl8jJOQ9pQR1JwFrQR5Ubc",
             "photos": [],
             "lookupKey": "Deixar as meninas no Congresso Espectro@-25.5125,-54.5493"
-          }
-        },
-        {
-          "time": "07:20",
-          "end": "08:45",
-          "type": "food",
-          "name": "Café da manhã do Sanderson · Engenho Doce",
-          "note": "Padaria e confeitaria tradicional do Centro, abre às 6h30. Café sem pressa: as lojas de lembranças só abrem às 9h. Valor não estimado.",
-          "lat": -25.5404702,
-          "lng": -54.5763553,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Recanto Cataratas → Av. Paraná · cerca de 15 min"
-          },
-          "place": {
-            "address": "Av. Paraná, 909 · Centro, Foz do Iguaçu - PR",
-            "hours": "Seg–sáb 6h30–21h30 · dom 7h–19h",
-            "phone": "+55 45 3028-7010",
-            "rating": 4.4,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJn_LSgFKQ9pQRdyDI_HHEG00",
-            "photos": [],
-            "lookupKey": "Café da manhã do Sanderson · Engenho Doce@-25.5404702,-54.5763553"
-          },
-          "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QC8LhYbLyd71SWRK1utVJGjy6CB3UVw7XhSeNnyUne07IrxNCcKpRzHmBWvvIo9Mm3yAjZSh0wQK6AWofKFjjPr4IzTGKqvjZdCz-RQqUgey3z9mQfU5fEbbtoo6l_dAwD_tPbWiF_YYM=w900-h600-k-no",
-            "page": "https://www.google.com/maps/place/?q=place_id:ChIJn_LSgFKQ9pQRdyDI_HHEG00",
-            "author": "Google Maps"
           }
         },
         {
@@ -1851,7 +1800,7 @@
             "note": "Entrada livre. Compras à parte."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TNItBTnaqptGcXiN8xx1QYtLRlTd0GqCg6BoSxmWKJGofK0cVanWi-lBUuPUaq7O7UvICpYTZTJFCq5H74nV-8JljNX42qgn6YHGPnkyHeD6xfg1eqZrYuzF6zk6VJqGN_xbMi=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-c0983f774fa6.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
             "author": "Google Maps"
           }
@@ -1896,13 +1845,13 @@
             "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RJT6MiC57ebfFAvw-djAxhAHdeIpo_wsvC5lH9BJf-45vLk3WB9L1MH0EmSoze0tTWNXO_j8WjwmuFW9vskGJU3v8UL5c6iYeWmRZopUnBno2zlMnuRk8bPzPNQGfa7MaVxPyEOP-zn_wj=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-be856ee99306.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
         },
         {
-          "time": "11:35",
+          "time": "11:25",
           "end": "13:50",
           "type": "place",
           "name": "AquaFoz",
@@ -1917,7 +1866,7 @@
           "leg": {
             "mode": "car",
             "minutes": 35,
-            "label": "Centro → AquaFoz, Av. das Cataratas · cerca de 30 min + estacionar"
+            "label": "Ailabiu → AquaFoz, Av. das Cataratas · cerca de 30 min + estacionar"
           },
           "place": {
             "address": "Av. das Cataratas (BR-469), km 18 · Porto Meira, Foz do Iguaçu - PR (em frente ao Parque Nacional do Iguaçu)",
@@ -1953,7 +1902,7 @@
           "end": "15:05",
           "type": "food",
           "name": "Almoço · Divino Fogão (Sanderson)",
-          "note": "Dentro do Shopping Catuaí. Alternativa: Griletto. Depois, compras no Catuaí até 19h20.",
+          "note": "Dentro do Shopping Catuaí. Alternativas: Outback e Paris 6 (no Catuaí, a confirmar), e Griletto. Depois, compras no Catuaí até 19h20.",
           "lat": -25.5688,
           "lng": -54.5581,
           "image": {
@@ -2000,6 +1949,36 @@
             "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           },
           "alternatives": [
+            {
+              "name": "Outback Steakhouse · Catuaí Palladium",
+              "type": "food",
+              "note": "Dentro do Shopping Catuaí, mesmo endereço do Divino Fogão. Horário e valor a confirmar no shopping.",
+              "place": {
+                "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR",
+                "hours": "A confirmar (horário do shopping: seg–sáb 10h–23h · dom 11h–23h)",
+                "website": "http://www.catuaipalladium.com.br/",
+                "photos": [],
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Outback%20Steakhouse%20Catua%C3%AD%20Palladium%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Outback Steakhouse · Catuaí Palladium@-25.5688,-54.5581"
+              },
+              "lat": -25.5688,
+              "lng": -54.5581
+            },
+            {
+              "name": "Paris 6 · Catuaí Palladium",
+              "type": "food",
+              "note": "Localização e horário a confirmar: não encontrei unidade do Paris 6 em Foz do Iguaçu na busca. Se não estiver no Catuaí, trocar por outra opção.",
+              "place": {
+                "address": "Av. das Cataratas, 3570 · Bourbon, Foz do Iguaçu - PR (a confirmar)",
+                "hours": "A confirmar",
+                "website": "http://www.catuaipalladium.com.br/",
+                "photos": [],
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Paris%206%20Catua%C3%AD%20Palladium%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Paris 6 · Catuaí Palladium@-25.5688,-54.5581"
+              },
+              "lat": -25.5688,
+              "lng": -54.5581
+            },
             {
               "name": "Griletto Cataratas JL Shopping",
               "type": "food",
@@ -2237,11 +2216,11 @@
     },
     {
       "date": "2026-11-06",
-      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + pizza na Luigia",
+      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + jantar tranquilo no Bona",
       "items": [
         {
-          "time": "06:00",
-          "end": "06:30",
+          "time": "07:00",
+          "end": "07:25",
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
           "note": "Café rápido no apartamento antes do congresso. O café da manhã do Sanderson é no Bella Foz, depois de deixar as meninas.",
@@ -2278,7 +2257,7 @@
           }
         },
         {
-          "time": "06:35",
+          "time": "07:30",
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem.",
@@ -2296,11 +2275,11 @@
           }
         },
         {
-          "time": "06:50",
-          "end": "07:00",
+          "time": "07:45",
+          "end": "08:00",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Recanto Cataratas Thermas Resort. Congresso das 8h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
           "image": {
@@ -2325,34 +2304,6 @@
           }
         },
         {
-          "time": "07:15",
-          "end": "07:45",
-          "type": "food",
-          "name": "Café da manhã do Sanderson · Bella Foz Café",
-          "note": "Padaria e cafeteria do Centro (nota 4,8), abre às 7h. Tapioca, omelete, sucos naturais. Sair às 7h45 em ponto para chegar à Itaipu às 8h10. Valor não estimado.",
-          "lat": -25.5408574,
-          "lng": -54.5801342,
-          "leg": {
-            "mode": "car",
-            "minutes": 15,
-            "label": "Recanto Cataratas → Centro · cerca de 15 min"
-          },
-          "place": {
-            "address": "R. Jorge Sanwais, 1239 · Centro, Foz do Iguaçu - PR",
-            "hours": "Seg–sex 7h–22h · sáb e dom 7h–21h",
-            "phone": "+55 45 99825-0727",
-            "rating": 4.8,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJkSs53hyR9pQRxzQ-ARS1S5E",
-            "photos": [],
-            "lookupKey": "Café da manhã do Sanderson · Bella Foz Café@-25.5408574,-54.5801342"
-          },
-          "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8Bu5ANLTzKM7etaxJhLW2NW8B2-kwcvGOKg1JRY9oYpohcUFRVGl9siBqA6wEBAThlX_3BckC835PvIhYHkU_ZA68R2a4Xm9Z6iD6ncechma_Lb_tWgkLGiTrZYfGzFpn7JpG1Cq-2S2N=w900-h600-k-no",
-            "page": "https://www.google.com/maps/place/?q=place_id:ChIJkSs53hyR9pQRxzQ-ARS1S5E",
-            "author": "Google Maps"
-          }
-        },
-        {
           "time": "09:00",
           "end": "11:30",
           "type": "activity",
@@ -2368,44 +2319,44 @@
           "leg": {
             "mode": "car",
             "minutes": 25,
-            "label": "Centro → Centro de Recepção de Visitantes da Itaipu · cerca de 25 min"
+            "label": "Recanto Cataratas → Centro de Recepção de Visitantes da Itaipu · cerca de 25 min (estimado)"
           },
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Itaipu_entrance.jpg/960px-Itaipu_entrance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-a1173bb37583.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Itaipu_entrance.jpg",
                 "author": "Rachmaninoff",
                 "license": "CC BY-SA 3.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817173560168%29.jpg/960px-Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817173560168%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-9f91bb68f56e.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17173560168).jpg",
                 "author": "Deni Williams from São Paulo, Brasil",
                 "license": "CC BY 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817360909001%29.jpg/960px-Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817360909001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-d2b565632ee4.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17360909001).jpg",
                 "author": "Deni Williams from São Paulo, Brasil",
                 "license": "CC BY 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817335294896%29.jpg/960px-Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817335294896%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-a34b557bdea0.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17335294896).jpg",
                 "author": "Deni Williams from São Paulo, Brasil",
                 "license": "CC BY 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_-_Foto_a%C3%A9rea_da_usina_com_o_vertedouro_aberto_-_Aerial_photo_of_the_powerplant_with_the_spillway_gates_opened_%2817359345042%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-6158d6a1f5db.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_-_Foto_a%C3%A9rea_da_usina_com_o_vertedouro_aberto_-_Aerial_photo_of_the_powerplant_with_the_spillway_gates_opened_(17359345042).jpg",
                 "author": "Deni Williams from São Paulo, Brasil",
                 "license": "CC BY 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817361244445%29.jpg/960px-Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_%2817361244445%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-bb0aadbfd671.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Usina_Hidroel%C3%A9trica_Itaipu_Binacional_-_Itaipu_Dam_(17361244445).jpg",
                 "author": "Deni Williams from São Paulo, Brasil",
                 "license": "CC BY 2.0"
@@ -2477,7 +2428,7 @@
             "note": "Grátis (planejamento)."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QcdTn7HimJKW5rVwS6GZDS9lqyZVEqhZw3nEBWHfbYFolcQDhCZO_fMcIRFn1-FNeE2IiteR4KI5_d4Hr1uFvmtCNFd1_ZUnkJrCe0_oCjmglCO6DSvYhCQmp76DewJjDknwNV=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-a552b5b81773.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Ecomuseu%20de%20Itaipu",
             "author": "Google Maps"
           }
@@ -2575,7 +2526,7 @@
             "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RgEgNARYHsjnR2ASwZhJKqMlIR6j20wQ8cc2-rKFwAkZTTo8CIyA7f3W7iBFHmdQvwvDAqjyNBbScGrcVKNhfHPrZyMgldjl45spmGL1VKb6aa5w_QTnkKzTILniUrZ9yxa3BdZH9jHVI=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-c53ed7e8d498.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Falls%20Galli%20Hotel%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -2607,7 +2558,7 @@
           },
           "cost": 0,
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SXvTHJNWtdr4rwn31P-Ism6MGQoZlo5oyyzRv7qeSomoAejEJrSNGObWgBCd7_w2cybxnMag5FVmcwhV6aiH4sEOqHqEbqp_K4VAL3u1LMaTEfB0pedo_bmaZbq-9LPi3UgCo=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-8f1a1afd4fa5.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -2645,33 +2596,28 @@
           "time": "20:30",
           "end": "22:00",
           "type": "food",
-          "name": "Jantar · Capitão Bar",
-          "note": "Restaurante e bar com música ao vivo na Av. Jorge Schimmelpfeng, 288 (sexta até 2h). Pode ter couvert artístico. Sanderson dirige: sem álcool para ele.",
-          "lat": -25.547145,
-          "lng": -54.585441,
-          "image": {
-            "src": "/img/foz-do-iguacu/capitao-bar.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          },
+          "name": "Jantar · Bona Trattoria",
+          "note": "Jantar tranquilo depois do congresso: italiana no Centro, ambiente intimista e aconchegante, cozinha aberta e boa carta de vinhos. Seg–sáb até 23h. Fica na mesma quadra do Capitão Bar, então a logística não muda. Vale reservar para sexta à noite. Sanderson dirige: sem álcool para ele.",
+          "lat": -25.547696,
+          "lng": -54.585428,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Recanto Cataratas → Av. Jorge Schimmelpfeng, 288 · cerca de 15 min"
+            "label": "Recanto Cataratas → R. Alm. Barroso, 883 · cerca de 15 min"
           },
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
-            "hours": "Todos os dias 11h30–0h (sex e sáb até 2h)",
-            "phone": "(45) 99959-0024",
-            "rating": 4.4,
-            "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Capit%C3%A3o%20Bar&query_place_id=ChIJ663-G7WR9pQRpcyvW4EY3q8",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capitao%20Bar%20Foz%20do%20Igua%C3%A7u",
-            "lookupKey": "Jantar · Capitão Bar@-25.547145,-54.585441",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
+            "address": "R. Alm. Barroso, 883 · Centro, Foz do Iguaçu - PR, 85851-010",
+            "hours": "Seg–sáb 11h30–23h · dom 11h30–22h",
+            "googlePlaceId": "ChIJd3xkgnWR9pQR3VIj8loB8RM",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BONA%20Gastronomia%20Italiana&query_place_id=ChIJd3xkgnWR9pQR3VIj8loB8RM",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Bona%20Trattoria%20Foz%20do%20Igua%C3%A7u",
+            "lookupKey": "Jantar · Bona Trattoria@-25.547696,-54.585428",
+            "checkedAt": "2026-10-20T00:00:00.000Z",
+            "phone": "(45) 99924-7162",
+            "rating": 4.7
           },
           "cost": 75,
           "costDetails": {
@@ -2683,13 +2629,135 @@
             "people": 3,
             "totalGroup": 225,
             "status": "estimativa",
-            "checkedAt": "2026-10-18",
+            "checkedAt": "2026-10-19",
             "rangePerPerson": [
               50,
               100
             ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          }
+            "note": "Refeição: não existe meia. Faixa de R$ 50–100 por pessoa, sem bebida alcoólica."
+          },
+          "alternatives": [
+            {
+              "name": "Capitão Bar",
+              "type": "food",
+              "note": "Alternativa mais animada, quase vizinho do Bona (mesma quadra): bar e restaurante com música ao vivo, sexta até 2h. Pode ter couvert artístico.",
+              "lat": -25.547145,
+              "lng": -54.585441,
+              "place": {
+                "osmPending": true,
+                "osm": null,
+                "photos": [],
+                "address": "Av. Jorge Schimmelpfeng, 288 · Centro, Foz do Iguaçu - PR",
+                "hours": "Todos os dias 11h30–0h (sex e sáb até 2h)",
+                "phone": "(45) 99959-0024",
+                "rating": 4.4,
+                "googlePlaceId": "ChIJ663-G7WR9pQRpcyvW4EY3q8",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Capit%C3%A3o%20Bar&query_place_id=ChIJ663-G7WR9pQRpcyvW4EY3q8",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Capitao%20Bar%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Capitão Bar@-25.547145,-54.585441",
+                "checkedAt": "2026-10-19T01:59:37.306Z"
+              },
+              "cost": 75,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 75,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 75,
+                "people": 3,
+                "totalGroup": 225,
+                "status": "estimativa",
+                "checkedAt": "2026-10-18",
+                "rangePerPerson": [
+                  50,
+                  100
+                ],
+                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+              },
+              "image": {
+                "src": "/img/foz-do-iguacu/capitao-bar.jpg",
+                "page": "https://www.hoteltarobafoz.com.br",
+                "author": "hoteltarobafoz.com.br"
+              }
+            },
+            {
+              "name": "Vó Bertila",
+              "type": "food",
+              "note": "Italiana caseira no Centro, com cara de casa de avó: lasanha, massas e pizza. Bem tranquila. Sexta 18h30–23h45; fecha domingo. Aceita reserva.",
+              "lat": -25.53991,
+              "lng": -54.58154,
+              "place": {
+                "osmPending": true,
+                "osm": null,
+                "photos": [],
+                "address": "R. Bartolomeu de Gusmão, 1116 · Centro, Foz do Iguaçu - PR, 85851-160",
+                "googlePlaceId": "ChIJTT8x7RiR9pQRU2qrMq7UhCQ",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=V%C3%B3%20Bertila&query_place_id=ChIJTT8x7RiR9pQRU2qrMq7UhCQ",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=V%C3%B3%20Bertila%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Vó Bertila@-25.53991,-54.58154",
+                "checkedAt": "2026-10-20T01:00:00.000Z",
+                "hours": "Seg–sáb 18h30–23h45 · dom fechado",
+                "phone": "(45) 3028-0170",
+                "rating": 4.6
+              },
+              "cost": 90,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 90,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 90,
+                "people": 3,
+                "totalGroup": 270,
+                "status": "estimativa",
+                "checkedAt": "2026-10-19",
+                "rangePerPerson": [
+                  60,
+                  120
+                ],
+                "note": "Refeição: não existe meia. Faixa do Google: R$ 60–120 por pessoa (170 avaliações), sem bebida alcoólica."
+              }
+            },
+            {
+              "name": "Le Mir Comida Árabe",
+              "type": "food",
+              "note": "Árabe no Centro, ambiente elegante e acolhedor. Sexta 11h30–23h. Menu degustação a partir de R$ 125,90 por pessoa (Deluxe R$ 155,90, Premium R$ 165,90); à la carte sai mais em conta dividindo pratos.",
+              "lat": -25.54116,
+              "lng": -54.58069,
+              "place": {
+                "osmPending": true,
+                "osm": null,
+                "photos": [],
+                "address": "R. Jorge Sanwais, 1146 · Centro, Foz do Iguaçu - PR, 85851-040",
+                "hours": "Sexta 11h30–23h",
+                "googlePlaceId": "ChIJ6-6zMLWR9pQRsz-rb1MMswQ",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Mir%20Comida%20Arabe&query_place_id=ChIJ6-6zMLWR9pQRsz-rb1MMswQ",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Le%20Mir%20Comida%20Arabe%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Le Mir Comida Árabe@-25.54116,-54.58069",
+                "checkedAt": "2026-10-20T01:00:00.000Z",
+                "phone": "(45) 99933-9279",
+                "rating": 4.7,
+                "website": "https://lemircomidaarabe.com.br/"
+              },
+              "cost": 125,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 125,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 125,
+                "people": 3,
+                "totalGroup": 375,
+                "status": "estimativa",
+                "checkedAt": "2026-10-19",
+                "rangePerPerson": [
+                  80,
+                  200
+                ],
+                "note": "Refeição: não existe meia. Faixa do Google: R$ 80–200 por pessoa (373 avaliações); menu degustação R$ 125,90 por pessoa. Sem bebida alcoólica."
+              }
+            }
+          ]
         },
         {
           "time": "22:15",
@@ -2701,7 +2769,7 @@
           "leg": {
             "mode": "car",
             "minutes": 10,
-            "label": "Luigia → Airbnb · cerca de 2,5 km"
+            "label": "Bona → Airbnb · cerca de 10 min"
           },
           "place": {
             "photos": [],
@@ -2714,15 +2782,15 @@
           }
         }
       ],
-      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho (Itaipu, Pedacinho de Foz e JL). À noite, os três jantam no Capitão Bar, com música ao vivo. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar."
+      "note": "Sexta: café dos três no Airbnb; Hortência e Gracinha ficam no congresso e Sanderson faz os passeios sozinho (Itaipu, Pedacinho de Foz e JL). À noite, jantar tranquilo dos três no Bona Trattoria, porque as meninas saem cansadas do congresso; o Capitão Bar, com música ao vivo, fica como alternativa na mesma quadra. Tempos de carro são referências consultadas em 18/10/2026, com margens de planejamento; recalcular no Google Maps no dia. Abrir o link de rotas de cada deslocamento para navegar."
     },
     {
       "date": "2026-11-07",
       "title": "Congresso + city tour no Paraguai (Sanderson) + festa do congresso",
       "items": [
         {
-          "time": "06:00",
-          "end": "06:30",
+          "time": "07:00",
+          "end": "07:25",
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
           "note": "Café no apartamento, os três.",
@@ -2759,7 +2827,7 @@
           }
         },
         {
-          "time": "06:35",
+          "time": "07:30",
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem.",
@@ -2777,11 +2845,11 @@
           }
         },
         {
-          "time": "06:50",
-          "end": "07:00",
+          "time": "07:45",
+          "end": "08:00",
           "type": "event",
           "name": "Deixar as meninas no Congresso Espectro",
-          "note": "Recanto Cataratas Thermas Resort. Congresso das 7h às 20h (confirmar se no sábado começa mais tarde; se sim, atrasar café e saída). Hortência: VIP · Gracinha: Start. Almoço no resort.",
+          "note": "Recanto Cataratas Thermas Resort. Congresso das 8h às 20h. Hortência: VIP · Gracinha: Start. Almoço no resort.",
           "lat": -25.5125,
           "lng": -54.5493,
           "image": {
@@ -2809,7 +2877,7 @@
           "time": "08:15",
           "type": "lodging",
           "name": "Agência busca o Sanderson no Airbnb",
-          "note": "Deixar o carro na garagem. Tempo livre entre a volta (7h15) e a busca. Levar documento com foto (RG ou passaporte) para a fronteira. Horário da busca a confirmar com a agência.",
+          "note": "Deixar o carro na garagem. Tempo livre entre a volta (8h05) e a busca. Levar documento com foto (RG ou passaporte) para a fronteira. Horário da busca a confirmar com a agência.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -2862,7 +2930,7 @@
             "note": "Valor da lista (City Tour Paraguai, só city tour, termina por volta das 15h30). A versão com parada para compras sai R$ 150."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q7bvuQ9NcT8Mhk2-xsmpXVKAVQD2Q29rgX1MoscBj4mjeUFIDVxAvpXBvgUnV4YGab5JBetpwbh1CiKPyvSjhZK8IcHYC3fqP0IN-6rg9jC8Ril0yeQMkMYJka_pDIE2MMzzY7=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-e7eb513141fe.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJbWMMrEqO9pQRPc49_XBaN8I",
             "author": "Google Maps"
           }
@@ -2944,7 +3012,7 @@
             "booking": true
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R8NcJz1legAQdK7yT3BMJ2yNgdknfW4GukeHwWLHrQJy_snMv8fP9ekcqL0xKySIyyfCsbREc5eXx9ImBvhTudVFQYDjxwhSEVXoM2ifLUHes-uFatxfbWV1ABh1dFubyE5iEQ4g=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-14825e7b4ee1.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Cinco%20Gastronomia%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -3051,7 +3119,7 @@
           "time": "06:40",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "note": "Pegar o carro na garagem e ir de carro direto ao Trigo & Cia. Levar dinheiro em espécie para a feirinha.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -3079,9 +3147,9 @@
             "author": "trigoecia.com.br"
           },
           "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+            "mode": "car",
+            "minutes": 2,
+            "label": "Airbnb → Trigo & Cia · 200 m de carro"
           },
           "place": {
             "photos": [],
@@ -3108,29 +3176,6 @@
             "status": "estimativa",
             "checkedAt": "2026-10-18",
             "note": "Valor médio por pessoa, sem bebida alcoólica."
-          }
-        },
-        {
-          "time": "07:20",
-          "type": "lodging",
-          "name": "Volta ao Airbnb · pegar o carro na garagem",
-          "note": "Levar dinheiro em espécie para a feirinha.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Trigo & Cia → Airbnb · 200 m a pé"
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Volta ao Airbnb · pegar o carro na garagem@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
         {
@@ -3170,7 +3215,7 @@
             "note": "Entrada livre. Compras à parte."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QXlDK0V3n2gFnCTEKiq0wkGUU_mx4dyiAN0E_RqXwTOF8OeHi6ZgCoWKN372-SwCyyyEQL04gE2zZecR-myC6hdm5ASlm1eGq9fFpCOomcsdjnZNYSthBLAyY7gOpaZwiTHOcPgA=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-9969ecc0520b.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJrzPsCkqQ9pQRSHC7FSXfVew",
             "author": "Google Maps"
           }
@@ -3184,7 +3229,7 @@
           "lat": -25.6138,
           "lng": -54.4791,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Cataratas_do_Igua%C3%A7u_%282022%29.jpg/960px-Cataratas_do_Igua%C3%A7u_%282022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-45f5da6abe1a.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Cataratas_do_Igua%C3%A7u_(2022).jpg",
             "author": "Pribruder",
             "license": "CC0"
@@ -3204,37 +3249,37 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20do%20Igua%C3%A7u&query_place_id=ChIJEZvs8-GU9pQRbN-nkPiKppU",
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg/960px-Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-ec40fa910f18.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg",
                 "author": "Mariordo (Mario Roberto Durán Ortiz)",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/-i---i-_%283050083053%29.jpg/960px--i---i-_%283050083053%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-64fc58d5f665.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(3050083053).jpg",
                 "author": "Karen C. from Brasil",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/-i---i-_%283050920212%29.jpg/960px--i---i-_%283050920212%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-fa6c22bd5dc1.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:-i---i-_(3050920212).jpg",
                 "author": "Karen C. from Brasil",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/00_1826_Iguazu_Falls_-_South_America%2C_Brazil.jpg/960px-00_1826_Iguazu_Falls_-_South_America%2C_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-1356b97dc1df.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:00_1826_Iguazu_Falls_-_South_America,_Brazil.jpg",
                 "author": "W. Bulach",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg/960px-00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-54ab3a38558e.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:00_1838_Iguazu_Falls_from_the_Brazilian_side.jpg",
                 "author": "W. Bulach",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/00_1844_South_America_-_Iguazu_Falls_from_the_Brazilian_side.jpg/960px-00_1844_South_America_-_Iguazu_Falls_from_the_Brazilian_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-2c5cb27cc799.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:00_1844_South_America_-_Iguazu_Falls_from_the_Brazilian_side.jpg",
                 "author": "W. Bulach",
                 "license": "CC BY-SA 4.0"
@@ -3318,7 +3363,7 @@
           "lat": -25.6139,
           "lng": -54.4826,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Tucano_parque_das_aves_2015.jpg/960px-Tucano_parque_das_aves_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-d5bf24af415a.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Tucano_parque_das_aves_2015.jpg",
             "author": "Julio Cesar R. Lopes",
             "license": "CC BY-SA 4.0"
@@ -3338,37 +3383,37 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parque%20das%20Aves&query_place_id=ChIJzSqJHuWT9pQRNz99UhJ_u5I",
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Parque_das_Aves%2C_Foz_do_Iguacu%2C_Brazil-12Feb2011.jpg/960px-Parque_das_Aves%2C_Foz_do_Iguacu%2C_Brazil-12Feb2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-bccc642e2d3e.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Parque_das_Aves,_Foz_do_Iguacu,_Brazil-12Feb2011.jpg",
                 "author": "Jorge Andrade from Rio de Janeiro, Brazil",
                 "license": "CC BY 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Brazil-_%2848995290436%29.jpg/960px-Brazil-_%2848995290436%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-011824707d3d.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Brazil-_(48995290436).jpg",
                 "author": "Dennis G. Jarvis",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Brazil-01502_-_Bird_Park_%2848994259753%29.jpg/960px-Brazil-01502_-_Bird_Park_%2848994259753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-06177c90c392.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Brazil-01502_-_Bird_Park_(48994259753).jpg",
                 "author": "Dennis G. Jarvis",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Brazil-01542_-_Bromelie_%2848995490227%29.jpg/960px-Brazil-01542_-_Bromelie_%2848995490227%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-8bd384fbc616.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Brazil-01542_-_Bromelie_(48995490227).jpg",
                 "author": "Dennis G. Jarvis",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Brazil-01543_-_Bromelie_%2848995489262%29.jpg/960px-Brazil-01543_-_Bromelie_%2848995489262%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-10d9944ce118.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Brazil-01543_-_Bromelie_(48995489262).jpg",
                 "author": "Dennis G. Jarvis",
                 "license": "CC BY-SA 2.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Brazil-01557_-_Bromeliaceae_%2848994744528%29.jpg/960px-Brazil-01557_-_Bromeliaceae_%2848994744528%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-e0ef62f1a033.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Brazil-01557_-_Bromeliaceae_(48994744528).jpg",
                 "author": "Dennis G. Jarvis",
                 "license": "CC BY-SA 2.0"
@@ -3429,7 +3474,7 @@
             "note": "Entrada livre. Compras à parte."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSplpW74F7BWAyjse2zS_Q6ZGUk5qhS1Z9WtbRIiil5XS5RHxYpnZeOZGjyQgy2Tqe5HTw5FayvakGlS69OO8TkC88TxKYZZOwHEGs04jPkGXC5jjtgT0A9djhTJO7_6VbVs2UZYXC-xc=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-03dae88cf79a.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJ2XmGbuST9pQRzEiLUx2kkAA",
             "author": "Google Maps"
           }
@@ -3520,7 +3565,7 @@
                 "note": "Meia para estudantes com carteirinha. Há cupom de 15% em sites parceiros."
               },
               "image": {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg/960px-Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-f2ca9a1c0597.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
                 "author": "CLAITON LUIS MORAES",
                 "license": "CC BY-SA 4.0"
@@ -3657,7 +3702,7 @@
           "time": "08:25",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Manhã leve. Café no Trigo & Cia, ao lado.",
+          "note": "Manhã leve. Pegar o carro na garagem e ir de carro direto ao Trigo & Cia.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -3685,9 +3730,9 @@
             "author": "trigoecia.com.br"
           },
           "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Airbnb → Trigo · 200 m a pé"
+            "mode": "car",
+            "minutes": 2,
+            "label": "Airbnb → Trigo · 200 m de carro"
           },
           "place": {
             "photos": [],
@@ -3721,29 +3766,6 @@
           }
         },
         {
-          "time": "09:20",
-          "type": "lodging",
-          "name": "Volta ao Airbnb · pegar o carro na garagem",
-          "note": "",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Trigo → Airbnb · a pé"
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Volta ao Airbnb · pegar o carro na garagem@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.307Z"
-          }
-        },
-        {
           "time": "10:00",
           "end": "12:30",
           "type": "shopping",
@@ -3770,7 +3792,7 @@
           },
           "cost": 0,
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SXvTHJNWtdr4rwn31P-Ism6MGQoZlo5oyyzRv7qeSomoAejEJrSNGObWgBCd7_w2cybxnMag5FVmcwhV6aiH4sEOqHqEbqp_K4VAL3u1LMaTEfB0pedo_bmaZbq-9LPi3UgCo=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-8f1a1afd4fa5.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -3828,10 +3850,60 @@
             "booking": true
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R8NcJz1legAQdK7yT3BMJ2yNgdknfW4GukeHwWLHrQJy_snMv8fP9ekcqL0xKySIyyfCsbREc5eXx9ImBvhTudVFQYDjxwhSEVXoM2ifLUHes-uFatxfbWV1ABh1dFubyE5iEQ4g=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-14825e7b4ee1.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Cinco%20Gastronomia%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
-          }
+          },
+          "alternatives": [
+            {
+              "name": "Praça de alimentação do Cataratas JL",
+              "type": "food",
+              "note": "Praça do próprio JL Shopping, aberta todos os dias das 11h às 23h. Plano B já citado na nota. Horário e valor a confirmar no shopping.",
+              "place": {
+                "address": "Av. Costa e Silva, 185 · Cataratas JL Shopping · Polo Centro, Foz do Iguaçu - PR",
+                "hours": "Todos os dias 11h–23h",
+                "photos": [],
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+                "lookupKey": "Praça de alimentação do Cataratas JL@-25.5329347,-54.5752058"
+              },
+              "lat": -25.5329347,
+              "lng": -54.5752058
+            },
+            {
+              "name": "Griletto Cataratas JL Shopping",
+              "type": "food",
+              "note": "Unidade do JL Shopping (não é a do Catuaí). Avaliação baixa (3,3).",
+              "place": {
+                "address": "Av. Costa e Silva, 185 · Cataratas JL Shopping, L319 · Polo Centro, Foz do Iguaçu - PR",
+                "hours": "Todos os dias 11h–23h (guia 2025, confirmar)",
+                "phone": "(45) 99152-3166",
+                "rating": 3.3,
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Griletto%20Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Griletto%20Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "lookupKey": "Griletto Cataratas JL Shopping@-25.5329347,-54.5752058"
+              },
+              "lat": -25.5329347,
+              "lng": -54.5752058,
+              "cost": 45,
+              "costDetails": {
+                "unit": "pessoa",
+                "fullPerPerson": 45,
+                "halfPerPerson": null,
+                "halfApplies": false,
+                "payPerPerson": 45,
+                "people": 3,
+                "totalGroup": 135,
+                "status": "estimativa",
+                "checkedAt": "2026-10-17",
+                "rangePerPerson": [
+                  35,
+                  60
+                ],
+                "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
+              }
+            }
+          ]
         },
         {
           "time": "14:05",
@@ -3898,7 +3970,7 @@
           "lat": -25.5994,
           "lng": -54.5639,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Duty_Free_Shop_Iguaz%C3%BA_%28in_2011%29.jpg/960px-Duty_Free_Shop_Iguaz%C3%BA_%28in_2011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-da7ec6061b83.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Duty_Free_Shop_Iguaz%C3%BA_(in_2011).jpg",
             "author": "Ezequiel12096",
             "license": "CC BY-SA 4.0"
@@ -3913,7 +3985,7 @@
             "osm": null,
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Bridge_over_an_artificial_lake_at_the_Duty_Free_Shop%2C_Puerto_Iguaz%C3%BA%2C_Argentina_%282010%29.jpg/960px-Bridge_over_an_artificial_lake_at_the_Duty_Free_Shop%2C_Puerto_Iguaz%C3%BA%2C_Argentina_%282010%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-a57b33816d16.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Bridge_over_an_artificial_lake_at_the_Duty_Free_Shop,_Puerto_Iguaz%C3%BA,_Argentina_(2010).jpg",
                 "author": "Manoel Messias de So…",
                 "license": "CC BY-SA 3.0"
@@ -3967,7 +4039,7 @@
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cassino%20City%20Center%20Iguaz%C3%BA%20Puerto%20Iguaz%C3%BA"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tl0EcZRYKKHoBHk6bze8BXUihGL9jVrWz1wT6MVjs6BOohm_yceX-QaAywcoq6Fp1oKV21S2c0ODCRIAPGw_A2K7qskvF1rrfnK4EJGi8F2d5vyLdoJvPTflxEQlfjs0K_ZD-aAlOshEbL=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-93f933e899d0.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJJTHe17ST9pQRWkCNzt04k1c",
             "author": "Google Maps"
           }
@@ -3981,7 +4053,7 @@
           "lat": -25.5948,
           "lng": -54.5908,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Triple_frontera_monument_%28Argentina%29_%C2%B7_Hito_Tres_Fronteras_%28Puerto_Iguaz%C3%BA%2C_Argentina%29.jpg/960px-Triple_frontera_monument_%28Argentina%29_%C2%B7_Hito_Tres_Fronteras_%28Puerto_Iguaz%C3%BA%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-3bdce25631f4.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Triple_frontera_monument_(Argentina)_%C2%B7_Hito_Tres_Fronteras_(Puerto_Iguaz%C3%BA,_Argentina).jpg",
             "author": "Horacio Cambeiro",
             "license": "CC BY 4.0"
@@ -3996,25 +4068,25 @@
             "osm": null,
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/HITO_de_las_tres_fronteras_ARGENTINA.JPG/960px-HITO_de_las_tres_fronteras_ARGENTINA.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-b0ffbc7e1a0b.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:HITO_de_las_tres_fronteras_ARGENTINA.JPG",
                 "author": "Albasmalko",
                 "license": "CC BY 3.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hito_de_las_Tres_Fronteras.jpg/960px-Hito_de_las_Tres_Fronteras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-8af29e7d2cdd.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Hito_de_las_Tres_Fronteras.jpg",
                 "author": "Pedro J Pacheco",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Hito_de_las_Tres_Fronteras._Puesta_de_Sol.jpg/960px-Hito_de_las_Tres_Fronteras._Puesta_de_Sol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-4df642713fb3.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Hito_de_las_Tres_Fronteras._Puesta_de_Sol.jpg",
                 "author": "Pedro J Pacheco",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fuente_de_agua_en_el_Hito_Tres_Fronteras_en_Puerto_Iguaz%C3%BA%2C_Misiones%2C_Argentina_%28a%C3%B1o_2015%29.jpg/960px-Fuente_de_agua_en_el_Hito_Tres_Fronteras_en_Puerto_Iguaz%C3%BA%2C_Misiones%2C_Argentina_%28a%C3%B1o_2015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-a56db177b349.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Fuente_de_agua_en_el_Hito_Tres_Fronteras_en_Puerto_Iguaz%C3%BA,_Misiones,_Argentina_(a%C3%B1o_2015).jpg",
                 "author": "Papa Pic from Eldorado, Argentina",
                 "license": "CC0"
@@ -4053,7 +4125,7 @@
           "lat": -25.594,
           "lng": -54.5739,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Feirinha_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-ac9829e82739.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Feirinha_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
             "author": "Horacio Cambeiro",
             "license": "CC BY-SA 4.0"
@@ -4068,37 +4140,37 @@
             "osm": null,
             "photos": [
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Feirinha_de_Puerto_Iguaz%C3%BA_sobre_Avenida_Brasil%2C_Provincia_de_Misiones%2C_Argentina.jpg/960px-Feirinha_de_Puerto_Iguaz%C3%BA_sobre_Avenida_Brasil%2C_Provincia_de_Misiones%2C_Argentina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-8d6d8d219156.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Feirinha_de_Puerto_Iguaz%C3%BA_sobre_Avenida_Brasil,_Provincia_de_Misiones,_Argentina.jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/%C2%ABBar_de_Sebastian%C2%BB%2C_%C2%ABEmporio_de_Sabores%C2%BB_y_%C2%ABBarraca_do_Japon%C3%AAs%C2%BB_en_la_Feirinha_%28Avenida_Brasil%29_en_Puerto_Iguaz%C3%BA%2C_Provincia_de_Misiones%2C_Argentina.jpg/960px-%C2%ABBar_de_Sebastian%C2%BB%2C_%C2%ABEmporio_de_Sabores%C2%BB_y_%C2%ABBarraca_do_Japon%C3%AAs%C2%BB_en_la_Feirinha_%28Avenida_Brasil%29_en_Puerto_Iguaz%C3%BA%2C_Provincia_de_Misiones%2C_Argentina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-ac20ac9817b4.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:%C2%ABBar_de_Sebastian%C2%BB,_%C2%ABEmporio_de_Sabores%C2%BB_y_%C2%ABBarraca_do_Japon%C3%AAs%C2%BB_en_la_Feirinha_(Avenida_Brasil)_en_Puerto_Iguaz%C3%BA,_Provincia_de_Misiones,_Argentina.jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Pasillos_internos_de_la_Feirinha_sobre_Avenida_Brasil_en_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg/960px-Pasillos_internos_de_la_Feirinha_sobre_Avenida_Brasil_en_Puerto_Iguaz%C3%BA_%28Provincia_de_Misiones%2C_Argentina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-9e235819e317.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Pasillos_internos_de_la_Feirinha_sobre_Avenida_Brasil_en_Puerto_Iguaz%C3%BA_(Provincia_de_Misiones,_Argentina).jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY-SA 4.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%29.jpg/960px-Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-d4e783461481.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_(La_Feirinha,_Puerto_Iguaz%C3%BA).jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY-SA 3.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%2C_Misiones%29.jpg/960px-Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%2C_Misiones%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-4eca012c10ac.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Hamburguesa_con_papas_fritas_y_jugo_de_maracuy%C3%A1_(La_Feirinha,_Puerto_Iguaz%C3%BA,_Misiones).jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY-SA 3.0"
               },
               {
-                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hamburguesa_argentina_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%2C_Misiones%29.jpg/960px-Hamburguesa_argentina_con_papas_fritas_y_jugo_de_maracuy%C3%A1_%28La_Feirinha%2C_Puerto_Iguaz%C3%BA%2C_Misiones%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "src": "/img/foz-do-iguacu/ext-1f7b41caa630.jpg",
                 "page": "https://commons.wikimedia.org/wiki/File:Hamburguesa_argentina_con_papas_fritas_y_jugo_de_maracuy%C3%A1_(La_Feirinha,_Puerto_Iguaz%C3%BA,_Misiones).jpg",
                 "author": "Horacio Cambeiro",
                 "license": "CC BY-SA 3.0"
@@ -4156,7 +4228,7 @@
             "booking": true
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S6xccvsRAkKzOMWwiT-kZBeF4WYGkCCAGeIbfM2yk7TthiMjSZR3F0lZeiMvPLDsEYWmYxNOPmvZZSkxuYJKNz5tRugCzUK1BlaLUTIb811gPuNTsLilYItUAG4yqkOzJC3YCrZuKJ7rAr=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-8abdae2d714e.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJafD1JTGS9pQRTb23YN3CBwc",
             "author": "Google Maps"
           }
@@ -4190,10 +4262,10 @@
       "title": "City tour de Foz de carro e volta para casa",
       "items": [
         {
-          "time": "06:40",
+          "time": "07:15",
           "type": "lodging",
           "name": "Saída do Airbnb",
-          "note": "Início do dia. Café da manhã no Trigo & Cia, ao lado (200 m a pé).",
+          "note": "Pegar o carro na garagem e ir de carro direto ao Trigo & Cia.",
           "lat": -25.519,
           "lng": -54.5745,
           "place": {
@@ -4208,11 +4280,11 @@
           }
         },
         {
-          "time": "06:45",
-          "end": "07:20",
+          "time": "07:20",
+          "end": "07:50",
           "type": "food",
           "name": "Café da manhã · Trigo & Cia",
-          "note": "Café da manhã ao lado do Airbnb.",
+          "note": "Café da manhã no Trigo & Cia, de carro.",
           "lat": -25.5177,
           "lng": -54.5742,
           "image": {
@@ -4221,9 +4293,9 @@
             "author": "trigoecia.com.br"
           },
           "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Airbnb → Trigo & Cia · 200 m a pé"
+            "mode": "car",
+            "minutes": 2,
+            "label": "Airbnb → Trigo & Cia · 200 m de carro"
           },
           "place": {
             "photos": [],
@@ -4253,18 +4325,14 @@
           }
         },
         {
-          "time": "07:20",
-          "end": "07:50",
+          "time": "07:00",
+          "end": "07:15",
           "type": "lodging",
           "name": "Check-out antecipado · malas na SUV",
           "note": "Check-out e malas no carro. Mulheres: levar roupa que cubra as pernas para a mesquita (o véu é emprestado na entrada). Malas fora de vista no porta-malas durante as visitas.",
           "lat": -25.519,
           "lng": -54.5745,
-          "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "Trigo & Cia → Airbnb · 200 m a pé"
-          },
+          "leg": null,
           "place": {
             "osmPending": true,
             "osm": null,
@@ -4353,7 +4421,7 @@
             "note": "Grátis."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RbiJxwlHBMA7qiLtrz6H2OKVLm7rIkpNwt13IQg0BOFUywujxzzyeVZqB0cY9pJgdwmZWqI6ubJ4uPdSRxFMbeZGh9L_BDtYonhI7kMJbvpsYtcw2VoyM5jftcUR8IV1NOYf20=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-ebebe6662eb5.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Mesquita%20Omar%20Ibn%20Al-Khattab%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -4382,7 +4450,7 @@
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Kapadokya%20Foz%20do%20Igua%C3%A7u"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R_81FjdE__KKQ6JCLT3y42YFks7IVRoxL1sE1c29KyK2dWAvKz6kkDsKQ-YWsCU-2SLIR4oz21N-9ZQs_1oKfMUtwmYLxGsf0EqQfawR45oZH_3UIIq84-kZHDoyyoFzdGyofNXEwnlAqT=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-6baa38a23b83.jpg",
             "page": "https://www.google.com/maps/place/?q=place_id:ChIJ4XdSmeWR9pQRN-h3hE2X7Tc",
             "author": "Google Maps"
           }
@@ -4428,7 +4496,7 @@
             "note": "Entrada gratuita (confirmar)."
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rp58eIxvjac7MUkdULL7fewBxUnc8jdx9bGBi39E2qoemBZF2GoPAR7kEuBKr4tIe66sGZ7GRxf0UKA3WjcD9_QNuJcAm3Vo1KATG6o7maxC0uaKpsxIgubNfhLwE5b8OyCDaF=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-0757dfc1ec50.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Catedral%20Nossa%20Senhora%20de%20Guadalupe%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -4442,7 +4510,7 @@
           "lat": -25.4745,
           "lng": -54.5995,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg/960px-Templo_Budista_-_Foz_do_Iguacu_-_Brasil_%2823649550064%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-8655dcab59d8.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Templo_Budista_-_Foz_do_Iguacu_-_Brasil_(23649550064).jpg",
             "author": "Cesar I. Martins from Jundiai, Brazil",
             "license": "CC BY 2.0"
@@ -4509,7 +4577,7 @@
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sufz6PDPkn2u6liwUsiOzSyR2l3l4SgUySEM0VhJybDa1IE4kuuDc92k_AuKsQMMSUy5xjQ8L1D-zGohqmIbeU2HtYqo5I_vcxdgdNeXIoXBwbxRdtPjeFMFOe9je6VPIn0HCYUUCGpd3j=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-a19b2fec289b.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Mercado%20P%C3%BAblico%20Barrageiro%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -4599,7 +4667,7 @@
             "booking": true
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZrkwbFmKfm--ee6hArVtOmOkQvmqc3VHxvMm6M5GX-WIcfY6zVXH6ZK-xTx0LxAPBoJ7DDAUgThBYJkfsT84qw8z2vzEGxStCaTK7kP0MjDvhQP_2ixiEsfGLBhlPHCOsh1AGg1YqTySe=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-4542f9a52b88.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=O%20Ovelheiro%20Foz%20do%20Igua%C3%A7u",
             "author": "Google Maps"
           }
@@ -4629,7 +4697,7 @@
             "lookupKey": "Posto + devolução da SUV@-25.5978,-54.4885"
           },
           "image": {
-            "src": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R1Ei034OlLGHoCsR6oFpddjSlsIb-6ofv1W1l2BVhoQ2GJJFj2yICRqDoi_dpW6Bf3I7qKAedshJVfNIk1W5iQZ2y6KcegWRIRJ8Gmdr81dOPLpViC55T7MJXlP6KboRaJTWUb=w900-h600-k-no",
+            "src": "/img/foz-do-iguacu/ext-989513c217c1.jpg",
             "page": "https://www.google.com/maps/search/?api=1&query=Posto%20%2B%20devolu%C3%A7%C3%A3o%20da%20SUV&query_place_id=ChIJVVVVBfWQ9pQRDwIav7ngh88",
             "author": "Google Maps"
           }
@@ -4643,7 +4711,7 @@
           "lat": -25.5978,
           "lng": -54.4885,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Airport_Foz_do_Iguacu.jpg/960px-Airport_Foz_do_Iguacu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-6b54be37b7f2.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Airport_Foz_do_Iguacu.jpg",
             "author": "Fernando Barbosa",
             "license": "Public domain"
@@ -4677,7 +4745,7 @@
           "lat": -25.5978,
           "lng": -54.4885,
           "image": {
-            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Airbus_A320_%28LATAM_Brasil%29_Rafael_Luiz_%2831289852904%29.jpg/960px-Airbus_A320_%28LATAM_Brasil%29_Rafael_Luiz_%2831289852904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "src": "/img/foz-do-iguacu/ext-050a28f1d0c8.jpg",
             "page": "https://commons.wikimedia.org/wiki/File:Airbus_A320_(LATAM_Brasil)_Rafael_Luiz_(31289852904).jpg",
             "author": "Rafael Luiz Canossa",
             "license": "CC BY-SA 2.0"
