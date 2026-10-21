@@ -213,7 +213,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                     <p class="stop-meta">
                       <span class="stop-cat"><Icon name={i.type} size={12} />{typeLabel[i.type]}</span>
                       {i.cost !== undefined && <span class="stop-cost" title="Por pessoa">{i.cost === 0 ? 'Grátis' : <>{local.format(i.cost)}{isHalf(i.costDetails) && <span class="half-tag">meia</span>}{foreign && <span class="conv">{conv(i.cost)}</span>}</>}<span class="sr"> por pessoa</span></span>}
-                      {i.promo && <span class={`promo-tag${i.promo.program ? '' : ' is-booking'}`} title={i.promo.program ? `${i.promo.program}: ${i.promo.benefit ?? ''}` : 'Precisa de reserva'}><Icon name={i.promo.program ? 'tag' : 'calendar'} size={12} />{i.promo.program ?? 'Reservar'}</span>}
+                      {i.promo && <span class={`promo-tag${i.promo.program ? '' : ' is-booking'}`} title={i.promo.program ? `${i.promo.program}: ${i.promo.benefit ?? ''}` : 'Precisa de reserva'}><Icon name={i.promo.program ? 'tag' : 'calendar'} size={12} />{i.promo.program ?? (i.promo.cta?.startsWith('Comprar') ? 'Comprar' : 'Reservar')}</span>}
                       {i.alternatives?.length ? (
                         <button type="button" class="alt-toggle" aria-expanded="false" aria-controls={`alt-${n}-${k}`}>
                           <Icon name="swap" size={13} />{i.alternatives.length}<span class="sr"> {i.alternatives.length > 1 ? 'alternativas' : 'alternativa'} para {i.name}</span>
@@ -296,13 +296,13 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
                 {i.note && <p class="detail-note">{i.note}</p>}
                 {i.promo && (
                   <section class="detail-promo" aria-label={i.promo.program ? 'Promoção' : 'Reserva'}>
-                    <h3><Icon name={i.promo.program ? 'tag' : 'calendar'} size={14} />{i.promo.program ? `Promoção · ${i.promo.program}` : 'Precisa de reserva'}</h3>
+                    <h3><Icon name={i.promo.program ? 'tag' : 'calendar'} size={14} />{i.promo.program ? `Promoção · ${i.promo.program}` : (i.promo.title ?? 'Precisa de reserva')}</h3>
                     {i.promo.benefit && <p class="promo-benefit">{i.promo.benefit}</p>}
                     <dl>
                       {i.promo.booking && i.promo.deadline && <div><dt>Prazo</dt><dd>{i.promo.deadline}</dd></div>}
                       <div><dt>Como garantir</dt><dd>{i.promo.how}</dd></div>
                     </dl>
-                    {i.promo.url && <a class="promo-link" href={i.promo.url} target="_blank" rel="noopener"><Icon name="external" size={14} />{i.promo.program ? `Abrir no ${i.promo.program}` : 'Abrir reserva'}</a>}
+                    {i.promo.url && <a class="promo-link" href={i.promo.url} target="_blank" rel="noopener"><Icon name="external" size={14} />{i.promo.cta ?? (i.promo.program ? `Abrir no ${i.promo.program}` : 'Abrir reserva')}</a>}
                   </section>
                 )}
                 {[{ c: i.costDetails, title: 'Custos' }, { c: i.leg?.costDetails, title: 'Custo do deslocamento até aqui' }].filter((x) => x.c).map(({ c, title }) => (
