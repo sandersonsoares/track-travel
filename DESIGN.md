@@ -290,6 +290,13 @@ A row on the rail, not a card: start time with the end time below it across a ha
 ### Next Card
 During the trip only, under the title: a surface card (12px radius, hairline) with the "Agora"/"Próximo" tag, "HH:MM · Nome" (title) and the leg that gets you there (meta, ink-3). Tapping scrolls to and focuses that stop. A matching orange-outline pill ("Próximo 14:15") sits at the end of the sticky day strip, so the jump is reachable from anywhere. Both recompute every minute and when the tab returns; `?agora=AAAA-MM-DDTHH:MM` pins the clock for previewing a day.
 
+### Weather Strip
+Under each day head: one horizontally scrolling row of hours, from the day's first start to its last end, between two hairlines (no card). Each 52px column: hour (label, ink-3), weather icon (20px, ink-2), temperature (body strong, ink), rain chance with a droplet only from 20% (label, ink-2), and mini pins (18px, category stroke, overlapped, "+N" past three) for the stops that start in that hour. Below it one meta line in ink-3: day range, peak rain chance, "Open-Meteo, atualizada às HH:MM".
+- **Data:** Open-Meteo (keyless) fetched in the browser only when the day opens, around the centre of its stops; kept 30 min in memory, so the minute refresh never re-asks.
+- **Sky colours (`--wx-*`, this strip only):** the icon tints by condition: sun gold (`#a86f00`, dark `#f0c24f`), moon lavender (`#5f6893` / `#aab2dc`), drizzle and rain blue (`#0f64ad` / `#82bff3`), storm indigo (`#4a4fc0` / `#a7acf6`); cloud and fog stay ink-2. The rain chance is blue text (600) and a square-edged fill rising from each column's floor to its percentage (`#e2eefa` / `#17293a`), so neighbouring hours form one stepped waterline. Hours without sun share a night band (`#eef0f6` / `#0d0f13`). Orange stays reserved for "Agora"; past hours drop icon, figure and rain to ink-3.
+- **Now (during the day):** the hour reads "Agora" in orange on the hover fill and scrolls into view; past hours step down to ink-3.
+- **Loading / out of range / offline:** same height, centred meta line ("Carregando previsão…", "Previsão do tempo disponível a partir de …" beyond 16 days, "Previsão indisponível agora." with a "Tentar de novo" pill).
+
 ### Travel Leg
 A compact meta row between stops: mode icon in the rail on a ground knock-out, bold duration in ink-2, mode ("a pé", "de metrô"), optional label, then optional cost, all one sentence in the body column ("30 min de elétrico · Elétrico 15E · € 3,10 ≈ R$ 19"), so it wraps as text instead of splitting into a right column.
 

@@ -51,6 +51,14 @@ const isHalf = (c?: CostDetails) => !!c?.halfApplies;
 const dayCost = (d: Day) => d.items.reduce((s, i) => s + (i.cost ?? 0) + (i.leg?.cost ?? 0), 0);
 const dayTravel = (d: Day) => d.items.reduce((s, i) => s + (i.leg?.minutes ?? 0), 0);
 const total = trip.days.reduce((s, d) => s + dayCost(d), 0);
+// The weather strip covers the day's hours, from the first start to the last end, around the stops' centre.
+const dayCentre = (d: Day) => ['lat', 'lng'].map((k) => (d.items.reduce((s, i) => s + i[k as 'lat' | 'lng'], 0) / d.items.length).toFixed(3));
+const hour = (t: string) => Number(t.slice(0, 2));
+const dayHours = (d: Day) => {
+  const from = Math.min(...d.items.map((i) => hour(i.time)));
+  const ends = d.items.map((i) => (i.end && i.end > i.time ? i.end : i.time)).map((t) => hour(t) + (t.endsWith(':00') ? 0 : 1));
+  return [from, Math.min(23, Math.max(from, ...ends))];
+};
 const first = trip.days[0].date;
 const last = trip.days[trip.days.length - 1].date;
 
@@ -177,6 +185,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
               </h2>
               <p class="day-meta"><span class="money">{local.format(dayCost(d))}{foreign && <span class="conv">{conv(dayCost(d))}</span>}</span> por pessoa · {minutes(dayTravel(d))} em trânsito</p>
             </header>
+            <div class="wx" data-day={n} data-date={d.date} data-lat={dayCentre(d)[0]} data-lng={dayCentre(d)[1]} data-from={dayHours(d)[0]} data-to={dayHours(d)[1]} aria-live="polite"></div>
 
             <ol class="timeline">
               {d.items.map((i, k) => (
@@ -355,6 +364,7 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
     <button type="button" class="map-open"><Icon name="map" size={18} /> <span class="on-phone">Ver no mapa</span><span class="on-desk">Mostrar mapa</span></button>
 
     <script type="application/json" id="trip-map" set:html={JSON.stringify(mapData)} />
+    <template id="wx-icons">{['sun', 'moon', 'cloud-sun', 'cloud-moon', 'cloud', 'fog', 'drizzle', 'rain', 'storm', 'droplet'].map((k) => <span data-i={k}><Icon name={k} size={20} /></span>)}</template>
     <script>
       import L from 'leaflet';
       import 'leaflet/dist/leaflet.css';
@@ -461,7 +471,87 @@ const dirUrl = (a: Item, b: Item, mode: string) => `https://www.google.com/maps/
         document.querySelectorAll<HTMLElement>('.day').forEach((s) => s.classList.toggle('is-current', Number(s.dataset.day) === n));
         history.replaceState(null, '', `#dia-${n + 1}`);
         if (fit) fitDay();
+        loadWeather(n);
       }
+
+      // Hourly weather from the keyless Open-Meteo API, fetched only when a day opens.
+      // Kept 30 min in memory, so the minute refresh redraws the "now" hour without asking again.
+      type Hour = { h: number; temp: number; rain: number; code: number; day: boolean };
+      const wxCache = new Map<number, { at: number; hours: Hour[] }>();
+      const wxPending = new Set<number>();
+      const icon = (k: string) => document.querySelector<HTMLTemplateElement>('#wx-icons')!.content.querySelector(`[data-i="${k}"]`)!.innerHTML;
+      // WMO weather codes → icon and label.
+      function sky(code: number, day: boolean): [string, string] {
+        if (code <= 1) return day ? ['sun', 'céu limpo'] : ['moon', 'céu limpo'];
+        if (code === 2) return [day ? 'cloud-sun' : 'cloud-moon', 'parcialmente nublado'];
+        if (code === 3) return ['cloud', 'nublado'];
+        if (code <= 48) return ['fog', 'neblina'];
+        if (code <= 57) return ['drizzle', 'garoa'];
+        if (code <= 67 || (code >= 80 && code <= 82)) return ['rain', code === 65 || code === 82 ? 'chuva forte' : 'chuva'];
+        if (code <= 86) return ['cloud', 'neve'];
+        return ['storm', 'trovoadas'];
+      }
+      const dayLabel = (iso: string) => new Date(iso + 'T12:00:00').toLocaleDateString('pt-BR', { day: 'numeric', month: 'long' });
+      const wxMsg = (box: HTMLElement, text: string, retry = false) => {
+        box.dataset.key = '';
+        box.innerHTML = `<p class="wx-msg">${text}${retry ? '<button type="button" class="wx-retry">Tentar de novo</button>' : ''}</p>`;
+      };
+
+      async function loadWeather(n: number) {
+        const box = document.querySelector<HTMLElement>(`.wx[data-day="${n}"]`);
+        if (!box || wxPending.has(n)) return;
+        const { date, lat, lng } = box.dataset as Record<string, string>;
+        // The forecast reaches 16 days out, today included.
+        const ahead = (Date.parse(date) - Date.parse(today)) / 864e5;
+        if (ahead > 15) return wxMsg(box, `Previsão do tempo disponível a partir de ${dayLabel(new Date(Date.parse(date) - 15 * 864e5).toISOString().slice(0, 10))}`);
+        const cached = wxCache.get(n);
+        if (cached && Date.now() - cached.at < 30 * 60_000) return renderWeather(box, n, cached);
+        if (!cached) wxMsg(box, 'Carregando previsão…');
+        wxPending.add(n);
+        try {
+          const q = `latitude=${lat}&longitude=${lng}&hourly=temperature_2m,precipitation_probability,weather_code,is_day&timezone=auto&start_date=${date}&end_date=${date}`;
+          const r = await fetch(`https://api.open-meteo.com/v1/forecast?${q}`, { signal: AbortSignal.timeout(10_000) });
+          if (!r.ok) throw new Error(String(r.status));
+          const h = (await r.json()).hourly;
+          const hours = (h.time as string[]).map((t, i) => ({ h: Number(t.slice(11, 13)), temp: Math.round(h.temperature_2m[i]), rain: h.precipitation_probability[i] ?? 0, code: h.weather_code[i], day: !!h.is_day[i] }));
+          const entry = { at: Date.now(), hours };
+          wxCache.set(n, entry);
+          if (current === n) renderWeather(box, n, entry);
+        } catch {
+          // A failed refresh keeps the last forecast on screen; only a first load shows the error.
+          if (!cached) wxMsg(box, 'Previsão indisponível agora.', true);
+        } finally { wxPending.delete(n); }
+      }
+
+      function renderWeather(box: HTMLElement, n: number, { at, hours }: { at: number; hours: Hour[] }) {
+        const from = Number(box.dataset.from), to = Number(box.dataset.to);
+        const clock = pinned ? new Date(pinned) : new Date();
+        const nowH = box.dataset.date === today ? clock.getHours() : box.dataset.date! < today ? 24 : -1;
+        // Same data and same hour: leave the strip alone, so its scroll position survives the minute refresh.
+        const key = `${at}:${nowH}`;
+        if (box.dataset.key === key) return;
+        box.dataset.key = key;
+        const span = hours.filter((x) => x.h >= from && x.h <= to);
+        const temps = span.map((x) => x.temp), maxRain = Math.max(...span.map((x) => x.rain));
+        const cols = span.map((x) => {
+          const [ic, label] = sky(x.code, x.day);
+          const state = x.h === nowH ? ' is-now' : x.h < nowH ? ' is-past' : '';
+          const pins = days[n].stops.map((s, k) => [s, k] as const).filter(([s]) => Number(s.time.slice(0, 2)) === x.h);
+          const rain = x.rain >= 20 ? `${icon('droplet')}${x.rain}%` : '';
+          const said = `${x.h === nowH ? 'Agora, ' : ''}${x.h}h: ${x.temp} °C, ${label}${x.rain >= 20 ? `, ${x.rain}% de chuva` : ''}${pins.length ? `. ${pins.map(([s]) => s.name).join(', ')}` : ''}`;
+          return `<li class="wx-h${state}${x.day ? '' : ' is-night'}" data-sky="${ic}" style="--rain:${x.rain}"><span class="sr">${said}</span><span class="wx-t" aria-hidden="true">${x.h === nowH ? 'Agora' : `${x.h}h`}</span>${icon(ic)}<span class="wx-deg" aria-hidden="true">${x.temp}°</span><span class="wx-rain" aria-hidden="true">${rain}</span><span class="wx-stops" aria-hidden="true">${(pins.length > 3 ? pins.slice(0, 2) : pins).map(([s, k]) => `<span class="wx-pin" data-type="${s.type}" title="${s.time} · ${s.name.replace(/"/g, '&quot;')}">${k + 1}</span>`).join('')}${pins.length > 3 ? `<span class="wx-pin wx-more">+${pins.length - 2}</span>` : ''}</span></li>`;
+        });
+        const updated = new Date(at).toTimeString().slice(0, 5);
+        box.innerHTML = `<ol class="wx-hours" tabindex="0" aria-label="Previsão por hora">${cols.join('')}</ol>`
+          + `<p class="wx-foot">${Math.min(...temps)}–${Math.max(...temps)} °C · chuva até ${maxRain}% · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>, atualizada às ${updated}</p>`;
+        // Open on the current hour during the day, else on the first stop.
+        const strip = box.querySelector<HTMLElement>('.wx-hours')!;
+        const now = strip.querySelector<HTMLElement>('.is-now');
+        strip.scrollLeft = now ? now.offsetLeft - strip.offsetLeft - 52 : 0;
+      }
+      document.querySelectorAll<HTMLElement>('.wx').forEach((box) => box.addEventListener('click', (e) => {
+        if ((e.target as HTMLElement).closest('.wx-retry')) loadWeather(Number(box.dataset.day));
+      }));
 
       function fitDay() {
         const pts = days[current].stops.map((s) => L.latLng(s.lat, s.lng));

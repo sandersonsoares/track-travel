@@ -22,6 +22,13 @@
   --notice-bg: #fff7e0;
   --notice-ink: #6b4d00;
   --map-bg: #e8ebe6;
+  /* Sky: weather strip only. Rain blue reads as data (text 5:1); the rest tint icons and the night band. */
+  --wx-sun: #a86f00;
+  --wx-moon: #5f6893;
+  --wx-rain: #0f64ad;
+  --wx-rain-fill: #e2eefa;
+  --wx-storm: #4a4fc0;
+  --wx-night: #eef0f6;
   --shadow-float: 0 6px 20px rgb(0 0 0 / .22), 0 2px 4px rgb(0 0 0 / .12);
   --shadow-control: 0 4px 14px rgb(0 0 0 / .18);
   --shadow-pin: 0 2px 6px rgb(0 0 0 / .25);
@@ -57,6 +64,12 @@
     --notice-bg: #2e2610;
     --notice-ink: #f0d58a;
     --map-bg: #1b1e21;
+    --wx-sun: #f0c24f;
+    --wx-moon: #aab2dc;
+    --wx-rain: #82bff3;
+    --wx-rain-fill: #17293a;
+    --wx-storm: #a7acf6;
+    --wx-night: #0d0f13;
     --tiles: invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.6);
     --shadow-float: none;
     --shadow-control: none;
@@ -205,6 +218,67 @@ h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.05; letter-spacing: -0
 .day-date { display: block; font-size: 0.875rem; font-weight: 500; color: var(--accent); letter-spacing: 0; margin-bottom: 4px; }
 .day-date::first-letter { text-transform: uppercase; }
 .day-meta { margin-top: 4px; font-size: 0.8125rem; color: var(--ink-3); }
+
+/* Weather: the day's hours in one scrolling row between hairlines, loaded when the day opens. */
+.wx { margin: -4px 0 20px; }
+html:not(.js) .wx { display: none; }
+.wx-hours, .wx-msg { min-height: 149px; border-block: 1px solid var(--rule); }
+.wx-hours {
+  list-style: none; margin: 0; padding: 6px 0; display: flex; overflow-x: auto;
+  scroll-snap-type: x proximity; scrollbar-width: none; overscroll-behavior-x: contain;
+  mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+}
+.wx-hours::-webkit-scrollbar { display: none; }
+.wx-hours:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--radius); }
+.wx-h {
+  flex: none; width: 52px; scroll-snap-align: start; position: relative;
+  display: grid; grid-template-rows: auto 20px auto 16px 18px; justify-items: center; align-items: center; row-gap: 6px;
+  padding: 8px 0; border-radius: var(--radius);
+}
+.wx-h:last-child { margin-right: 28px; }
+.wx-t { font-size: 0.75rem; font-weight: 600; color: var(--ink-3); }
+.wx-h > svg { width: 20px; height: 20px; color: var(--ink-2); }
+.wx-deg { font-size: 0.9375rem; font-weight: 600; color: var(--ink); }
+.wx-rain { display: flex; align-items: center; gap: 1px; font-size: 0.75rem; font-weight: 600; color: var(--wx-rain); }
+/* Colour carries the forecast: the icon tints by sky, rain fills the column like a water level
+   (height = chance of rain), and hours without sun share a night band. */
+.wx-h { isolation: isolate; overflow: hidden; }
+/* Square edges, so neighbouring hours join into one stepped waterline. */
+.wx-h::before {
+  content: ''; position: absolute; inset: auto 0 0; z-index: -1;
+  height: calc(var(--rain, 0) * 1%); background: var(--wx-rain-fill);
+}
+.wx-h.is-night { background: var(--wx-night); border-radius: 0; }
+.wx-h[data-sky="sun"] > svg { color: var(--wx-sun); }
+.wx-h[data-sky="cloud-sun"] > svg { color: var(--wx-sun); }
+.wx-h[data-sky="moon"] > svg, .wx-h[data-sky="cloud-moon"] > svg { color: var(--wx-moon); }
+.wx-h[data-sky="drizzle"] > svg, .wx-h[data-sky="rain"] > svg { color: var(--wx-rain); }
+.wx-h[data-sky="storm"] > svg { color: var(--wx-storm); }
+.wx-rain svg { width: 10px; height: 10px; }
+/* Stops starting in the hour, overlapped like the rail's pins in miniature; three fit a column. */
+.wx-stops { display: flex; }
+.wx-pin + .wx-pin { margin-left: -6px; }
+.wx-more { border-color: var(--rule-strong); color: var(--ink-2); font-size: 0.625rem; }
+.wx-pin {
+  display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%;
+  background: var(--surface); border: 1.5px solid var(--c); color: var(--ink);
+  font-size: 0.6875rem; font-weight: 700; line-height: 1;
+}
+/* The current hour is where the group is in the day: orange label on the row's hover fill. */
+.wx-h.is-now { background: var(--hover); }
+.wx-h.is-now .wx-t { color: var(--accent); }
+.wx-h.is-past .wx-deg, .wx-h.is-past > svg, .wx-h.is-past .wx-rain { color: var(--ink-3); }
+.wx-h.is-past .wx-pin { border-color: var(--rule-strong); color: var(--ink-3); }
+.wx-foot { margin-top: 8px; font-size: 0.8125rem; color: var(--ink-3); }
+.wx-foot a { color: inherit; text-underline-offset: 2px; }
+.wx-foot a:hover { color: var(--accent); }
+.wx-msg { margin: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 12px; padding: 0 16px; text-align: center; font-size: 0.8125rem; color: var(--ink-3); }
+.wx-retry {
+  min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--rule-strong);
+  background: var(--surface); color: var(--ink); font: inherit; font-weight: 600; cursor: pointer;
+  transition: border-color 150ms var(--ease);
+}
+.wx-retry:hover { border-color: var(--ink-3); }
 
 /* Timeline: time | rail | name | cost */
 .timeline { list-style: none; margin: 0; padding: 0; }
