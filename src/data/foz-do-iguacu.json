@@ -57,7 +57,7 @@
           "end": "20:30",
           "type": "transport",
           "name": "Aeroporto: malas e retirada da SUV",
-          "note": "Desembarque, 3 malas despachadas e retirada da SUV compacta (Movida via Smiles, ~R$ 534, a contratar). Só Sanderson dirige.",
+          "note": "Desembarque, 3 malas despachadas e retirada da SUV compacta (Movida via Smiles, ~R$ 534, contratada). Só Sanderson dirige.",
           "lat": -25.5978,
           "lng": -54.4885,
           "image": {
@@ -87,10 +87,10 @@
             "payPerPerson": 178.08,
             "people": 3,
             "totalGroup": 534.24,
-            "status": "cotação",
+            "status": "reservado",
             "checkedAt": "2026-10-17",
             "groupTotal": 534.24,
-            "note": "SUV automática Movida via Smiles para todo o período (03 a 10/11), ainda não contratada. Combustível à parte."
+            "note": "SUV automática Movida via Smiles para todo o período (03 a 10/11), contratada. Combustível à parte."
           }
         },
         {
@@ -1539,8 +1539,8 @@
             "author": "hoteltarobafoz.com.br"
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar online a tarifa estudante (R$ 39,90) para os 3; levar DNE + RG.",
+            "title": "Reservado",
+            "how": "Reservado (ingresso estudante). Levar DNE + RG.",
             "url": "https://foz.yupstar.com.br/",
             "cta": "Comprar ingresso",
             "booking": true
@@ -1595,8 +1595,8 @@
             "license": "CC BY-SA 4.0"
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar online a meia (R$ 35,25) para os 3; testar cupom de 15% de sites parceiros sobre a meia (pode cair para ~R$ 30). Levar carteirinha.",
+            "title": "Reservado",
+            "how": "Reservado para os 3 (meia). Levar carteirinha.",
             "url": "https://marcodastresfronteiras.com.br/",
             "cta": "Comprar ingresso",
             "booking": true
@@ -1942,10 +1942,10 @@
           }
         },
         {
-          "time": "08:15",
+          "time": "07:30",
           "type": "lodging",
           "name": "Agência busca o Sanderson no Airbnb",
-          "note": "Deixar o carro na garagem. Levar documento com foto (RG ou passaporte) para a fronteira. Busca na quinta, mediante vagas; horário a confirmar com a agência.",
+          "note": "Deixar o carro na garagem. Levar documento com foto (RG ou passaporte) para a fronteira. Busca na quinta, mediante vagas. Passeio das 7h30 às 14h; horário exato da busca a confirmar com a agência.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -1965,11 +1965,11 @@
           }
         },
         {
-          "time": "08:30",
-          "end": "15:30",
+          "time": "07:30",
+          "end": "14:00",
           "type": "activity",
           "name": "City Tour Paraguai (Sanderson)",
-          "note": "Versão só city tour, sem parada de compras (confirmado pela agência). Roteiro: Catedral San Blás (~30 min); passeio panorâmico pela Mesquita del Este, Estádio Tres de Febrero, Memorial Chiang Kai-shek e antigo aeroporto; Museo El Mensú (~40 min); volta panorâmica pelo Lago de la República; Chipería Mi Abuela (~30 min, lanche, não inclui refeição); Saltos del Monday (~1 h, três mirantes; elevador opcional, pago na hora). Busca e entrega no Airbnb às segundas e quintas, mediante vagas. Horário de saída e volta a confirmar com a agência.",
+          "note": "Versão só city tour, sem parada de compras (confirmado pela agência). Roteiro: Catedral San Blás (~30 min); passeio panorâmico pela Mesquita del Este, Estádio Tres de Febrero, Memorial Chiang Kai-shek e antigo aeroporto; Museo El Mensú (~40 min); volta panorâmica pelo Lago de la República; Chipería Mi Abuela (~30 min, lanche, não inclui refeição); Saltos del Monday (~1 h, três mirantes; elevador opcional, pago na hora). Busca e entrega no Airbnb às segundas e quintas, mediante vagas. Passeio das 7h30 às 14h, informado pela agência.",
           "lat": -25.55928,
           "lng": -54.6315432,
           "leg": {
@@ -1993,7 +1993,7 @@
             "payPerPerson": 150,
             "people": 1,
             "totalGroup": 150,
-            "status": "cotação pendente para 05/11",
+            "status": "reservado",
             "checkedAt": "2026-10-26",
             "note": "Cotação de 25/10 (para 26/10): R$ 80 de transporte + R$ 70 do voucher Saltos = R$ 150 com entrada. Pix com 5% de desconto (R$ 142,50), a confirmar para essa combinação. Pedir nova cotação para 05/11.",
             "source": "https://www.comboiguassu.com.br/produto/transporte-city-tour-paraguai/"
@@ -2004,19 +2004,19 @@
             "author": "Google Maps"
           },
           "promo": {
-            "title": "Fechar com agência",
-            "how": "Combo Iguassu: R$ 150 transporte + entrada (5% no Pix = R$ 142,50). Pedir cotação para quinta, 05/11, 1 adulto. Busca no Airbnb às segundas e quintas, mediante vagas. Vendas (45) 2102-7715.",
+            "title": "Reservado",
+            "how": "Reservado com a Combo Iguassu para 05/11. Busca no Airbnb às 7h30.",
             "url": "https://www.comboiguassu.com.br/produto/transporte-city-tour-paraguai/",
             "cta": "Ver na Combo Iguassu",
             "booking": true
           }
         },
         {
-          "time": "16:10",
-          "end": "18:50",
+          "time": "14:40",
+          "end": "14:55",
           "type": "lodging",
           "name": "Volta ao Airbnb",
-          "note": "A agência deixa no Airbnb. Descanso, banho e troca de roupa. Sair às 18h50 para buscar as meninas no congresso às 19h.",
+          "note": "A agência deixa no Airbnb por volta de 14h40 (com a aduana). Sair às 15h para as compras no JL.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -2034,6 +2034,52 @@
             "lookupKey": "Volta ao Airbnb@-25.519,-54.5745",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
+        },
+        {
+          "time": "15:00",
+          "end": "17:30",
+          "type": "shopping",
+          "name": "Cataratas JL Shopping · compras (Sanderson)",
+          "note": "Compras no shopping das 15h às 17h30. Fica no Polo Centro, perto do Airbnb (confirmar tempo no mapa). Lojas abrem às 10h (Google: 10h às 23h).",
+          "lat": -25.5329347,
+          "lng": -54.5752058,
+          "place": {
+            "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
+            "hours": "Lojas seg–sáb 10h–22h · dom/feriados 14h–20h · praça de alimentação diariamente 11h–23h",
+            "phone": "(45) 3026-5657",
+            "website": "https://www.cataratasjlshopping.com.br/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "googlePlaceId": "ChIJ9WnJFFCQ9pQRMGc54bK4PS0",
+            "rating": 4.5,
+            "lookupKey": "Cataratas JL Shopping · compras (Sanderson)@-25.5329347,-54.5752058",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 0,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-8f1a1afd4fa5.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "author": "Google Maps"
+          }
+        },
+        {
+          "type": "lodging",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "lookupKey": "Airbnb · banho (Sanderson)@-25.519,-54.5745",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "time": "17:45",
+          "end": "18:50",
+          "name": "Airbnb · banho (Sanderson)",
+          "note": "Banho e troca de roupa. Sair às 18h50 para buscar as meninas no congresso às 19h."
         },
         {
           "time": "19:00",
@@ -2230,11 +2276,11 @@
           }
         }
       ],
-      "note": "Quinta: city tour no Paraguai para Sanderson (só passeio, sem compras), com busca no Airbnb às 8h15. As lembranças, o AquaFoz e o Catuaí foram para sábado. Cotação para 05/11 pendente com a Combo Iguassu."
+      "note": "Quinta: city tour no Paraguai para Sanderson (só passeio, sem compras), com busca no Airbnb às 7h30 e passeio das 7h30 às 14h. As lembranças, o AquaFoz e o Catuaí foram para sábado; o JL foi para a tarde da quinta. Cotação para 05/11 pendente com a Combo Iguassu."
     },
     {
       "date": "2026-11-06",
-      "title": "Congresso + Itaipu Circuito Especial e JL (Sanderson) + Feirinha da JK à noite e jantar no Bona",
+      "title": "Congresso + Itaipu Circuito Especial (Sanderson) + Feirinha da JK à noite e jantar no Bona",
       "items": [
         {
           "time": "07:00",
@@ -2406,12 +2452,11 @@
             "note": "Tarifário desde 01/12/2025: inteira R$ 185, meia R$ 92,50. Levar a carteirinha de estudante e documento com foto. O site oficial não mostra a meia: confirmar em (45) 3198-1800 ou atendimento@turismoitaipu.com.br."
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar no site oficial a saída das 9h (vagas limitadas). Confirmar se há meia para estudante (economia ~R$ 90) e o calçado exigido.",
+            "title": "Reservado",
+            "how": "Reservado: Itaipu Panorâmica (o Circuito Especial esgotou).",
             "url": "https://www.turismoitaipu.com.br/pt",
             "cta": "Comprar ingresso",
-            "booking": true,
-            "deadline": "Comprar já (vagas limitadas)"
+            "booking": true
           }
         },
         {
@@ -2580,36 +2625,127 @@
           ]
         },
         {
-          "time": "14:40",
-          "end": "18:00",
+          "time": "15:00",
+          "end": "16:05",
           "type": "shopping",
-          "name": "Cataratas JL Shopping · compras (Sanderson)",
-          "note": "Compras no shopping até 18h. Lojas seg–sáb 10h–22h. Fica na mesma avenida do congresso. Depois, banho em casa (a 10–15 min) antes de buscar as meninas.",
-          "lat": -25.5329347,
-          "lng": -54.5752058,
-          "leg": {
-            "mode": "car",
-            "minutes": 10,
-            "label": "Falls Galli → JL · mesma avenida"
-          },
+          "name": "Feira Iguaçu e Bela Artesanato · lembranças",
+          "note": "Duas quadras de lojinhas no estilo feira: ímãs, canecas, camisetas, bandeiras e artesanato do Brasil, Paraguai e Argentina, com preços abaixo dos atrativos. A Bela Artesanato fica no nº 742, ao lado. Entrada livre; compras à parte. Sexta: 9h às 19h (Google). Sábado: 9h às 16h. Tel. +55 45 99108-8565.",
+          "lat": -25.5358073,
+          "lng": -54.5856072,
           "place": {
-            "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
-            "hours": "Lojas seg–sáb 10h–22h · dom/feriados 14h–20h · praça de alimentação diariamente 11h–23h",
-            "phone": "(45) 3026-5657",
-            "website": "https://www.cataratasjlshopping.com.br/",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
+            "hours": "Feira Iguaçu: seg–sex 9h–19h · sáb 9h–16h · dom fechado. Bela Artesanato: todos os dias 9h–19h",
+            "phone": "+55 45 99108-8565",
+            "rating": 4.3,
+            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
             "photos": [],
-            "googlePlaceId": "ChIJ9WnJFFCQ9pQRMGc54bK4PS0",
-            "rating": 4.5,
-            "lookupKey": "Cataratas JL Shopping · compras (Sanderson)@-25.5329347,-54.5752058",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u"
+            "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feira%20Igua%C3%A7u%20e%20Bela%20Artesanato%20Foz%20do%20Igua%C3%A7u"
           },
           "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras à parte."
+          },
           "image": {
-            "src": "/img/foz-do-iguacu/ext-8f1a1afd4fa5.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u",
+            "src": "/img/foz-do-iguacu/ext-c0983f774fa6.jpg",
+            "page": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
             "author": "Google Maps"
-          }
+          },
+          "alternatives": [
+            {
+              "name": "Plano B: começar pela Ailabiu",
+              "type": "shopping",
+              "note": "Se a Feira Iguaçu não estiver aberta às 9h, começar pela Ailabiu (10h10) e voltar à Feira depois, se der tempo.",
+              "place": {
+                "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
+                "hours": "Seg–sáb 9h–12h e 14h–18h30 (Instagram; sem domingo)",
+                "phone": "(45) 99135-6318 (WhatsApp)",
+                "instagram": "https://www.instagram.com/ailabiuiguassu/",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
+                "photos": [],
+                "osmPending": false,
+                "googlePlaceId": "ChIJa_uF3EeQ9pQRrm5L-qooiB8",
+                "rating": 4.4,
+                "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ailabiu%20Souvenirs%20Foz%20do%20Igua%C3%A7u"
+              },
+              "lat": -25.53475,
+              "lng": -54.585892
+            }
+          ]
+        },
+        {
+          "time": "16:15",
+          "end": "17:00",
+          "type": "shopping",
+          "name": "Ailabiu Souvenirs · lembranças",
+          "note": "Sexta: aberta das 8h às 18h (Google), sem pausa de almoço. Endereço: Av. Brasil, 74. Confirmar pelo WhatsApp (+55 45 99135-6318) na quinta.",
+          "lat": -25.53475,
+          "lng": -54.585892,
+          "leg": {
+            "mode": "walk",
+            "minutes": 4,
+            "label": "Feira Iguaçu → Av. Brasil, 74 · a pé, cerca de 300 m"
+          },
+          "place": {
+            "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
+            "hours": "Seg–dom 8h–18h (Google)",
+            "phone": "(45) 99135-6318 (WhatsApp)",
+            "instagram": "https://www.instagram.com/ailabiuiguassu/",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
+            "photos": [],
+            "osmPending": false,
+            "googlePlaceId": "ChIJa_uF3EeQ9pQRrm5L-qooiB8",
+            "rating": 4.4,
+            "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ailabiu%20Souvenirs%20Foz%20do%20Igua%C3%A7u"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": false,
+            "payPerPerson": 0,
+            "people": 1,
+            "totalGroup": 0,
+            "status": "informado",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
+          },
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-be856ee99306.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
+            "author": "Google Maps"
+          },
+          "alternatives": [
+            {
+              "name": "Plano B: mais tempo na Feira Iguaçu e Bela Artesanato",
+              "type": "shopping",
+              "note": "Se a Ailabiu estiver fechada ou não confirmar pelo WhatsApp, ficar mais tempo na Feira Iguaçu e na Bela Artesanato (nº 742, ao lado) e seguir para o AquaFoz.",
+              "place": {
+                "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
+                "hours": "Feira Iguaçu: seg–sex 9h–19h · sáb 9h–16h · dom fechado. Bela Artesanato: todos os dias 9h–19h",
+                "phone": "+55 45 99108-8565",
+                "rating": 4.3,
+                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
+                "photos": [],
+                "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feira%20Igua%C3%A7u%20e%20Bela%20Artesanato%20Foz%20do%20Igua%C3%A7u"
+              },
+              "lat": -25.5358073,
+              "lng": -54.5856072
+            }
+          ]
         },
         {
           "type": "lodging",
@@ -2915,7 +3051,7 @@
     },
     {
       "date": "2026-11-07",
-      "title": "Congresso + lembranças, AquaFoz e Catuaí (Sanderson) + festa do congresso",
+      "title": "Congresso + AquaFoz e Catuaí (Sanderson) + festa do congresso",
       "items": [
         {
           "time": "07:00",
@@ -3004,135 +3140,7 @@
         },
         {
           "time": "09:00",
-          "end": "10:05",
-          "type": "shopping",
-          "name": "Feira Iguaçu e Bela Artesanato · lembranças",
-          "note": "Duas quadras de lojinhas no estilo feira: ímãs, canecas, camisetas, bandeiras e artesanato do Brasil, Paraguai e Argentina, com preços abaixo dos atrativos. A Bela Artesanato fica no nº 742, ao lado. Entrada livre; compras à parte. Sábado: 9h às 16h (Google); fecha no domingo. Tel. +55 45 99108-8565.",
-          "lat": -25.5358073,
-          "lng": -54.5856072,
-          "leg": {
-            "mode": "car",
-            "minutes": 18,
-            "label": "Google Maps (sáb 8h): 8–18 min, 4,9 km + estacionar"
-          },
-          "place": {
-            "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
-            "hours": "Feira Iguaçu: seg–sex 9h–19h · sáb 9h–16h · dom fechado. Bela Artesanato: todos os dias 9h–19h",
-            "phone": "+55 45 99108-8565",
-            "rating": 4.3,
-            "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
-            "photos": [],
-            "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feira%20Igua%C3%A7u%20e%20Bela%20Artesanato%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada livre. Compras à parte."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-c0983f774fa6.jpg",
-            "page": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
-            "author": "Google Maps"
-          },
-          "alternatives": [
-            {
-              "name": "Plano B: começar pela Ailabiu",
-              "type": "shopping",
-              "note": "Se a Feira Iguaçu não estiver aberta às 9h, começar pela Ailabiu (10h10) e voltar à Feira depois, se der tempo.",
-              "place": {
-                "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
-                "hours": "Seg–sáb 9h–12h e 14h–18h30 (Instagram; sem domingo)",
-                "phone": "(45) 99135-6318 (WhatsApp)",
-                "instagram": "https://www.instagram.com/ailabiuiguassu/",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
-                "photos": [],
-                "osmPending": false,
-                "googlePlaceId": "ChIJa_uF3EeQ9pQRrm5L-qooiB8",
-                "rating": 4.4,
-                "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ailabiu%20Souvenirs%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.53475,
-              "lng": -54.585892
-            }
-          ]
-        },
-        {
-          "time": "10:10",
-          "end": "10:55",
-          "type": "shopping",
-          "name": "Ailabiu Souvenirs · lembranças",
-          "note": "Sábado: aberta das 8h às 18h (Google), sem pausa de almoço. Endereço: Av. Brasil, 74. Confirmar pelo WhatsApp (+55 45 99135-6318) na sexta.",
-          "lat": -25.53475,
-          "lng": -54.585892,
-          "leg": {
-            "mode": "walk",
-            "minutes": 4,
-            "label": "Feira Iguaçu → Av. Brasil, 74 · a pé, cerca de 300 m"
-          },
-          "place": {
-            "address": "Av. Brasil, 74 · Centro, Foz do Iguaçu - PR (ao lado do Hotel Águas do Iguaçu)",
-            "hours": "Seg–dom 8h–18h (Google)",
-            "phone": "(45) 99135-6318 (WhatsApp)",
-            "instagram": "https://www.instagram.com/ailabiuiguassu/",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
-            "photos": [],
-            "osmPending": false,
-            "googlePlaceId": "ChIJa_uF3EeQ9pQRrm5L-qooiB8",
-            "rating": 4.4,
-            "lookupKey": "Ailabiu Souvenirs · lembranças@-25.53475,-54.585892",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ailabiu%20Souvenirs%20Foz%20do%20Igua%C3%A7u"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": false,
-            "payPerPerson": 0,
-            "people": 1,
-            "totalGroup": 0,
-            "status": "informado",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada gratuita. Compras à parte, ainda não estimadas."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-be856ee99306.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Ailabiu%20Iguassu%20Av.%20Brasil%2074%20Foz%20do%20Igua%C3%A7u",
-            "author": "Google Maps"
-          },
-          "alternatives": [
-            {
-              "name": "Plano B: mais tempo na Feira Iguaçu e Bela Artesanato",
-              "type": "shopping",
-              "note": "Se a Ailabiu estiver fechada ou não confirmar pelo WhatsApp, ficar mais tempo na Feira Iguaçu e na Bela Artesanato (nº 742, ao lado) e seguir para o AquaFoz.",
-              "place": {
-                "address": "R. Eng. Rebouças, 770 · Centro, Foz do Iguaçu - PR",
-                "hours": "Feira Iguaçu: seg–sex 9h–19h · sáb 9h–16h · dom fechado. Bela Artesanato: todos os dias 9h–19h",
-                "phone": "+55 45 99108-8565",
-                "rating": 4.3,
-                "googleMapsUrl": "https://www.google.com/maps/place/?q=place_id:ChIJcaiwiUiQ9pQRbAYPzRrztNk",
-                "photos": [],
-                "lookupKey": "Feira Iguaçu e Bela Artesanato · lembranças@-25.5358073,-54.5856072",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Feira%20Igua%C3%A7u%20e%20Bela%20Artesanato%20Foz%20do%20Igua%C3%A7u"
-              },
-              "lat": -25.5358073,
-              "lng": -54.5856072
-            }
-          ]
-        },
-        {
-          "time": "11:25",
-          "end": "13:50",
+          "end": "12:30",
           "type": "place",
           "name": "AquaFoz",
           "note": "Sanderson é estudante: meia-entrada, com carteirinha válida na entrada (comprovante obrigatório). Aquário de Foz (site oficial). Inteira R$ 150; meia-entrada conforme legislação do Paraná (comprovante obrigatório). Site mostra promoções antecipadas de R$ 135 e R$ 120 (confirmar no momento da compra). Moradores de Foz: R$ 30, só na bilheteria. Crianças até 6 anos e 11 meses: grátis. Última entrada 17h.",
@@ -3142,11 +3150,6 @@
             "src": "/img/foz-do-iguacu/aquafoz.jpg",
             "page": "https://aquafoz.com.br",
             "author": "aquafoz.com.br"
-          },
-          "leg": {
-            "mode": "car",
-            "minutes": 40,
-            "label": "Google Maps (sáb 10h55): 20–40 min, 15,2 km"
           },
           "place": {
             "address": "Av. das Cataratas (BR-469), km 18 · Porto Meira, Foz do Iguaçu - PR (em frente ao Parque Nacional do Iguaçu)",
@@ -3177,17 +3180,16 @@
             "note": "Meia de estudante. R$ 67,50 com compra antecipada (até sexta, 06/11), a confirmar na tela de compra do site. Site oficial mostra R$ 135 de promoção para reserva com 1 dia de antecedência."
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar no site oficial até 04/11 (1 dia antes): a meia cai de R$ 75 para R$ 67,50. Levar comprovante de meia.",
+            "title": "Reservado",
+            "how": "Reservado para 07/11, 9h (meia estudante). Levar carteirinha e comprovante.",
             "url": "https://aquafoz.com.br/",
             "cta": "Comprar ingresso",
-            "booking": true,
-            "deadline": "Comprar até qua 04/11"
+            "booking": true
           }
         },
         {
-          "time": "14:15",
-          "end": "15:05",
+          "time": "13:00",
+          "end": "13:50",
           "type": "food",
           "name": "Almoço · Divino Fogão (Sanderson)",
           "note": "Dentro do Shopping Catuaí. Alternativas: Outback e Paris 6 (no Catuaí, a confirmar), e Griletto. Depois, compras no Catuaí até 17h45.",
@@ -3197,11 +3199,6 @@
             "src": "/img/foz-do-iguacu/divino-fogao.jpg",
             "page": "https://www.divinofogao.com.br",
             "author": "divinofogao.com.br"
-          },
-          "leg": {
-            "mode": "car",
-            "minutes": 18,
-            "label": "Google Maps (sáb 13h50): 12–18 min, 9,9 km"
           },
           "place": {
             "osmPending": true,
@@ -3304,7 +3301,7 @@
           ]
         },
         {
-          "time": "15:05",
+          "time": "14:00",
           "end": "17:45",
           "type": "shopping",
           "name": "Shopping Catuaí Palladium (Sanderson)",
@@ -3479,7 +3476,7 @@
             "totalGroup": 0,
             "status": "a confirmar",
             "checkedAt": "2026-10-17",
-            "note": "Incluída no ingresso do congresso para Hortência e Gracinha; entrada de Sanderson a confirmar."
+            "note": "Incluída no ingresso do congresso para Hortência e Gracinha. Sanderson não vai à festa."
           }
         },
         {
@@ -3534,7 +3531,7 @@
           }
         }
       ],
-      "note": "Sábado: café dos três no Airbnb e congresso para Hortência e Gracinha. Para Sanderson, manhã de lembranças (Feira Iguaçu e Ailabiu), AquaFoz com meia de estudante, almoço e compras no Catuaí. À noite, as meninas vão à festa do congresso e Sanderson janta no Cinco Gastronomia (50% Primeira) (é o único motorista: sem álcool). Tempos de deslocamento são referências com margem; recalcular pelos links de rotas no dia."
+      "note": "Sábado: café dos três no Airbnb e congresso para Hortência e Gracinha. Para Sanderson, AquaFoz logo cedo com meia de estudante, almoço e compras no Catuaí. As lembranças ficaram para sexta à tarde. À noite, as meninas vão à festa do congresso e Sanderson janta no Cinco Gastronomia (50% Primeira) (é o único motorista: sem álcool). Tempos de deslocamento são referências com margem; recalcular pelos links de rotas no dia."
     },
     {
       "date": "2026-11-08",
@@ -3717,8 +3714,8 @@
             "note": "R$ 118 + R$ 3 do Fundo Iguaçu (opcional), comprar horário 08:30 no site oficial. Parque federal: NÃO tem meia para estudante. Inclui o ônibus interno."
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar online no site oficial (sem meia para estudante). Não compensa o combo com AquaFoz.",
+            "title": "Reservado",
+            "how": "Reservado (entrada 08:30). Conferir a vazão antes da visita.",
             "url": "https://tickets.cataratasdoiguacu.com.br/",
             "cta": "Comprar ingresso",
             "booking": true
@@ -3916,35 +3913,11 @@
           }
         },
         {
-          "time": "16:25",
-          "end": "18:45",
-          "type": "lodging",
-          "name": "Airbnb · banho e descanso",
-          "note": "Voltar direto do Parque das Aves, tomar banho com calma, trocar de roupa e descansar antes do Wonder Park. Sair às 18h45.",
-          "lat": -25.519,
-          "lng": -54.5745,
-          "leg": {
-            "mode": "car",
-            "minutes": 40,
-            "label": "Google Maps (dom 15h45): 20–40 min, 16 km"
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          }
-        },
-        {
-          "time": "19:25",
+          "time": "16:00",
           "end": "22:00",
           "type": "activity",
           "name": "Wonder Park · passaporte 5 atrações (grupo)",
-          "note": "19h30 Lumina Park (percurso iluminado de 700 m, plano) · 20h Wonder Games (reservar a sessão das 20h na compra) · 20h30 Show das Águas (sessão única) · 20h55 jantar no Bonnie's Burger · 21h35 Movie Cars e Big Land, em ritmo rápido. O parque fecha às 22h. Estacionamento gratuito. Ingresso com QR code por e-mail, válido por 180 dias.",
+          "note": "Cronograma (direto do Parque das Aves, sem voltar ao Airbnb; trocar a roupa molhada do Macuco no banheiro): 15h45 saída do Parque das Aves · 16h00 entrada (QR code no e-mail) · 16h00–17h15 Movie Cars (1h15; relatos dizem 1h a 1h30) · 17h15–17h55 Big Land (40 min) · 18h00 jantar no Bonnie's (ver item) · 19h00 Wonder Games, sessão reservada (escolher na compra) (duração a confirmar) · 20h15 chegar ao lago · 20h30 Show das Águas, sessão única (20 a 25 min) · 21h00 Lumina Park (≈50 min; abre às 19h30) · 21h50 saída, antes do fechamento às 22h. Estacionamento gratuito. Ingresso com QR code por e-mail, válido por 180 dias.",
           "lat": -25.6091,
           "lng": -54.489,
           "image": {
@@ -3954,8 +3927,8 @@
           },
           "leg": {
             "mode": "car",
-            "minutes": 40,
-            "label": "Google Maps (dom 18h45): 20–40 min, 16,5 km"
+            "minutes": 5,
+            "label": "Parque das Aves → Wonder Park (~0,8 km; estimativa de carro, sem trânsito)"
           },
           "place": {
             "osmPending": true,
@@ -3987,19 +3960,19 @@
             "note": "Passaporte 5 atrações: inteira R$ 199, reduzida R$ 170 (estudante, professor, 60+, com comprovante)."
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar o passaporte 5 atrações reduzido (R$ 170) e reservar a sessão das 20h do Wonder Games. Antes, ver se algum cupom (Laçador de Ofertas) vale para o passaporte. Em 21/10 restavam só 6 vagas na sessão das 20h de 08/11: comprar logo.",
+            "title": "Reservado",
+            "how": "Reservado. Confirmar a sessão do Wonder Games escolhida (plano: 19h).",
             "url": "https://ingresso.wonderparkfoz.com.br/produto/vitrine/passaporte",
             "cta": "Comprar ingresso",
             "booking": true
           }
         },
         {
-          "time": "20:55",
-          "end": "21:35",
+          "time": "18:00",
+          "end": "18:45",
           "type": "food",
           "name": "Jantar · Bonnie's Burger (Wonder Park)",
-          "note": "Hamburgueria temática anos 50 dentro do Wonder Park (nota 4,2). Fecha às 22h, então o jantar fica logo depois do Show das Águas: pedir tudo de uma vez. Milkshakes elogiados; perguntar opção sem lactose para a Hortência. Preços de parque.",
+          "note": "Hamburgueria temática anos 50 dentro do Wonder Park (nota 4,2). Jantar antes do Wonder Games (18h00). Fecha às 22h. Milkshakes elogiados; perguntar opção sem lactose para a Hortência. Preços de parque.",
           "lat": -25.6090489,
           "lng": -54.4878208,
           "leg": {
@@ -4043,8 +4016,8 @@
             "author": "wonderparkfoz.com.br"
           },
           "promo": {
-            "title": "Comprar antes",
-            "how": "Comprar o passaporte 5 atrações reduzido (R$ 170) e reservar a sessão das 20h do Wonder Games. Antes, ver se algum cupom (Laçador de Ofertas) vale para o passaporte.",
+            "title": "Reservado",
+            "how": "Incluído na reserva do Wonder Park. Sem reserva para o jantar.",
             "url": "https://ingresso.wonderparkfoz.com.br/produto/vitrine/passaporte",
             "cta": "Comprar ingresso",
             "booking": true
@@ -4369,15 +4342,15 @@
             "payPerPerson": 133.33,
             "people": 3,
             "totalGroup": 400,
-            "status": "cotado",
+            "status": "reservado",
             "checkedAt": "2026-10-20",
             "note": "Cotação por WhatsApp em 20/10: R$ 400 o passeio privativo para os 3, no Pix. Ingressos e refeições à parte."
           },
           "promo": {
-            "how": "Pagar 20% de sinal (R$ 80) por Pix para garantir a reserva; restante no dia.",
-            "deadline": "Reservar antes de seg 09/11",
+            "how": "Reservado. Sinal de R$ 80 por Pix; restante no dia.",
             "url": "https://wa.me/5545988250727",
-            "booking": true
+            "booking": true,
+            "title": "Reservado"
           }
         },
         {
