@@ -307,7 +307,7 @@
     },
     {
       "date": "2026-11-04",
-      "title": "Paraguai: roteiro de compras + Yup Star e Marco",
+      "title": "Paraguai: iPhones logo cedo, capinhas e compras + Yup Star e Marco",
       "items": [
         {
           "time": "04:45",
@@ -317,6 +317,11 @@
           "note": "Café rápido no apartamento para cruzar cedo: a meta é estar no Paraguai às 6h. Almoço só sai por volta das 13h. Compras feitas no dia 3, na chegada.",
           "lat": -25.519,
           "lng": -54.5745,
+          "image": {
+            "src": "/img/foz-do-iguacu/cafe-da-manha.jpg",
+            "page": "/img/foz-do-iguacu/cafe-da-manha.jpg",
+            "author": "Arquivo do roteiro"
+          },
           "place": {
             "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
             "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
@@ -340,11 +345,6 @@
               30
             ],
             "note": "Café no apartamento com as compras do supermercado no dia 3. Estimativa por pessoa."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/cafe-da-manha.jpg",
-            "page": "/img/foz-do-iguacu/cafe-da-manha.jpg",
-            "author": "Arquivo do roteiro"
           },
           "alternatives": [
             {
@@ -402,13 +402,18 @@
           }
         },
         {
-          "time": "05:15",
-          "end": "05:25",
+          "time": "05:20",
+          "end": "05:28",
           "type": "place",
           "name": "Estacionar · Pousada e Estacionamento 277",
           "note": "Sair daqui às 5h30 de mototáxi para chegar ao Paraguai às 6h. Aberto até 1h30: dá para voltar à noite sem pressa (os vizinhos fecham 16h–17h). Diária a combinar na entrada. Não deixar compras à vista no carro.",
           "lat": -25.5076,
           "lng": -54.5932,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "car",
             "minutes": 10,
@@ -424,6 +429,20 @@
             "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
             "lookupKey": "Estacionar · Pousada e Estacionamento 277@-25.5076,-54.5932",
             "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 10,
+          "costDetails": {
+            "unit": "grupo (dividido por 3)",
+            "fullPerPerson": 10,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 10,
+            "people": 3,
+            "totalGroup": 30,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "groupTotal": 30,
+            "note": "Diária do estacionamento perto da ponte; confirmar na entrada."
           },
           "alternatives": [
             {
@@ -462,39 +481,25 @@
                 "note": "Diária a confirmar; fecha às 16h."
               }
             }
-          ],
-          "cost": 10,
-          "costDetails": {
-            "unit": "grupo (dividido por 3)",
-            "fullPerPerson": 10,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 10,
-            "people": 3,
-            "totalGroup": 30,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "groupTotal": 30,
-            "note": "Diária do estacionamento perto da ponte; confirmar na entrada."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
-            "author": "Google Maps"
-          }
+          ]
         },
         {
-          "time": "08:30",
-          "end": "09:20",
+          "time": "06:00",
+          "end": "07:00",
           "type": "activity",
-          "name": "CellShop · iPhone (1ª cotação)",
-          "note": "Começar pela loja mais distante da ponte e voltar em direção a ela. Anotar preço em dólar à vista e no cartão, versão (modelo americano é só eSIM), cor, garantia e nota. Ainda não comprar: comparar com Nissei, Visão Vip e Mega.",
-          "lat": -25.5104,
-          "lng": -54.6111,
+          "name": "Atacado Connect (Jebai 3º/4º) · ver e negociar: iPhone 18 Pro Max Bordô (Gracinha) e 18 Pro Bordô (Sanderson)",
+          "note": "1ª parada, logo na abertura (6h). Atacado Connect fica no Jebai, 3º/4º andar (vendedor Kellynton; não faz reserva). GRACINHA: pedir o 18 Pro Max 256GB Bordô LL por US$ 1.450 — exigir LACRADO (evitar o anúncio \"Deslacrado\"), conferir modelo LL e nota. SANDERSON: negociar o 18 Pro Bordô por ≤ US$ 1.249 (pedir US$ 1.230; débito ≈ +6%). Se não baixar, a compra dele é no Prime Shop (Hijazi, ao lado). Se o Jebai ainda estiver fechado, esperar na entrada da Av. Monseñor Rodríguez (abre 7h).",
+          "lat": -25.5105,
+          "lng": -54.6099,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "car",
-            "minutes": 20,
-            "label": "Mototáxi pela Ponte da Amizade (1 por pessoa, combinar o preço antes, capacete) + aduana",
+            "minutes": 30,
+            "label": "Mototáxi pela Ponte da Amizade (1 por pessoa, combinar o preço antes, capacete) + aduana + 5 min a pé até o Jebai",
             "cost": 15,
             "costDetails": {
               "unit": "pessoa",
@@ -508,6 +513,392 @@
               "checkedAt": "2026-10-17",
               "note": "Mototáxi pela ponte, 1 por pessoa. Combinar o preço antes."
             }
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Galería Jebai Center · Av. Monseñor Rodríguez c/ Av. Carlos Antonio López, Ciudad del Este",
+            "hours": "Galeria seg–sáb ~7h–16h · Atacado Connect seg–sex 6h–16h",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "07:00",
+          "end": "07:15",
+          "type": "activity",
+          "name": "La Moneda (dentro do Jebai) · câmbio: dólar dos três (Gracinha, Sanderson e Hortência)",
+          "note": "Trocar reais por dólar logo que abrir: ≈ US$ 1.450 da Gracinha + ≈ US$ 193 do Sanderson (separar R$ 1.170) + o dólar da Hortência para as compras dela (paga tudo em espécie). Cotação ≈ 5,43. Confirmar antes se aceita Pix (+595 985 600049). Se não aceitar: Ita Cambios Matriz (Calle Curupayty 300, Globo Center; 5,45; aceita Pix; 7h–15h30). Notas novas, conferir na hora.",
+          "lat": -25.5105,
+          "lng": -54.6099,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "author": "Google Maps"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "La Moneda · Galería Jebai Center, Ciudad del Este",
+            "hours": "Confirmar horário (Ita Matriz: seg–sex 7h–15h30)",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este",
+            "phone": "+595 985 600049"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Câmbio: só a troca de moeda."
+          }
+        },
+        {
+          "time": "07:15",
+          "end": "07:45",
+          "type": "activity",
+          "name": "Atacado Connect (Jebai) · COMPRA iPhone 18 Pro Max Bordô (Gracinha) + Fino condicionador 550ml (Hortência)",
+          "note": "Pagar com o dólar recém-trocado. iPhone: testar, conferir caixa lacrada, IMEI da caixa = do aparelho, modelo LL e nota fiscal. Plano B no mesmo prédio: Mestre Atacado (4º piso, nº 3353), 18 Pro Max Bordô US$ 1.485, aceita Pix (não aceita cartão). Se o Sanderson fechar o 18 Pro por ≤ US$ 1.249 aqui, comprar o dele também e pular o Prime Shop. Hortência: Fino condicionador 550ml (se não tiver, comprar na Nissei, mais tarde).",
+          "lat": -25.5105,
+          "lng": -54.6099,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "author": "Google Maps"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Galería Jebai Center · Av. Monseñor Rodríguez c/ Av. Carlos Antonio López, Ciudad del Este",
+            "hours": "Galeria seg–sáb ~7h–16h · Atacado Connect seg–sex 6h–16h",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "07:45",
+          "end": "08:10",
+          "type": "activity",
+          "name": "Star Company (Jebai 1º, loja 2017) · Medicube, Fino, Victoria's Secret e Numbuzin (Hortência)",
+          "note": "Medicube: Exosome Shot 2000, Zero Pore Pad 2.0, TXA Niacinamide 15% e Collagen Night Wrapping Mask. Fino: máscara, óleo, sérum Airy Smooth e shampoo. Victoria's Secret Body Splash Pure Seduction 250ml. Numbuzin No.9 creme de olhos. Pagar em dólar. Avaliações citam demora na retirada e suspeita de falsificados: conferir lacre e lote. Se a retirada demorar, há outra Star Company no Shopping Paris (térreo, lojas 30–31), na parada do almoço.",
+          "lat": -25.5108,
+          "lng": -54.61,
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "address": "Galería Jebai Center, 1º andar, loja 2017 · Av. Carlos Antonio López, Ciudad del Este",
+            "hours": "Seg–sex 7h–16h · sáb 6h30–15h",
+            "phone": "+595 991 959017",
+            "whatsapp": "https://wa.me/595993085626",
+            "instagram": "https://instagram.com/starcompanypy.oficial",
+            "photos": [],
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Star%20Company%20(Jebai%201º,%20loja%202017)%20Ciudad%20del%20Este"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "08:10",
+          "end": "08:20",
+          "type": "activity",
+          "name": "Extra Shop (Jebai térreo, loja 2016) · SKIN1004 Centella Ampoule 55ml (Hortência)",
+          "note": "SKIN1004 Madagascar Centella Ampoule 55ml. Loja vizinha da Star Company. Pagar em dólar.",
+          "lat": -25.5102,
+          "lng": -54.6096,
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "address": "Galería Jebai Center, térreo, loja 2016 · Av. Carlos Antonio López, Ciudad del Este",
+            "hours": "Confirmar (Jebai seg–sáb ~7h–16h)",
+            "whatsapp": "https://wa.me/595983222219",
+            "photos": [],
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Extra%20Shop%20(Jebai%20térreo,%20loja%202016)%20Ciudad%20del%20Este"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "08:20",
+          "end": "08:35",
+          "type": "activity",
+          "name": "Star Games (Jebai 3º, loja 3264) · capinhas TechWoven para os iPhones (Sanderson e Gracinha)",
+          "note": "Capas \"Apple TechWoven MagSafe\" por ~US$ 25 (17 Pro e 17 Pro Max: preto, marrom, azul, verde, roxo), bem abaixo da original (US$ 74–85). Capa de 17 Pro serve no 18 Pro na prática (câmera só 0,1 mm maior), mas a Apple não garante: TESTAR NO APARELHO recém-comprado (botões, câmera, MagSafe). Original lacrada: Nissei, no Hijazi (próxima parada), US$ 79–85. Plano B barato: Madrid Center (Galeria San Blás), US$ 20–25, e New Zone (C-Covers, US$ 17).",
+          "lat": -25.5105,
+          "lng": -54.6099,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "author": "Google Maps"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Galería Jebai Center, 3º piso, loja 3264 · Ciudad del Este",
+            "hours": "Confirmar (Jebai seg–sáb ~7h–16h)",
+            "rating": 4.5,
+            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este",
+            "website": "https://stargamesparaguay.com/"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "08:40",
+          "end": "09:20",
+          "type": "activity",
+          "name": "Prime Shop (Hijazi 4º, sala 417) · COMPRA iPhone 18 Pro Bordô (Sanderson)",
+          "note": "18 Pro 256GB Bordô por US$ 1.259 (promo). Pagar: débito em dólar (Nomad US$ 330 + BTG US$ 100 + Avenue US$ 709; +5%) e o resto (~US$ 193) no dólar da La Moneda. Contato: Amanda +595 986 420 415. Na maquininha, pedir o valor em guaranis e recusar conversão para reais. Conferir lacre, modelo LL e nota.",
+          "lat": -25.5111,
+          "lng": -54.6096,
+          "image": {
+            "src": "/img/foz-do-iguacu/nissei.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 2,
+            "label": "70 m"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Shopping Hijazi Center, 4º andar, sala 417 · Av. Adrián Jara esq., Ciudad del Este",
+            "hours": "Seg–sex 6h30–17h · sáb 6h30–16h · dom fechado",
+            "phone": "+595 986 420 415",
+            "website": "https://nissei.com/",
+            "rating": 4.9,
+            "googlePlaceId": "ChIJzQZs_f-P9pQRq7ZwBVjStQw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nissei&query_place_id=ChIJzQZs_f-P9pQRq7ZwBVjStQw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Nissei%20Ciudad%20del%20Este",
+            "lookupKey": "Nissei · última cotação e COMPRA do iPhone@-25.5111,-54.6096",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "09:20",
+          "end": "09:30",
+          "type": "activity",
+          "name": "Nissei (Hijazi) · Fino condicionador 550ml (Hortência, se faltou) e capa TechWoven original (opcional)",
+          "note": "Fino condicionador 550ml, se não achou na Atacado Connect. Capa TechWoven original lacrada: US$ 79–85 (a da Star Games sai ~US$ 25). A fila no caixa cresce depois das 11h, então comprar agora. Seg–sáb 6h30–15h45.",
+          "lat": -25.5111,
+          "lng": -54.6096,
+          "image": {
+            "src": "/img/foz-do-iguacu/nissei.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 0,
+            "label": "Mesmo prédio"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Shopping Hijazi, Av. Adrián Jara esq., Ciudad del Este, Paraguai",
+            "hours": "Seg–sex 6h30–17h · sáb 6h30–16h · dom fechado",
+            "phone": "+595 61 500 115",
+            "website": "https://nissei.com/",
+            "rating": 4.9,
+            "googlePlaceId": "ChIJzQZs_f-P9pQRq7ZwBVjStQw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nissei&query_place_id=ChIJzQZs_f-P9pQRq7ZwBVjStQw",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Nissei%20Ciudad%20del%20Este",
+            "lookupKey": "Nissei · última cotação e COMPRA do iPhone@-25.5111,-54.6096",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "09:35",
+          "end": "09:55",
+          "type": "activity",
+          "name": "Point Informática (Lai Lai 4º, loja 408) · microfone Hollyland Lark M2 Combo (Hortência)",
+          "note": "Microfone Hollyland Lark M2 Combo. Seg–sáb 7h30–16h30; WhatsApp +595 973 519759. Alternativa: Intershop (Shopping DFS). No mesmo andar: Matrix e Visão Vip (notebooks/MacBook) para dar uma olhada. Se a Gracinha mudar para o 17 Pro Max, perguntar se esta Matrix é a \"Matrix Importados\" (Laranja US$ 1.170).",
+          "lat": -25.5107,
+          "lng": -54.6091,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-f59f55df336b.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Lai%20Lai%20Center&query_place_id=ChIJpyV5q6qa9pQRbd7tZNMsIB4",
+            "author": "Google Maps"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 2,
+            "label": "70 m"
+          },
+          "place": {
+            "osmPending": true,
+            "osm": null,
+            "photos": [],
+            "address": "Lai Lai Center, 4º andar, loja 408 · Av. Adrián Jara, Ciudad del Este",
+            "hours": "Seg–sáb 7h30–16h30",
+            "phone": "+595 61 501 748",
+            "website": "http://www.visaovip.com/",
+            "rating": 4.7,
+            "googlePlaceId": "ChIJpyV5q6qa9pQRbd7tZNMsIB4",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lai%20Lai%20Center&query_place_id=ChIJpyV5q6qa9pQRbd7tZNMsIB4",
+            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Visao%20Vip%20Ciudad%20del%20Este",
+            "lookupKey": "Lai Lai Center · Matrix e Visão Vip (notebooks/MacBook)@-25.5107,-54.6091",
+            "checkedAt": "2026-10-19T01:59:37.306Z",
+            "whatsapp": "https://wa.me/595973519759"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "10:00",
+          "end": "10:15",
+          "type": "activity",
+          "name": "CellShop (Shopping Ibiza) · rímel Maybelline Sky High (Hortência, backup) e comparar Eros Parfum (US$ 85)",
+          "note": "Rímel Maybelline Sky High: comprar aqui se a Paris Store não confirmar estoque até terça (a Paris Store só vem às 12h40). Eros Parfum aqui está US$ 85, mais caro que na Ponto Com e na Mega: só comparar. Seg–sex 6h30–17h.",
+          "lat": -25.5104,
+          "lng": -54.6111,
+          "image": {
+            "src": "/img/foz-do-iguacu/cellshop.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
+          "leg": {
+            "mode": "walk",
+            "minutes": 4,
+            "label": "200 m"
           },
           "place": {
             "photos": [],
@@ -536,38 +927,25 @@
             "status": "oficial",
             "checkedAt": "2026-10-17",
             "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/cellshop.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
           }
         },
         {
-          "time": "09:22",
-          "end": "09:45",
+          "time": "10:17",
+          "end": "10:30",
           "type": "activity",
           "name": "Elegancia Company · perfumes e cosméticos",
           "note": "Edifício Victoria, ao lado da CellShop. Bom estoque; preço fixo, sem desconto. Pagamento e retirada podem demorar: pague em dólar.",
           "lat": -25.5111,
           "lng": -54.6113,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-8eb3a1dd0555.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Elegancia%20Company&query_place_id=ChIJAYp3ZVWF9pQR1CUkH1gOcm8",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
             "minutes": 2,
-            "label": "100 m"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
+            "label": "80 m"
           },
           "place": {
             "photos": [],
@@ -582,24 +960,72 @@
             "lookupKey": "Elegancia Company · perfumes e cosméticos@-25.5111,-54.6113",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-8eb3a1dd0555.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Elegancia%20Company&query_place_id=ChIJAYp3ZVWF9pQR1CUkH1gOcm8",
-            "author": "Google Maps"
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-18",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
           }
         },
         {
-          "time": "09:50",
-          "end": "10:25",
+          "time": "10:33",
+          "end": "10:43",
+          "type": "activity",
+          "name": "Brands Shop · Celimax Vita-A Retinal Shot (Hortência)",
+          "note": "Celimax Vita-A Retinal Shot (substituto do IOPE Retinol Shot). Seg–sáb 7h–16h30; WhatsApp +595 992 979 800. Tem outlet no último andar.",
+          "lat": -25.5098,
+          "lng": -54.6109,
+          "leg": {
+            "mode": "walk",
+            "minutes": 3,
+            "label": "150 m"
+          },
+          "place": {
+            "address": "Av. Monseñor Rodríguez · Ciudad del Este, Paraguai",
+            "hours": "Seg–sáb 7h–16h30 · dom 7h–15h",
+            "phone": "+595 61 50603",
+            "whatsapp": "https://wa.me/595992979800",
+            "photos": [],
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brands%20Shop%20Ciudad%20del%20Este"
+          },
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
+          }
+        },
+        {
+          "time": "10:45",
+          "end": "11:10",
           "type": "activity",
           "name": "Monalisa · perfumes, maquiagem e moda",
           "note": "Loja de luxo com produtos originais: boa para perfumes e cosméticos. Fecha 16h30.",
           "lat": -25.5099,
           "lng": -54.6104,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-9caea91f91e3.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Monalisa&query_place_id=ChIJYYs4kKqa9pQRrxMbTvnK6fQ",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 5,
-            "label": "130 m"
+            "minutes": 2,
+            "label": "50 m"
           },
           "place": {
             "address": "Monseñor Rodríguez, 654 · Ciudad del Este, Paraguai",
@@ -628,24 +1054,75 @@
             "checkedAt": "2026-10-17",
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-9caea91f91e3.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Monalisa&query_place_id=ChIJYYs4kKqa9pQRrxMbTvnK6fQ",
-            "author": "Google Maps"
-          }
+          "alternatives": [
+            {
+              "name": "Terra Nova · cosméticos (se sobrar tempo)",
+              "lat": -25.5076,
+              "lng": -54.6096,
+              "note": "Cosméticos e maquiagem (fama de produtos coreanos). Fecha às 16h.",
+              "place": {
+                "osmPending": true,
+                "osm": null,
+                "photos": [],
+                "address": "Emiliano R. Fernández · Ciudad del Este, Paraguai",
+                "hours": "Seg–sáb 7h–16h · dom 8h–12h",
+                "phone": "+595 61 514 233",
+                "website": "https://www.shoppingterranova.com.py/",
+                "rating": 4.4,
+                "googlePlaceId": "ChIJpfCAy1SF9pQRRelvJ5eEA5o",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shopping%20Terra%20Nova&query_place_id=ChIJpfCAy1SF9pQRRelvJ5eEA5o",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Terra%20Nova%20Ciudad%20del%20Este",
+                "instagram": "https://www.instagram.com/shoppingterranova/",
+                "whatsapp": "https://wa.me/595985114000",
+                "lookupKey": "Terra Nova · cosméticos@-25.5076,-54.6096",
+                "checkedAt": "2026-10-19T01:59:37.306Z"
+              }
+            },
+            {
+              "name": "Digital Center · eletrônicos e câmeras (se sobrar tempo)",
+              "lat": -25.509,
+              "lng": -54.6088,
+              "note": "Shopping Americana. Câmeras, drones, áudio e eletrônicos; avaliações elogiam preço. Peça recibo/nota. Fecha às 15h30.",
+              "place": {
+                "osmPending": true,
+                "osm": null,
+                "photos": [],
+                "address": "Shopping Americana · Av. San Blás, Ciudad del Este, Paraguai",
+                "hours": "Seg–sáb 7h–15h30 · dom fechado",
+                "website": "https://digitalcenterpy.com/",
+                "rating": 4.5,
+                "googlePlaceId": "ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Digital%20Center&query_place_id=ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
+                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Digital%20Center%20Ciudad%20del%20Este",
+                "instagram": "https://www.instagram.com/pydigitalcenter/",
+                "whatsapp": "https://wa.me/595983450909",
+                "lookupKey": "Digital Center · eletrônicos e câmeras@-25.509,-54.6088",
+                "checkedAt": "2026-10-19T01:59:37.306Z"
+              }
+            }
+          ]
         },
         {
-          "time": "10:30",
-          "end": "10:55",
+          "time": "11:15",
+          "end": "11:30",
           "type": "activity",
-          "name": "Terra Nova · cosméticos",
-          "note": "Cosméticos e maquiagem (fama de produtos coreanos). Fecha às 16h.",
-          "lat": -25.5076,
-          "lng": -54.6096,
+          "name": "Ponto Com · Eros Parfum 100ml US$ 70 (perfume) + Dr. Althea 345 Relief Cream 50ml (Hortência)",
+          "note": "Eros Parfum 100ml US$ 70, o mais barato (estoque a confirmar: WhatsApp +595 994 510 072 na terça). Se não tiver, comprar na Mega (próxima parada). Hortência: Dr. Althea 345 Relief Cream 50ml. Conferir o valor antes de pagar no cartão (há relato de cobrança duplicada); Pix às vezes indisponível.",
+          "lat": -25.5111,
+          "lng": -54.6082,
           "leg": {
             "mode": "walk",
             "minutes": 5,
-            "label": "300 m"
+            "label": "260 m"
+          },
+          "place": {
+            "address": "Av. Adrián Jara esq. Itá Ybaté · Ciudad del Este, Paraguai",
+            "hours": "Seg–sex 7h–16h · sáb 6h30–15h30",
+            "phone": "+595 61 515 125",
+            "whatsapp": "https://wa.me/595994510072",
+            "website": "https://pontocom.com/",
+            "photos": [],
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ponto%20Com%20Ciudad%20del%20Este"
           },
           "cost": 0,
           "costDetails": {
@@ -657,92 +1134,27 @@
             "people": 3,
             "totalGroup": 0,
             "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Emiliano R. Fernández · Ciudad del Este, Paraguai",
-            "hours": "Seg–sáb 7h–16h · dom 8h–12h",
-            "phone": "+595 61 514 233",
-            "website": "https://www.shoppingterranova.com.py/",
-            "rating": 4.4,
-            "googlePlaceId": "ChIJpfCAy1SF9pQRRelvJ5eEA5o",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Shopping%20Terra%20Nova&query_place_id=ChIJpfCAy1SF9pQRRelvJ5eEA5o",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Terra%20Nova%20Ciudad%20del%20Este",
-            "instagram": "https://www.instagram.com/shoppingterranova/",
-            "whatsapp": "https://wa.me/595985114000",
-            "lookupKey": "Terra Nova · cosméticos@-25.5076,-54.6096",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-556ae696e170.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Shopping%20Terra%20Nova&query_place_id=ChIJpfCAy1SF9pQRRelvJ5eEA5o",
-            "author": "Google Maps"
+            "checkedAt": "2026-11-01",
+            "note": "Compras fora do orçamento turístico."
           }
         },
         {
-          "time": "11:00",
-          "end": "11:25",
+          "time": "11:33",
+          "end": "11:50",
           "type": "activity",
-          "name": "Digital Center · eletrônicos e câmeras",
-          "note": "Shopping Americana. Câmeras, drones, áudio e eletrônicos; avaliações elogiam preço. Peça recibo/nota. Fecha às 15h30.",
-          "lat": -25.509,
-          "lng": -54.6088,
-          "leg": {
-            "mode": "walk",
-            "minutes": 5,
-            "label": "300 m"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Shopping Americana · Av. San Blás, Ciudad del Este, Paraguai",
-            "hours": "Seg–sáb 7h–15h30 · dom fechado",
-            "website": "https://digitalcenterpy.com/",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Digital%20Center&query_place_id=ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Digital%20Center%20Ciudad%20del%20Este",
-            "instagram": "https://www.instagram.com/pydigitalcenter/",
-            "whatsapp": "https://wa.me/595983450909",
-            "lookupKey": "Digital Center · eletrônicos e câmeras@-25.509,-54.6088",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-1ff39cfa9597.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Digital%20Center&query_place_id=ChIJx4qEp5Ob9pQRW7RsjjTZwGc",
-            "author": "Google Maps"
-          }
-        },
-        {
-          "time": "11:30",
-          "end": "12:05",
-          "type": "activity",
-          "name": "Mega Eletrônicos · iPhone (2ª cotação)",
-          "note": "Segunda cotação do iPhone. Avaliações citam fila no caixa. Fecha 16h30.",
+          "name": "Mega Eletrônicos · Eros Energy 100ml US$ 67 (+ Eros Parfum US$ 77 se faltou na Ponto Com)",
+          "note": "🥇 Eros Energy 100ml US$ 67, em estoque (o mais barato). Eros Parfum 100ml US$ 77, em estoque: comprar aqui se a Ponto Com (parada anterior) não tiver. Avaliações citam fila no caixa. Fecha 16h30.",
           "lat": -25.5099,
           "lng": -54.6088,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-fe930cbb6430.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Mega%20Eletr%C3%B4nicos&query_place_id=ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 5,
-            "label": "230 m"
+            "minutes": 3,
+            "label": "150 m"
           },
           "place": {
             "osmPending": true,
@@ -772,255 +1184,25 @@
             "status": "oficial",
             "checkedAt": "2026-10-17",
             "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-fe930cbb6430.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Mega%20Eletr%C3%B4nicos&query_place_id=ChIJ19-Ksaqa9pQRVSAxhWD2Rn0",
-            "author": "Google Maps"
           }
         },
         {
-          "time": "12:08",
-          "end": "12:30",
-          "type": "activity",
-          "name": "Galeria Jebai · CityCell e Mobile Zone (cotações extras de iPhone)",
-          "note": "Duas cotações no mesmo prédio. CityCell (térreo, +595 61 513 300): preço baixo, mas uma avaliação relata troca de modelo. Mobile Zone Internacional (3º andar, +595 61 511 041, mobilezone.com.br): distribuidora oficial Samsung, também vende iPhone e tem iPhone Swap (seminovo). Exija lacrado/novo, confira IMEI (*#06#) e nota com IMEI.",
-          "lat": -25.5105,
-          "lng": -54.6099,
-          "leg": {
-            "mode": "walk",
-            "minutes": 3,
-            "label": "150 m"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Galería Jebai Center, Ciudad del Este",
-            "hours": "Seg–sáb 7h–16h · dom fechado",
-            "rating": 4.5,
-            "googlePlaceId": "ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=CityCell%20Atacado%20Ciudad%20del%20Este",
-            "phone": "+595 61 513 300",
-            "lookupKey": "Galeria Jebai · CityCell e Mobile Zone (cotações extras de iPhone)@-25.5105,-54.6099",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "alternatives": [
-            {
-              "name": "Mobile Zone Internacional",
-              "lat": -25.51,
-              "lng": -54.6099,
-              "note": "Jebai Center, 3º andar. Seg–sex 6h30–15h30 · sáb 6h–15h.",
-              "place": {
-                "osmPending": true,
-                "osm": null,
-                "photos": [],
-                "address": "Av. Monseñor Rodríguez c/ Av. Carlos Antonio López, Jebai Center 3º piso, Ciudad del Este",
-                "hours": "Seg–sex 6h30–15h30 · sáb 6h–15h · dom fechado",
-                "phone": "+595 61 511 041",
-                "website": "http://www.mobilezone.com.br/",
-                "rating": 4.4,
-                "googlePlaceId": "ChIJf4miSVWF9pQR7xbGIrkVN8o",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mobile%20Zone%20Internacional&query_place_id=ChIJf4miSVWF9pQR7xbGIrkVN8o",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Mobile%20Zone%20Ciudad%20del%20Este",
-                "lookupKey": "Mobile Zone Internacional@-25.51,-54.6099",
-                "checkedAt": "2026-10-19T01:59:37.306Z"
-              }
-            }
-          ],
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-c867df6aec4c.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=CityCell%20Atacado&query_place_id=ChIJdwh27Y2F9pQRDcQ8dCEP6tI",
-            "author": "Google Maps"
-          }
-        },
-        {
-          "time": "12:32",
-          "end": "12:50",
-          "type": "activity",
-          "name": "Atacado Connect e Alana Cell · capinhas e acessórios",
-          "note": "Duas lojas vizinhas na Adrián Jara. Atacado Connect cobra +10% no cartão: pague em dinheiro. Alana Cell tem poucas avaliações.",
-          "lat": -25.5107,
-          "lng": -54.6101,
-          "leg": {
-            "mode": "walk",
-            "minutes": 2,
-            "label": "50 m"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-18",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Av. Adrián Jara, Ciudad del Este",
-            "hours": "Atacado Connect: seg–sex 6h–16h · sáb 6h–15h · dom fechado",
-            "rating": 4.6,
-            "googlePlaceId": "ChIJj2KxUFWF9pQRvDFbSc1YvdI",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Atacado%20Connect&query_place_id=ChIJj2KxUFWF9pQRvDFbSc1YvdI",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Atacado%20Connect%20Ciudad%20del%20Este",
-            "phone": "+595 61 511 182",
-            "website": "https://www.atacadoconnect.com/",
-            "lookupKey": "Atacado Connect e Alana Cell · capinhas e acessórios@-25.5107,-54.6101",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "alternatives": [
-            {
-              "name": "Alana Cell",
-              "lat": -25.5109,
-              "lng": -54.61,
-              "note": "Ao lado da Atacado Connect.",
-              "place": {
-                "osmPending": true,
-                "osm": null,
-                "photos": [],
-                "address": "Av. Adrián Jara, Ciudad del Este",
-                "rating": 5,
-                "googlePlaceId": "ChIJk9DZfp2F9pQRgpptdaNIfzA",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Alana%20cell&query_place_id=ChIJk9DZfp2F9pQRgpptdaNIfzA",
-                "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Alana%20Cell%20Ciudad%20del%20Este",
-                "lookupKey": "Alana Cell@-25.5109,-54.61",
-                "checkedAt": "2026-10-19T01:59:37.306Z"
-              }
-            }
-          ],
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-1e343da90b16.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Atacado%20Connect&query_place_id=ChIJj2KxUFWF9pQRvDFbSc1YvdI",
-            "author": "Google Maps"
-          }
-        },
-        {
-          "time": "12:52",
-          "end": "13:20",
-          "type": "activity",
-          "name": "Nissei · última cotação e COMPRA do iPhone",
-          "note": "Com as 3 cotações (CellShop, Mega, Nissei), comprar onde estiver melhor. Testar o aparelho e conferir lacre e nota. Fecha 17h.",
-          "lat": -25.5111,
-          "lng": -54.6096,
-          "leg": {
-            "mode": "walk",
-            "minutes": 2,
-            "label": "100 m"
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Shopping Hijazi, Av. Adrián Jara esq., Ciudad del Este, Paraguai",
-            "hours": "Seg–sex 6h30–17h · sáb 6h30–16h · dom fechado",
-            "phone": "+595 61 500 115",
-            "website": "https://nissei.com/",
-            "rating": 4.9,
-            "googlePlaceId": "ChIJzQZs_f-P9pQRq7ZwBVjStQw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nissei&query_place_id=ChIJzQZs_f-P9pQRq7ZwBVjStQw",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Nissei%20Ciudad%20del%20Este",
-            "lookupKey": "Nissei · última cotação e COMPRA do iPhone@-25.5111,-54.6096",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/nissei.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          }
-        },
-        {
-          "time": "13:22",
-          "end": "13:40",
-          "type": "activity",
-          "name": "Lai Lai Center · Matrix e Visão Vip (notebooks/MacBook)",
-          "note": "Matrix (notebooks e MacBook) e Visão Vip (informática) no mesmo prédio. Atenção: há relato de notebook recondicionado vendido como novo na Matrix daqui; conferir lacre, número de série e garantia. A Matrix também tem loja no Shopping Paris (aberta até 19h). Fecham 15h30–16h.",
-          "lat": -25.5107,
-          "lng": -54.6091,
-          "leg": {
-            "mode": "walk",
-            "minutes": 2,
-            "label": "50 m"
-          },
-          "place": {
-            "osmPending": true,
-            "osm": null,
-            "photos": [],
-            "address": "Lai Lai Center, 4º piso · Av. Adrián Jara, Ciudad del Este, Paraguai",
-            "hours": "Seg–sex 6h30–16h · sáb 6h30–15h · dom fechado",
-            "phone": "+595 61 501 748",
-            "website": "http://www.visaovip.com/",
-            "rating": 4.7,
-            "googlePlaceId": "ChIJpyV5q6qa9pQRbd7tZNMsIB4",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lai%20Lai%20Center&query_place_id=ChIJpyV5q6qa9pQRbd7tZNMsIB4",
-            "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Visao%20Vip%20Ciudad%20del%20Este",
-            "lookupKey": "Lai Lai Center · Matrix e Visão Vip (notebooks/MacBook)@-25.5107,-54.6091",
-            "checkedAt": "2026-10-19T01:59:37.306Z"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-f59f55df336b.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Lai%20Lai%20Center&query_place_id=ChIJpyV5q6qa9pQRbd7tZNMsIB4",
-            "author": "Google Maps"
-          }
-        },
-        {
-          "time": "13:50",
-          "end": "14:30",
+          "time": "12:00",
+          "end": "12:40",
           "type": "food",
           "name": "Almoço · praça de alimentação do Shopping Paris",
-          "note": "Vários restaurantes no andar de cima, ar-condicionado e banheiros: boa pausa para os joelhos. R$ 120–240 para três.",
+          "note": "Almoço mais cedo (café foi às 4h45). Vários restaurantes no andar de cima, ar-condicionado e banheiros: boa pausa para os joelhos. R$ 120–240 para três.",
           "lat": -25.5131,
           "lng": -54.606,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=pra%C3%A7a%20de%20alimenta%C3%A7%C3%A3o%20do%20Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 10,
-            "label": "500 m"
+            "minutes": 8,
+            "label": "450 m"
           },
           "place": {
             "osmPending": true,
@@ -1036,6 +1218,23 @@
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Shopping%20Paris%20Ciudad%20del%20Este",
             "lookupKey": "Almoço · praça de alimentação do Shopping Paris@-25.5131,-54.606",
             "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 60,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 60,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 60,
+            "people": 3,
+            "totalGroup": 180,
+            "status": "estimativa",
+            "checkedAt": "2026-10-17",
+            "rangePerPerson": [
+              40,
+              80
+            ],
+            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
           },
           "alternatives": [
             {
@@ -1127,38 +1326,21 @@
                 "license": "CC BY-SA 4.0"
               }
             }
-          ],
-          "cost": 60,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 60,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 60,
-            "people": 3,
-            "totalGroup": 180,
-            "status": "estimativa",
-            "checkedAt": "2026-10-17",
-            "rangePerPerson": [
-              40,
-              80
-            ],
-            "note": "Refeição: não existe meia. Valor médio por pessoa, sem bebida alcoólica."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=pra%C3%A7a%20de%20alimenta%C3%A7%C3%A3o%20do%20Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
-            "author": "Google Maps"
-          }
+          ]
         },
         {
-          "time": "14:30",
-          "end": "14:55",
+          "time": "12:40",
+          "end": "13:15",
           "type": "activity",
-          "name": "Shopping Paris · perfumes, cosméticos e casa",
-          "note": "Perfumaria grande, eletroportáteis e utilidades. Aberto até 19h. Aqui também tem loja da Matrix (notebooks/MacBook) para comparar.",
+          "name": "Paris Store (Shopping Paris 2º) · rímel Sky High, MAC blush Sheertone e base Studio Radiance (Hortência)",
+          "note": "Rímel Maybelline Sky High, MAC blush Sheertone e MAC base Studio Radiance; perguntar por MAC paleta e Studio Fix. WhatsApp +595 993 005 000. No térreo: Star Company (lojas 30–31), se faltou algo no Jebai. O Shopping Paris tem perfumaria grande e loja da Matrix. Aberto até 19h.",
           "lat": -25.5131,
           "lng": -54.606,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
             "minutes": 0,
@@ -1210,25 +1392,25 @@
             "status": "oficial",
             "checkedAt": "2026-10-17",
             "note": "Entrada livre. Compras fora do orçamento turístico."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-889059221c72.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Shopping%20Paris&query_place_id=ChIJ5cpkDQGQ9pQRY3krZkQo7Qg",
-            "author": "Google Maps"
           }
         },
         {
-          "time": "15:05",
-          "end": "15:25",
+          "time": "13:25",
+          "end": "13:55",
           "type": "activity",
           "name": "Shopping China · tudo que não é eletrônico",
-          "note": "Maior loja da cidade: vinhos, chocolates, supermercado importado, roupas, tênis, malas. Se precisarem, comprar uma mala aqui para levar as compras. Aberto até 20h.",
+          "note": "Maior loja da cidade: vinhos, chocolates, supermercado importado, roupas, tênis, malas. Se precisarem, comprar uma mala aqui para levar as compras. Aberto até 20h. Perfumes: Eros Energy US$ 92 e Eros Parfum US$ 87 aqui (mais caros que na Mega/Ponto Com).",
           "lat": -25.515,
           "lng": -54.6062,
+          "image": {
+            "src": "/img/foz-do-iguacu/shopping-china.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 10,
-            "label": "400 m"
+            "minutes": 4,
+            "label": "210 m"
           },
           "place": {
             "osmPending": true,
@@ -1260,11 +1442,6 @@
             "checkedAt": "2026-10-17",
             "note": "Entrada livre. Compras fora do orçamento turístico."
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/shopping-china.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          },
           "alternatives": [
             {
               "name": "Plano B: New Zone (importados)",
@@ -1292,30 +1469,22 @@
           ]
         },
         {
-          "time": "15:35",
-          "end": "15:53",
+          "time": "14:05",
+          "end": "14:30",
           "type": "activity",
-          "name": "New Zone · importados",
-          "note": "No mesmo prédio do Shopping del Este e do Cé La Vi. Aberto até 22h. Pagar em dólar: no cartão o câmbio para guarani sai ~3,5% pior.",
+          "name": "New Zone (Shopping del Este 3º) · MAC batom (Hortência) + plano C do iPhone do Sanderson",
+          "note": "Hortência: MAC batom; perguntar por MAC paleta e Studio Fix, se não achou na Paris Store. Plano C do iPhone do Sanderson: 18 Pro Bordô US$ 1.295 (Pix Especial 9h30–16h via Call Center). Capinha C-Covers TechWoven US$ 17. Pagar em dólar: no cartão o câmbio para guarani sai ~3,5% pior. Aberto até 22h.",
           "lat": -25.5102,
           "lng": -54.6057,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-d6240c56b8cd.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=New%20Zone%20Importados&query_place_id=ChIJ48wtdQqR9pQRhxJzt08Yk2Y",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 10,
-            "label": "400 m"
-          },
-          "cost": 0,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 0,
-            "halfPerPerson": 0,
-            "halfApplies": true,
-            "payPerPerson": 0,
-            "people": 3,
-            "totalGroup": 0,
-            "status": "oficial",
-            "checkedAt": "2026-10-17",
-            "note": "Entrada livre. Compras fora do orçamento turístico."
+            "minutes": 9,
+            "label": "540 m"
           },
           "place": {
             "osmPending": true,
@@ -1333,23 +1502,37 @@
             "lookupKey": "New Zone · importados@-25.5102,-54.6057",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-d6240c56b8cd.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=New%20Zone%20Importados&query_place_id=ChIJ48wtdQqR9pQRhxJzt08Yk2Y",
-            "author": "Google Maps"
+          "cost": 0,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 0,
+            "halfPerPerson": 0,
+            "halfApplies": true,
+            "payPerPerson": 0,
+            "people": 3,
+            "totalGroup": 0,
+            "status": "oficial",
+            "checkedAt": "2026-10-17",
+            "note": "Entrada livre. Compras fora do orçamento turístico."
           }
         },
         {
-          "time": "15:55",
-          "end": "16:30",
+          "time": "14:35",
+          "end": "15:15",
           "type": "food",
           "name": "Café da tarde · Cé La Vi (combo Dior)",
-          "note": "Shopping del Este, ao lado da ponte. Combo ~R$ 136 (150.000 guaranis) dividido por três. Contém lactose: Hortência leva a lactase. Avaliações reclamam da demora: pedir tudo de uma vez. Sair às 16h30 para a ponte, para garantir o pôr do sol no Yup Star.",
+          "note": "Shopping del Este, ao lado da ponte. Combo ~R$ 136 (150.000 guaranis) dividido por três. Contém lactose: Hortência leva a lactase. Avaliações reclamam da demora: pedir tudo de uma vez. Sair às 15h15 para a ponte: atravessa antes do pico (16h–19h) e sobra tempo para guardar as compras no Airbnb.",
           "lat": -25.5099,
           "lng": -54.6057,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-82d906162496.jpg",
+            "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_134147.jpg",
+            "author": "Cmasi",
+            "license": "CC BY-SA 4.0"
+          },
           "leg": {
             "mode": "walk",
-            "minutes": 2,
+            "minutes": 0,
             "label": "Mesmo prédio"
           },
           "place": {
@@ -1366,6 +1549,19 @@
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Ce%20La%20Vi%20Cafe%20Ciudad%20del%20Este",
             "lookupKey": "Café da tarde · Cé La Vi (combo Dior)@-25.5099,-54.6057",
             "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 45.33,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 45.33,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 45.33,
+            "people": 3,
+            "totalGroup": 135.99,
+            "status": "informado",
+            "checkedAt": "2026-10-17",
+            "note": "Combo inspirado na Dior ~R$ 136 (150.000 guaranis) dividido por três."
           },
           "alternatives": [
             {
@@ -1413,39 +1609,25 @@
                 "license": "CC BY-SA 4.0"
               }
             }
-          ],
-          "cost": 45.33,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 45.33,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 45.33,
-            "people": 3,
-            "totalGroup": 135.99,
-            "status": "informado",
-            "checkedAt": "2026-10-17",
-            "note": "Combo inspirado na Dior ~R$ 136 (150.000 guaranis) dividido por três."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-82d906162496.jpg",
-            "page": "https://commons.wikimedia.org/wiki/File:Shopping_del_Este_134147.jpg",
-            "author": "Cmasi",
-            "license": "CC BY-SA 4.0"
-          }
+          ]
         },
         {
-          "time": "17:50",
-          "end": "17:55",
+          "time": "16:35",
+          "end": "16:40",
           "type": "place",
           "name": "Pegar o carro · Pousada e Estacionamento 277",
           "note": "Pedir ao táxi para deixar direto na Pousada e Estacionamento 277. Cota de US$ 500 por pessoa (não soma entre os três); o que passar paga 50%.",
           "lat": -25.5076,
           "lng": -54.5932,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "car",
             "minutes": 70,
-            "label": "Táxi do Shopping del Este até o estacionamento · fila da ponte e da Receita no pico 16h–19h",
+            "label": "Táxi do Shopping del Este até o estacionamento · saindo 15h25, antes do pico (margem de 70 min para fila da ponte e da Receita)",
             "cost": 13.33,
             "costDetails": {
               "unit": "grupo (dividido por 3)",
@@ -1484,11 +1666,28 @@
             "status": "oficial",
             "checkedAt": "2026-10-17",
             "note": "Estacionamento já contado na chegada."
+          }
+        },
+        {
+          "time": "16:55",
+          "end": "17:50",
+          "type": "lodging",
+          "name": "Airbnb · guardar as compras e descansar",
+          "note": "Tirar iPhones e compras do carro, colocar a capinha, banho rápido e descanso para os joelhos. Sair às 17h50 para o Yup Star.",
+          "lat": -25.519,
+          "lng": -54.5745,
+          "leg": {
+            "mode": "car",
+            "minutes": 15,
+            "label": "Estacionamento 277 → Airbnb, 3,9 km (recalcular no Maps)"
           },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-97b75b1832ba.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Pousada%20e%20Estacionamento%20277&query_place_id=ChIJ2UsX9QmQ9pQRTm0XhT4hNAQ",
-            "author": "Google Maps"
+          "place": {
+            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
+            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "photos": [],
+            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
+            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
           }
         },
         {
@@ -1496,13 +1695,18 @@
           "end": "19:05",
           "type": "activity",
           "name": "Yup Star · roda-gigante no pôr do sol",
-          "note": "Pôr do sol ~18h57. Chegar 18h20 para ver o sol se pôr da cabine. Fecha 20h30. Compras no porta-malas. Folga de ~25 min se a fila da ponte atrasar.",
+          "note": "Pôr do sol ~18h57. Chegar 18h20 para ver o sol se pôr da cabine. Fecha 20h30. Compras já guardadas no Airbnb. Folga de ~25 min se a fila da ponte atrasar.",
           "lat": -25.5867,
           "lng": -54.5884,
+          "image": {
+            "src": "/img/foz-do-iguacu/yup-star-roda-gigante-no-por-do-sol.jpg",
+            "page": "https://www.hoteltarobafoz.com.br",
+            "author": "hoteltarobafoz.com.br"
+          },
           "leg": {
             "mode": "car",
-            "minutes": 45,
-            "label": "Google Maps (qua 17h55): 20–45 min, 11,6 km, horário de pico"
+            "minutes": 30,
+            "label": "Airbnb → Yup Star, ~10 km · estimativa com margem de horário de pico (recalcular no Maps às 17h50)"
           },
           "place": {
             "osmPending": true,
@@ -1532,18 +1736,6 @@
             "checkedAt": "2026-10-17",
             "source": "https://foz.yupstar.com.br/",
             "note": "Ingresso estudante R$ 39,90 com DNE (não é exatamente metade)."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/yup-star-roda-gigante-no-por-do-sol.jpg",
-            "page": "https://www.hoteltarobafoz.com.br",
-            "author": "hoteltarobafoz.com.br"
-          },
-          "promo": {
-            "title": "Reservado",
-            "how": "Reservado (ingresso estudante). Levar DNE + RG.",
-            "url": "https://foz.yupstar.com.br/",
-            "cta": "Comprar ingresso",
-            "booking": true
           }
         },
         {
@@ -1554,6 +1746,12 @@
           "note": "A 300 m da roda-gigante. O primeiro show (~18h15) fica de fora; ver os shows seguintes (confirmar). Fecha 21h. Meia-entrada.",
           "lat": -25.5902,
           "lng": -54.5902,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-f2ca9a1c0597.jpg",
+            "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
+            "author": "CLAITON LUIS MORAES",
+            "license": "CC BY-SA 4.0"
+          },
           "leg": {
             "mode": "walk",
             "minutes": 5,
@@ -1587,19 +1785,6 @@
             "checkedAt": "2026-10-17",
             "source": "https://guia.melhoresdestinos.com.br/marco-das-tres-fronteiras.html",
             "note": "Meia para estudantes com carteirinha. Há cupom de 15% em sites parceiros."
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-f2ca9a1c0597.jpg",
-            "page": "https://commons.wikimedia.org/wiki/File:Marco_das_Tr%C3%AAs_Fronteiras_-_Foz_do_Igua%C3%A7u.jpg",
-            "author": "CLAITON LUIS MORAES",
-            "license": "CC BY-SA 4.0"
-          },
-          "promo": {
-            "title": "Reservado",
-            "how": "Reservado para os 3 (meia). Levar carteirinha.",
-            "url": "https://marcodastresfronteiras.com.br/",
-            "cta": "Comprar ingresso",
-            "booking": true
           }
         },
         {
@@ -1610,6 +1795,11 @@
           "note": "Galeto e cozinha da Serra Gaúcha. Surpreenda Restaurantes: na compra de um prato principal, o segundo sai grátis (1 voucher por mesa, 10 pontos, pagar com o Black). Reservar até terça 3/11 pelo Mastercard Concierge 0800 725 2025 (24h de antecedência, seg–sáb). Não acumula com outras promoções da casa.",
           "lat": -25.544,
           "lng": -54.5762,
+          "image": {
+            "src": "/img/foz-do-iguacu/ext-9e5bd09fd2aa.jpg",
+            "page": "https://www.google.com/maps/search/?api=1&query=Di%20Paolo%20Foz%20do%20Igua%C3%A7u%20Av.%20das%20Cataratas%2067",
+            "author": "Google Maps"
+          },
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -1629,6 +1819,23 @@
             "rating": 4.9,
             "lookupKey": "Jantar · Di Paolo (2x1 Surpreenda)@-25.544,-54.5762",
             "checkedAt": "2026-10-19T01:59:37.306Z"
+          },
+          "cost": 65,
+          "costDetails": {
+            "unit": "pessoa",
+            "fullPerPerson": 90,
+            "halfPerPerson": null,
+            "halfApplies": false,
+            "payPerPerson": 65,
+            "people": 3,
+            "totalGroup": 195,
+            "status": "estimativa",
+            "checkedAt": "2026-10-18",
+            "rangePerPerson": [
+              50,
+              80
+            ],
+            "note": "Estimativa: 3 pratos de ~R$ 90 com o 2x1 (paga 2 de 3), sem bebidas. Economia ~R$ 60–90 sobre o Bendito."
           },
           "alternatives": [
             {
@@ -1757,44 +1964,13 @@
                 "author": "hoteltarobafoz.com.br"
               }
             }
-          ],
-          "cost": 65,
-          "costDetails": {
-            "unit": "pessoa",
-            "fullPerPerson": 90,
-            "halfPerPerson": null,
-            "halfApplies": false,
-            "payPerPerson": 65,
-            "people": 3,
-            "totalGroup": 195,
-            "status": "estimativa",
-            "checkedAt": "2026-10-18",
-            "rangePerPerson": [
-              50,
-              80
-            ],
-            "note": "Estimativa: 3 pratos de ~R$ 90 com o 2x1 (paga 2 de 3), sem bebidas. Economia ~R$ 60–90 sobre o Bendito."
-          },
-          "promo": {
-            "program": "Surpreenda (Mastercard)",
-            "benefit": "2 por 1: na compra de um prato principal, o segundo sai grátis",
-            "how": "Reservar pelo Mastercard Concierge 0800 725 2025 (seg–sáb, 24 h de antecedência). Resgatar o voucher no app Surpreenda (10 pontos) e pagar com o cartão Black.",
-            "deadline": "Reservar até ter 03/11",
-            "booking": true,
-            "url": "tel:08007252025",
-            "cta": "Ligar para o Concierge"
-          },
-          "image": {
-            "src": "/img/foz-do-iguacu/ext-9e5bd09fd2aa.jpg",
-            "page": "https://www.google.com/maps/search/?api=1&query=Di%20Paolo%20Foz%20do%20Igua%C3%A7u%20Av.%20das%20Cataratas%2067",
-            "author": "Google Maps"
-          }
+          ]
         },
         {
           "time": "22:00",
           "type": "lodging",
           "name": "Airbnb Solar das Violetas",
-          "note": "Tirar as compras do carro.",
+          "note": "Fim do dia.",
           "lat": -25.519,
           "lng": -54.5745,
           "leg": {
@@ -1812,7 +1988,7 @@
           }
         }
       ],
-      "note": "Madrugada: saída 4h35, café rápido no Trigo e carro no estacionamento 277; mototáxi pela ponte às 5h30 para chegar ao Paraguai às 6h. Compras e demais horários seguem o planejamento original."
+      "note": "Madrugada: saída 5h10, carro no estacionamento 277 e mototáxi às 5h30 para chegar ao Paraguai às 6h. Cada parada traz no nome o que comprar e quem compra. Ordem otimizada (tudo a pé, sem vai e volta): Jebai (Atacado Connect + La Moneda + Star Games) → Hijazi (Prime Shop e Nissei, a ~70 m) → perfumes/eletrônicos no microcentro → Shopping Paris e China → Shopping del Este, ao lado da ponte. Câmbio às 7h (Ita fecha 15h30). Saída do Paraguai às 15h15, antes do pico da ponte. Cota de US$ 500 por pessoa (não soma): cada iPhone passa da cota e o excedente paga 50%. Valores de 30/10–01/11: reconferir na terça (03/11)."
     },
     {
       "date": "2026-11-05",
