@@ -98,9 +98,9 @@
           "end": "21:35",
           "type": "shopping",
           "name": "Super Muffato · compras do café da manhã",
-          "note": "Supermercado dentro do Cataratas JL Shopping, no caminho do aeroporto para o Airbnb. Fecha às 22h: chegar até 21h. Lista para 5 cafés dos três (dias 4, 5, 8, 9 e 10, além dos de 6 e 7): pão de forma ou bisnaguinha, frios, queijo, manteiga, ovos, frutas, iogurte, café, leite sem lactose para a Hortência, suco e água. Comprar só o que cabe em 7 dias; o pão fresco dá para repor no Trigo & Cia (24h, a 200 m). Prazo: sair do aeroporto até 21h15; depois disso, pular o mercado e comprar o básico no Trigo & Cia (24h).",
+          "note": "Supermercado dentro do Cataratas JL Shopping, no caminho do aeroporto para o Airbnb. Fecha às 22h: chegar até 21h. Lista para 5 cafés dos três (dias 4, 5, 8, 9 e 10, além dos de 6 e 7): pão de forma ou bisnaguinha, frios, queijo, manteiga, ovos, frutas, iogurte, café, leite sem lactose para a Hortência, suco e água. Comprar só o que cabe em 7 dias; o pão fresco dá para repor no Trigo & Cia (24h, a ~3,3 km do Airbnb). Prazo: sair do aeroporto até 21h15; depois disso, pular o mercado e comprar o básico no Trigo & Cia (24h).",
           "lat": -25.5329826,
-          "lng": -54.5751925,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 30,
@@ -133,7 +133,7 @@
             {
               "name": "Maxxi Atacado",
               "type": "shopping",
-              "note": "Atacarejo do grupo Carrefour, em geral mais barato, a cerca de 1 km do Airbnb. Também fecha às 22h. Bom se quiserem comprar em maior quantidade.",
+              "note": "Atacarejo do grupo Carrefour, em geral mais barato. Distância ao Airbnb (novo endereço): recalcular no Maps. Também fecha às 22h. Bom se quiserem comprar em maior quantidade.",
               "place": {
                 "address": "Av. Juscelino Kubitscheck, 2404 · Monjolo, Foz do Iguaçu - PR, 85864-000",
                 "hours": "Seg–sáb 7h–22h · dom 8h–18h",
@@ -150,7 +150,7 @@
             {
               "name": "Plano B: comprar no Trigo & Cia",
               "type": "shopping",
-              "note": "Se o voo atrasar e o mercado fechar: o Trigo & Cia é 24h e fica a 200 m. Comprar pão, frios, leite e frutas na hora do jantar e fazer um mercado maior depois.",
+              "note": "Se o voo atrasar e o mercado fechar: o Trigo & Cia é 24h e fica a ~3,3 km do Airbnb. Comprar pão, frios, leite e frutas na hora do jantar e fazer um mercado maior depois.",
               "place": {
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
                 "osm": "https://www.openstreetmap.org/node/7043880559",
@@ -174,10 +174,10 @@
           "time": "21:45",
           "end": "22:00",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Village San Francisco, bloco 6, ap. 401. Check-in após 15h. Pago: R$ 2.310,60.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 10,
@@ -185,12 +185,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
         {
@@ -198,13 +197,13 @@
           "end": "22:50",
           "type": "food",
           "name": "Trigo & Cia",
-          "note": "Aberto 24h, a 200 m. Alternativa: comprar comida e jantar no Airbnb. R$ 90–180 para três.",
+          "note": "Aberto 24h, a ~3,3 km do Airbnb (novo endereço). Alternativa: comprar comida e jantar no Airbnb. R$ 90–180 para três.",
           "lat": -25.5177,
           "lng": -54.5742,
           "leg": {
             "mode": "walk",
             "minutes": 5,
-            "label": "200 m"
+            "label": "3,3 km"
           },
           "image": {
             "src": "/img/foz-do-iguacu/trigo-cia.jpg",
@@ -231,14 +230,14 @@
               "type": "food",
               "note": "Comprar comida pronta no caminho e jantar em casa depois do voo.",
               "place": {
-                "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-                "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jantar%20no%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+                "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+                "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+                "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Jantar%20no%20Airbnb&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
                 "photos": [],
-                "lookupKey": "Jantar no Airbnb@-25.519,-54.5745"
+                "lookupKey": "Jantar no Airbnb@-25.5472,-54.5688"
               },
-              "lat": -25.519,
-              "lng": -54.5745,
+              "lat": -25.5471872,
+              "lng": -54.568819,
               "cost": 25,
               "costDetails": {
                 "unit": "pessoa",
@@ -284,23 +283,22 @@
         {
           "time": "22:55",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "walk",
             "minutes": 3,
-            "label": "Trigo & Cia → Airbnb · 200 m a pé"
+            "label": "Trigo & Cia → Airbnb · ~3,3 km (recalcular no Maps)"
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         }
       ]
@@ -315,19 +313,19 @@
           "type": "food",
           "name": "Café da manhã no Airbnb",
           "note": "Café rápido no apartamento para cruzar cedo: a meta é estar no Paraguai às 6h. Almoço só sai por volta das 13h. Compras feitas no dia 3, na chegada.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "image": {
             "src": "/img/foz-do-iguacu/cafe-da-manha.jpg",
             "page": "/img/foz-do-iguacu/cafe-da-manha.jpg",
             "author": "Arquivo do roteiro"
           },
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745"
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688"
           },
           "cost": 20,
           "costDetails": {
@@ -350,7 +348,7 @@
             {
               "name": "Café da manhã · Trigo & Cia",
               "type": "food",
-              "note": "Padaria 24h a 200 m do Airbnb, se preferir não preparar o café em casa.",
+              "note": "Padaria 24h a ~3,3 km do Airbnb (novo endereço), se preferir não preparar o café em casa.",
               "place": {
                 "photos": [],
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -391,14 +389,14 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Levar: passaportes (Hortência e Sanderson), RG da Gracinha, dólares em notas novas e azuis, cartões, carregador e sacolas dobráveis. Pegar o carro na garagem e ir direto ao estacionamento perto da ponte.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745"
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688"
           }
         },
         {
@@ -417,7 +415,7 @@
           "leg": {
             "mode": "car",
             "minutes": 10,
-            "label": "Google Maps (qua 5h10): 6–7 min, 3,9 km + margem para a vaga"
+            "label": "Google Maps (qua 5h10): recalcular no Maps + margem para a vaga"
           },
           "place": {
             "photos": [],
@@ -898,7 +896,7 @@
           "leg": {
             "mode": "walk",
             "minutes": 4,
-            "label": "200 m"
+            "label": "3,3 km"
           },
           "place": {
             "photos": [],
@@ -1674,20 +1672,19 @@
           "type": "lodging",
           "name": "Airbnb · guardar as compras e descansar",
           "note": "Tirar iPhones e compras do carro, colocar a capinha, banho rápido e descanso para os joelhos. Sair às 17h50 para o Yup Star.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Estacionamento 277 → Airbnb, 3,9 km (recalcular no Maps)"
+            "label": "Estacionamento 277 → Airbnb, ~5 km em linha reta (recalcular no Maps)"
           },
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688"
           }
         },
         {
@@ -1706,7 +1703,7 @@
           "leg": {
             "mode": "car",
             "minutes": 30,
-            "label": "Airbnb → Yup Star, ~10 km · estimativa com margem de horário de pico (recalcular no Maps às 17h50)"
+            "label": "Airbnb → Yup Star, ~5 km em linha reta · margem de horário de pico (recalcular no Maps às 17h50)"
           },
           "place": {
             "osmPending": true,
@@ -1969,22 +1966,21 @@
         {
           "time": "22:00",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
             "label": "Google Maps (qua 21h45): 4–12 min, 2,8 km"
           },
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688"
           }
         }
       ],
@@ -2000,16 +1996,16 @@
           "type": "food",
           "name": "Café da manhã no Airbnb",
           "note": "Café das meninas antes do congresso, no apartamento. Sanderson só toma um café aqui; o café da manhã dele é depois de deixá-las.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "cost": 20,
@@ -2038,7 +2034,7 @@
             {
               "name": "Café da manhã · Trigo & Cia",
               "type": "food",
-              "note": "Padaria 24h a 200 m do Airbnb, se preferir não preparar o café em casa.",
+              "note": "Padaria 24h a ~3,3 km do Airbnb (novo endereço), se preferir não preparar o café em casa.",
               "place": {
                 "photos": [],
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -2075,16 +2071,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem e levar as meninas ao congresso.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -2122,8 +2118,8 @@
           "type": "lodging",
           "name": "Agência busca o Sanderson no Airbnb",
           "note": "Deixar o carro na garagem. Levar documento com foto (RG ou passaporte) para a fronteira. Busca na quinta, mediante vagas. Passeio das 7h30 às 14h; horário exato da busca a confirmar com a agência.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -2133,10 +2129,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Agência busca o Sanderson no Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Agência busca o Sanderson no Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -2193,8 +2189,8 @@
           "type": "lodging",
           "name": "Volta ao Airbnb",
           "note": "A agência deixa no Airbnb por volta de 14h40 (com a aduana). Sair às 15h para as compras no JL.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 40,
@@ -2204,10 +2200,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Volta ao Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Volta ao Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -2216,9 +2212,9 @@
           "end": "17:30",
           "type": "shopping",
           "name": "Cataratas JL Shopping · compras (Sanderson)",
-          "note": "Compras no shopping das 15h às 17h30. Fica no Polo Centro, perto do Airbnb (confirmar tempo no mapa). Lojas abrem às 10h (Google: 10h às 23h).",
+          "note": "Compras no shopping das 15h às 17h30. Fica no Polo Centro, a ~1,7 km do Airbnb em linha reta (confirmar tempo no mapa). Lojas abrem às 10h (Google: 10h às 23h).",
           "lat": -25.5329347,
-          "lng": -54.5752058,
+          "lng": -54.568819,
           "place": {
             "address": "Av. Costa e Silva, 185 · Polo Centro, Foz do Iguaçu - PR",
             "hours": "Lojas seg–sáb 10h–22h · dom/feriados 14h–20h · praça de alimentação diariamente 11h–23h",
@@ -2240,16 +2236,16 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho (Sanderson)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho (Sanderson)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "17:45",
@@ -2288,8 +2284,8 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -2299,10 +2295,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "19:20",
@@ -2432,10 +2428,10 @@
         {
           "time": "22:20",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -2443,12 +2439,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         }
       ],
@@ -2464,14 +2459,14 @@
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
           "note": "Café rápido no apartamento antes do congresso. O café da manhã do Sanderson é no Bella Foz, depois de deixar as meninas.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Café da manhã no Airbnb (os três)@-25.519,-54.5745"
+            "lookupKey": "Café da manhã no Airbnb (os três)@-25.5472,-54.5688"
           },
           "cost": 20,
           "costDetails": {
@@ -2501,16 +2496,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -2796,7 +2791,7 @@
                 "tripadvisorUrl": "https://www.tripadvisor.com.br/Search?q=Cataratas%20JL%20Shopping%20Foz%20do%20Igua%C3%A7u"
               },
               "lat": -25.5329347,
-              "lng": -54.5752058
+              "lng": -54.568819
             }
           ]
         },
@@ -2925,21 +2920,21 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 12,
-            "label": "Google Maps (sex 18h): 5–12 min, 2,1 km"
+            "label": "Google Maps (sex 18h): recalcular no Maps"
           },
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho (Sanderson)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho (Sanderson)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "18:10",
@@ -2978,8 +2973,8 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 10,
@@ -2989,10 +2984,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "19:20",
@@ -3203,10 +3198,10 @@
         {
           "time": "23:15",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 18,
@@ -3214,12 +3209,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         }
       ],
@@ -3235,14 +3229,14 @@
           "type": "food",
           "name": "Café da manhã no Airbnb (os três)",
           "note": "Café no apartamento, os três.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sa%C3%ADda%20do%20Airbnb&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
             "photos": [],
-            "lookupKey": "Café da manhã no Airbnb (os três)@-25.519,-54.5745"
+            "lookupKey": "Café da manhã no Airbnb (os três)@-25.5472,-54.5688"
           },
           "cost": 20,
           "costDetails": {
@@ -3272,16 +3266,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -3455,7 +3449,7 @@
                 "lookupKey": "Griletto Cataratas JL Shopping@-25.5329347,-54.5752058"
               },
               "lat": -25.5329347,
-              "lng": -54.5752058,
+              "lng": -54.568819,
               "cost": 45,
               "costDetails": {
                 "unit": "pessoa",
@@ -3512,21 +3506,21 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 30,
-            "label": "Google Maps (sáb 17h45): 12–30 min, 7,1 km"
+            "label": "Google Maps (sáb 17h45): recalcular no Maps"
           },
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho (Sanderson)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho (Sanderson)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "18:05",
@@ -3550,7 +3544,7 @@
           "leg": {
             "mode": "car",
             "minutes": 10,
-            "label": "Carro · Airbnb → congresso (2,6 km)"
+            "label": "Carro · Airbnb → congresso (~4,3 km em linha reta; recalcular no Maps)"
           },
           "place": {
             "address": "Av. Costa e Silva, 3500 · Campos do Iguaçu, Foz do Iguaçu - PR",
@@ -3565,8 +3559,8 @@
         },
         {
           "type": "lodging",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 10,
@@ -3576,10 +3570,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · banho e troca de roupa (meninas)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "time": "19:20",
@@ -3598,7 +3592,7 @@
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Airbnb → Centro · cerca de 15 min"
+            "label": "Airbnb → Centro · recalcular no Maps"
           },
           "place": {
             "osmPending": true,
@@ -3619,7 +3613,7 @@
           "time": "20:30",
           "type": "event",
           "name": "Festa do congresso (Hortência e Gracinha)",
-          "note": "As meninas vão do Airbnb para a festa no Recanto Cataratas de Uber ou 99 (2,6 km), saindo por volta das 20h15. Confirmar a que horas começa e termina, para combinar a busca.",
+          "note": "As meninas vão do Airbnb para a festa no Recanto Cataratas de Uber ou 99 (~4,3 km em linha reta), saindo por volta das 20h15. Confirmar a que horas começa e termina, para combinar a busca.",
           "lat": -25.5125,
           "lng": -54.5493,
           "image": {
@@ -3687,10 +3681,10 @@
         {
           "time": "22:35",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -3698,12 +3692,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.306Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         }
       ],
@@ -3719,16 +3712,16 @@
           "type": "food",
           "name": "Café da manhã no Airbnb",
           "note": "Café no apartamento antes das Cataratas.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           },
           "cost": 20,
@@ -3757,7 +3750,7 @@
             {
               "name": "Café da manhã · Trigo & Cia",
               "type": "food",
-              "note": "Padaria 24h a 200 m do Airbnb, se preferir não preparar o café em casa.",
+              "note": "Padaria 24h a ~3,3 km do Airbnb (novo endereço), se preferir não preparar o café em casa.",
               "place": {
                 "photos": [],
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -3794,16 +3787,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem e ir às Cataratas.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.306Z"
           }
         },
@@ -4202,10 +4195,10 @@
         {
           "time": "22:35",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Fim do dia.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 35,
@@ -4213,12 +4206,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.307Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         }
       ]
@@ -4233,16 +4225,16 @@
           "type": "food",
           "name": "Café da manhã no Airbnb",
           "note": "Café da manhã sem pressa no apartamento.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           },
           "cost": 20,
@@ -4271,7 +4263,7 @@
             {
               "name": "Café da manhã · Trigo & Cia",
               "type": "food",
-              "note": "Padaria 24h a 200 m do Airbnb, se preferir não preparar o café em casa.",
+              "note": "Padaria 24h a ~3,3 km do Airbnb (novo endereço), se preferir não preparar o café em casa.",
               "place": {
                 "photos": [],
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -4312,16 +4304,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Manhã leve. Pegar o carro na garagem e ir ao Cataratas JL Shopping.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         },
@@ -4332,7 +4324,7 @@
           "name": "Cataratas JL Shopping · compras (grupo)",
           "note": "Compras para as meninas (o Sanderson já foi na sexta). Lojas seg–sáb 10h–22h. Sair às 12h15 para o almoço no Cinco.",
           "lat": -25.5329347,
-          "lng": -54.5752058,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 15,
@@ -4427,7 +4419,7 @@
                 "lookupKey": "Praça de alimentação do Cataratas JL@-25.5329347,-54.5752058"
               },
               "lat": -25.5329347,
-              "lng": -54.5752058
+              "lng": -54.568819
             },
             {
               "name": "Griletto Cataratas JL Shopping",
@@ -4444,7 +4436,7 @@
                 "lookupKey": "Griletto Cataratas JL Shopping@-25.5329347,-54.5752058"
               },
               "lat": -25.5329347,
-              "lng": -54.5752058,
+              "lng": -54.568819,
               "cost": 45,
               "costDetails": {
                 "unit": "pessoa",
@@ -4471,8 +4463,8 @@
           "type": "lodging",
           "name": "Airbnb · preparar a noite na Argentina",
           "note": "Banho, troca de roupa, separar RG ou passaporte (a CNH não serve na imigração) e pesos em dinheiro para a feirinha, o Hito e o jantar. A Bni Tour busca às 15h.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 18,
@@ -4482,10 +4474,10 @@
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb · preparar a noite na Argentina@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb · preparar a noite na Argentina@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         },
@@ -4494,16 +4486,16 @@
           "type": "lodging",
           "name": "Bni Tour busca no Airbnb · By Night Argentina (privativo)",
           "note": "Passeio privativo com guia credenciado (Luiz Boni ou a esposa), com informações históricas e culturais de Puerto Iguazú. Inclui Duty Free, La Aripuca, cassino, Hito, feirinha e parada para o jantar, com fila prioritária na aduana. R$ 400 no Pix para os 3 (no cartão, mais os juros da maquininha). Reserva com 20% de sinal (R$ 80); o restante no dia. Cancelamento com justificativa até 24h antes: devolvem o sinal. Confirmar: valor total para os 3 e jantar no Tío Querido às 20h. WhatsApp +55 45 98825-0727.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Bni Tour busca no Airbnb · By Night Argentina (privativo)@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Bni Tour busca no Airbnb · By Night Argentina (privativo)@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z",
             "website": "https://www.bnitour.com/servicos/by-night-puerto-iguazu",
             "tripadvisorUrl": "https://www.tripadvisor.com.br/Attraction_Review-g303444-d17724059-Reviews-Bni_Tour-Foz_do_Iguacu_State_of_Parana.html",
@@ -4672,7 +4664,7 @@
           "leg": {
             "mode": "car",
             "minutes": 15,
-            "label": "Bni Tour · Google Maps (seg 18h30): 12–20 min, 4,1 km"
+            "label": "Bni Tour · Google Maps (seg 18h30): recalcular no Maps"
           },
           "place": {
             "osmPending": true,
@@ -4865,10 +4857,10 @@
         {
           "time": "23:00",
           "type": "lodging",
-          "name": "Airbnb Solar das Violetas",
+          "name": "Airbnb Maria Cecília",
           "note": "Volta com a Bni Tour, passando pela aduana.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": {
             "mode": "car",
             "minutes": 60,
@@ -4876,12 +4868,11 @@
           },
           "place": {
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Airbnb Solar das Violetas@-25.519,-54.5745",
-            "checkedAt": "2026-10-19T01:59:37.307Z",
-            "airbnbUrl": "https://www.airbnb.com.br/rooms/985560373783320030"
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Airbnb Maria Cecília@-25.5472,-54.5688",
+            "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         }
       ]
@@ -4896,16 +4887,16 @@
           "type": "food",
           "name": "Café da manhã no Airbnb",
           "note": "Último café no apartamento: aproveitar para terminar o que sobrou das compras.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           },
           "cost": 20,
@@ -4934,7 +4925,7 @@
             {
               "name": "Café da manhã · Trigo & Cia",
               "type": "food",
-              "note": "Padaria 24h a 200 m do Airbnb, se preferir não preparar o café em casa.",
+              "note": "Padaria 24h a ~3,3 km do Airbnb (novo endereço), se preferir não preparar o café em casa.",
               "place": {
                 "photos": [],
                 "address": "R. Padre Bernardo Plate, 1750 · Polo Centro, Foz do Iguaçu - PR",
@@ -4972,17 +4963,17 @@
           "type": "lodging",
           "name": "Check-out antecipado · malas na SUV",
           "note": "Check-out e malas no carro. Mulheres: levar roupa que cubra as pernas para a mesquita (o véu é emprestado na entrada). Malas fora de vista no porta-malas durante as visitas.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "leg": null,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Check-out antecipado · malas na SUV@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Check-out antecipado · malas na SUV@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         },
@@ -4991,16 +4982,16 @@
           "type": "lodging",
           "name": "Saída do Airbnb",
           "note": "Pegar o carro na garagem e começar o city tour de Foz.",
-          "lat": -25.519,
-          "lng": -54.5745,
+          "lat": -25.5471872,
+          "lng": -54.568819,
           "place": {
             "osmPending": true,
             "osm": null,
             "photos": [],
-            "address": "R. Padre Bernardo Plate, 1610 · Polo Centro, Foz do Iguaçu - PR, 85863-719",
-            "googlePlaceId": "ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Solar%20das%20Violetas&query_place_id=ChIJp2QJUmaQ9pQRctJtU-YFmHw",
-            "lookupKey": "Saída do Airbnb@-25.519,-54.5745",
+            "address": "R. Américo Jacomino, 70 · Maracanã, Foz do Iguaçu - PR, 85853-450",
+            "googlePlaceId": "ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Airbnb%20Maria%20Cec%C3%ADlia&query_place_id=ChIJWdM5c6mR9pQRdWUXL6ruyyw",
+            "lookupKey": "Saída do Airbnb@-25.5472,-54.5688",
             "checkedAt": "2026-10-19T01:59:37.307Z"
           }
         },
@@ -5015,7 +5006,7 @@
           "leg": {
             "mode": "car",
             "minutes": 3,
-            "label": "Ao lado do Airbnb"
+            "label": "Perto do Airbnb (confirmar no Maps)"
           },
           "place": {
             "address": "Av. Pedro Basso · Foz do Iguaçu - PR",
